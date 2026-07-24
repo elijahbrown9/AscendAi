@@ -25,6 +25,11 @@
 6. Week P&L panels, BOTH accounts: `get_pnl_trade_history span=week` for
    981890924 and 485695308 — net realized, win rate, top-3 best and worst
    trades by symbol (flag CHURN symbols from discipline.py inline)
+6b. Validation log: `python3 tools/grade_log.py log --date <today> --grade N
+    --composite X --gauge --conditions --board --x --spy <close> --qqq <close>
+    --agentic <value> --manual <value>` — appends today's grade and backfills
+    yesterday's record with realized next-day returns and P&L. Commit
+    data/grade_log.jsonl with the dashboard push.
 7. Trade ideas: build the candidate JSON from the day's inputs (regime bias,
    board CONFIRMED CANDIDATES, X digest tickers, storm-gauge IV verdicts,
    plus quotes for entry/stop/target levels) and run
@@ -82,4 +87,9 @@ is placed until the state has been read back and there is a rule-based reason.
 
 ## Weekly (Friday close)
 Week wrap: realized P&L by trade, rule adherence audit, discipline flags on
-both accounts, and one improvement noted for next week.
+both accounts, and one improvement noted for next week. Run
+`python3 tools/grade_log.py report` — once ≥40 completed records exist,
+review which inputs show sign-agreement above coin-flip and propose weight
+changes to risk_score.py as a PR-style diff for the user to approve; never
+silently retune. Until then, report the record count and resist conclusions:
+a hot week is noise, not edge, at this sample size.
