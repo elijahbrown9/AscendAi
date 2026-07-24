@@ -5,7 +5,11 @@
 2. paste.trade board: `curl https://paste.trade/api/board?window=today&lens=spot`
 3. Conditions panel: VIX, BTC 24h, Brent, KOSPI, geopolitical headlines
 4. Discipline: `python3 tools/discipline.py` on the week's realized trades
-5. Composite score: `python3 tools/risk_score.py` → grade (−2 … +2)
+5. X input: `python3 tools/x_feed.py` — live API if X_BEARER_TOKEN env var is
+   set (handles list in tools/x_handles.txt), else the user's pasted
+   notifications in terminal/x_inbox.txt if fresh (<24h), else offline/null.
+   When the user pastes X content in chat, save it to terminal/x_inbox.txt.
+6. Composite score: `python3 tools/risk_score.py` → grade (−2 … +2)
 6. Week P&L panels, BOTH accounts: `get_pnl_trade_history span=week` for
    981890924 and 485695308 — net realized, win rate, top-3 best and worst
    trades by symbol (flag CHURN symbols from discipline.py inline)
