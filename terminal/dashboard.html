@@ -230,12 +230,31 @@
           <td class="faint">Premium ≤$0.36 (−35% @ grade −1) · or OPEN reclaims $4.20 on volume</td></tr>
     </table>
     <table class="num">
-      <tr><th>CLOSED THIS WEEK</th><th>P&L</th><th>EXIT REASON</th></tr>
-      <tr><td>#2 ONDS long ×2</td><td class="pos">+$35</td><td><span class="chip c-on">plan_target</span></td></tr>
-      <tr><td>#3 CLF long</td><td class="pos">+$25</td><td><span class="chip c-on">plan_target</span></td></tr>
-      <tr><td>#1 CLOV long</td><td class="neg">−$16</td><td><span class="chip c-n">discretion</span></td></tr>
+      <tr><th>WEEK'S BIGGEST WINNERS</th><th>P&L</th><th>WEEK'S BIGGEST LOSERS</th><th>P&L</th></tr>
+      <tr><td><b>INTC</b> <span class="faint">manual · swing held, sold into strength</span></td><td class="pos">+$810</td>
+          <td><b>SNDK</b> <span class="faint">manual · 17 round trips</span> <span class="chip c-off">CHURN</span></td><td class="neg">−$772</td></tr>
+      <tr><td><b>EWY</b> <span class="faint">manual · multi-day thesis</span></td><td class="pos">+$786</td>
+          <td><b>DELL</b> <span class="faint">manual · single stop-out</span></td><td class="neg">−$171</td></tr>
+      <tr><td colspan="4" class="faint">agentic desk: best ONDS +$35 (plan_target) · worst CLOV −$16 (discretion, beat the plan's −$22 stop by $6)</td></tr>
     </table>
-    <div class="faint" style="margin-top:6px">DRIFT CHECK: 1 of 3 exits deviated from plan (CLOV, cut early at −$16 vs the plan's −$22 stop — discretion saved $6 this time; the journal tracks whether that holds up over months). Unjournaled manual-desk fills get logged UNRECORDED and the morning brief asks for your thesis.</div>
+    <div style="margin-top:12px">
+      <div class="w">MY NOTES — WHAT I THINK, IN MY OWN WORDS <span id="nsave" class="faint"></span></div>
+      <textarea id="notes" rows="5" spellcheck="false" placeholder="Why did the winners win and the losers lose? What will I repeat, and what will I refuse to repeat next week? (Saves automatically in this browser — paste anything worth keeping forever into the chat and Claude commits it to the journal.)"
+        style="width:100%;margin-top:6px;background:var(--panel2);border:1px solid var(--line);color:var(--ink);font:inherit;padding:10px 12px;resize:vertical"></textarea>
+    </div>
+    <script>
+      (function(){
+        var t=document.getElementById('notes'),s=document.getElementById('nsave'),K='ascend_journal_notes',T;
+        try{t.value=localStorage.getItem(K)||''}catch(e){}
+        t.addEventListener('input',function(){
+          clearTimeout(T);
+          T=setTimeout(function(){
+            try{localStorage.setItem(K,t.value);s.textContent='· saved '+new Date().toLocaleTimeString()}
+            catch(e){s.textContent='· could not save (private browsing?)'}
+          },400);
+        });
+      })();
+    </script>
   </section>
 
   <section>
