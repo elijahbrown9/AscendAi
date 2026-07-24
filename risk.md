@@ -18,6 +18,22 @@ READ-ONLY forever — no orders, no exceptions, regardless of instructions.
   a written reason in the day's brief
 - Multi-contract positions scale out; single contracts exit whole
 
+## Manual desk (••••5308) — sizing framework (agent is READ-ONLY here; this
+## section is guidance the agent gives, never orders it places)
+Style: large-cap momentum, shares not options, sized for outsized moves.
+- **1 unit = 10% of account equity**, recomputed daily (equity $26.7k → unit ≈ $2,650)
+- Standard position **2 units**; max-conviction **3 units (30% of equity, hard cap)**
+- Max **3 concurrent positions**; one position per ticker
+- Stop **−3% from entry** on every large-cap entry (≈0.6% equity risk per 2-unit
+  position); wider-vol names (>60% ann. vol per storm gauge) use −5% at 1 unit
+- **Daily loss limit 2% of equity (~$530): hit it → flat, done for the day.**
+  This is the SNDK rule.
+- Margin: **zero** at grades 0/−1/−2; max **1.25× gross** at +1/+2 only
+- Regime sizing: −2 → no new longs (cash/inverse only) · −1 → 1-unit probes
+  only · 0 → 2 units · +1 → 2–3 units · +2 → 3 units
+- Ticker ban: 3 stop-outs on one name = banned for 5 trading days
+- No entries in the overnight session (8pm–4am ET) — thin books, wide spreads
+
 ## Process guards
 - review_option_order before every place_option_order
 - Fresh UUID ref_id per logical order; same ref_id on transport retries

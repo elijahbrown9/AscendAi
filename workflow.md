@@ -24,6 +24,24 @@ Manage exits first (stops, scales, expiry, earnings calendar), then entries if
 a slot is open — direction and sizing per the morning grade, filters per
 `strategy.md`, limits per `risk.md`. Every action reported after the fact.
 
+### Idea sourcing at each check-in
+Run scanners AND `python3 tools/board_signals.py <fresh board.json>`:
+- **CONFIRMED CANDIDATES** (idea <24h old, price already agrees, 1–3 co-signs)
+  aligned with the day's grade direction are valid idea sources — they still
+  pass every entry filter (liquidity, delta, expiry, budget, earnings).
+- **KNIFE CATCHES** (bleeding since posting, unconfirmed) are never entered,
+  in either direction, no matter how good the thesis reads.
+- **CROWDED** (4+ co-signs) is late consensus — contrarian information only.
+
+### Turn protocol (react before the market turns)
+Signals are ranked: fresh flow is LEADING, winner skew is COINCIDENT, and
+realized P&L is LAGGING. When board_signals prints a TURN ALARM (fresh flow
+diverging from winner skew), do not act on the alarm alone — dip-buyers are
+usually early knife-catchers. The turn is CONFIRMED when ≥3 fresh ideas on
+the new side have gone green since posting. On confirmation: shift the day's
+grade one notch toward the new side, report the shift, and let the next
+check-in trade the adjusted posture. The storm veto still binds.
+
 ## Session-start checklist (the guide prompt)
 When a session opens with the standard prompt: read strategy.md, risk.md,
 workflow.md → pull portfolio value, buying power, open positions, cash →
