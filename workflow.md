@@ -56,6 +56,16 @@ Manage exits first (stops, scales, expiry, earnings calendar), then entries if
 a slot is open — direction and sizing per the morning grade, filters per
 `strategy.md`, limits per `risk.md`. Every action reported after the fact.
 
+### Decision journal (every entry, at entry time)
+Every agentic entry is journaled the moment it fills:
+`python3 tools/journal.py add` with the thesis and its FALSIFIER — the
+observable fact that proves the thesis wrong — written before the outcome is
+known. Every exit is closed with the honest reason (plan_stop, plan_target,
+plan_earnings, plan_expiry, thesis_broken, discretion, drift). Manual-desk
+fills discovered without a journal entry are added as thesis UNRECORDED and
+the next brief asks the user for the reasoning. Monthly (first Friday):
+`journal.py review` — drift check and P&L by exit reason and grade.
+
 ### Idea sourcing at each check-in
 `git pull` first — the user's desktop task pushes X digests at ~8:30am,
 ~11:30am, and ~1:30pm ET. If terminal/x_inbox.txt is fresh (<8h AS_OF),
