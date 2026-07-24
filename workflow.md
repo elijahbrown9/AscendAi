@@ -38,8 +38,10 @@
    tradeable; WATCH ONLY and knife catches are listed so the reasoning is
    visible. Sizing always from risk.md, never from conviction alone.
 8. Rebuild `terminal/dashboard.html` with the day's data — every panel updates
-   daily including both WEEK P&L panels — and republish the Terminal artifact
-   (same file path + url → same link)
+   daily including both WEEK P&L panels and the DECISION JOURNAL panel
+   (open entries with thesis/falsifier from `journal.py open`, the week's
+   closed entries with exit-reason chips, and the running drift check) — and
+   republish the Terminal artifact (same file path + url → same link)
 
 ### Composite score weights
 - Storm gauge (GARCH regimes + IV vs forecast): **weight 3** — the anchor
