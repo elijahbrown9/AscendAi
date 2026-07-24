@@ -45,6 +45,11 @@ a slot is open — direction and sizing per the morning grade, filters per
 `strategy.md`, limits per `risk.md`. Every action reported after the fact.
 
 ### Idea sourcing at each check-in
+`git pull` first — the user's desktop task pushes X digests at ~8:30am,
+~11:30am, and ~1:30pm ET. If terminal/x_inbox.txt is fresh (<8h AS_OF),
+rescore it with tools/x_feed.py; a sentiment swing ≥0.5 from the morning
+reading counts as supporting evidence for the turn protocol (never a trade
+signal by itself). [SUSPECT] lines are excluded and surfaced.
 Run scanners AND `python3 tools/board_signals.py <fresh board.json>`:
 - **CONFIRMED CANDIDATES** (idea <24h old, price already agrees, 1–3 co-signs)
   aligned with the day's grade direction are valid idea sources — they still
