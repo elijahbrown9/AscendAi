@@ -25,7 +25,14 @@
 6. Week P&L panels, BOTH accounts: `get_pnl_trade_history span=week` for
    981890924 and 485695308 — net realized, win rate, top-3 best and worst
    trades by symbol (flag CHURN symbols from discipline.py inline)
-7. Rebuild `terminal/dashboard.html` with the day's data — every panel updates
+7. Trade ideas: build the candidate JSON from the day's inputs (regime bias,
+   board CONFIRMED CANDIDATES, X digest tickers, storm-gauge IV verdicts,
+   plus quotes for entry/stop/target levels) and run
+   `python3 tools/trade_ideas.py`. Stops: manual −3% from entry, options −35%
+   at grade −1 (regime-adjusted per risk.md). Only STRONG/MODERATE ideas are
+   tradeable; WATCH ONLY and knife catches are listed so the reasoning is
+   visible. Sizing always from risk.md, never from conviction alone.
+8. Rebuild `terminal/dashboard.html` with the day's data — every panel updates
    daily including both WEEK P&L panels — and republish the Terminal artifact
    (same file path + url → same link)
 
