@@ -1,0 +1,40 @@
+//@version=5
+// GARCH(1,1) Volatility Gauge — original implementation, written from scratch.
+// Plots conditional (GARCH) annualized volatility and the 1-sigma expected
+// daily move. Pine cannot run maximum-likelihood estimation, so alpha/beta
+// are inputs (defaults are typical equity values) and omega is derived by
+// variance targeting against a rolling sample variance. For exact MLE-fitted
+// numbers, use the companion Python model.
+indicator("GARCH(1,1) Volatility Gauge", overlay=false, precision=1)
+
+alphaIn = input.float(0.10, "alpha (shock weight)",   minval=0.0, maxval=0.5, step=0.01)
+betaIn  = input.float(0.85, "beta (persistence)",     minval=0.0, maxval=0.99, step=0.01)
+lrWin   = input.int(252,   "long-run variance window (bars)", minval=30)
+annDays = input.int(252,   "trading days per year")
+
+// daily log return
+r = math.log(close / close[1])
+rMean = ta.sma(r, lrWin)
+rd = r - nz(rMean)
+
+// long-run variance from rolling window; omega via variance targeting:
+// omega = lrVar * (1 - alpha - beta)
+lrVar = ta.variance(rd, lrWin)
+persist = alphaIn + betaIn
+omega = lrVar * math.max(1.0 - persist, 0.001)
+
+// GARCH(1,1) recursion: h_t = omega + alpha*e_{t-1}^2 + beta*h_{t-1}
+var float h = na
+h := na(h[1]) ? nz(lrVar, math.pow(rd, 2)) : omega + alphaIn * math.pow(nz(rd[1]), 2) + betaIn * h[1]
+
+annVol   = math.sqrt(h * annDays) * 100          // annualized conditional vol, %
+lrAnnVol = math.sqrt(lrVar * annDays) * 100      // long-run anchor, %
+dayMove  = math.sqrt(h) * 100                    // 1-sigma expected daily move, %
+
+colVol = annVol > lrAnnVol ? color.red : color.teal
+plot(annVol,   "GARCH annualized vol %", color=colVol,      linewidth=2)
+plot(lrAnnVol, "Long-run vol % (anchor)", color=color.gray, style=plot.style_line)
+plot(dayMove,  "1-sigma daily move %",   color=color.orange, display=display.data_window)
+
+bgcolor(annVol > lrAnnVol * 1.25 ? color.new(color.red, 85) :
+        annVol < lrAnnVol * 0.75 ? color.new(color.teal, 85) : na)
