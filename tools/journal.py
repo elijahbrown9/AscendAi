@@ -12,6 +12,8 @@ Commands:
          --entry --size --grade --thesis --falsifier [--stop] [--target]
   close  --id N --date --exit --pnl --reason plan_stop|plan_target|
          plan_earnings|plan_expiry|thesis_broken|discretion|drift
+  reflect --id N (--clean | --stage execution|management|closure
+         --mistake "detail")   # post-trade reflection, playbooks.md P2
   open   (list open entries)
   review [--month YYYY-MM]
 
@@ -54,6 +56,22 @@ def cmd_close(a):
             return
     print(f"no open entry #{a.id}")
 
+def cmd_reflect(a):
+    rows = load()
+    for r in rows:
+        if r["id"] == a.id:
+            if a.clean:
+                r["reflection"] = {"clean": True}
+                print(f"#{a.id} {r['ticker']}: reflected — no mistakes claimed")
+            else:
+                r.setdefault("reflection", {"clean": False, "mistakes": []})
+                r["reflection"]["clean"] = False
+                r["reflection"].setdefault("mistakes", []).append(
+                    {"stage": a.stage, "detail": a.mistake})
+                print(f"#{a.id} {r['ticker']}: mistake logged [{a.stage}] {a.mistake}")
+            save(rows); return
+    print(f"no entry #{a.id}")
+
 def cmd_open(a):
     for r in load():
         if r["status"] == "open":
@@ -82,6 +100,24 @@ def cmd_review(a):
     for r in rows: byg[r["grade"]].append(r["pnl"])
     for g in sorted(byg):
         v = byg[g]; print(f"  {g:+d}: {len(v):2d} trades  net {sum(v):+8.2f}")
+    print("\nMistakes by lifecycle stage (playbooks P2):")
+    stages = defaultdict(list)
+    unreflected = 0
+    for r in rows:
+        ref = r.get("reflection")
+        if not ref: unreflected += 1; continue
+        for m in ref.get("mistakes", []):
+            stages[m["stage"]].append((r["ticker"], m["detail"]))
+    if stages:
+        for st, ms in sorted(stages.items(), key=lambda kv: -len(kv[1])):
+            print(f"  {st:11s} {len(ms)} mistake(s)")
+            for t, det in ms: print(f"     {t}: {det}")
+        top = max(stages.items(), key=lambda kv: len(kv[1]))
+        print(f"  >> pattern: mistakes cluster in {top[0].upper()} — train there first")
+    else:
+        print("  none logged")
+    if unreflected:
+        print(f"  ({unreflected} closed trades not yet reflected on — run the P2 questions)")
     unrec = [r for r in rows if "UNRECORDED" in r["thesis"]]
     if unrec:
         print(f"\n  {len(unrec)} trades closed with UNRECORDED thesis, net "
@@ -105,8 +141,16 @@ pc.add_argument("--pnl", type=float, required=True)
 pc.add_argument("--reason", required=True,
                 choices=["plan_stop", "plan_target", "plan_earnings",
                          "plan_expiry", "thesis_broken", "discretion", "drift"])
+pf = sub.add_parser("reflect")
+pf.add_argument("--id", type=int, required=True)
+pf.add_argument("--clean", action="store_true")
+pf.add_argument("--stage", choices=["execution", "management", "closure"])
+pf.add_argument("--mistake")
 po = sub.add_parser("open")
 pr = sub.add_parser("review")
 pr.add_argument("--month", default=None)
 a = p.parse_args()
-{"add": cmd_add, "close": cmd_close, "open": cmd_open, "review": cmd_review}[a.cmd](a)
+if a.cmd == "reflect" and not a.clean and not (a.stage and a.mistake):
+    p.error("reflect needs --clean or both --stage and --mistake")
+{"add": cmd_add, "close": cmd_close, "reflect": cmd_reflect,
+ "open": cmd_open, "review": cmd_review}[a.cmd](a)
