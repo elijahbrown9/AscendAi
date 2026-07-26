@@ -19,3 +19,15 @@ the day it's actually traded.
   but earnings gap risk applies to shares same as options.
 - **Re-evaluation trigger:** reclaim of $174.22 on volume (structure flip) OR
   clean post-earnings setup once IV crushes. Until either fires: WATCH ONLY.
+- **UPDATE 2026-07-26:** RDDT earnings (Thu 7/30 PM) now sits ONE DAY after
+  FOMC (Tue-Wed 7/28-29, no SEP this meeting). User macro thesis: peak
+  hawkish-rate-sentiment (Warsh raised terminal rate to 3.8% in June) is
+  mean-reverting down on a weak June jobs print (+57K vs 115K exp, -74K
+  revisions) and cool June CPI (-0.4% MoM / 3.5% YoY), lifting rate-sensitive
+  risk even without a cut. Mechanism is legitimate but red-teamed: (1) Warsh
+  has fresh credibility incentive not to fold; (2) June CPI cooled on FALLING
+  energy prices, and Brent is now >$100 on the same weekend war headline the
+  thesis opens with — the disinflation driver is actively reversing; (3) war/
+  oil + FOMC + RDDT earnings is three stacked binaries in 5 trading days.
+  GRADE UNCHANGED per turn protocol — narrative is not confirmed flow. Watch
+  Wed FOMC presser tone + board fresh-flow for actual confirmation.
