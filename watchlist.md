@@ -31,3 +31,13 @@ the day it's actually traded.
   oil + FOMC + RDDT earnings is three stacked binaries in 5 trading days.
   GRADE UNCHANGED per turn protocol — narrative is not confirmed flow. Watch
   Wed FOMC presser tone + board fresh-flow for actual confirmation.
+- **UPDATE 2026-07-26 (Sun evening):** Brent $90.95, -7.56% from prior
+  session (TradingEconomics) — real pullback from the >$100 spike, though
+  still elevated vs pre-war ~$60s. This partially repairs the CPI-leg
+  critique above (energy driver reversing helps, not hurts, disinflation).
+  BTC +1.75% 24h (confirmed, modest). "Stocks bouncing" claim NOT confirmed
+  — cash equities closed since Friday's close (QQQ finished red intraday);
+  Hyperliquid's synthetic XYZ100 perp is trading but has no reliable
+  same-scale weekend baseline to measure a move from. Treat as a hint, not
+  evidence, until Monday's real session. Grade still recomputes fresh at
+  9am Monday off actual data, not weekend synthetic-perp levels.
