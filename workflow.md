@@ -1,7 +1,12 @@
 # workflow.md — The daily machine
 
 ## 9:00am ET — Risk Environment Brief (no trades)
-0. `git pull` on the repo branch first — the user's machine commits
+0a. Watchlist: read watchlist.md. For each name, refresh quote/EMA/StochRSI
+    (tools/ta_read.py) and check today's date against any catalyst date.
+    A watchlist entry is a candidate, never an auto-buy — it still passes
+    every strategy.md/risk.md filter the day it's actually traded. Update
+    the file if a re-evaluation trigger fired or a catalyst has passed.
+0b. `git pull` on the repo branch first — the user's machine commits
    `terminal/x_inbox.txt` (X notifications digest) around 8:30am ET via a
    scheduled desktop task. A digest with STATUS: OK and a fresh AS_OF (<24h)
    activates the X input; STATUS: OFFLINE or stale → weight 0. Lines flagged
