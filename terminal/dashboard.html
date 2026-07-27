@@ -92,18 +92,23 @@
 <div class="grid">
   <section>
     <h2>STORM GAUGE — GARCH(1,1)</h2>
-    <div class="w">WEIGHT 3 · THE ANCHOR · MLE-FITTED ON 500 DAILY RETURNS</div>
+    <div class="w">WEIGHT 3 · THE ANCHOR · MLE-FITTED ON ~500 DAILY RETURNS EACH</div>
     <table class="num">
-      <tr><th>INDEX</th><th>NOW</th><th>LONG-RUN</th><th>RATIO</th><th>REGIME</th></tr>
-      <tr><td>SPY</td><td>13.8%</td><td>15.4%</td><td>0.90×
-        <div class="bar"><i style="width:45%"></i><u style="left:62%"></u></div></td>
+      <tr><th>MARKET</th><th>VOL NOW</th><th>LONG-RUN</th><th>RATIO</th><th>1σ DAY</th><th>REGIME</th></tr>
+      <tr><td>SPY <span class="faint">scored</span></td><td>13.8%</td><td>15.4%</td><td>0.90×
+        <div class="bar"><i style="width:45%"></i><u style="left:62%"></u></div></td><td>±0.87%</td>
         <td><span class="chip c-n">NORMAL</span></td></tr>
-      <tr><td>QQQ</td><td>22.7%</td><td>21.6%</td><td>1.05×
-        <div class="bar"><i style="width:52%"></i><u style="left:62%"></u></div></td>
+      <tr><td>QQQ <span class="faint">scored</span></td><td>22.7%</td><td>21.6%</td><td>1.05×
+        <div class="bar"><i style="width:52%"></i><u style="left:62%"></u></div></td><td>±1.43%</td>
         <td><span class="chip c-n">NORMAL</span></td></tr>
+      <tr><td>BTC <span class="faint">context</span></td><td class="pos">27.6%</td><td>36.6%</td><td class="pos">0.75×
+        <div class="bar"><i style="width:37%"></i><u style="left:62%"></u></div></td><td>±1.74%</td>
+        <td><span class="chip c-on">CALM</span></td></tr>
+      <tr><td>KOSPI <span class="faint">via EWY · context</span></td><td class="neg">73.8%</td><td class="faint">n/a</td><td class="faint">unreliable</td><td class="neg">±4.65%</td>
+        <td><span class="chip c-off">STORM (abs)</span></td></tr>
     </table>
-    <div class="faint" style="margin-top:8px">Storm line at 1.25× (marker). Neither index in STORM — the gauge
-    is the reason today is −1, not −2. Divergence: QQQ stress ≠ VIX 18.8.</div>
+    <div class="faint" style="margin-top:8px"><b>Why KOSPI shows "unreliable":</b> its GARCH persistence is 0.999 — at that boundary the long-run anchor isn't identified, so the ratio would falsely print 0.75× "CALM". Judged on absolute vol instead: 73.8% annualized, ±4.65% expected daily move, and shocks that don't decay. That is a disturbed market, and it's why Korea stays a RISK OFF input despite oil easing.</div>
+    <div class="faint" style="margin-top:6px"><b>Scoring rule:</b> SPY/QQQ set the weight-3 gauge score (they're what we trade). BTC and KOSPI are read here for regime but score inside the conditions panel — no double-counting. A STORM vol reading caps that market's conditions sub-score at RISK OFF even if its level looks fine.</div>
     <table class="num">
       <tr><th>HELD OPTION</th><th>IV</th><th>GARCH 21D</th><th>PREMIUM</th></tr>
       <tr><td>RIG 8/21 $5.5C</td><td>52%</td><td>57%</td><td><span class="chip c-on">FAIR/CHEAP</span></td></tr>

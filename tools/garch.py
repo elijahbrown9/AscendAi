@@ -70,9 +70,14 @@ def fit_garch(closes):
         hs.append(hk)
         hk = lr_var + (alpha + beta) * (hk - lr_var)
     ann = lambda v: math.sqrt(v * TRADING_DAYS)
+    # When alpha+beta -> 1 the unconditional variance omega/(1-a-b) is not
+    # identified: the long-run anchor (and therefore the current/long-run
+    # ratio) becomes meaningless. Flag it rather than reporting a false CALM.
+    unreliable = (alpha + beta) > 0.98
     return {
         "omega": omega, "alpha": alpha, "beta": beta,
         "persistence": alpha + beta,
+        "longrun_unreliable": unreliable,
         "next_day_vol_pct": math.sqrt(h_next) * 100,
         "ann_current_vol_pct": ann(h_next) * 100,
         "ann_21d_avg_vol_pct": ann(np.mean(hs)) * 100,
@@ -93,3 +98,11 @@ for res in raw["data"]["results"]:
     print(f"  Annualized vol  — now: {out['ann_current_vol_pct']:.1f}%  "
           f"21d-avg forecast: {out['ann_21d_avg_vol_pct']:.1f}%  "
           f"long-run: {out['ann_longrun_vol_pct']:.1f}%")
+    ratio = out['ann_current_vol_pct'] / out['ann_longrun_vol_pct']
+    if out["longrun_unreliable"]:
+        print(f"  !! persistence {out['persistence']:.3f} > 0.98 — long-run anchor NOT "
+              f"identified; the {ratio:.2f}x ratio is meaningless. Judge on absolute "
+              f"vol ({out['ann_current_vol_pct']:.1f}%) and treat shocks as non-decaying.")
+    else:
+        print(f"  Ratio {ratio:.2f}x -> "
+              f"{'CALM' if ratio < 0.8 else 'STORM' if ratio > 1.25 else 'NORMAL'}")
