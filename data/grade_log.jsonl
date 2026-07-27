@@ -1,1 +1,2 @@
-{"date": "2026-07-24", "grade": -1, "composite": -0.368, "inputs": {"gauge": 0.11, "conditions": -0.45, "board": -1.0, "x": -0.13}, "spy": 738.85, "qqq": 684.22, "agentic": 213.88, "manual": 26685.0}
+{"date": "2026-07-24", "grade": -1, "composite": -0.368, "inputs": {"gauge": 0.11, "conditions": -0.45, "board": -1.0, "x": -0.13}, "spy": 738.85, "qqq": 684.22, "agentic": 213.88, "manual": 26685.0, "next_spy_ret": 0.0, "next_qqq_ret": 0.0, "next_agentic_pnl": 0.0, "next_manual_pnl": 0.0}
+{"date": "2026-07-26", "grade": 0, "composite": -0.006, "inputs": {"gauge": 0.11, "conditions": -0.23, "board": 0.04, "x": null}, "spy": 738.85, "qqq": 684.22, "agentic": 213.88, "manual": 26685.0}
