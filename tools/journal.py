@@ -56,6 +56,19 @@ def cmd_close(a):
             return
     print(f"no open entry #{a.id}")
 
+def cmd_amend(a):
+    rows = load()
+    for r in rows:
+        if r["id"] == a.id:
+            if a.thesis: r["thesis"] = a.thesis
+            if a.falsifier: r["falsifier"] = a.falsifier
+            save(rows)
+            print(f"#{a.id} {r['ticker']}: amended")
+            print(f"    thesis:    {r['thesis']}")
+            print(f"    falsifier: {r['falsifier']}")
+            return
+    print(f"no entry #{a.id}")
+
 def cmd_reflect(a):
     rows = load()
     for r in rows:
@@ -141,6 +154,10 @@ pc.add_argument("--pnl", type=float, required=True)
 pc.add_argument("--reason", required=True,
                 choices=["plan_stop", "plan_target", "plan_earnings",
                          "plan_expiry", "thesis_broken", "discretion", "drift"])
+pam = sub.add_parser("amend")
+pam.add_argument("--id", type=int, required=True)
+pam.add_argument("--thesis")
+pam.add_argument("--falsifier")
 pf = sub.add_parser("reflect")
 pf.add_argument("--id", type=int, required=True)
 pf.add_argument("--clean", action="store_true")
@@ -152,5 +169,5 @@ pr.add_argument("--month", default=None)
 a = p.parse_args()
 if a.cmd == "reflect" and not a.clean and not (a.stage and a.mistake):
     p.error("reflect needs --clean or both --stage and --mistake")
-{"add": cmd_add, "close": cmd_close, "reflect": cmd_reflect,
+{"add": cmd_add, "close": cmd_close, "amend": cmd_amend, "reflect": cmd_reflect,
  "open": cmd_open, "review": cmd_review}[a.cmd](a)
