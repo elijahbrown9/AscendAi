@@ -126,3 +126,16 @@ review which inputs show sign-agreement above coin-flip and propose weight
 changes to risk_score.py as a PR-style diff for the user to approve; never
 silently retune. Until then, report the record count and resist conclusions:
 a hot week is noise, not edge, at this sample size.
+
+### Trader psychology review
+Run `python3 tools/trader_profile.py` alongside `journal.py review` — it
+tags LATE_THESIS (journaled after entry, not at the decision), USER_CONVICTION
+(thesis attributes the call to a narrative read rather than a system signal),
+SIZE_OVERRIDE (vs risk.md's hard caps, even on winning trades), and
+UNREFLECTED (closed trades with no P2 done yet), plus the win/loss reflection
+split. The script only tags evidence — write the actual synthesis (what the
+pattern means, one thing to change next week) fresh each Friday rather than
+reusing prior wording; a hardcoded read gets stale as the sample grows. Ask
+the P2 questions on any UNREFLECTED trade still open for reflection before
+closing out the week, winners included — a trade only reflected on when it
+loses can't distinguish good process from a lucky outcome.
