@@ -89,8 +89,11 @@ pl.add_argument("--composite", type=float, required=True)
 for k in ("gauge", "conditions", "board"):
     pl.add_argument(f"--{k}", type=float, required=True)
 pl.add_argument("--x", type=float, default=None)
-for k in ("spy", "qqq", "agentic", "manual"):
+for k in ("spy", "qqq"):
     pl.add_argument(f"--{k}", type=float, required=True)
+for k in ("agentic", "manual"):
+    pl.add_argument(f"--{k}", type=float, default=None,
+                     help="omit when the account's portfolio API is down")
 pr = sub.add_parser("report")
 pr.add_argument("--min", type=int, default=10)
 a = p.parse_args()
