@@ -4,6 +4,16 @@ Names here are re-evaluated every pre-open brief. Being on this list is not
 an entry signal — every name still has to clear strategy.md/risk.md filters
 the day it's actually traded.
 
+## User macro stance — 2026-07-29
+User cut all positions (agentic OPEN, manual RDDT) and states a bearish
+view: "much lower to go," wants to stay cash unless puts/shorts. This
+matches today's own -1 RISK OFF read (already puts-preferred, no new
+long calls except commodity/defensive) — no conflict, just reinforcement.
+This is a discretionary lean, not a rule change: the grade is still
+recomputed fresh each check-in from live data, not from this note. If the
+grade swings back to RISK ON while this stance still stands, that tension
+gets surfaced explicitly next time, not silently resolved either way.
+
 ## RDDT — added 2026-07-25 (user thesis: risk-on return this week)
 - **Structure:** below Daily 12/25 EMA ($180.96/$181.20) → resistance overhead.
   Resistance $174.22 then $177.13. Support $166.16 then $159.11.
