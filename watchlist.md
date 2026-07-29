@@ -4,6 +4,30 @@ Names here are re-evaluated every pre-open brief. Being on this list is not
 an entry signal — every name still has to clear strategy.md/risk.md filters
 the day it's actually traded.
 
+## Entry plan for Thu 2026-07-30 (user: "enter the market tomorrow")
+Screened Wed evening after the close. All three are PUTS on confirmed
+breakdowns — consistent with both the user's stated bearish stance and
+the likely grade. CONDITIONAL: the 9am brief still recomputes the grade
+fresh; if futures gap up hard on tonight's MSFT/META prints and price
+confirmation vanishes, these do not fire. Entries at the 10am check-in,
+max 2 positions, ≤$120 total, review_option_order first, fresh UUIDs.
+1. **SOFI 8/21 $14.5P** — PRIMARY. ~$50/ctr at close, delta −0.33, tight
+   spread, OI/volume deep. Reported earnings this morning (beat) and still
+   fell −9% — sell-the-news breakdown with the binary REMOVED. Earnings
+   clear until late Oct. Stop −35% if grade ≤−1 else −50%. Falsifier:
+   reclaim of $16 (yesterday's close zone) on volume.
+2. **OPEN 8/21 $3.5P** — SECONDARY. ~$25/ctr est, familiar chain (traded
+   it this month). Housing casualty still bleeding (−7% today). EARNINGS
+   AUG 4 PM: sized ≤$30 AND hard exit by Mon Aug 3 close, written here in
+   advance per risk.md.
+3. **MARA 8/21 $9P** — BACKUP. ~$30-40/ctr est, BTC-linked breakdown
+   (−11.5% today, BTC weak). EARNINGS AUG 6: ≤$30 sizing or pre-earnings
+   exit. Only if one of the two above fails live checks.
+Rejected: HIMS puts (IV pumped after −25%/2d, in-delta costs >$100,
+earnings 8/10 complication), SKHX (spreads 40-90% of mid), NVDA/SMH/MU
+(budget, same as all week), NBIS calls from X feed (single poster, long
+side contradicts stance, knife-catch history this week, fails budget).
+
 ## User macro stance — 2026-07-29
 User cut all positions (agentic OPEN, manual RDDT) and states a bearish
 view: "much lower to go," wants to stay cash unless puts/shorts. This
