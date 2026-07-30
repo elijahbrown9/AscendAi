@@ -79,6 +79,15 @@ Manage exits first (stops, scales, expiry, earnings calendar), then entries if
 a slot is open — direction and sizing per the morning grade, filters per
 `strategy.md`, limits per `risk.md`. Every action reported after the fact.
 
+### Rule-friction escalation (added 2026-07-30 after a full day sat out)
+If the SAME filter blocks EVERY candidate at two consecutive check-ins while
+the grade is directional (not 0 MIXED), that is no longer a trading outcome —
+it is a system defect. At the second blocked check-in: name the filter, draft
+the amendment, and put it to the user immediately (AskUserQuestion if
+ambiguous, straight proposal if not). Do not report "no trade, rule X again"
+a third time without having proposed a fix. Rules are still never bent
+in-flight — they are changed in the file, fast, with the user's sign-off.
+
 ### Decision journal (every entry, at entry time)
 Every agentic entry is journaled the moment it fills:
 `python3 tools/journal.py add` with the thesis and its FALSIFIER — the
