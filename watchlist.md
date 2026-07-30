@@ -4,6 +4,19 @@ Names here are re-evaluated every pre-open brief. Being on this list is not
 an entry signal — every name still has to clear strategy.md/risk.md filters
 the day it's actually traded.
 
+## STANDING BAN — RDDT (user-imposed, 2026-07-30, indefinite)
+The user has banned themselves from trading RDDT: "i am no longer allowed
+to trade it anymore." Context: 11 round trips in 4 sessions, CHURN x9 and
+REVENGE x2 flags, capped by a 50sh entry minutes before the earnings print
+that exited -\$703.95 in the post-print gap 17 minutes later (journal #27,
+reflected: execution-stage mistake, the user's own call). Enforcement on a
+read-only desk = surveillance, not prevention: every brief and check-in
+checks fills for RDDT, and ANY future RDDT fill is flagged as a ban
+violation in the same breath it is found — no grace, no interpretation.
+The ban is the user's own rule; only the user can lift it, in writing,
+and lifting it in the heat of a moving tape should be treated as the
+pattern firing again, not as a decision.
+
 ## Entry plan for Thu 2026-07-30 (user: "enter the market tomorrow")
 Screened Wed evening after the close. All three are PUTS on confirmed
 breakdowns — consistent with both the user's stated bearish stance and
