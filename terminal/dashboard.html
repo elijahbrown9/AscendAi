@@ -67,15 +67,15 @@
 <div class="wrap">
 <header>
   <div class="logo">ASCEND <em>//</em> RISK TERMINAL</div>
-  <div class="stamp num">WED 2026-07-29 · 09:15 ET PRE-OPEN BRIEF · next check-in 10:00 ET</div>
+  <div class="stamp num">THU 2026-07-30 · 09:10 ET PRE-OPEN BRIEF · next check-in 10:00 ET</div>
 </header>
 
 <div class="verdict">
   <div>
     <h1>+1 · RISK ON</h1>
-    <div class="sub">Confirms yesterday's 3pm turn call (0 MIXED → +1, board flipped cleanly to longs winning with no divergence left). But there's a real tension underneath: KOSPI crashed ANOTHER −8.17% overnight (now 5,532, −16% cumulative in two sessions) on an SK Hynix earnings miss — the AI-bubble chip rout is getting worse, not resolving. The composite still reads +1 because that KOSPI shock is one of five conditions sub-inputs and gets diluted by calm VIX/Brent and a strongly long US board. Treat semis/Korea exposure with real caution even at this grade.</div>
+    <div class="sub">Whiplash tape: Wednesday closed ugly (SPY −1.6%, QQQ −2.5% with a hard final-hour dump), then MSFT/META's prints flipped it — semis are ripping premarket (MU +6.7%, CRWV +10.7%, INTC +4.7%, NVDA +2.4%) and the board's dip-buyers are the clear winners (longs +5.2% avg vs shorts −1.8%). STANCE TENSION, surfaced not resolved: the user's standing view since Wednesday is bearish (cash unless puts/shorts) — the mechanical grade now says the opposite. Last night's put entry plan does NOT fire: all three candidates (SOFI, OPEN, MARA) are bouncing, the written breakdown-confirmation condition failed exactly as specified.</div>
   </div>
-  <div class="score num">composite <b>+0.250</b> <span class="faint">storm veto: no</span><br>gauge 0.06 · conditions 0.14 · board 0.65 · x offline</div>
+  <div class="score num">composite <b>+0.291</b> <span class="faint">storm veto: no</span><br>gauge −0.08 · conditions 0.14 · board +1.00 · x offline</div>
 </div>
 
 <div class="gauge">
@@ -92,22 +92,17 @@
 <div class="grid">
   <section>
     <h2>STORM GAUGE — GARCH(1,1)</h2>
-    <div class="w">WEIGHT 3 · THE ANCHOR · MLE-FITTED ON ~250 DAILY RETURNS EACH, T-1 CLOSES</div>
+    <div class="w">WEIGHT 3 · THE ANCHOR · FITTED ON ~250 DAILY RETURNS, THROUGH WED'S CLOSE</div>
     <table class="num">
       <tr><th>MARKET</th><th>VOL NOW</th><th>LONG-RUN</th><th>RATIO</th><th>1σ DAY</th><th>REGIME</th></tr>
-      <tr><td>SPY <span class="faint">scored</span></td><td>11.9%</td><td>12.6%</td><td>0.94×
-        <div class="bar"><i style="width:36%"></i><u style="left:38%"></u></div></td><td>±0.75%</td>
+      <tr><td>SPY <span class="faint">scored</span></td><td>13.0%</td><td>12.7%</td><td>1.02×
+        <div class="bar"><i style="width:49%"></i><u style="left:44%"></u></div></td><td>±0.82%</td>
         <td><span class="chip c-n">NORMAL</span></td></tr>
-      <tr><td>QQQ <span class="faint">scored</span></td><td>20.2%</td><td>19.2%</td><td>1.06×
-        <div class="bar"><i style="width:61%"></i><u style="left:58%"></u></div></td><td>±1.27%</td>
+      <tr><td>QQQ <span class="faint">scored</span></td><td>21.2%</td><td>19.3%</td><td>1.10×
+        <div class="bar"><i style="width:64%"></i><u style="left:58%"></u></div></td><td>±1.34%</td>
         <td><span class="chip c-n">NORMAL</span></td></tr>
-      <tr><td>QQQI <span class="faint">manual desk</span></td><td>17.5%</td><td>16.3%</td><td>1.08×
-        <div class="bar"><i style="width:53%"></i><u style="left:49%"></u></div></td><td>±1.11%</td>
-        <td><span class="chip c-n">NORMAL</span></td></tr>
-      <tr><td>EWY <span class="faint">KOSPI proxy</span></td><td class="neg">74.6%</td><td class="faint">unreliable</td><td class="faint">n/a</td><td class="neg">±4.70%</td>
-        <td><span class="chip c-off">STORM (abs)</span></td></tr>
     </table>
-    <div class="faint" style="margin-top:8px">Agentic is fully flat — no held options to score today. EWY persistence 0.999 (&gt;0.98), long-run anchor still not identified; absolute vol rose from 69.9% to 74.6% overnight, tracking the deepening KOSPI rout. This T-1-close-based gauge doesn't yet reflect this morning's real KOSPI print (−8.17%) — the conditions panel does.</div>
+    <div class="faint" style="margin-top:8px">Both ratios ticked up after Wednesday's late-day dump but stay NORMAL — no storm veto. Agentic holds nothing; manual desk's SNDK (bought premarket, see Manual Desk panel) sits in the STORM-vol memory sector by association even though the gauge hasn't refit it this morning.</div>
   </section>
 
   <section>
@@ -115,35 +110,35 @@
     <div class="w">WEIGHT 2 · TRIGGERS: VIX 19/21 · BRENT 90/92 · KOSPI 6700/6450</div>
     <table class="num">
       <tr><th>INPUT</th><th>LEVEL</th><th>SIGNAL</th></tr>
-      <tr><td>VIX</td><td>18.72</td><td><span class="chip c-n">CALM, below warn</span></td></tr>
-      <tr><td>BRENT</td><td>$89.53</td><td><span class="chip c-n">CALM, but creeping back toward 90</span></td></tr>
-      <tr><td>BTC 24H</td><td class="pos">$64,230 (+1.08%)</td><td><span class="chip c-n">mild positive</span></td></tr>
-      <tr><td>KOSPI</td><td class="neg">5,532 (−8.17% overnight, −16% in 2 sessions)</td><td><span class="chip c-off">STORM — worse than yesterday, not better</span></td></tr>
-      <tr><td>GEO / IRAN</td><td colspan="2" class="pos">Still de-escalating — talks ongoing, no new escalation headlines</td></tr>
+      <tr><td>VIX</td><td>18.88</td><td><span class="chip c-n">CALM, just under warn</span></td></tr>
+      <tr><td>BRENT</td><td>$88.51</td><td><span class="chip c-n">below warn, drifting up</span></td></tr>
+      <tr><td>BTC 24H</td><td class="pos">$64,840 (+0.92%)</td><td><span class="chip c-n">mild positive</span></td></tr>
+      <tr><td>KOSPI</td><td class="neg">5,593.56 (−1.23%, −17% in 3 days)</td><td><span class="chip c-off">STORM — still bleeding, Samsung beat couldn't lift it</span></td></tr>
+      <tr><td>GEO / IRAN</td><td colspan="2" class="pos">De-escalation holding, no new escalation headlines</td></tr>
     </table>
-    <div class="faint" style="margin-top:8px">SK Hynix's earnings miss reignited the chip-stock selloff overnight — this is a second, deeper leg down, not a stabilization. Real fundamental catalyst (a results miss), not just sentiment. Brent has stopped falling and is drifting back up toward the 90 warn line — worth watching, not yet a signal.</div>
+    <div class="faint" style="margin-top:8px">The US and Korea are decoupling today: KOSPI fell again (even Samsung's record earnings beat couldn't hold it up) while US semis rip premarket on MSFT/META. One of these two moves is wrong about the AI trade — today's close tells us which.</div>
   </section>
 
   <section>
     <h2>PASTE.TRADE BOARD</h2>
-    <div class="w">WEIGHT 2 · NO TURN ALARM · LONGS WINNING CLEANLY</div>
+    <div class="w">WEIGHT 2 · LONGS WINNING BIG · NO TURN ALARM</div>
     <table class="num">
       <tr><th>FLOW</th><th>6H</th><th>24H</th></tr>
-      <tr><td>Long / short fresh flow</td><td>18 / 4</td><td>20 / 7</td></tr>
+      <tr><td>Long / short fresh flow</td><td>14 / 9</td><td>20 / 12</td></tr>
     </table>
-    <div class="faint" style="margin-top:2px">Fresh flow AND winner skew now agree (both long) — yesterday's TURN ALARM is fully resolved. This validates the 3pm turn-protocol call rather than contradicting it.</div>
     <table>
-      <tr><th>CONFIRMED CANDIDATES</th><th class="num">NOW</th></tr>
-      <tr><td>SKHY long · @damnang2 <span class="faint">6.9h, crowd 3</span></td><td class="num pos">+4.7%</td></tr>
-      <tr><td>MU long · @skundojjala <span class="faint">4.9h, crowd 1</span></td><td class="num pos">+1.2%</td></tr>
-      <tr><td>NVDA long · @dylan522p <span class="faint">8.6h, crowd 1</span></td><td class="num pos">+1.1%</td></tr>
+      <tr><th>CONFIRMED CANDIDATES (all long)</th><th class="num">NOW</th></tr>
+      <tr><td>CRWV long · @zeroxkyle <span class="faint">6.7h, crowd 1</span></td><td class="num pos">+9.5%</td></tr>
+      <tr><td>MU long · @citrini <span class="faint">6.8h, crowd 1</span></td><td class="num pos">+8.4%</td></tr>
+      <tr><td>INTC long · @zeroxkyle <span class="faint">8.1h, crowd 1</span></td><td class="num pos">+5.8%</td></tr>
+      <tr><td>NVDA long · @firstadopter <span class="faint">9.0h, crowd 2</span></td><td class="num pos">+1.6%</td></tr>
     </table>
     <table>
       <tr><th>KNIFE CATCHES — NOT TOUCHED</th><th class="num">NOW</th></tr>
-      <tr><td class="faint">SOFI long · @amitisinvesting <span class="faint">1.9h, crowd 0</span></td><td class="num neg">−3.2%</td></tr>
-      <tr><td class="faint">CORZ long · @rhouseresearch <span class="faint">0.9h, crowd 0</span></td><td class="num neg">−2.3%</td></tr>
+      <tr><td class="faint">MU short · @degentradinglsd</td><td class="num neg">−7.1%</td></tr>
+      <tr><td class="faint">NBIS short · @marginsmall</td><td class="num neg">−6.9%</td></tr>
     </table>
-    <div class="faint" style="margin-top:6px">X NOTIFICATIONS: <span class="chip c-x">OFFLINE</span> last digest Fri 2026-07-24 17:25 — now 5 days stale, desktop task hasn't posted since · weight 0 in today's composite</div>
+    <div class="faint" style="margin-top:6px">Both sides of the divergence in one picture: dip-buyers who caught yesterday's final-hour dump are up big; anyone who shorted the crash is the knife catch now. X NOTIFICATIONS: <span class="chip c-x">OFFLINE</span> digest 6 days stale · weight 0</div>
   </section>
 
   <section>
@@ -154,95 +149,45 @@
       <tr><td>New longs</td><td>none</td><td>1 unit</td><td>2 units</td><td><b>2–3</b></td><td>3 max</td></tr>
       <tr><td>Margin</td><td>0</td><td>0</td><td>0</td><td><b>≤1.25×</b></td><td>≤1.25×</td></tr>
     </table>
-    <div class="posture" style="border-color:var(--off)"><b>A REAL RULE VIOLATION OVERNIGHT:</b> an entire MU round trip — both buy fills (2sh 8:12pm ET, 1sh 8:53pm ET) AND the sell (10:03pm ET) — happened completely inside the banned overnight session (8pm–4am ET). Not a partial breach; the whole trade lived there. Result: −$151.71 on 3 shares. Separately, a same-evening RDDT round trip (20sh bought 3:09pm, sold 7:12pm) cost −$22.70, and a fresh 5sh RDDT position opened premarket today at $181.70 — still open, still unrecorded. `discipline.py` independently flagged RDDT for a 3-loss-same-day REVENGE pattern on 7/28. All logged in the journal; none of this changes today's guidance, but it's worth seeing plainly in one place.</div>
+    <div class="posture" style="border-color:var(--off)"><b>HELD: SNDK 10sh @ $1,097</b> (premarket fill, journaled #22 UNRECORDED). Three things attached to it, stated plainly:
+    (1) it's a buy at last night's P1 support read ($1,048 pivot) — chart-consistent, but it contradicts Wednesday's stated cash-unless-puts stance;
+    (2) <b>SNDK reports earnings Aug 5</b>, 4 sessions out — a hold/exit decision needs writing before then;
+    (3) this is the CHURN-HISTORY ticker (17 round trips two weeks ago) with a 1-2 entry cap this week — this is entry #1.
+    Guidance stop: −3% = $1,064; the $1,048 pivot is just below it — losing $1,048 decisively opens air to $896.
+    Also logged: a second SQQQ overnight-session violation (closed 9:27pm ET Wed, −$9.70, journal #23). RDDT churn flags: 9 round trips this week netting −$263.54, REVENGE flags on both Tue AND Wed. RDDT reports TONIGHT — flat there now, and the cleanest possible position for a binary you have no thesis on is exactly that: flat.</div>
   </section>
 
   <section>
     <h2>BOOK</h2>
-    <div class="w">AGENTIC ••••0924 · TOTAL $205.76 · CASH/BP $160.82 · BOTH SLOTS OPEN</div>
+    <div class="w">AGENTIC ••••0924 · TOTAL $205.76 · BP $160.82 · BOTH SLOTS OPEN</div>
     <table class="num">
       <tr><th>POSITION</th><th>BASIS</th><th>MARK</th><th>P&L</th></tr>
-      <tr><td colspan="4" class="faint">No open positions — flat since yesterday's OPEN close.</td></tr>
+      <tr><td colspan="4" class="faint">No open positions — flat since Tuesday.</td></tr>
     </table>
-    <div class="posture"><b>Nothing to manage.</b> Board's confirmed longs (SKHY, MU, NVDA) all checked against budget — see Trade Ideas below. None clear the $20-60 band at a correct 0.30-0.50 delta. Both slots open into the 10am loop.</div>
+    <div class="posture"><b>Last night's put plan is void — the written condition fired against it.</b> SOFI $15.41 (+1.1%), OPEN $3.73 (+1.6%), MARA $10.50 (+4.5%) premarket: every breakdown is bouncing, price confirmation is gone. Per the plan's own text, it does not fire. The grade's preferred side is now calls — but every confirmed long (CRWV, MU, INTC, NVDA) fails the $20-60 budget at correct delta, same wall as all week. 10am loop re-checks with live opening prices; a SOFI/OPEN put only comes back if the bounce fails and the breakdown resumes on real volume.</div>
   </section>
 
   <section style="grid-column:1/-1">
-    <h2>WATCHLIST — ON THE RADAR</h2>
-    <div class="w">CANDIDATES, NOT SIGNALS · STILL CLEAR EVERY FILTER THE DAY THEY TRADE</div>
+    <h2>WEEK AHEAD — TODAY IS THE HEAVY DAY</h2>
     <table class="num">
-      <tr><th>NAME</th><th>PRICE</th><th>NOTE</th><th>EARNINGS</th></tr>
-      <tr><td><b>RDDT</b></td><td>$181.70 <span class="faint">(manual desk fill, premarket)</span></td><td>Sixth distinct RDDT entry across two sessions — earnings is now the dominant risk, not the setup.</td><td class="neg">Thu 7/30 PM · 1 day out</td></tr>
-      <tr><td><b>MU</b></td><td>$820.53</td><td>Board now confirms long (resolves yesterday's cross-signal) — but at $820/share, options are far outside agentic budget regardless of direction.</td><td class="pos">Sep 22 · clear</td></tr>
-      <tr><td><b>SKHY</b></td><td>$130.17</td><td>Cleared its earnings event yesterday (beat context unclear from board data); now board-confirmed long, but IV is still 127%+ — every in-delta call is $800+/contract.</td><td class="pos">Reported 7/28 · clear</td></tr>
-      <tr><td><b>AMD</b></td><td class="faint">not refreshed today</td><td class="faint">Standing candidate from last week.</td><td class="neg">Aug 4 · 6d out</td></tr>
-      <tr><td><b>SNDK</b></td><td class="faint">not refreshed today</td><td><span class="chip c-off">CHURN HISTORY</span> standing cap: 1-2 entries max.</td><td>Aug 5 · 7d out</td></tr>
-      <tr><td><b>USO</b></td><td colspan="3"><span class="chip c-off">CHURN + REVENGE FLAG</span> <span class="faint">Standing caution, unchanged.</span></td></tr>
-      <tr><td><b>THYP</b></td><td colspan="3"><span class="chip c-off">EXCLUDED</span> <span class="faint">not an equity — spot HYPE-token wrapper ETF.</span></td></tr>
+      <tr><th>WHEN</th><th>EVENT</th><th>WHY IT MATTERS</th></tr>
+      <tr><td>LAST NIGHT</td><td class="pos"><b>MSFT + META beat</b></td><td class="pos">Source of this morning's semi rip — AI-capex fear partially answered, domestically at least</td></tr>
+      <tr><td>TONIGHT PM</td><td class="neg"><b>AAPL + AMZN + RDDT earnings</b></td><td class="neg">Three binaries after the close. Both desks are flat RDDT — keep it that way into the print absent a written thesis.</td></tr>
+      <tr><td>AUG 4-5</td><td><b>OPEN (8/4) · SNDK + WULF (8/5) · MARA (8/6)</b></td><td>SNDK is HELD on the manual desk — decision needed before 8/5</td></tr>
     </table>
   </section>
 
   <section style="grid-column:1/-1">
-    <h2>WEEK AHEAD — THE CATALYST STACK</h2>
-    <div class="w">FOMC STATEMENT TODAY · RDDT EARNINGS TOMORROW PM · KOSPI ROUT DEEPENING, NOT RESOLVING</div>
-    <table class="num">
-      <tr><th>WHEN</th><th>EVENT</th><th>WHY IT MATTERS TO US</th></tr>
-      <tr><td>OVERNIGHT</td><td class="neg"><b>KOSPI −8.17% (2nd day, −16% cumulative)</b></td><td class="neg">SK Hynix earnings miss — a real fundamental catalyst deepening the AI-bubble chip rout, not sentiment resolving.</td></tr>
-      <tr><td>TODAY 2PM</td><td><b>FOMC statement</b> · Warsh presser 2:30 · no SEP</td><td>Hold expected; watch tone given both the chip rout and the board's risk-on lean pulling in opposite directions.</td></tr>
-      <tr><td>TODAY PM</td><td><b>MSFT + META</b> earnings</td><td>AI capex worry — the domestic version of the KOSPI story</td></tr>
-      <tr><td>THU PM</td><td><b>AAPL + AMZN</b> earnings · <b>RDDT</b> earnings</td><td>4 Mag-7 names in 48 hours; RDDT now 1 day out with a live, unrecorded manual-desk position</td></tr>
-    </table>
-  </section>
-
-  <section style="grid-column:1/-1">
-    <h2>TRADE IDEAS — PRE-OPEN, WED JUL 29</h2>
-    <div class="w">GRADE +1 RISK ON · 3 CONFIRMED LONGS, NONE CLEAR BUDGET</div>
+    <h2>TRADE IDEAS — PRE-OPEN, THU JUL 30</h2>
+    <div class="w">GRADE +1 RISK ON · PUT PLAN VOIDED BY BOUNCE · LONGS FAIL BUDGET</div>
     <table class="num">
       <tr><th>NAME</th><th>RESULT</th><th>NOTE</th></tr>
-      <tr><td><b>NVDA</b> long</td><td><span class="chip c-off">CLOSEST, STILL DOESN'T FIT</span></td><td>Best liquidity of the three (40k+ OI, tight spread). $210 strike delta 0.29 (just under floor) at $342/ctr — 5.7× the $60 cap.</td></tr>
-      <tr><td><b>SKHY</b> long</td><td><span class="chip c-off">DOESN'T FIT</span></td><td>IV still 127%+ post-earnings-move. Cheapest in-delta (0.35-0.43) call is $845-1,130/ctr.</td></tr>
-      <tr><td><b>MU</b> long</td><td><span class="chip c-off">DOESN'T FIT</span></td><td>$820/share underlying — not even worth pricing the chain, same structural mismatch as every prior MU/ASML/TSM check this week.</td></tr>
+      <tr><td><b>SOFI 8/21 $14.5P</b></td><td><span class="chip c-off">PLAN VOIDED</span></td><td>Was primary. Bouncing +1.1% premarket — breakdown confirmation gone. Revives only if the bounce fails on volume.</td></tr>
+      <tr><td><b>OPEN 8/21 $3.5P</b></td><td><span class="chip c-off">PLAN VOIDED</span></td><td>Same — +1.6% premarket, and its Aug 4 earnings window is now tighter.</td></tr>
+      <tr><td><b>MARA 8/21 $9P</b></td><td><span class="chip c-off">PLAN VOIDED</span></td><td>+4.5% premarket with BTC green — worst of the three for a put now.</td></tr>
+      <tr><td><b>CRWV / MU / INTC / NVDA</b> long</td><td><span class="chip c-off">FAIL BUDGET</span></td><td>All board-confirmed, all priced far beyond $20-60/ctr at 0.30-0.50 delta. Standing structural wall.</td></tr>
     </table>
-    <div class="faint" style="margin-top:6px">No agentic trade at the open. Both slots carry into the 10am loop. Fourth day running that a real, board-confirmed signal has failed on price alone, not conviction — the account's size is the binding constraint, not the read.</div>
-  </section>
-
-  <section style="grid-column:1/-1">
-    <h2>DECISION JOURNAL</h2>
-    <div class="w">THESIS + FALSIFIER WRITTEN AT ENTRY · EXIT REASONS AUDITED · plan_* = DISCIPLINE HELD, discretion/drift = LEAKS</div>
-    <table>
-      <tr><th>OPEN</th><th>THESIS</th><th class="num">FALSIFIER (EXIT IF TRUE)</th></tr>
-      <tr><td class="num"><b>#16 RDDT</b> long 5sh<br><span class="faint">@181.70 · Jul 29, premarket</span></td>
-          <td class="faint">UNRECORDED — sixth distinct RDDT entry across two sessions, no written thesis</td>
-          <td class="faint">PENDING USER INPUT</td></tr>
-    </table>
-    <table class="num">
-      <tr><th>CLOSED SINCE LAST BRIEF</th><th>P&L</th><th>EXIT REASON</th></tr>
-      <tr><td>#5 OPEN short put <span class="faint">agentic, user-closed</span></td><td class="neg">−$10.00</td><td><span class="chip c-n">discretion</span></td></tr>
-      <tr><td>#8/#10 RDDT 10sh (combined) <span class="faint">manual</span></td><td class="neg">−$33.02</td><td><span class="chip c-n">discretion</span></td></tr>
-      <tr><td>#12 RDDT 100sh bounce trade <span class="faint">manual</span></td><td class="neg">−$36.50</td><td><span class="chip c-n">discretion</span></td></tr>
-      <tr><td>#13 AAOI 50sh bounce trade <span class="faint">manual</span></td><td class="neg">−$55.53</td><td><span class="chip c-n">discretion</span></td></tr>
-      <tr><td>#14 RDDT 20sh <span class="faint">manual, same-evening</span></td><td class="neg">−$22.70</td><td><span class="chip c-n">discretion</span></td></tr>
-      <tr><td>#15 MU 3sh <span class="faint">manual</span></td><td class="neg">−$151.71</td><td><span class="chip c-off">discretion — entire round trip inside banned overnight session</span></td></tr>
-    </table>
-    <div class="faint" style="margin-top:6px">DRIFT CHECK: 6 straight discretion exits since the last brief, all losses except the bounce trade's mixed record — a sharp reversal from Monday's discretion calls, which were net positive. The #15 MU trade is the one that matters most: it's not just discretion, it's a direct risk.md violation (overnight-session entry AND exit). 10 of 16 total journal entries still awaiting the P2 reflection questions.</div>
-    <div style="margin-top:12px">
-      <div class="w">MY NOTES — WHAT I THINK, IN MY OWN WORDS <span id="nsave" class="faint"></span></div>
-      <textarea id="notes" rows="5" spellcheck="false" placeholder="Why did the winners win and the losers lose? What will I repeat, and what will I refuse to repeat next week? (Saves automatically in this browser — paste anything worth keeping forever into the chat and Claude commits it to the journal.)"
-        style="width:100%;margin-top:6px;background:var(--panel2);border:1px solid var(--line);color:var(--ink);font:inherit;padding:10px 12px;resize:vertical"></textarea>
-    </div>
-    <script>
-      (function(){
-        var t=document.getElementById('notes'),s=document.getElementById('nsave'),K='ascend_journal_notes',T;
-        try{t.value=localStorage.getItem(K)||''}catch(e){}
-        t.addEventListener('input',function(){
-          clearTimeout(T);
-          T=setTimeout(function(){
-            try{localStorage.setItem(K,t.value);s.textContent='· saved '+new Date().toLocaleTimeString()}
-            catch(e){s.textContent='· could not save (private browsing?)'}
-          },400);
-        });
-      })();
-    </script>
+    <div class="faint" style="margin-top:6px">Honest state: no trade clears all filters at the open, on either side. The 10am loop trades whatever the live tape actually confirms.</div>
   </section>
 
   <section>
@@ -253,27 +198,26 @@
       <tr><td class="neg"><b>−$16.00</b></td><td>2 (0W/2L)</td></tr>
     </table>
     <table class="num">
-      <tr><th>ALL CLOSES THIS WEEK</th><th></th></tr>
-      <tr><td>RIG call — discretion, no rule fired</td><td class="neg">−$6.00</td></tr>
+      <tr><td>RIG call — discretion</td><td class="neg">−$6.00</td></tr>
       <tr><td>OPEN put — user-closed, discretion</td><td class="neg">−$10.00</td></tr>
-      <tr><td colspan="2" class="faint">Flat now, both slots open</td></tr>
     </table>
   </section>
 
   <section>
     <h2>WEEK P&amp;L — MANUAL DESK ••••5308</h2>
-    <div class="w">REALIZED · CALENDAR WEEK, MON JUL 27 ONWARD · 12 TRADES · WIN RATE 33%</div>
+    <div class="w">REALIZED · CALENDAR WEEK · 18 TRADES · WIN RATE 22%</div>
     <table class="num">
       <tr><th>NET REALIZED</th><th>WINS</th><th>LOSSES</th></tr>
-      <tr><td class="neg"><b>−$197.12</b></td><td>4</td><td>8</td></tr>
+      <tr><td class="neg"><b>−$1,189.22</b></td><td>4</td><td>14</td></tr>
     </table>
-    <div class="faint" style="margin-top:2px">Turned negative overnight — Monday's big RDDT win (+$266.69) is now being eaten by Tuesday/Wednesday's round trips. discipline.py flags a REVENGE pattern on RDDT (3+ same-day losses, 7/28).</div>
+    <div class="faint" style="margin-top:2px">Last week: +$961.20. This week has now erased that and more — the two-week combined net is −$228. Not a window artifact this time; these are this week's actual trades.</div>
     <table class="num">
       <tr><th>BEST</th><th></th><th>WORST</th><th></th></tr>
-      <tr><td class="pos">RDDT <span class="faint">net across 6 trades</span></td><td class="pos">+$174.46</td><td class="neg">MU <span class="faint">incl. overnight-session violation</span></td><td class="neg">−$228.62</td></tr>
-      <tr><td class="pos">ETH</td><td class="pos">+$9.00</td><td class="neg">INTC</td><td class="neg">−$80.83</td></tr>
+      <tr><td class="pos">ETH</td><td class="pos">+$9.00</td><td class="neg">BE <span class="faint">unwatchlisted, same-day</span></td><td class="neg">−$332.25</td></tr>
+      <tr><td class="faint">—</td><td class="faint">—</td><td class="neg">RDDT <span class="chip c-off">CHURN ×9 + REVENGE ×2</span></td><td class="neg">−$263.54</td></tr>
+      <tr><td class="faint">—</td><td class="faint">—</td><td class="neg">MU <span class="faint">incl. overnight violation</span></td><td class="neg">−$228.62</td></tr>
     </table>
-    <div class="faint" style="margin-top:6px">SNDK and USO churn/revenge flags from last week still stand. MU now joins them with its own flag: an entire round trip executed inside the banned overnight session.</div>
+    <div class="faint" style="margin-top:6px">discipline.py flags this week: RDDT CHURN (9 round trips) + REVENGE on two consecutive days · 2 SQQQ overnight-session violations · MU full overnight round trip Tue. The 3-strikes guidance says RDDT is ban-eligible for 5 trading days — it also reports earnings tonight.</div>
   </section>
 </div>
 
