@@ -124,7 +124,9 @@ reading counts as supporting evidence for the turn protocol (never a trade
 signal by itself). [SUSPECT] lines are excluded and surfaced.
 Run scanners AND the board with BOTH windows (added 2026-07-30):
 `curl .../board?window=today` and `curl .../board?window=7d`, then
-`python3 tools/board_signals.py board.json <now> board_7d.json` — the 7d
+`python3 tools/board_signals.py board.json <now> board_7d.json` — then
+`python3 tools/consensus_log.py log board.json board_7d.json` to append the
+snapshot to the cumulative weekly tracker (see Weekly section) — the 7d
 window powers the AUTHOR LEADERBOARD (hit rate + median return since post,
 min 3 ideas — "best traders" is earned from the board's own record, never
 follower counts) and the CONSENSUS section (distinct top-10 authors
@@ -163,7 +165,14 @@ is placed until the state has been read back and there is a rule-based reason.
 
 ## Weekly (Friday close)
 Week wrap: realized P&L by trade, rule adherence audit, discipline flags on
-both accounts, and one improvement noted for next week. Run
+both accounts, and one improvement noted for next week.
+Consensus retrospective (added 2026-07-30): `python3 tools/consensus_log.py
+report` — the week's cumulative top-trader consensus, cross-referenced
+against watchlist.md and the journal. The SHOULD-BE LIST (multi-day quality
+consensus never watched or traded) is the week's missed-idea audit: names
+appearing there 2+ days get added to next week's watchlist with a written
+reason, or explicitly rejected with one. The report also runs in miniature
+at each morning brief so gaps surface daily, not just Friday. Run
 `python3 tools/grade_log.py report` — once ≥40 completed records exist,
 review which inputs show sign-agreement above coin-flip and propose weight
 changes to risk_score.py as a PR-style diff for the user to approve; never
