@@ -77,7 +77,9 @@
    and the profit calendar. Dollar P&L and R can disagree — when they do,
    say so out loud: dollars measure outcome, R measures process.
 8. Rebuild `terminal/dashboard.html` with the day's data — every panel updates
-   daily including both WEEK P&L panels and the DECISION JOURNAL panel
+   daily including the PASTE.TRADE INTELLIGENCE panel (author leaderboard +
+   cumulative weekly consensus with GAP/watchlist/TRADED status per name),
+   the R LEDGER panel, both WEEK P&L panels and the DECISION JOURNAL panel
    (open entries with thesis/falsifier from `journal.py open`, the week's
    closed entries with exit-reason chips, and the running drift check) — and
    republish the Terminal artifact (same file path + url → same link)
