@@ -184,7 +184,18 @@ against watchlist.md and the journal. The SHOULD-BE LIST (multi-day quality
 consensus never watched or traded) is the week's missed-idea audit: names
 appearing there 2+ days get added to next week's watchlist with a written
 reason, or explicitly rejected with one. The report also runs in miniature
-at each morning brief so gaps surface daily, not just Friday. Run
+at each morning brief so gaps surface daily, not just Friday.
+Author re-evaluation (added 2026-07-30): at every Friday close run
+`python3 tools/author_log.py log board_7d.json` then `report` — ranks are
+RE-EARNED weekly from the board's own record, never carried on reputation.
+TRUSTED = top-10 for 2+ consecutive weeks; only TRUSTED authors get full
+weight in rank_ideas.py scoring going forward (week-1 top-10 = probation at
+half weight). A trader who drops from the top-10 loses author weight
+immediately — one hot week is just a hot week. Same session: verify the
+week's ranked ideas were worth watching — re-quote the tier-STRONG names
+from the consensus log and report how they aged; if STRONG picks are not
+beating WATCH ONLY picks over a few weeks of data, the scoring weights get
+proposed for change, never silently retuned. Run
 `python3 tools/grade_log.py report` — once ≥40 completed records exist,
 review which inputs show sign-agreement above coin-flip and propose weight
 changes to risk_score.py as a PR-style diff for the user to approve; never
