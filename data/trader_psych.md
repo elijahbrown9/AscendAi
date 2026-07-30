@@ -66,4 +66,54 @@ terminal/journal_inbox.txt; synthesized fresh every Friday review.
   this week; every violation lost.
 
 ## Daily distillation log
-- (empty — first distillation runs with the next pre-open brief)
+
+### 2026-07-30 (evening) — from the trader's own week-one retro, in chat
+Raw words distilled and released per the standing agreement; patterns kept:
+
+1. **Self-diagnosed root cause of the churn: broken trust in the original
+   read, not a bad read.** Their words on last week's SNDK (17 round trips,
+   −$772): "easily preventable if i had trusted the size i went with
+   earlier and held until i felt it was time to derisk." Same theme on
+   DELL ("quick in and out... had i just trusted [it]"). The pattern:
+   initial entry is sized right on a real read → position wiggles → trust
+   evaporates → trade-around begins. The fix the trader already knows:
+   FIRST EXIT = deliberate derisk, not a reaction. Agent guidance hook:
+   when a sized position is up and the first sell order appears within
+   minutes of a dip, ask one question — "derisk or reaction?"
+2. **Conviction + size + HOLD is the winning combination, with receipts:**
+   INTC and EWY last week ("taken with size and conviction", ~+$1,050
+   and +$1,050 respectively across 7/21 exits), SNDK this week once the
+   churn stopped (+$2,356 in 2 entries). The losers are the same
+   conviction re-applied 17 times to one name. Conviction is not the
+   leak; re-entry frequency is.
+3. **Week-start overnight positioning is a ritual, not an accident.**
+   The trader opened this week (MU, INTC, RDDT, ETH) in the Sunday
+   overnight session by design, planning to cut into the open — and did,
+   at a net loss, then watched RDDT run without them and re-bought after
+   the open for +2%. They know the session rule; the ritual persists.
+   Context they flagged: positive Iran news that Sunday was offset by
+   the CMXT IPO pulling flows and crushing adjacent names.
+4. **NEW NAMED STRATEGY — forced-liquidation basket buying.** Thursday
+   afternoon's NBIS/SMH/RDDT buys were not churn: "Leopold blew up today
+   so I took time to buy the names that he was forced to sell." This is
+   a real, legitimate strategy class (forced sellers create dislocations)
+   — and every leg of Thursday's basket lost (−$746 combined). The
+   execution flaw, not the idea: the dislocation was at the OPEN; by
+   2:45pm the bounce had already run +15-25% and the basket was bought
+   at the top of the recovery, with one leg (RDDT) walking into its own
+   earnings print hours later. If this strategy runs again it needs:
+   entry within the dislocation window (not after the recovery), no legs
+   with same-day binaries, and a written basket-level stop.
+5. **RDDT ban reaffirmed in the retro: "banned this name for good now."**
+   Second time in one evening, unprompted. Ban standing is solid.
+6. **RIG (agentic) exit reasoning confirmed in retro:** "cut due to oil
+   collapsing" — matches the falsifier that was written at entry (Brent
+   <90 kills the thesis). The user's instinct and the written falsifier
+   agreed; the exit was earlier than the rule required but directionally
+   right. Filed as evidence the falsifier discipline matches how they
+   actually think.
+7. Narrative anchors for the week (kept for continuity): started the week
+   +$117 (Monday's calendar-week print), CMXT IPO stole Monday's flows,
+   Leopold liquidation was Thursday's event. These are the trader's own
+   mental chapter-markers — briefs should use them when referencing the
+   week rather than raw dates.
