@@ -68,6 +68,14 @@
    at grade −1 (regime-adjusted per risk.md). Only STRONG/MODERATE ideas are
    tradeable; WATCH ONLY and knife catches are listed so the reasoning is
    visible. Sizing always from risk.md, never from conviction alone.
+7b. R ledger (added 2026-07-30, inspired by the user's Trade-OS reference —
+   substance, not look): `python3 tools/trade_stats.py` — every closed trade
+   graded in R (P&L / planned risk: journaled stop, else agentic 50% of
+   premium / manual 3% of notional). The dashboard's R LEDGER panel updates
+   each brief: net R, win rate, avg trade R, profit factor, the per-trade
+   sequence bars, PLAN VIOLATIONS (losses beyond −1.0R = stop not honored),
+   and the profit calendar. Dollar P&L and R can disagree — when they do,
+   say so out loud: dollars measure outcome, R measures process.
 8. Rebuild `terminal/dashboard.html` with the day's data — every panel updates
    daily including both WEEK P&L panels and the DECISION JOURNAL panel
    (open entries with thesis/falsifier from `journal.py open`, the week's
