@@ -76,13 +76,23 @@
    sequence bars, PLAN VIOLATIONS (losses beyond −1.0R = stop not honored),
    and the profit calendar. Dollar P&L and R can disagree — when they do,
    say so out loud: dollars measure outcome, R measures process.
-8. Rebuild `terminal/dashboard.html` with the day's data — every panel updates
-   daily including the PASTE.TRADE INTELLIGENCE panel (author leaderboard +
-   cumulative weekly consensus with GAP/watchlist/TRADED status per name),
-   the R LEDGER panel, both WEEK P&L panels and the DECISION JOURNAL panel
-   (open entries with thesis/falsifier from `journal.py open`, the week's
-   closed entries with exit-reason chips, and the running drift check) — and
-   republish the Terminal artifact (same file path + url → same link)
+7c. Idea ranking (added 2026-07-30): `python3 tools/rank_ideas.py board.json
+   board_7d.json --grade N --env X` — the unified score: regime alignment
+   (grade, ±3) + author's earned 7d record (0-3) + environment (conditions
+   score, ±1) + price confirmation (+2) + consensus (0-3) − crowding (−2);
+   knives never ranked. On one-way days nearly everything tiers STRONG —
+   the information is the ORDER and the penalty flags, and the brief must
+   say so. Ranking measures conviction; budget/delta/earnings/chase filters
+   still decide entries.
+8. Rebuild `terminal/dashboard.html` with the day's data. The dashboard is
+   TABBED (added 2026-07-30 — verdict + grade gauge stay global above the
+   tab bar): OVERVIEW (book, conditions/after-hours, manual desk, bans,
+   catalysts) · RANKED IDEAS (rank_ideas.py output with execution notes) ·
+   BOARD INTEL (author leaderboard + cumulative weekly consensus with
+   GAP/watchlist/TRADED status) · PERFORMANCE (R ledger, both WEEK P&L
+   panels, day ledger) · JOURNAL (open theses/falsifiers, closed entries
+   with exit-reason chips, drift check, notes box). Every tab updates every
+   brief; republish the Terminal artifact (same file path + url → same link)
 
 ### Composite score weights
 - Storm gauge (GARCH regimes + IV vs forecast): **weight 3** — the anchor
