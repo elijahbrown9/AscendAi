@@ -96,6 +96,13 @@ rescore it with tools/x_feed.py; a sentiment swing ≥0.5 from the morning
 reading counts as supporting evidence for the turn protocol (never a trade
 signal by itself). [SUSPECT] lines are excluded and surfaced.
 Run scanners AND `python3 tools/board_signals.py <fresh board.json>`:
+- **Intraday scanner sweep (added 2026-07-30):** at every check-in, also run
+  the saved momentum scanners (`get_scans`/`run_scan`) looking for moves
+  currently at +1-3% intraday — catching moves as they start rather than
+  reading last night's board after the gap. A scanner hit is an idea source
+  like a board candidate: it still passes every entry filter, and the
+  chase reference for a scanner hit is the price when the scanner
+  surfaced it.
 - **CONFIRMED CANDIDATES** (idea <24h old, price already agrees, 1–3 co-signs)
   aligned with the day's grade direction are valid idea sources — they still
   pass every entry filter (liquidity, delta, expiry, budget, earnings).
