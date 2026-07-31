@@ -117,3 +117,28 @@ Raw words distilled and released per the standing agreement; patterns kept:
    Leopold liquidation was Thursday's event. These are the trader's own
    mental chapter-markers — briefs should use them when referencing the
    week rather than raw dates.
+
+### 2026-07-30 (overnight) — the fixation migrated, as predicted
+Logged from the order book, not from chat. Same evening the RDDT ban was
+declared, EWY became the new host:
+- **EWY, two round trips in 5 hours, −$211.62.** First: 60sh bought
+  17:38-17:40 ET after-hours, sold 19:07 (−$72.27). Second: 50sh re-bought
+  57 MINUTES after that loss, in 4 fills 20:04-21:02 ET — **every fill and
+  the 22:12 exit inside the banned 8pm-4am window** — sold −$139.35. The
+  re-entry AVERAGED UP into the loss (162.50 → 165.77) before selling at
+  162.08.
+- This is leak #1 (one-ticker fixation) re-hosting on a new name within
+  hours of the old host being banned, exactly as the 7/30 profile warned.
+  The ban removed the ticker, not the behavior. EWY is also the KOSPI
+  proxy down 17% in 3 sessions — a falling knife by the system's own
+  definition.
+- Session-boundary evidence hardens: **8 overnight-session violations this
+  week, every single one a loss.** No exceptions, no near-misses.
+- RDDT #27 correction from the order log: 30 of those 50 shares were added
+  at 16:05 ET in AFTER-HOURS, minutes before the print — not "before the
+  close" as first journaled. The size went UP into the binary.
+- Agent hook for Friday's review and Monday's open: when a name is banned,
+  ask what the ban is FOR. If the answer is "the ticker," the pattern just
+  moves. Watch the first 48h after any ban for a new host with the same
+  signature: fast re-entry after a loss, size added into weakness,
+  session-boundary timing.
