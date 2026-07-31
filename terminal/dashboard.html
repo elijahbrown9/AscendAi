@@ -18,9 +18,9 @@
   .logo em{color:var(--amber);font-style:normal}
   .stamp{color:var(--dim);font-size:12px}
   .verdict{margin:20px 0 8px;background:var(--panel);border:1px solid var(--line);
-    border-left:4px solid var(--on);padding:18px 20px;display:flex;
+    border-left:4px solid var(--neutral);padding:18px 20px;display:flex;
     justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
-  .verdict h1{margin:0;font-size:30px;letter-spacing:.06em;color:var(--on);text-wrap:balance}
+  .verdict h1{margin:0;font-size:30px;letter-spacing:.06em;color:var(--neutral);text-wrap:balance}
   .verdict .sub{color:var(--dim);font-size:12.5px;max-width:46ch}
   .score{font-size:13px;color:var(--dim)}
   .score b{color:var(--ink);font-size:20px}
@@ -29,7 +29,7 @@
   .gauge .seg{height:34px;display:flex;align-items:center;justify-content:center;
     font-size:10.5px;letter-spacing:.08em;color:var(--faint);
     background:var(--panel2);border:1px solid var(--line)}
-  .gauge .seg.active{color:#0B0E14;font-weight:700;background:var(--on);border-color:var(--on)}
+  .gauge .seg.active{color:#0B0E14;font-weight:700;background:var(--neutral);border-color:var(--neutral)}
   .gauge .lbl{display:flex;justify-content:space-between;color:var(--faint);
     font-size:10px;letter-spacing:.1em;margin-top:6px}
   .grid{display:grid;grid-template-columns:1.35fr 1fr;gap:14px}
@@ -66,21 +66,21 @@
 <div class="wrap">
 <header>
   <div class="logo">ASCEND <em>//</em> RISK TERMINAL</div>
-  <div class="stamp num">THU 2026-07-30 · 10:40 PM ET OVERNIGHT UPDATE · next refresh FRI 09:00 ET — WEEKLY WRAP</div>
+  <div class="stamp num">FRI 2026-07-31 · 09:15 AM ET PRE-OPEN BRIEF · WEEKLY WRAP AFTER THE CLOSE</div>
 </header>
 
 <div class="verdict">
   <div>
-    <h1>+1 · RISK ON</h1>
-    <div class="sub">Thursday's grade held and the tape confirmed it (SPY +1.68%, QQQ +3.31%). Overnight the earnings split is resolving BULLISH: SPY 744.09 (+0.32% from the close), QQQ 688.30 (+0.68%) — AMZN's beat is outweighing AAPL's drop in the index. But the desk's night told a different story than the tape: after the close, two EWY round trips lost −$211.62, five of those fills inside the banned overnight window. Grade recomputes fresh at 9am against the real open.</div>
+    <h1>0 · MIXED</h1>
+    <div class="sub">Two forces cancelling, both large. RISK ON: KOSPI ripped <b>+17.91% to 6,595</b> — its biggest single-day gain ever (Samsung +22.5%, SK Hynix +27.7%), and US futures follow (QQQ +1.30%, SPY +0.51%). RISK OFF: the Iran de-escalation I carried all week has <b>reversed</b> — Houthi strike on a Saudi tanker plus US-Saudi strikes in Iraq pushed <b>Brent to $92.27, through the storm line</b>, and QQQ's own vol ratio is climbing (1.21×). Composite lands at −0.231. Grade 0 caps new entries at 1 position, half size $20–40, pairs preferred.</div>
   </div>
-  <div class="score num">composite <b>+0.291</b> <span class="faint">storm veto: no</span><br>gauge −0.08 · conditions 0.14 · board +1.00 · x offline</div>
+  <div class="score num">composite <b>−0.231</b> <span class="faint">storm veto: no</span><br>gauge −0.28 · conditions −0.47 · board +0.07 · x offline</div>
 </div>
 
 <div class="gauge">
   <div class="track">
-    <div class="seg">−2 ULTRA OFF</div><div class="seg">−1 RISK OFF</div><div class="seg">0 MIXED</div>
-    <div class="seg active">+1 RISK ON</div><div class="seg">+2 ULTRA ON</div>
+    <div class="seg">−2 ULTRA OFF</div><div class="seg">−1 RISK OFF</div><div class="seg active">0 MIXED</div>
+    <div class="seg">+1 RISK ON</div><div class="seg">+2 ULTRA ON</div>
   </div>
   <div class="lbl"><span>PUTS ONLY / FLAT</span><span>MAX LONG</span></div>
 </div>
@@ -96,47 +96,58 @@
 <div class="tabpane active" id="tab-overview"><div class="grid">
   <section>
     <h2>BOOK — AGENTIC ••••0924</h2>
-    <div class="w">BROKER TOTAL $164.68 · CASH $115.68 · BOTH SLOTS FULL</div>
+    <div class="w">TOTAL $164.68 · CASH $115.68 · BOTH SLOTS FULL · NO TRADES THIS RUN</div>
     <table class="num">
-      <tr><th>POSITION</th><th>BASIS</th><th>MARK</th><th>P&L</th></tr>
-      <tr><td>CMG 8/21 $41C ×1</td><td>0.60</td><td>0.48</td><td class="neg">−20%</td></tr>
-      <tr><td>TAL 8/21 $13C ×1</td><td>0.30</td><td class="faint">no market</td><td class="faint">unmarkable</td></tr>
-      <tr><td>CASH</td><td colspan="3">$115.68</td></tr>
+      <tr><th>POSITION</th><th>BASIS</th><th>UNDERLYING NOW</th><th>FALSIFIER</th><th>STATUS</th></tr>
+      <tr><td>CMG 8/21 $41C</td><td>0.60</td><td>38.53 <span class="faint">flat premkt</span></td><td>&lt;$36.60 or prem ≤0.30</td><td><span class="chip c-n">INTACT</span></td></tr>
+      <tr><td>TAL 8/21 $13C</td><td>0.30</td><td class="neg">12.01 <span class="faint">−2.7% premkt</span></td><td>&lt;$11.60 or prem ≤0.15</td><td><span class="chip c-off">DRIFTING</span></td></tr>
+      <tr><td>CASH</td><td colspan="4">$115.68 — above the $50 floor</td></tr>
     </table>
-    <div class="posture" style="border-color:var(--off)"><b>Read the $164.68 headline with care.</b> The broker is carrying the TAL call at ≈$0.01 because the overnight bid is 0.00 with zero size — there is no market, not a collapse. TAL stock closed unchanged at $12.34 and the $13 strike is still 3 weeks out; the last real two-sided market during the session was 0.20/0.30. Fair account value is closer to <b>~$185</b>. Flagging this rather than reporting a −$30 loss that didn't happen — the mark is a quote artifact and it will re-price at tomorrow's open. Both theses remain intact: CMG needs to hold ~$36.60 (closed $38.53), TAL needs $11.60 (closed $12.34).</div>
+    <div class="posture" style="border-color:var(--off)"><b>TAL is the one to watch, and the storm gauge just made the case louder.</b> TAL's GARCH ratio printed <b>1.67× — the only STORM reading in the book</b> (93.3% annualized vol, ±5.87% expected daily move). At a ±5.9% daily sigma, the $11.60 falsifier is barely one standard deviation away from $12.01. The position is small ($30) and the thesis hasn't broken, but a single average down-day takes it out. The 10am loop manages it first. <b>The $0.01 mark from last night was the quote artifact I flagged</b> — it re-prices on the open, so ignore the $164.68 headline until then; fair value is nearer $185.</div>
   </section>
 
   <section>
-    <h2>OVERNIGHT TAPE</h2>
-    <div class="w">AS OF 10:40 PM ET · POST-EARNINGS RESOLUTION</div>
+    <h2>STORM GAUGE — GARCH(1,1) · CONDITIONS</h2>
+    <div class="w">GAUGE WEIGHT 3 · CONDITIONS WEIGHT 2 · FITTED ON 250 DAILY RETURNS</div>
     <table class="num">
-      <tr><th>NAME</th><th>4PM CLOSE</th><th>OVERNIGHT</th><th>MOVE</th></tr>
-      <tr><td>SPY</td><td>741.73</td><td class="pos">744.09</td><td class="pos">+0.32%</td></tr>
-      <tr><td>QQQ</td><td>683.63</td><td class="pos">688.30</td><td class="pos">+0.68%</td></tr>
-      <tr><td>AMZN</td><td>236.03</td><td class="pos">254.52</td><td class="pos">+7.8%</td></tr>
-      <tr><td>AAPL</td><td>333.86</td><td class="neg">317.75</td><td class="neg">−4.8%</td></tr>
-      <tr><td>RDDT <span class="chip c-off">BANNED</span></td><td>178.07</td><td class="neg">164.00</td><td class="neg">−7.9%</td></tr>
+      <tr><th>MARKET</th><th>VOL NOW</th><th>RATIO</th><th>1σ DAY</th><th>REGIME</th></tr>
+      <tr><td>SPY <span class="faint">scored</span></td><td>14.0%</td><td>1.09×</td><td>±0.88%</td><td><span class="chip c-n">NORMAL</span></td></tr>
+      <tr><td>QQQ <span class="faint">scored</span></td><td>24.0%</td><td>1.21×</td><td>±1.51%</td><td><span class="chip c-n">NORMAL, near edge</span></td></tr>
+      <tr><td>TAL <span class="faint">held</span></td><td class="neg">93.3%</td><td class="neg">1.67×</td><td class="neg">±5.87%</td><td><span class="chip c-off">STORM</span></td></tr>
+      <tr><td>CMG <span class="faint">held</span></td><td>41.6%</td><td>1.00×</td><td>±2.62%</td><td><span class="chip c-n">NORMAL</span></td></tr>
+      <tr><td>CRWV <span class="faint">CORD underlying</span></td><td class="neg">94.5%</td><td>1.00×</td><td class="neg">±5.95%</td><td><span class="chip c-n">NORMAL (abs high)</span></td></tr>
     </table>
-    <div class="faint" style="margin-top:6px">The index is choosing AMZN over AAPL — futures green into Friday. That sets up a gap-driven open the 9am brief will price fresh, and it puts the CMG/TAL calls into a supportive tape rather than a hostile one.</div>
+    <div class="faint" style="margin-top:6px">No storm veto — it needs BOTH SPY and QQQ above 1.25×; QQQ at 1.21× is close but not there. Both index ratios rose from yesterday (1.02/1.10 → 1.09/1.21): the tape is calm in price and getting less calm in vol.</div>
+    <table class="num" style="margin-top:12px">
+      <tr><th>CONDITION</th><th>LEVEL</th><th>SIGNAL</th></tr>
+      <tr><td>VIX</td><td>17.26</td><td><span class="chip c-on">CALM — below warn</span></td></tr>
+      <tr><td>BRENT</td><td class="neg">$92.27</td><td><span class="chip c-off">THROUGH STORM LINE (92)</span></td></tr>
+      <tr><td>KOSPI</td><td class="pos">6,595.45 <span class="faint">+17.91%</span></td><td><span class="chip c-n">recovering, still under 6,700</span></td></tr>
+      <tr><td>BTC 24H</td><td class="neg">$63,730 (−1.79%)</td><td><span class="chip c-n">mild negative</span></td></tr>
+      <tr><td>GEO / MIDEAST</td><td colspan="2" class="neg"><b>RE-ESCALATED</b> — Houthi strike on Saudi tanker, US-Saudi strikes in Iraq; Hormuz + Red Sea pressure</td></tr>
+    </table>
+    <div class="faint" style="margin-top:6px">This is the week's biggest narrative reversal: I carried "Iran de-escalating" as a risk-ON input every day since Monday. It flipped. Brent +6.6% off that escalation and now above 92 — the conditions score is −0.47 almost entirely because of oil and geopolitics, not equities.</div>
   </section>
 
   <section style="grid-column:1/-1">
-    <h2>TONIGHT ON THE MANUAL DESK — THE FIXATION MOVED</h2>
-    <div class="w">READ-ONLY · LOGGED FROM THE ORDER BOOK, NOT REPORTED IN CHAT</div>
+    <h2>MANUAL DESK — CORD IS A 2× INVERSE CRWV ETF</h2>
+    <div class="w">READ-ONLY · GUIDANCE ONLY · GRADE 0 SIZING = 2 UNITS MAX, ZERO MARGIN</div>
     <table class="num">
-      <tr><th>TIME (ET)</th><th>ACTION</th><th>SESSION</th><th>RESULT</th></tr>
-      <tr><td>17:38–17:40</td><td>EWY buy 60sh @ ~161.77</td><td>after-hours</td><td class="faint">—</td></tr>
-      <tr><td>17:39</td><td>CORD buy 10sh @ 6.39</td><td>after-hours</td><td class="faint">still open</td></tr>
-      <tr><td>19:07</td><td>EWY sell 60sh @ 160.57</td><td>after-hours</td><td class="neg">−$72.27</td></tr>
-      <tr><td>20:04–21:02</td><td>EWY re-buy 50sh, 4 fills, averaging UP 162.50→165.77</td><td><span class="chip c-off">BANNED WINDOW</span></td><td class="faint">—</td></tr>
-      <tr><td>22:12</td><td>EWY sell 50sh @ 162.08</td><td><span class="chip c-off">BANNED WINDOW</span></td><td class="neg">−$139.35</td></tr>
+      <tr><th>POSITION</th><th>SIZE</th><th>AVG</th><th>NOW</th><th>P&L</th><th>STOP GUIDANCE</th></tr>
+      <tr><td><b>CORD</b> <span class="faint">T-REX 2× Inverse CRWV, daily reset</span></td><td>100sh <span class="faint">(was 10)</span></td><td>6.06</td><td class="neg">~5.66</td><td class="neg">≈ −$40 (−6.6%)</td><td class="neg">−3% = 5.88 · ALREADY BREACHED</td></tr>
     </table>
-    <div class="posture" style="border-color:var(--off)"><b>The RDDT ban removed the ticker, not the behavior — and the profile predicted this yesterday.</b> The written warning was to "watch for the fixation MIGRATING to a new host ticker." Within hours of banning RDDT, EWY became the host with the identical signature: re-entry <b>57 minutes</b> after a loss in the same name, size <b>averaged up</b> into weakness, timing inside the session boundary. EWY is also the KOSPI proxy down 17% in three sessions — a falling knife by the system's own definition. Overnight-session violations now stand at <b>8 for the week, every one a loss, no exceptions.</b> This is the single most important thing on the dashboard tonight, and it is stated as evidence, not judgment.</div>
-    <table class="num" style="margin-top:12px">
-      <tr><th>STILL OPEN</th><th>ENTRY</th><th>CLOSE</th><th>OVERNIGHT BID</th><th>STOP GUIDANCE</th></tr>
-      <tr><td>CORD 10sh</td><td>6.39</td><td class="pos">6.695 (+4.8%)</td><td>6.30</td><td>−3% = 6.20</td></tr>
+    <div class="posture" style="border-color:var(--off)"><b>Three things about this position, stated plainly.</b><br>
+    <b>1. It's a leveraged inverse bet on CoreWeave, not a stock.</b> CORD is the T-REX 2× Inverse CRWV Daily Target ETF — it rises when CRWV falls, at 2× daily. CRWV is <b>+7.85% premarket ($73.90 → $79.70)</b>, which is exactly why CORD is −15% from yesterday's close.<br>
+    <b>2. The position was multiplied 10× while losing.</b> It started as 10sh @ $6.39 after-hours Thursday; 90 more shares were added premarket this morning around $6.02, taking it to 100sh @ $6.06 (~$606). That is averaging down into weakness — leak #2 in the psychology profile, and the same signature the profile flagged 12 hours ago.<br>
+    <b>3. Daily-reset products decay in chop.</b> A 2× daily-reset ETF does not track 2× the multi-day move of its underlying; sideways action in CRWV bleeds it structurally even if the directional call eventually works.<br>
+    Where the read has merit: it is the same side as the <b>4 top-10 board traders short CRWV</b>. Where it doesn't: the 9-trader long crowd is winning that fight this morning, hard. Stop guidance (−3% = $5.88) is already through. Guidance only — the desk is yours.</div>
+    <table class="num" style="margin-top:10px">
+      <tr><th>ALSO SINCE THE CLOSE</th><th>RESULT</th></tr>
+      <tr><td>EWY 60sh after-hours round trip</td><td class="neg">−$72.27</td></tr>
+      <tr><td>EWY 50sh re-entry — every fill + exit inside the banned 8pm–4am window, averaged up 162.50→165.77</td><td class="neg">−$139.35</td></tr>
+      <tr><td>LRCX 5sh premarket round trip <span class="faint">(bought after its +5.3% gap, out minutes later)</span></td><td class="neg">−$10.83</td></tr>
+      <tr><td colspan="2" class="faint">EWY closed at 162.08 last night and trades <b>163.85</b> premarket — the exit was into strength, not out of it. Overnight-session violations now <b>8 this week, all losses.</b></td></tr>
     </table>
-    <div class="faint" style="margin-top:4px">Tiny position (~$64). The only thing carrying overnight risk on the desk.</div>
   </section>
 
   <section style="grid-column:1/-1">
@@ -159,72 +170,77 @@
 <div class="tabpane" id="tab-ideas"><div class="grid">
   <section style="grid-column:1/-1">
     <h2>RANKED IDEAS — GRADE × AUTHOR × ENVIRONMENT</h2>
-    <div class="w">SCORE = REGIME (±3) + AUTHOR'S 7D RECORD (0–3) + ENVIRONMENT (±1) + PRICE CONFIRMATION (+2) + CONSENSUS (0–3) − CROWDING (−2) · KNIVES NEVER RANKED · tools/rank_ideas.py</div>
+    <div class="w">GRADE 0 (NO REGIME BONUS) · ENV −0.47 (PENALISES LONGS) · KNIVES EXCLUDED · tools/rank_ideas.py</div>
     <table class="num">
-      <tr><th>SCORE</th><th>IDEA</th><th>SINCE POST</th><th>COMPONENTS</th><th>EXECUTION NOTE</th></tr>
-      <tr><td class="num">+12.0</td><td><b>SNDK</b> long</td><td class="pos">+30.9%</td><td class="faint">regime+ · @firstadopter (+3.0) · env+ · price+ · 4 traders · top-10 consensus</td><td><span class="chip c-off">extended; earnings Aug 5; churn-cap resets Mon</span></td></tr>
-      <tr><td class="num">+11.4</td><td><b>BE</b> long</td><td class="pos">+21.8%</td><td class="faint">regime+ · @degentradinglsd (+2.4) · env+ · price+ · 4 traders · top-10 consensus</td><td><span class="chip c-off">extended; desk lost −$332 on it Wed</span></td></tr>
-      <tr><td class="num">+10.0</td><td><b>LRCX</b> long</td><td class="pos">+11.4%</td><td class="faint">regime+ · @firstadopter (+3.0) · env+ · price+ · 2 traders</td><td><span class="chip c-n">clean — quality-backed, NOT crowded</span></td></tr>
-      <tr><td class="num">+10.0</td><td>NBIS long</td><td class="pos">+27.1%</td><td class="faint">regime+ · @firstadopter · env+ · price+ · 5 traders · <b>CROWDED −2</b></td><td><span class="chip c-off">late consensus</span></td></tr>
-      <tr><td class="num">+10.0</td><td>AMZN long</td><td class="pos">+6.9%</td><td class="faint">regime+ · @firstadopter · env+ · price+ · 11 traders · <b>CROWDED −2</b></td><td><span class="chip c-off">now +7.8% AH — gap already gone</span></td></tr>
-      <tr><td class="num">+9.4</td><td><b>ORCL</b> long</td><td class="pos">+2.1%</td><td class="faint">regime+ · @degentradinglsd (+2.4) · env+ · price+ · 2 traders</td><td><span class="chip c-on">SLEEPER — only name the chase rule wouldn't block</span></td></tr>
-      <tr><td class="num">+9.4</td><td>CRWV long</td><td class="pos">+23.8%</td><td class="faint">regime+ · @degentradinglsd · env+ · price+ · 9 traders · <b>CROWDED −2</b></td><td><span class="chip c-off">4 top-10 traders are SHORT it</span></td></tr>
-      <tr><td class="num">+9.0</td><td>MU / MSFT / NVDA long</td><td class="faint">+2.5 to +23%</td><td class="faint">all: regime+ · @firstadopter · env+ · price+ · <b>CROWDED −2</b></td><td><span class="chip c-off">budget wall on agentic regardless</span></td></tr>
+      <tr><th>SCORE</th><th>IDEA</th><th>SINCE POST</th><th>COMPONENTS</th><th>VERDICT</th></tr>
+      <tr><td class="num">+5.4</td><td><b>HYPE</b> long</td><td class="pos">+1.1%</td><td class="faint">@thedefivillain (+2.4) · price+ · 2 traders · top-10 consensus · env−</td><td><span class="chip c-n">MODERATE — only tier above WATCH</span></td></tr>
+      <tr><td class="num">+3.8</td><td>KIOXIA long</td><td class="pos">+8.1%</td><td class="faint">@degentradinglsd (+1.8) · price+ · 2 traders · env−</td><td><span class="chip c-off">already +8% past signal</span></td></tr>
+      <tr><td class="num">+3.7</td><td>MU long</td><td class="pos">+0.3%</td><td class="faint">@firstadopter (+2.7) · 2 traders · top-10 consensus · env−</td><td><span class="chip c-off">budget wall (~$790/sh)</span></td></tr>
+      <tr><td class="num">+3.7</td><td>AMZN long</td><td class="pos">+0.1%</td><td class="faint">@firstadopter (+2.7) · 3 traders · env−</td><td><span class="chip c-off">post-gap; 2-day SHOULD-BE name</span></td></tr>
+      <tr><td class="num">+3.4</td><td>STRC short</td><td class="pos">+0.2%</td><td class="faint">@thedefivillain (+2.4) · env+ <span class="faint">(only idea the environment HELPS)</span></td><td><span class="chip c-n">watch</span></td></tr>
+      <tr><td class="num">+1.7</td><td>NVDA / SPY / TSLA long</td><td class="faint">−0.2 to −1.5%</td><td class="faint">@firstadopter · env− · no price confirmation</td><td><span class="chip c-off">no confirmation yet</span></td></tr>
     </table>
-    <div class="posture"><b>How to read this on a one-way day:</b> at grade +1 with a supportive environment, nearly everything long tiers STRONG — the information is in the ORDER and the penalty flags, not the tier label. Tomorrow's actionable shortlist is short: <b>ORCL</b> (quality-backed, only +2.1% past signal — the one name the gap-adjusted chase rule clears) and <b>LRCX</b> (quality-backed, uncrowded). Everything CROWDED is late by our own rules, and AMZN's edge evaporated in the after-hours pop. Ranking measures conviction only — budget, delta, earnings and chase filters still decide what gets bought.</div>
+    <div class="posture"><b>Yesterday everything scored STRONG; today nothing does — and that is the tool working.</b> Grade 0 removes the ±3 regime bonus entirely and the −0.47 environment actively penalises every long. Exactly one idea clears MODERATE (HYPE), and nothing reaches STRONG. Note what the ranker did with last night's two picks: <b>ORCL and LRCX gapped +2.0% and +5.3% overnight and dropped off the ranked list</b> — the edge was in the gap, and the gap is gone. LRCX was bought and sold premarket this morning for −$10.83, which is the same lesson priced in real money.</div>
+    <table class="num" style="margin-top:12px">
+      <tr><th>KNIFE CATCHES — NEVER ENTERED</th><th>SINCE POST</th></tr>
+      <tr><td>WTI short <span class="faint">@qthomp</span> — fighting the Brent escalation</td><td class="neg">−4.2%</td></tr>
+      <tr><td>FLNC · NBIS · SNDK · BE longs <span class="faint">all posted 1.5–3.8h ago</span></td><td class="neg">−2.3 to −2.9%</td></tr>
+      <tr><td colspan="2" class="faint">Yesterday's winners (SNDK, BE, NBIS) are today's knife catches — the momentum names that ran Thursday are bleeding this morning. Worth noting before chasing any of them back.</td></tr>
+    </table>
   </section>
 </div></div>
 
 <div class="tabpane" id="tab-board"><div class="grid">
   <section>
-    <h2>AUTHOR LEADERBOARD — 7D, MIN 3 IDEAS</h2>
-    <div class="w">RANK EARNED FROM THE BOARD'S OWN RECORD · RE-EVALUATED EVERY FRIDAY · tools/author_log.py</div>
+    <h2>AUTHOR LEADERBOARD — 7D</h2>
+    <div class="w">RE-EARNED WEEKLY · TODAY IS THE FIRST FRIDAY RE-EVALUATION · tools/author_log.py</div>
     <table class="num">
-      <tr><th>#</th><th>TRADER</th><th>IDEAS</th><th>HIT</th><th>MEDIAN</th></tr>
-      <tr><td>1</td><td>@firstadopter</td><td>4</td><td class="pos">75%</td><td class="pos">+10.3%</td></tr>
-      <tr><td>2</td><td>@damnang2</td><td>3</td><td class="pos">67%</td><td class="pos">+4.5%</td></tr>
-      <tr><td>3</td><td>@degentradinglsd</td><td>6</td><td>50%</td><td class="pos">+4.6%</td></tr>
-      <tr><td>4</td><td>@tradfi</td><td>3</td><td>33%</td><td class="neg">−0.9%</td></tr>
-      <tr><td>5</td><td>@martinshkreli</td><td>3</td><td>33%</td><td class="neg">−3.0%</td></tr>
-      <tr><td>6</td><td>@hicagr</td><td>4</td><td>50%</td><td class="neg">−3.2%</td></tr>
-      <tr><td>7</td><td>@pequityresearch</td><td>3</td><td class="neg">0%</td><td class="neg">−30.2%</td></tr>
+      <tr><th>#</th><th>TRADER</th><th>IDEAS</th><th>HIT</th><th>MEDIAN</th><th>Δ vs YESTERDAY</th></tr>
+      <tr><td>1</td><td>@zephyr_z9</td><td>3</td><td class="pos">100%</td><td class="pos">+8.0%</td><td class="pos">NEW to top-10</td></tr>
+      <tr><td>2</td><td>@firstadopter</td><td>5</td><td class="pos">80%</td><td class="pos">+8.8%</td><td class="faint">held #1→#2</td></tr>
+      <tr><td>3</td><td>@thedefivillain</td><td>3</td><td class="pos">67%</td><td class="pos">+9.7%</td><td class="pos">NEW</td></tr>
+      <tr><td>4</td><td>@bubbleboi</td><td>4</td><td class="pos">75%</td><td class="pos">+7.9%</td><td class="pos">NEW</td></tr>
+      <tr><td>5</td><td>@degentradinglsd</td><td>6</td><td>50%</td><td class="pos">+6.1%</td><td class="faint">#3→#5</td></tr>
+      <tr><td>6</td><td>@tradfi</td><td>3</td><td class="pos">100%</td><td class="pos">+2.6%</td><td class="faint">#4→#6</td></tr>
+      <tr><td>7</td><td>@bubble-boy</td><td>3</td><td class="neg">33%</td><td class="neg">−1.5%</td><td class="faint">—</td></tr>
+      <tr><td>8</td><td>@altcoinsherpa</td><td>3</td><td class="neg">33%</td><td class="neg">−1.9%</td><td class="faint">—</td></tr>
     </table>
-    <div class="faint" style="margin-top:6px">Week-1 snapshot logged — <b>nobody is TRUSTED yet.</b> TRUSTED requires top-10 in 2+ consecutive weeks and only then earns full weight in the ranking; week-1 authors sit at probation weight. Bottom row is a fade-watch, not filler.</div>
+    <div class="posture" style="border-color:var(--off)"><b>The churn here is the finding.</b> In ONE day: @zephyr_z9, @thedefivillain and @bubbleboi entered the top-10; @martinshkreli, @hicagr and @pequityresearch (yesterday's 0-for-3, −30% fade-watch) fell off entirely. Only <b>@firstadopter and @degentradinglsd</b> held their places across both days. That volatility is precisely why TRUSTED status requires <b>two consecutive weeks</b> — a one-day or one-week leaderboard is mostly noise, and today's re-evaluation is only week 1. Nobody is TRUSTED yet; all author weights are still at probation.</div>
   </section>
 
   <section>
-    <h2>CUMULATIVE WEEKLY CONSENSUS</h2>
-    <div class="w">SNAPSHOTS LOGGED EVERY CHECK-IN · GAP = QUALITY CONSENSUS NEVER WATCHED OR TRADED</div>
+    <h2>TODAY'S CONSENSUS + WEEKLY GAPS</h2>
+    <div class="w">FRESH FLOW 24L/7S IN 6H · LONGS WINNING · NO TURN ALARM · NO CROWDED NAMES</div>
     <table class="num">
-      <tr><th>TICKER</th><th>DAYS</th><th>TOP-10</th><th>LAST</th><th>STATUS</th></tr>
-      <tr><td><b>CRWV</b> short</td><td>1</td><td>4</td><td class="faint">+0.0%</td><td><span class="chip c-off">GAP</span></td></tr>
-      <tr><td>BE long</td><td>1</td><td>3</td><td class="pos">+21.8%</td><td><span class="chip c-n">TRADED</span></td></tr>
-      <tr><td>SNDK long</td><td>1</td><td>2</td><td class="pos">+30.9%</td><td><span class="chip c-n">TRADED</span></td></tr>
-      <tr><td>NBIS long</td><td>1</td><td>2</td><td class="pos">+27.1%</td><td><span class="chip c-n">TRADED</span></td></tr>
-      <tr><td>CRWV long</td><td>1</td><td>2</td><td class="pos">+23.8%</td><td><span class="chip c-off">GAP</span></td></tr>
-      <tr><td>AMZN long</td><td>1</td><td>2</td><td class="pos">+6.9%</td><td><span class="chip c-off">GAP</span></td></tr>
-      <tr><td>ADBE long</td><td>1</td><td>2</td><td class="faint">+0.0%</td><td><span class="chip c-off">GAP</span></td></tr>
-      <tr><td>LRCX long</td><td>1</td><td>1</td><td class="pos">+11.4%</td><td><span class="chip c-off">GAP</span></td></tr>
-      <tr><td>ORCL long</td><td>1</td><td>1</td><td class="pos">+2.1%</td><td><span class="chip c-off">GAP</span></td></tr>
+      <tr><th>TICKER</th><th>TRADERS</th><th>TOP-10</th><th>NOW</th></tr>
+      <tr><td><b>HYPE</b> long</td><td>2</td><td class="pos">2</td><td class="pos">+1.1%</td></tr>
+      <tr><td><b>MU</b> long</td><td>2</td><td class="pos">2</td><td class="pos">+0.3%</td></tr>
+      <tr><td>AMZN long</td><td>3</td><td>1</td><td class="pos">+0.1%</td></tr>
+      <tr><td>KIOXIA long</td><td>2</td><td>1</td><td class="pos">+8.1%</td></tr>
+      <tr><td>SKHY long</td><td>2</td><td>1</td><td class="pos">+0.5%</td></tr>
+      <tr><td>BTC long</td><td>3</td><td>1</td><td class="neg">−1.0%</td></tr>
     </table>
-    <div class="faint" style="margin-top:6px">One day of data — DAYS starts discriminating tomorrow. Names at 2+ days get promoted to the watchlist with a written reason at Friday's wrap, or rejected with one.</div>
-  </section>
-
-  <section style="grid-column:1/-1">
-    <div class="posture"><b>The split worth watching: CRWV.</b> Nine traders are long it (crowd), five are short — but <b>four of the five shorts are top-10 ranked</b>. The crowd is long; the quality is short. The longs are winning today (+23.8%). This is the exact quantity-vs-quality divergence the leaderboard exists to surface, and Friday's re-ranking is the first test of whether quality was right.</div>
+    <div class="faint" style="margin-top:6px">HYPE and MU are the only two names with <b>2 top-10 traders each</b> on the same side today — the highest-quality agreement on the board.</div>
+    <table class="num" style="margin-top:12px">
+      <tr><th>SHOULD-BE LIST — 2+ DAYS OF QUALITY CONSENSUS, NEVER ACTED ON</th></tr>
+      <tr><td><b>AMZN long</b> — @firstadopter, @tradfi</td></tr>
+      <tr><td><b>SKHY long</b> — @degentradinglsd</td></tr>
+      <tr><td colspan="2" class="faint">Per workflow, these get promoted to watchlist.md with a written reason at today's wrap, or explicitly rejected with one. First names the audit has produced.</td></tr>
+    </table>
+    <div class="faint" style="margin-top:8px">X NOTIFICATIONS: <span class="chip c-x">OFFLINE</span> digest 7 days stale (AS_OF Jul 24) · weight 0 all week. Worth deciding at the wrap whether to fix the desktop bridge or drop the input.</div>
   </section>
 </div></div>
 
 <div class="tabpane" id="tab-performance"><div class="grid">
   <section style="grid-column:1/-1">
     <h2>R LEDGER — PERFORMANCE IN RISK UNITS</h2>
-    <div class="w">EVERY CLOSED TRADE ÷ ITS PLANNED RISK · LIFETIME, 28 CLOSED TRADES · tools/trade_stats.py</div>
+    <div class="w">EVERY CLOSED TRADE ÷ ITS PLANNED RISK · LIFETIME, 29 CLOSED TRADES · tools/trade_stats.py</div>
     <table class="num">
       <tr><th>NET RETURN</th><th>WIN RATE</th><th>AVG TRADE</th><th>AVG WIN / AVG LOSS</th><th>PROFIT FACTOR</th></tr>
-      <tr><td class="neg"><b>−7.60R</b> <span class="faint">(+$385)</span></td><td>21% <span class="faint">(6W/22L)</span></td>
-          <td class="neg">−0.27R</td><td><span class="pos">+1.38R</span> / <span class="neg">−0.72R</span></td><td>1.17</td></tr>
+      <tr><td class="neg"><b>−7.83R</b> <span class="faint">(+$374)</span></td><td>21% <span class="faint">(6W/23L)</span></td>
+          <td class="neg">−0.27R</td><td><span class="pos">+1.38R</span> / <span class="neg">−0.70R</span></td><td>1.16</td></tr>
     </table>
-    <div class="posture" style="border-color:var(--off)"><b>The paradox, now wider: +$385 in dollars, −7.60R in process.</b> Tonight's two EWY round trips added −$212 and pushed profit factor from 1.29 down to <b>1.17</b>. The book stays dollar-positive only because SNDK was the biggest position. A 21% win rate needs roughly +4R average wins to break even; the actual average win is +1.38R. Dollars measure the outcome; R measures the process — and the process is still losing.</div>
+    <div class="posture" style="border-color:var(--off)"><b>The paradox, four days running: +$374 in dollars, −7.83R in process.</b> Profit factor has now slid 1.29 → 1.17 → <b>1.16</b> across three consecutive updates as EWY and LRCX added losses. The book stays dollar-positive only because SNDK was the biggest position. A 21% win rate needs roughly +4R average wins to break even; the actual average win is +1.38R. Dollars measure the outcome; R measures the process — and the process is still losing.</div>
     <table class="num" style="margin-top:12px">
       <tr><th>PLAN VIOLATIONS — LOSSES BEYOND −1.0R (STOP NOT HONORED OR NEVER SET)</th><th>R</th><th>ACTUAL vs PLANNED</th></tr>
       <tr><td>#27 RDDT — into the earnings print</td><td class="neg">−2.60R</td><td class="neg">−$704 vs $271</td></tr>
@@ -237,17 +253,18 @@
 
   <section>
     <h2>WEEK P&L — MANUAL ••••5308</h2>
-    <div class="w">CALENDAR WEEK MON JUL 27 → NOW · 26 TRADES · WIN RATE 23%</div>
+    <div class="w">CALENDAR WEEK MON JUL 27 → FRI 09:04 · 27 TRADES · WIN RATE 22%</div>
     <table class="num">
       <tr><th>NET REALIZED</th><th>WINS</th><th>LOSSES</th></tr>
-      <tr><td class="pos"><b>+$208.70</b></td><td>6</td><td>20</td></tr>
+      <tr><td class="pos"><b>+$197.87</b></td><td>6</td><td>21</td></tr>
     </table>
-    <div class="faint" style="margin-top:2px">Was +$420 before tonight; EWY's −$212 cut it in half. Still positive only because of SNDK.</div>
+    <div class="faint" style="margin-top:2px">Was +$420 Thursday afternoon. EWY (−$212) and LRCX (−$11) cut it to +$198. The week is positive on one trade: SNDK. Remove it and the desk is −$2,158.</div>
     <table class="num">
       <tr><th>BEST</th><th></th><th>WORST</th><th></th></tr>
       <tr><td class="pos">SNDK</td><td class="pos">+$2,355.57</td><td class="neg">RDDT <span class="chip c-off">BANNED</span></td><td class="neg">−$967.49</td></tr>
       <tr><td class="pos">ETH</td><td class="pos">+$9.00</td><td class="neg">BE</td><td class="neg">−$332.25</td></tr>
       <tr><td class="faint">—</td><td class="faint">—</td><td class="neg">MU · QQQI · EWY</td><td class="neg">−$229 / −$212 / −$212</td></tr>
+      <tr><td class="faint">open risk</td><td class="faint">—</td><td class="neg">CORD 100sh <span class="faint">2× inverse CRWV</span></td><td class="neg">≈ −$40 unrealized</td></tr>
     </table>
   </section>
 
@@ -264,6 +281,7 @@
       <tr><td><span class="chip c-off">CHURN</span> RDDT: 10 round trips, −$967.49</td></tr>
       <tr><td><span class="chip c-off">REVENGE</span> RDDT 7/28 and 7/29 — 3+ same-day losses each</td></tr>
       <tr><td><span class="chip c-off">SESSION</span> 8 overnight-window violations · <b>every one a loss</b></td></tr>
+      <tr><td><span class="chip c-off">AVERAGING DOWN</span> CORD 10sh → 100sh while −15% · past its stop</td></tr>
     </table>
   </section>
 </div></div>
@@ -271,7 +289,7 @@
 <div class="tabpane" id="tab-journal"><div class="grid">
   <section style="grid-column:1/-1">
     <h2>DECISION JOURNAL</h2>
-    <div class="w">32 ENTRIES LIFETIME · THESIS + FALSIFIER AT ENTRY · plan_* = DISCIPLINE HELD, discretion/drift = LEAKS</div>
+    <div class="w">33 ENTRIES LIFETIME · 3 OPEN · THESIS + FALSIFIER AT ENTRY · plan_* = DISCIPLINE HELD, discretion/drift = LEAKS</div>
     <table>
       <tr><th>OPEN</th><th>THESIS</th><th class="num">FALSIFIER</th></tr>
       <tr><td class="num"><b>#25 CMG</b> 8/21 $41C @0.60<br><span class="faint">agentic</span></td>
@@ -280,12 +298,13 @@
       <tr><td class="num"><b>#26 TAL</b> 8/21 $13C @0.30<br><span class="faint">agentic</span></td>
           <td class="faint">Post-earnings momentum, binary removed (reported Thu AM, +13.5%), delta 0.33 at entry</td>
           <td class="faint">Premium ≤$0.15 · or TAL under $11.60</td></tr>
-      <tr><td class="num"><b>#32 CORD</b> 10sh @6.39<br><span class="faint">manual</span></td>
-          <td class="faint">UNRECORDED — after-hours starter alongside the EWY block</td>
-          <td class="faint">PENDING USER INPUT · −3% = $6.20</td></tr>
+      <tr><td class="num"><b>#32 CORD</b> 100sh @6.06<br><span class="faint">manual · 2× inv CRWV</span></td>
+          <td class="faint">2× inverse CRWV ETF; 10sh → 100sh, averaged down while −15%. Same side as the 4 top-10 CRWV shorts.</td>
+          <td class="faint">−3% = $5.88 — <b>already breached</b> at $5.66</td></tr>
     </table>
     <table class="num" style="margin-top:14px">
-      <tr><th>CLOSED TODAY</th><th>P&L</th><th>EXIT REASON</th></tr>
+      <tr><th>CLOSED SINCE THE LAST BRIEF</th><th>P&L</th><th>EXIT REASON</th></tr>
+      <tr><td>#33 LRCX 5sh <span class="faint">premarket round trip, bought after its +5.3% gap</span></td><td class="neg">−$10.83</td><td><span class="chip c-n">discretion</span></td></tr>
       <tr><td>#22 SNDK 10sh <span class="faint">the crash-buy at the $1,048 pivot</span></td><td class="pos">+$1,508.31</td><td><span class="chip c-n">discretion</span></td></tr>
       <tr><td>#24 SNDK 10sh <span class="faint">the double-down, scaled out</span></td><td class="pos">+$847.26</td><td><span class="chip c-n">discretion</span></td></tr>
       <tr><td>#27 RDDT 50sh <span class="faint">30 added 16:05 AH, into the print</span></td><td class="neg">−$703.95</td><td><span class="chip c-off">discretion · P2 logged</span></td></tr>
@@ -294,7 +313,7 @@
       <tr><td>#28 NBIS · #29 SMH <span class="faint">Leopold basket legs</span></td><td class="neg">−$25.73 / −$16.35</td><td><span class="chip c-n">discretion</span></td></tr>
     </table>
     <div class="faint" style="margin-top:8px">DRIFT CHECK: every exit this week was discretionary — not one trade closed because a written rule fired. The wins came from good reads held; the losses came from plans that were never written. 16 closed trades still await P2 reflections, and Friday asks the winners first: SNDK deserves the same autopsy as RDDT got.</div>
-    <div class="posture" style="border-color:var(--off)"><b>Pattern of the night, from the psychology profile:</b> the profile written yesterday warned to "watch for the fixation MIGRATING to a new host ticker" after a ban. Within hours of the RDDT ban, EWY took the role — same signature: fast re-entry after a loss, size averaged up into weakness, session-boundary timing. Worth asking at Friday's review: <i>what is the ban actually for?</i> If the answer is the ticker, the pattern relocates. If it's the behavior, the rule needs to name the behavior.</div>
+    <div class="posture" style="border-color:var(--off)"><b>The pattern has now hosted on three names in 36 hours.</b> RDDT (banned Thursday) → EWY (two round trips overnight, −$212, inside the banned window) → CORD (10sh → 100sh averaged down, past its stop). Same signature each time: re-entry or size added after a loss, into weakness, outside regular hours. The profile predicted the migration in writing before EWY happened. Today's wrap should answer the question directly: <i>what is a ban actually for?</i> If it names a ticker, the behavior relocates within hours — the evidence is now three-deep. If it names the behavior (no adds into a losing position; no fills outside RTH), it has somewhere to bite.</div>
     <div style="margin-top:12px">
       <div class="w">MY NOTES <span id="nsave" class="faint"></span></div>
       <textarea id="notes" rows="5" spellcheck="false" placeholder="Saves in this browser only. To get notes into the system, paste them in chat or commit to terminal/journal_inbox.txt — the daily brief distills them into the psychology profile and wipes the raw text."

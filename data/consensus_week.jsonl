@@ -32,3 +32,10 @@
 {"ts": "2026-07-30T21:39+00:00", "ticker": "CRWV", "side": "short", "n_authors": 5, "n_top": 4, "top": ["firstadopter", "hicagr", "martinshkreli", "tradfi"], "now_pct": 0.0}
 {"ts": "2026-07-30T21:39+00:00", "ticker": "MU", "side": "short", "n_authors": 3, "n_top": 2, "top": ["degentradinglsd", "tradfi"], "now_pct": 0.0}
 {"ts": "2026-07-30T21:39+00:00", "ticker": "NBIS", "side": "short", "n_authors": 4, "n_top": 1, "top": ["tradfi"], "now_pct": 0.0}
+{"ts": "2026-07-31T13:03+00:00", "ticker": "KIOXIA", "side": "long", "n_authors": 2, "n_top": 1, "top": ["degentradinglsd"], "now_pct": 8.06}
+{"ts": "2026-07-31T13:03+00:00", "ticker": "HYPE", "side": "long", "n_authors": 2, "n_top": 2, "top": ["altcoinsherpa", "thedefivillain"], "now_pct": 1.06}
+{"ts": "2026-07-31T13:03+00:00", "ticker": "SKHY", "side": "long", "n_authors": 2, "n_top": 1, "top": ["degentradinglsd"], "now_pct": 0.47}
+{"ts": "2026-07-31T13:03+00:00", "ticker": "MU", "side": "long", "n_authors": 2, "n_top": 2, "top": ["firstadopter", "thedefivillain"], "now_pct": 0.29}
+{"ts": "2026-07-31T13:03+00:00", "ticker": "AMZN", "side": "long", "n_authors": 3, "n_top": 1, "top": ["firstadopter"], "now_pct": 0.12}
+{"ts": "2026-07-31T13:03+00:00", "ticker": "BTC", "side": "long", "n_authors": 3, "n_top": 1, "top": ["altcoinsherpa"], "now_pct": 0.0}
+{"ts": "2026-07-31T13:03+00:00", "ticker": "SNDK", "side": "long", "n_authors": 2, "n_top": 1, "top": ["altcoinsherpa"], "now_pct": 0.0}
