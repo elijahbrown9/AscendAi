@@ -142,3 +142,28 @@ declared, EWY became the new host:
   moves. Watch the first 48h after any ban for a new host with the same
   signature: fast re-entry after a loss, size added into weakness,
   session-boundary timing.
+
+### 2026-07-31 (intraday) — CORD is the third host; the signature inverted
+Logged from the order book at the 12:20 ET account check. CORD, 9 fills in
+one session, all placed_agent=user:
+- 07:23 buy 5 @5.77 · 08:16 buy 85 @6.04 (premarket, the GOOD entries) ·
+  10:23 buy 5 @7.10 · 10:26 buy 5 @7.105 · 10:36 buy 100 @7.07 ·
+  10:41 buy 40 @7.06 · **10:52 SELL all 250 @6.9201 (+63.44)** ·
+  11:46 **BUY 300 @7.230 + BUY 200 @7.2288** — 500sh, ~$3,615.
+- **The exit was a winner and the re-entry was 4.5% higher with 2× the
+  size.** This is leak #1 (fixation) fused with the 7/30 retro's own
+  self-diagnosis ("broken trust in the original read"): the 8:16am fill at
+  $6.04 WAS the read. Selling it at $6.92 and buying it back at $7.23
+  paid $0.31/share for the privilege of holding the same opinion.
+- Difference from RDDT and EWY: **the direction is right.** CRWV −4.08%
+  today, CORD +8.45%, the thesis is working. The churn is not costing
+  the trade, it is costing basis. That makes this the cleanest possible
+  test of the behavior-vs-ticker question — there is nothing to ban here,
+  only a rule to write.
+- Sizing was legal (13.4% of account vs 30% cap) and timing was legal
+  (all RTH/premarket, zero 8pm-4am fills today — first clean session of
+  the week on that rule). LRCX round trip 07:18-07:34 premarket, −$10.83,
+  also legal, also a 16-minute in-and-out.
+- **Proposed rule for the Friday wrap, behavior-named not ticker-named:**
+  no re-entry into a name above the price you exited it at, same session.
+  It would have blocked the 11:46 rebuy and cost nothing else this week.
