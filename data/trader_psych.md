@@ -167,3 +167,45 @@ one session, all placed_agent=user:
 - **Proposed rule for the Friday wrap, behavior-named not ticker-named:**
   no re-entry into a name above the price you exited it at, same session.
   It would have blocked the 11:46 rebuy and cost nothing else this week.
+
+### 2026-07-31 (15:10 ET) — CORD closed flat on a correct call; SNDK is host #4
+The CORD cycle completed and it is the cleanest receipt in the file for the
+behavior-named rule. Full day, all placed_agent=user:
+- Premarket core 07:23 5sh @5.77 + 08:16 85sh @6.04 (avg 6.026). Four RTH
+  adds 10:23-10:41 (150sh @7.06-7.11) took the block to 250sh. **10:52 SELL
+  all 250 @6.9201 (+63.44)** · 11:46 **BUY 500 @7.229** (4.5% above the exit,
+  2x the size) · **12:33 SELL all 500 @7.09 (-69.76).**
+- **Net on CORD for the week: -$6.32.** CORD closed the session +4.7% and was
+  +15.8% off the 8:16am fill. Holding just the 90sh premarket core to the
+  12:33 exit was +$95.76. The read was right all day and the account made
+  nothing on it. This is the first time the churn cost has been isolated
+  from the direction with no confounding: **~$100 paid to hold the same
+  opinion at three different bases.**
+- **Credit where it is due: the final exit was good.** Sold at 7.09 against a
+  7.229 basis (-1.9%), ahead of the -3% stop, as CRWV bounced from -4.08% to
+  -2.36%. That is the falsifier discipline working in real time and it
+  matches the 7/30 finding that this trader cuts well. The leak is never the
+  exit. It is the re-entry.
+- The 11:46 rebuy is the only trade of the day that lost real money, and the
+  proposed rule (no re-entry into a name above the price you exited it at,
+  same session) is the only rule in the file that would have blocked it.
+  Week-to-date it would have blocked nothing else.
+
+**SNDK is fixation host #4, and it was predicted by name.**
+- 14:20 ET, 12 minutes after the 2pm check-in: market buy 5sh @1240.665
+  (~$6,203, 2.3 units of a $26,941 account). SNDK -2.44% on the day — a
+  dip-buy in the name that paid +$2,355.57 yesterday across two exits.
+- **This is the third SNDK entry this calendar week against a self-imposed
+  1-2/week cap that was already hit on 7/30 and does not reset until Monday.**
+  The 7/30 profile named SNDK specifically as the next host: "it has the
+  prior churn history AND just paid."
+- Sizing and timing are both legal — 2.3 units vs the 3-unit hard cap,
+  grade +1 permits 2-3 units, RTH fill. No stop written on $6.2k.
+- The four-host sequence now reads: RDDT banned -> EWY (2 round trips, 5
+  hours, -$211.62) -> CORD (9 fills, one session, -$6.32 on a right call)
+  -> SNDK (a name under a CAP rather than a BAN, and the cap is simply
+  exceeded). Each mechanism was satisfied on its letter. **The answer to
+  "what is a ban actually for" is now visible in the data: every
+  ticker-scoped control this week has relocated the behavior rather than
+  stopped it, and the one control that would have bitten — a
+  behavior-scoped rule — does not exist yet.**
