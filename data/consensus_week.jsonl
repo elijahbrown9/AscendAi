@@ -66,3 +66,8 @@
 {"ts": "2026-07-31T18:06+00:00", "ticker": "SKHY", "side": "long", "n_authors": 2, "n_top": 1, "top": ["degentradinglsd"], "now_pct": 0.0}
 {"ts": "2026-07-31T18:06+00:00", "ticker": "MU", "side": "long", "n_authors": 3, "n_top": 2, "top": ["firstadopter", "thedefivillain"], "now_pct": 0.0}
 {"ts": "2026-07-31T18:06+00:00", "ticker": "SNDK", "side": "long", "n_authors": 2, "n_top": 1, "top": ["altcoinsherpa"], "now_pct": 0.0}
+{"ts": "2026-08-01T18:05+00:00", "ticker": "BTC", "side": "short", "n_authors": 2, "n_top": 0, "top": [], "now_pct": 0.61}
+{"ts": "2026-08-01T18:05+00:00", "ticker": "SP500", "side": "short", "n_authors": 3, "n_top": 0, "top": [], "now_pct": 0.26}
+{"ts": "2026-08-01T18:05+00:00", "ticker": "HYPE", "side": "short", "n_authors": 2, "n_top": 0, "top": [], "now_pct": 0.0}
+{"ts": "2026-08-01T18:05+00:00", "ticker": "TLT", "side": "short", "n_authors": 2, "n_top": 0, "top": [], "now_pct": 0.0}
+{"ts": "2026-08-01T18:05+00:00", "ticker": "NVDA", "side": "long", "n_authors": 3, "n_top": 2, "top": ["degentradinglsd", "firstadopter"], "now_pct": 0.0}
