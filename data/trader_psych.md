@@ -209,3 +209,43 @@ behavior-named rule. Full day, all placed_agent=user:
   ticker-scoped control this week has relocated the behavior rather than
   stopped it, and the one control that would have bitten — a
   behavior-scoped rule — does not exist yet.**
+
+### 2026-07-31 (post-close) — the controlled experiment finished itself
+Three fills landed after the 15:04 desk pull and before the wrap was
+published. Backfilled from the order book:
+- **15:42 SELL SNDK 5sh @1,224.28, −$81.93** — an 82-minute round trip on
+  the 14:20 entry at 1,240.665. Cut at −1.32%, well inside the −3% stop.
+- **15:57 BUY CORD 100sh @7.0396** (~$704, 0.26u) — fourth CORD entry of
+  the day, 3h24m after selling 500sh at 7.09. **Below the exit price**, so
+  the proposed same-session rule would NOT have blocked it. Good: the rule
+  is meant to catch paying up, not re-entry as such, and this is the first
+  live case proving the distinction bites correctly.
+- **17:50 + 17:56 BUY LIME 20sh @29.38** (~$588, 0.22u), extended hours,
+  after the agent's LIME brief. Sized at roughly a fifth of the 1 unit the
+  brief suggested — the most conservative sizing decision in the file so
+  far, on the trader's own initiative.
+
+**The SNDK two-week record is the cleanest evidence in the book.**
+Week of 7/20: −$701.12 across **19 trades**. Week of 7/27: +$2,273.64
+across **4**. Same trader, same name, same conviction; the only variable
+that moved was frequency. And the instant frequency picked back up on
+Friday afternoon, the name gave $81.93 back. Conviction is not the leak.
+Re-entry frequency is — now with a paired sample rather than an argument.
+
+**Both weeks have the same shape: one session makes it, four bleed.**
+7/21 was +$2,056 (31 trades) against −$1,095 across the rest of that week.
+7/30 was +$1,538 against −$1,428 across the rest of this one. Two weeks,
+identical structure. Expectancy is being carried by a single day each time,
+which is survivable only while the payoff ratio holds.
+
+**Sizing is genuinely improving and should be said out loud.** Friday's
+closing book is 0.26u + 0.22u = under half a unit total, against a Monday
+that opened with ~4u concentrated in RDDT. The 2.3-unit SNDK entry at 14:20
+was the outlier of the day, and it was closed inside 90 minutes.
+
+**Agent process failure logged against itself:** desk state was pulled at
+15:04 and a dashboard asserting positions was published at 18:30 without a
+re-pull, so the first revision claimed SNDK was held into Wednesday's
+earnings after it had been sold. Fourth stale-position report this week.
+Standing fix: re-pull get_equity_positions immediately before any artifact
+or brief that states a position, never carry a prior check-in's picture.
