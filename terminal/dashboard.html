@@ -10,7 +10,7 @@
   body{background:var(--bg);color:var(--ink);margin:0;
     font:14px/1.55 ui-monospace,'SF Mono',Menlo,Consolas,monospace;
     -webkit-font-smoothing:antialiased}
-  .wrap{max-width:1060px;margin:0 auto;padding:20px 16px 48px}
+  .wrap{max-width:1080px;margin:0 auto;padding:20px 16px 48px}
   .num{font-variant-numeric:tabular-nums}
   header{display:flex;justify-content:space-between;align-items:baseline;
     border-bottom:1px solid var(--line);padding-bottom:12px;flex-wrap:wrap;gap:6px}
@@ -18,25 +18,26 @@
   .logo em{color:var(--amber);font-style:normal}
   .stamp{color:var(--dim);font-size:12px}
   .verdict{margin:20px 0 8px;background:var(--panel);border:1px solid var(--line);
-    border-left:4px solid var(--neutral);padding:18px 20px;display:flex;
-    justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
-  .verdict h1{margin:0;font-size:30px;letter-spacing:.06em;color:var(--neutral);text-wrap:balance}
-  .verdict .sub{color:var(--dim);font-size:12.5px;max-width:52ch}
-  .score{font-size:13px;color:var(--dim)}
-  .score b{color:var(--ink);font-size:20px}
-  .gauge{margin:14px 0 6px}
-  .gauge .track{display:grid;grid-template-columns:repeat(5,1fr);gap:4px}
-  .gauge .seg{height:34px;display:flex;align-items:center;justify-content:center;
-    font-size:10.5px;letter-spacing:.08em;color:var(--faint);
-    background:var(--panel2);border:1px solid var(--line)}
-  .gauge .seg.active{color:#0B0E14;font-weight:700;background:var(--neutral);border-color:var(--neutral)}
-  .gauge .seg.ghost{color:var(--amber);border-color:var(--amber);border-style:dashed}
-  .gauge .lbl{display:flex;justify-content:space-between;color:var(--faint);
-    font-size:10px;letter-spacing:.1em;margin-top:6px}
+    border-left:4px solid var(--amber);padding:18px 20px;display:flex;
+    justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px}
+  .verdict h1{margin:0;font-size:29px;letter-spacing:.05em;color:var(--amber);text-wrap:balance}
+  .verdict .sub{color:var(--dim);font-size:12.5px;max-width:56ch}
+  .score{font-size:13px;color:var(--dim);text-align:right}
+  .score b{color:var(--ink);font-size:26px}
+  .roro{margin:14px 0 6px}
+  .roro .track{position:relative;height:38px;background:var(--panel2);border:1px solid var(--line)}
+  .roro .zone{position:absolute;top:0;bottom:0;font-size:9.5px;letter-spacing:.1em;
+    color:var(--faint);display:flex;align-items:center;justify-content:center;
+    border-right:1px solid var(--line)}
+  .roro .mark{position:absolute;top:-5px;bottom:-5px;width:3px;background:var(--amber)}
+  .roro .mark::after{content:"+0.243";position:absolute;top:-15px;left:50%;
+    transform:translateX(-50%);font-size:10px;color:var(--amber);letter-spacing:.06em}
+  .roro .lbl{display:flex;justify-content:space-between;color:var(--faint);
+    font-size:10px;letter-spacing:.1em;margin-top:8px}
   .grid{display:grid;grid-template-columns:1.35fr 1fr;gap:14px}
   .grid.even{grid-template-columns:1fr 1fr}
   .grid.full{grid-template-columns:1fr}
-  @media(max-width:760px){.grid,.grid.even{grid-template-columns:1fr}}
+  @media(max-width:780px){.grid,.grid.even{grid-template-columns:1fr}}
   section{background:var(--panel);border:1px solid var(--line);padding:16px 18px}
   section h2{margin:0 0 4px;font-size:12px;letter-spacing:.14em;color:var(--amber)}
   section .w{color:var(--faint);font-size:10.5px;letter-spacing:.08em}
@@ -46,6 +47,7 @@
     letter-spacing:.1em;padding:0 8px 6px 0;border-bottom:1px solid var(--line);white-space:nowrap}
   td{padding:7px 8px 7px 0;border-bottom:1px solid var(--panel2);vertical-align:top}
   tr:last-child td{border-bottom:none}
+  td.r,th.r{text-align:right;padding-right:0}
   .chip{display:inline-block;padding:1px 8px;font-size:10.5px;letter-spacing:.06em;border:1px solid;white-space:nowrap}
   .c-off{color:var(--off);border-color:var(--off)}
   .c-on{color:var(--on);border-color:var(--on)}
@@ -59,21 +61,22 @@
   .posture b{color:var(--amber)}
   .posture.bad{border-left-color:var(--off)} .posture.bad b{color:var(--off)}
   .posture.good{border-left-color:var(--on)} .posture.good b{color:var(--on)}
-  .bars{margin-top:10px;display:flex;flex-direction:column;gap:5px}
-  .bar{display:grid;grid-template-columns:74px 1fr 60px;gap:8px;align-items:center;font-size:12px}
-  .bar .t{color:var(--dim)}
-  .bar .track{height:12px;background:var(--panel2);border:1px solid var(--line);position:relative}
+  .bars{margin-top:12px;display:flex;flex-direction:column;gap:6px}
+  .bar{display:grid;grid-template-columns:92px 1fr 52px;gap:10px;align-items:center;font-size:12px}
+  .bar .t{color:var(--dim);letter-spacing:.06em}
+  .bar .track{height:15px;background:var(--panel2);border:1px solid var(--line);position:relative}
   .bar .fill{position:absolute;top:0;bottom:0;left:50%}
   .bar .fill.p{background:var(--on)} .bar .fill.n{background:var(--off);transform:translateX(-100%)}
-  .bar .track::before{content:"";position:absolute;left:50%;top:-2px;bottom:-2px;
+  .bar .track::before{content:"";position:absolute;left:50%;top:-3px;bottom:-3px;
     width:1px;background:var(--faint)}
   .bar .v{text-align:right}
+  .wt{color:var(--faint);font-size:10px}
   footer{margin-top:22px;color:var(--faint);font-size:11px;line-height:1.7;
     border-top:1px solid var(--line);padding-top:12px}
   footer code{color:var(--dim)}
   .tabs{display:flex;gap:6px;margin:18px 0 0;flex-wrap:wrap}
   .tabbtn{background:var(--panel2);border:1px solid var(--line);color:var(--dim);
-    font:inherit;font-size:11px;letter-spacing:.12em;padding:8px 16px;cursor:pointer}
+    font:inherit;font-size:11px;letter-spacing:.12em;padding:8px 15px;cursor:pointer}
   .tabbtn:hover{color:var(--ink);border-color:var(--faint)}
   .tabbtn:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
   .tabbtn.active{background:var(--amber);border-color:var(--amber);color:#0B0E14;font-weight:700}
@@ -88,157 +91,234 @@
 <div class="wrap">
 <header>
   <div class="logo">ASCEND <em>//</em> RISK TERMINAL</div>
-  <div class="stamp num">FRI 2026-07-31 · WEEKLY WRAP + WEEK AHEAD · REV 2, 7:05 PM ET · DESK STATE RE-PULLED</div>
+  <div class="stamp num">FRI 2026-07-31 CLOSE · CROSS-ASSET RISK REGIME + WEEKLY WRAP</div>
 </header>
 
 <div class="verdict">
   <div>
-    <h1>0 · MIXED <span style="font-size:15px;color:var(--faint);letter-spacing:.1em">PROVISIONAL</span></h1>
-    <div class="sub">Friday <b>traded</b> at +1 RISK ON — the 2pm turn protocol fired on four fresh confirmed longs and shifted the grade one notch. <b>That turn did not survive the close.</b> Fresh 6h flow went 28L/17S at 3pm → <b>8L/11S at the bell</b>, confirmed candidates collapsed 6 → 1, and PUMP round-tripped from confirmed long (+3.8%) to knife (−3.3%) inside two hours. On the inputs I can measure after hours the composite lands at <b>−0.138</b>, back inside MIXED. Monday's 9am brief recomputes with the full conditions panel — this is a placeholder, not the grade.</div>
+    <h1>RISK ON — BUT ROTATING OUT OF WHAT YOU TRADE</h1>
+    <div class="sub">Thirteen cross-asset ratios over four windows put the composite at <b>+0.243</b>, a hair under the RISK ON line. The split is not noise, it is a signature: <b>credit, cyclicals and havens all say risk on; leadership, breadth, consumer and liquidity all say risk off.</b> Money is not leaving risk — it is leaving <b>tech</b>. Semis have underperformed the S&amp;P by <b>13.06% in a month</b> while regional banks beat utilities by <b>15.09% in three</b>. That is rotation, not de-risking, and the risk-off half of it sits precisely where this book trades.</div>
   </div>
-  <div class="score num">partial composite <b>−0.138</b> <span class="faint">storm veto: no</span><br>gauge −0.19 (w3) · board −0.06 (w2) · <span class="faint">conditions + X pending</span></div>
+  <div class="score num">RORO composite<br><b>+0.243</b><br><span class="faint">−1 full off · +1 full on</span></div>
 </div>
 
-<div class="gauge">
+<div class="roro">
   <div class="track">
-    <div class="seg">−2 ULTRA OFF</div><div class="seg">−1 RISK OFF</div><div class="seg active">0 MIXED</div>
-    <div class="seg ghost">+1 RISK ON</div><div class="seg">+2 ULTRA ON</div>
+    <div class="zone" style="left:0;width:25%">FULL RISK OFF</div>
+    <div class="zone" style="left:25%;width:12.5%">RISK OFF</div>
+    <div class="zone" style="left:37.5%;width:25%">MIXED / ROTATING</div>
+    <div class="zone" style="left:62.5%;width:12.5%">RISK ON</div>
+    <div class="zone" style="left:75%;width:25%;border-right:none">FULL RISK ON</div>
+    <div class="mark" style="left:62.15%"></div>
   </div>
-  <div class="lbl"><span>PUTS ONLY / FLAT</span><span>dashed = Friday's expired posture</span><span>MAX LONG</span></div>
+  <div class="lbl"><span>−1.00</span><span>0.00</span><span>+1.00</span></div>
 </div>
 
 <nav class="tabs">
-  <button data-tab="overview" class="tabbtn active">OVERVIEW</button>
+  <button data-tab="roro" class="tabbtn active">RISK ON / OFF</button>
   <button data-tab="tape" class="tabbtn">THE TAPE</button>
+  <button data-tab="book" class="tabbtn">BOOK</button>
   <button data-tab="board" class="tabbtn">BOARD INTEL</button>
   <button data-tab="performance" class="tabbtn">PERFORMANCE</button>
   <button data-tab="journal" class="tabbtn">JOURNAL</button>
 </nav>
 
-<!-- ══════════════════ OVERVIEW ══════════════════ -->
-<div class="tabpane active" id="tab-overview"><div class="grid">
+<!-- ══════════════════ RISK ON / OFF ══════════════════ -->
+<div class="tabpane active" id="tab-roro"><div class="grid full">
   <section>
-    <h2>BOOK — AGENTIC ••••0924</h2>
-    <div class="w">TOTAL $158.62 · CASH $138.62 · OPTIONS $20.00 · BUYING POWER $115.68 · 1 SLOT OPEN</div>
-    <div class="tw"><table class="num">
-      <tr><th>POSITION</th><th>BASIS</th><th>MARK</th><th>P&amp;L</th><th>UNDERLYING</th><th>STATUS</th></tr>
-      <tr><td>TAL 8/21 $13C ×1</td><td>0.30</td><td>0.20</td><td class="neg">−$10.00 · −33%</td><td>12.465 <span class="pos">+1.01%</span></td><td><span class="chip c-n">HOLD</span></td></tr>
-      <tr><td colspan="6" class="faint">delta 0.322 · theta −0.0089 · IV 33.4% · OI 1,551 · break-even $13.20 · bid 0.15 × 1,113 / ask 0.25 × 13</td></tr>
-      <tr><td>CASH</td><td colspan="5">$138.62 — well above the $50 floor</td></tr>
-    </table></div>
-    <div class="posture"><b>The stop is not hit on mark, but the bid is sitting on it.</b> −50% of a $0.30 basis is $0.15. Mark is $0.20 (−33%); the bid is $0.15. I measure on mark — same convention used to exit CMG this morning — so the position holds, but the realisable exit is at the stop line and you should know that rather than read −33% and relax. Falsifier ($11.60) intact, three weeks to expiry, earnings already reported 7/30. <b>Nothing forces action Monday; the −50% rule does if the mark reaches $0.15.</b></div>
+    <h2>THE VERDICT IN SEVEN BLOCKS</h2>
+    <div class="w">EACH BLOCK SCORED −1…+1 ACROSS 1D / 1W / 1M / 3M · DURABLE WINDOWS WEIGHTED HEAVIER</div>
+    <div class="bars">
+      <div class="bar"><span class="t">CREDIT <span class="wt">×3</span></span><span class="track"><span class="fill p" style="width:47%"></span></span><span class="v pos">+0.94</span></div>
+      <div class="bar"><span class="t">HAVENS <span class="wt">×2</span></span><span class="track"><span class="fill p" style="width:33.5%"></span></span><span class="v pos">+0.67</span></div>
+      <div class="bar"><span class="t">CYCLICALS <span class="wt">×2</span></span><span class="track"><span class="fill p" style="width:31%"></span></span><span class="v pos">+0.62</span></div>
+      <div class="bar"><span class="t">BREADTH <span class="wt">×2</span></span><span class="track"><span class="fill n" style="width:6%"></span></span><span class="v neg">−0.12</span></div>
+      <div class="bar"><span class="t">CONSUMER <span class="wt">×2</span></span><span class="track"><span class="fill n" style="width:12.5%"></span></span><span class="v neg">−0.25</span></div>
+      <div class="bar"><span class="t">LIQUIDITY <span class="wt">×1</span></span><span class="track"><span class="fill n" style="width:12.5%"></span></span><span class="v neg">−0.25</span></div>
+      <div class="bar"><span class="t">LEADERSHIP <span class="wt">×2</span></span><span class="track"><span class="fill n" style="width:25%"></span></span><span class="v neg">−0.50</span></div>
+    </div>
+    <div class="posture"><b>The heaviest-weighted block is the most risk-on, and that is the whole argument.</b> Credit gets weight 3 because credit spreads lead equity drawdowns — they widen before the index breaks, every time. High yield is beating investment grade on <b>all four windows</b> and beating Treasuries on all four. There is no stress in the thing that warns you first. Meanwhile the −0.50 in LEADERSHIP is real and it is severe, but it is a <b>relative</b> signal: semis losing to the S&amp;P is a statement about semis, not about risk appetite.</div>
   </section>
-
+</div><div class="grid full">
   <section>
-    <h2>MANUAL DESK — ••••5308 · READ-ONLY</h2>
-    <div class="w">EQUITY ~$26.9K · 1 UNIT = $2,694 · 2 OF 3 SLOTS USED · RE-PULLED AFTER THE BELL</div>
+    <h2>THE FULL PANEL — 13 SIGNALS, 4 WINDOWS</h2>
+    <div class="w">RATIOS: HIGHER = MORE RISK-ON · SINGLES MARKED (inv) ARE INVERTED SO HIGHER IS STILL RISK-ON</div>
     <div class="tw"><table class="num">
-      <tr><th>POSITION</th><th>BASIS</th><th>NOW</th><th>P&amp;L</th><th>SIZE</th></tr>
-      <tr><td>CORD 100sh <span class="faint">15:57 ET</span></td><td>7.0396</td><td>7.09 <span class="faint">AH 7.18</span></td><td class="pos">+$5.04 · +0.7%</td><td>$704 · 0.26u</td></tr>
-      <tr><td>LIME 20sh <span class="faint">17:50+17:56 ET</span></td><td>29.38</td><td>29.39</td><td class="dim">flat</td><td>$588 · 0.22u</td></tr>
-      <tr><td>SNDK <span class="faint">closed 15:42</span></td><td>1,240.665</td><td>1,224.28</td><td class="neg">−$81.93 · −1.3%</td><td class="faint">82-min hold</td></tr>
+      <tr><th>SIGNAL</th><th class="r">1D</th><th class="r">1W</th><th class="r">1M</th><th class="r">3M</th><th class="r">SUB</th><th>READS</th></tr>
+      <tr><td>HY / Treasuries <span class="faint">HYG:TLT</span></td><td class="r pos">+0.70%</td><td class="r pos">+1.55%</td><td class="r pos">+3.85%</td><td class="r pos">+2.95%</td><td class="r pos">+1.00</td><td><span class="chip c-on">RISK ON</span></td></tr>
+      <tr><td>Banks / Utilities <span class="faint">KRE:XLU</span></td><td class="r pos">+0.97%</td><td class="r pos">+4.89%</td><td class="r pos">+0.84%</td><td class="r pos">+15.09%</td><td class="r pos">+1.00</td><td><span class="chip c-on">RISK ON</span></td></tr>
+      <tr><td>Treasuries <span class="faint">TLT (inv)</span></td><td class="r pos">+0.68%</td><td class="r pos">+1.22%</td><td class="r pos">+3.84%</td><td class="r pos">+3.95%</td><td class="r pos">+1.00</td><td><span class="chip c-on">RISK ON</span></td></tr>
+      <tr><td>HY / Inv grade <span class="faint">HYG:LQD</span></td><td class="r pos">+0.14%</td><td class="r pos">+0.28%</td><td class="r pos">+1.92%</td><td class="r pos">+1.28%</td><td class="r pos">+0.88</td><td><span class="chip c-on">RISK ON</span></td></tr>
+      <tr><td>Equities / Gold <span class="faint">SPY:GLD</span></td><td class="r pos">+2.22%</td><td class="r pos">+1.17%</td><td class="r dim">−0.11%</td><td class="r pos">+18.50%</td><td class="r pos">+0.62</td><td><span class="chip c-on">RISK ON</span></td></tr>
+      <tr><td>Dollar <span class="faint">UUP (inv)</span></td><td class="r dim">−0.11%</td><td class="r pos">+1.43%</td><td class="r pos">+1.12%</td><td class="r neg">−2.96%</td><td class="r pos">+0.38</td><td><span class="chip c-on">RISK ON</span></td></tr>
+      <tr><td>Industrials / Utilities <span class="faint">XLI:XLU</span></td><td class="r pos">+1.52%</td><td class="r pos">+2.77%</td><td class="r neg">−0.98%</td><td class="r pos">+8.83%</td><td class="r pos">+0.25</td><td><span class="chip c-on">RISK ON</span></td></tr>
+      <tr><td>Equal wt / Cap wt <span class="faint">RSP:SPY</span></td><td class="r neg">−0.88%</td><td class="r neg">−0.42%</td><td class="r pos">+0.58%</td><td class="r pos">+1.68%</td><td class="r pos">+0.25</td><td><span class="chip c-n">MIXED</span></td></tr>
+      <tr><td>Discretionary / Staples <span class="faint">XLY:XLP</span></td><td class="r pos">+3.77%</td><td class="r pos">+4.92%</td><td class="r neg">−3.75%</td><td class="r neg">−2.80%</td><td class="r neg">−0.25</td><td><span class="chip c-off">RISK OFF</span></td></tr>
+      <tr><td>Comms / Staples <span class="faint">XLC:XLP</span></td><td class="r pos">+2.04%</td><td class="r pos">+0.70%</td><td class="r neg">−3.42%</td><td class="r neg">−7.93%</td><td class="r neg">−0.25</td><td><span class="chip c-off">RISK OFF</span></td></tr>
+      <tr><td>Bitcoin <span class="faint">IBIT</span></td><td class="r neg">−2.93%</td><td class="r neg">−1.99%</td><td class="r pos">+4.78%</td><td class="r neg">−17.76%</td><td class="r neg">−0.25</td><td><span class="chip c-off">RISK OFF</span></td></tr>
+      <tr><td>Small / Large <span class="faint">IWM:SPY</span></td><td class="r neg">−1.17%</td><td class="r neg">−1.06%</td><td class="r neg">−2.86%</td><td class="r pos">+0.80%</td><td class="r neg">−0.50</td><td><span class="chip c-off">RISK OFF</span></td></tr>
+      <tr><td><b>Semis / S&amp;P</b> <span class="faint">SMH:SPY</span></td><td class="r neg">−0.45%</td><td class="r neg">−4.76%</td><td class="r neg"><b>−13.06%</b></td><td class="r pos">+2.58%</td><td class="r neg">−0.50</td><td><span class="chip c-off">RISK OFF</span></td></tr>
     </table></div>
-    <div class="posture bad"><b>CORRECTION — the first publish of this page had SNDK held into Wednesday's earnings. It had already been sold.</b> I pulled desk state at 15:04 ET and published at 18:30 without re-pulling; three fills landed in that gap. Sold SNDK 5sh at 15:42 (−$81.93, an 82-minute round trip), bought CORD 100sh at 15:57, bought LIME 20sh after hours at 17:50/17:56. <b>Fourth stale-position report this week.</b> The fix is procedural, not attentional: desk state gets re-pulled immediately before anything that states a position, not once per check-in.</div>
-    <div class="posture"><b>Both new positions are small and both are legal.</b> 0.26u and 0.22u against a 3-unit cap — a long way from Friday's 2.3-unit SNDK. LIME was filled at $29.38 against a $29.39 RTH close, so the after-hours spread cost nothing. <b>LIME reports Tuesday 8/4 PM — first print ever as a public company.</b> At 0.22 units that is a probe, not a binary you are exposed to. The SNDK earnings risk is gone entirely.
-    <br><br>One note for the rule on the table: the CORD rebuy at $7.0396 was <b>below</b> the $7.09 exit, so the proposed same-session re-entry rule would <b>not</b> have blocked it. That is the rule working as designed — it targets paying up to hold the same opinion, not re-entry itself.</div>
   </section>
 </div><div class="grid even">
   <section>
-    <h2>WEEK AHEAD — CALENDAR</h2>
-    <div class="w">EARNINGS VERIFIED VIA BROKER FEED · ALL TIMES ET</div>
-    <div class="tw"><table>
-      <tr><th>WHEN</th><th>EVENT</th><th>WHY IT MATTERS HERE</th></tr>
-      <tr><td class="num">MON 8/3</td><td>Grade recomputes</td><td>Full conditions panel returns; SNDK weekly cap resets</td></tr>
-      <tr><td class="num">TUE 8/4 pm</td><td class="neg"><b>LIME</b> Q2</td><td class="neg">HELD 20sh — first print ever as a public company, no estimates published</td></tr>
-      <tr><td class="num">TUE 8/4 pm</td><td>OPEN Q2</td><td>Named in last week's put plan with a written pre-earnings exit</td></tr>
-      <tr><td class="num">WED 8/5 pm</td><td>SNDK Q2</td><td class="faint">no longer held — closed 7/31 15:42</td></tr>
-      <tr><td class="num">THU 8/6 pm</td><td>MARA Q2</td><td>Backup idea from the 7/30 screen; never entered</td></tr>
+    <h2>THE CONTAMINATION — WHY FRIDAY LOOKS BETTER THAN IT WAS</h2>
+    <div class="w">CAP-WEIGHTED SIGNALS vs EQUAL-WEIGHTED ONES, SAME SESSION</div>
+    <div class="tw"><table class="num">
+      <tr><th>MEASURE</th><th class="r">FRIDAY</th><th>WHAT IT CONTAINS</th></tr>
+      <tr><td>XLY <span class="faint">discretionary</span></td><td class="r pos">+3.26%</td><td class="faint">AMZN +15.2%, ~20% of the sleeve</td></tr>
+      <tr><td>XLC <span class="faint">comms</span></td><td class="r pos">+1.53%</td><td class="faint">GOOGL +6.2%</td></tr>
+      <tr><td>SPY</td><td class="r pos">+0.69%</td><td class="faint">both of the above</td></tr>
+      <tr><td><b>RSP</b> <span class="faint">equal weight</span></td><td class="r neg"><b>−0.20%</b></td><td class="faint">neither — every name counts once</td></tr>
+      <tr><td><b>IWM</b> <span class="faint">small caps</span></td><td class="r neg"><b>−0.49%</b></td><td class="faint">neither</td></tr>
+      <tr><td>XLB <span class="faint">materials</span></td><td class="r neg">−2.37%</td><td class="faint">—</td></tr>
+      <tr><td>XLV <span class="faint">health</span></td><td class="r neg">−0.59%</td><td class="faint">—</td></tr>
+      <tr><td>XLU <span class="faint">utilities</span></td><td class="r neg">−0.73%</td><td class="faint">—</td></tr>
     </table></div>
+    <div class="posture bad"><b>Every risk-on signal on Friday was cap-weighted; every equal-weighted one was negative.</b> XLY's +3.26% is not a consumer bid, it is one earnings print inside a sleeve where AMZN is a fifth of the weight — and the same ratio is <b>−3.75% over a month</b> once the print washes out. This is why the panel weights 1M at three times 1D. A single session of mega-cap earnings can flip the sign of half the cap-weighted board and change nothing about risk appetite.</div>
   </section>
 
   <section>
-    <h2>OPEN DECISIONS — YOURS TO MAKE</h2>
-    <div class="w">CARRIED FROM THE WEEK · NONE ARE MINE TO CLOSE</div>
-    <div class="tw"><table>
-      <tr><th>#</th><th>DECISION</th><th>STATE</th></tr>
-      <tr><td>1</td><td><b>Behaviour-named rule:</b> no re-entry into a name above the price you exited it at, same session</td><td><span class="chip c-a">AWAITING YOU</span></td></tr>
-      <tr><td>2</td><td><b>Account size:</b> fund 0924, or accept it only trades sub-$15 underlyings</td><td><span class="chip c-a">AWAITING YOU</span></td></tr>
-      <tr><td>3</td><td><b>Add a breadth input</b> to risk_score.py (see THE TAPE)</td><td><span class="chip c-a">PROPOSED TONIGHT</span></td></tr>
-      <tr><td>4</td><td><b>X desktop bridge</b> — digest stale since 7/24, weight 0 all week: fix or drop</td><td><span class="chip c-x">UNRESOLVED</span></td></tr>
-      <tr><td>5</td><td>P2 lifecycle-stage question from 7/27</td><td><span class="chip c-x">UNANSWERED</span></td></tr>
+    <h2>WHERE THE MONEY WENT — 3 MONTHS</h2>
+    <div class="w">RELATIVE PERFORMANCE, NOT ABSOLUTE · THE ROTATION MAP</div>
+    <div class="tw"><table class="num">
+      <tr><th>INTO</th><th class="r">3M</th><th>OUT OF</th><th class="r">3M</th></tr>
+      <tr><td class="pos">Regional banks vs utilities</td><td class="r pos">+15.09%</td><td class="neg">Comms vs staples</td><td class="r neg">−7.93%</td></tr>
+      <tr><td class="pos">Equities vs gold</td><td class="r pos">+18.50%</td><td class="neg">Bitcoin</td><td class="r neg">−17.76%</td></tr>
+      <tr><td class="pos">Industrials vs utilities</td><td class="r pos">+8.83%</td><td class="neg">Discretionary vs staples</td><td class="r neg">−2.80%</td></tr>
+      <tr><td class="pos">Credit vs duration</td><td class="r pos">+2.95%</td><td class="neg">Gold outright</td><td class="r neg">−12.30%</td></tr>
     </table></div>
-    <div class="posture"><b>Standing ban holds: RDDT.</b> Zero RDDT fills this week after 7/30. It printed <b>−20.8%</b> on Friday. The ban is paying.</div>
+    <div class="posture good"><b>This is what a healthy rotation looks like, and it is worth saying plainly because it cuts against the bear case.</b> Capital left gold (−12.3%), left bitcoin (−17.8%), left long bonds (−4.0%) and went into banks and industrials. Nobody rotates <i>into</i> regional banks on the way into a drawdown — KRE is the most credit-sensitive equity group there is. <b>The 1-month semis wipeout is happening inside a tape that is simultaneously bidding cyclicals.</b> That combination is a leadership change, not a top.</div>
+  </section>
+</div><div class="grid full">
+  <section>
+    <h2>WHAT THIS MEANS FOR THIS BOOK SPECIFICALLY</h2>
+    <div class="w">THE ANSWER DEPENDS ON WHICH MARKET YOU MEAN</div>
+    <div class="posture"><b>You may be right about your market and wrong about the market.</b> The risk-off half of this panel — semis −13.06% vs SPY in a month, small caps −2.86%, discretionary and comms both negative on durable windows, bitcoin −17.76% — is <b>concentrated almost entirely in the growth/tech complex</b>. The risk-on half is credit, banks, industrials and the absence of any haven bid.
+    <br><br>That matters here more than it would for most books, because <b>everything this account touches lives on the risk-off side of the rotation.</b> The paste.trade board is tech-heavy. The agentic desk trades momentum names. The storm gauge already flagged the asymmetry: <b>SPY carries 13.6% annualised vol with shocks that decay (persistence 0.857); QQQ carries 24.8% with shocks that do not (0.986)</b>, and a ±1.56% expected daily move against SPY's ±0.86%.
+    <br><br><b>Practical read for next week:</b> a broad short expressed through SPY is fighting credit, banks and the absence of a haven bid — the panel says don't. A tech-specific short or simply <i>less tech exposure</i> is aligned with every risk-off signal in the panel. If the bearish view is going to be expressed, <b>the instrument matters more than the direction.</b></div>
   </section>
 </div></div>
 
 <!-- ══════════════════ THE TAPE ══════════════════ -->
 <div class="tabpane" id="tab-tape"><div class="grid even">
   <section>
-    <h2>FRIDAY'S CLOSE — INDEX vs THE AVERAGE STOCK</h2>
+    <h2>FRIDAY'S CLOSE</h2>
     <div class="w">OFFICIAL RTH CLOSES · CHANGE vs THU 7/30</div>
     <div class="tw"><table class="num">
-      <tr><th>INSTRUMENT</th><th>CLOSE</th><th>CHG</th><th>READ</th></tr>
-      <tr><td>SPY</td><td>746.81</td><td class="pos">+0.69%</td><td><span class="chip c-on">UP</span></td></tr>
-      <tr><td>QQQ</td><td>687.92</td><td class="pos">+0.64%</td><td><span class="chip c-on">UP</span></td></tr>
-      <tr><td>IWM <span class="faint">small caps</span></td><td>291.17</td><td class="neg">−0.49%</td><td><span class="chip c-off">DOWN</span></td></tr>
-      <tr><td>XLK <span class="faint">tech</span></td><td>175.28</td><td class="neg">−0.26%</td><td><span class="chip c-off">DOWN</span></td></tr>
-      <tr><td>XLF <span class="faint">financials</span></td><td>56.93</td><td class="neg">−0.12%</td><td><span class="chip c-off">DOWN</span></td></tr>
-      <tr><td>XLV <span class="faint">health</span></td><td>162.56</td><td class="neg">−0.59%</td><td><span class="chip c-off">DOWN</span></td></tr>
-      <tr><td>SMH <span class="faint">semis</span></td><td>540.16</td><td class="pos">+0.23%</td><td><span class="chip c-on">UP</span></td></tr>
-      <tr><td>XLE <span class="faint">energy</span></td><td>59.54</td><td class="pos">+0.98%</td><td><span class="chip c-on">UP</span></td></tr>
+      <tr><th>INSTRUMENT</th><th class="r">CLOSE</th><th class="r">CHG</th></tr>
+      <tr><td>SPY</td><td class="r">746.81</td><td class="r pos">+0.69%</td></tr>
+      <tr><td>QQQ</td><td class="r">687.92</td><td class="r pos">+0.64%</td></tr>
+      <tr><td>RSP <span class="faint">equal wt</span></td><td class="r">214.95</td><td class="r neg">−0.20%</td></tr>
+      <tr><td>IWM</td><td class="r">291.17</td><td class="r neg">−0.49%</td></tr>
+      <tr><td>SMH</td><td class="r">540.16</td><td class="r pos">+0.23%</td></tr>
+      <tr><td>HYG <span class="faint">credit</span></td><td class="r">79.48</td><td class="r dim">+0.01%</td></tr>
+      <tr><td>TLT</td><td class="r">82.24</td><td class="r neg">−0.68%</td></tr>
+      <tr><td>GLD</td><td class="r">371.53</td><td class="r neg">−1.49%</td></tr>
+      <tr><td>IBIT</td><td class="r">35.63</td><td class="r neg">−2.93%</td></tr>
+      <tr><td>VIXY</td><td class="r">20.48</td><td class="r neg">−2.80%</td></tr>
     </table></div>
-    <div class="posture bad"><b>The index went up and the average stock went down.</b> Four of six sectors closed red, small caps closed red, and <b>XLK fell while QQQ rose</b> — the cap weighting did all the work. AMZN +15.2% and GOOGL +6.2% carried two indices past a tape where participation was negative. This is the single most concrete piece of evidence for the bear case, and it is <b>not an input to the composite score.</b></div>
+    <div class="posture"><b>Friday was a reversal day.</b> SPY opened 744.68, washed to <b>737.68</b> (−0.94% off the open), then closed 746.81 near the 748.90 high. Buyers took the low back and held it into the bell. That is not distribution — whatever the breadth said underneath.</div>
   </section>
 
   <section>
-    <h2>WHAT PRICE ACTUALLY DID</h2>
-    <div class="w">SPY · DAILY BARS · MONTH CLOSES</div>
+    <h2>STORM GAUGE — GARCH(1,1) AT THE CLOSE</h2>
+    <div class="w">FITTED ON 272 DAILY RETURNS · WEIGHT 3 IN THE DAILY COMPOSITE</div>
     <div class="tw"><table class="num">
-      <tr><th>WINDOW</th><th>MOVE</th><th>NOTE</th></tr>
-      <tr><td>Friday intraday</td><td class="pos">744.68 → 737.68 → 746.81</td><td>washed out −0.94% off the open, closed near the 748.90 high</td></tr>
-      <tr><td>May</td><td class="pos">+5.26%</td><td>718.66 → 756.48</td></tr>
-      <tr><td>June</td><td class="neg">−1.28%</td><td>756.48 → 746.77</td></tr>
-      <tr><td>July</td><td class="dim">+0.01%</td><td>746.77 → 746.81 · <b>a dead-flat month</b></td></tr>
-      <tr><td>From the 6/2 high</td><td class="neg">−1.68%</td><td>759.57 close / 760.40 intraday</td></tr>
+      <tr><th>MARKET</th><th class="r">VOL NOW</th><th class="r">1σ DAY</th><th class="r">PERSIST.</th><th>REGIME</th></tr>
+      <tr><td>SPY</td><td class="r">13.6%</td><td class="r">±0.86%</td><td class="r">0.857</td><td><span class="chip c-n">NORMAL 1.08×</span></td></tr>
+      <tr><td>QQQ</td><td class="r neg">24.8%</td><td class="r neg">±1.56%</td><td class="r neg">0.986</td><td><span class="chip c-off">NOT IDENTIFIED</span></td></tr>
     </table></div>
-    <div class="posture"><b>Momentum has decelerated for three straight months: +5.3% → −1.3% → +0.0%.</b> The shape underneath is a compression, not a topping pattern — descending peaks (760.40 on 6/2 → 755.58 on 7/15 → 748.90 on 7/31) against <b>rising lows</b> (716.58 on 6/26 → 729.10 on 7/29 → 737.68 on 7/31). A wedge resolves in a direction; nothing here tells you which. Friday itself was a <b>reversal day</b> — buyers took the low back and closed it near the high, which is not what distribution looks like.</div>
+    <div class="posture bad"><b>QQQ's persistence sits above the 0.98 unit-root boundary, so its long-run variance is not identified and the 1.14× ratio is meaningless.</b> Judged on absolutes: 24.8% annualised vol and a ±1.56% expected daily move, <b>1.8× SPY's ±0.86%</b>, with shocks that do not decay. SPY is genuinely calm and mean-reverting. The vol asymmetry and the rotation are telling the same story from different instruments. <b>Storm veto does not bind</b> — it needs both indices above 1.25×.</div>
   </section>
 </div><div class="grid even">
   <section>
-    <h2>STORM GAUGE — GARCH(1,1) AT THE CLOSE</h2>
-    <div class="w">FITTED ON 272 DAILY RETURNS · WEIGHT 3 · THE ANCHOR</div>
+    <h2>MONTHLY MOMENTUM — SPY</h2>
+    <div class="w">DECELERATION IS REAL; DIRECTION IS NOT YET DECIDED</div>
     <div class="tw"><table class="num">
-      <tr><th>MARKET</th><th>VOL NOW</th><th>1σ DAY</th><th>PERSIST.</th><th>REGIME</th></tr>
-      <tr><td>SPY</td><td>13.6%</td><td>±0.86%</td><td>0.857</td><td><span class="chip c-n">NORMAL 1.08×</span></td></tr>
-      <tr><td>QQQ</td><td class="neg">24.8%</td><td class="neg">±1.56%</td><td class="neg">0.986</td><td><span class="chip c-off">NOT IDENTIFIED</span></td></tr>
+      <tr><th>WINDOW</th><th class="r">MOVE</th><th>NOTE</th></tr>
+      <tr><td>May</td><td class="r pos">+5.26%</td><td class="faint">718.66 → 756.48</td></tr>
+      <tr><td>June</td><td class="r neg">−1.28%</td><td class="faint">756.48 → 746.77</td></tr>
+      <tr><td>July</td><td class="r dim">+0.01%</td><td class="faint">746.77 → 746.81 · a dead-flat month</td></tr>
+      <tr><td>From 6/2 high</td><td class="r neg">−1.68%</td><td class="faint">759.57 close / 760.40 intraday</td></tr>
     </table></div>
-    <div class="posture bad"><b>This is the strongest quantitative argument for your view, and it is about the Nasdaq, not the S&amp;P.</b> QQQ's persistence is 0.986 — above the 0.98 unit-root boundary — so its long-run variance is not identified and the 1.14× ratio is meaningless. Judged on absolutes: <b>QQQ carries 24.8% annualised vol and a ±1.56% expected daily move, 1.8× SPY's ±0.86%</b>, and at that persistence shocks do not decay. That is the structure that produces disorderly moves. SPY meanwhile is genuinely calm at 13.6% with shocks that mean-revert (0.857). <b>Storm veto does not bind</b> — it needs both indices above 1.25×.</div>
+    <div class="posture"><b>Three months of deceleration into a compression.</b> Descending peaks — 760.40 (6/2) → 755.58 (7/15) → 748.90 (7/31) — against <b>rising lows</b>: 716.58 (6/26) → 729.10 (7/29) → 737.68 (7/31). A wedge resolves in a direction and nothing in the price structure says which. The RORO panel is the tiebreaker, and it leans on.</div>
   </section>
 
   <section>
-    <h2>THE BEAR CASE — SCORED HONESTLY</h2>
-    <div class="w">YOUR READ: LOWER OVER 1–2 MONTHS · WHAT THE DATA SAYS</div>
-    <div class="tw"><table>
-      <tr><th>EVIDENCE</th><th>SIDE</th></tr>
-      <tr><td>Breadth: 4 of 6 sectors + small caps red on an up-index day</td><td><span class="chip c-off">LOWER</span></td></tr>
-      <tr><td>Three months of momentum decay; July dead flat</td><td><span class="chip c-off">LOWER</span></td></tr>
-      <tr><td>QQQ vol 24.8%, persistence 0.986 — shocks don't decay</td><td><span class="chip c-off">LOWER</span></td></tr>
-      <tr><td>Board flow flipped short into the bell; SP500 short is a 3-author consensus</td><td><span class="chip c-off">LOWER</span></td></tr>
-      <tr><td>Earnings punishment severe: AAPL −9.7%, RDDT −20.8%, RBLX −28.3%</td><td><span class="chip c-off">LOWER</span></td></tr>
-      <tr><td><b>HYG +0.01% — credit is flat, not confirming anything</b></td><td><span class="chip c-on">HIGHER</span></td></tr>
-      <tr><td>VIXY −2.8%, SPY vol 13.6% and 1.08× — no index stress</td><td><span class="chip c-on">HIGHER</span></td></tr>
-      <tr><td>Friday was a reversal day; buyers defended 737.68</td><td><span class="chip c-on">HIGHER</span></td></tr>
-      <tr><td>Rising lows since 6/26 — compression, not breakdown</td><td><span class="chip c-n">NEUTRAL</span></td></tr>
-      <tr><td>GLD −1.5% and TLT −0.7% — no hedge bid anywhere</td><td><span class="chip c-on">HIGHER</span></td></tr>
+    <h2>THE DAILY COMPOSITE — SEPARATE INSTRUMENT, SAME QUESTION</h2>
+    <div class="w">workflow.md GRADE · NOT THE SAME THING AS THE RORO SCORE</div>
+    <div class="tw"><table class="num">
+      <tr><th>INPUT</th><th class="r">WEIGHT</th><th class="r">SCORE</th></tr>
+      <tr><td>Storm gauge</td><td class="r">3</td><td class="r neg">−0.19</td></tr>
+      <tr><td>Board skew</td><td class="r">2</td><td class="r neg">−0.06</td></tr>
+      <tr><td>Conditions panel</td><td class="r">2</td><td class="r faint">pending 9am</td></tr>
+      <tr><td>X sentiment</td><td class="r">0</td><td class="r faint">offline since 7/24</td></tr>
+      <tr><td><b>Partial composite</b></td><td class="r"></td><td class="r"><b>−0.138</b></td></tr>
     </table></div>
-    <div class="posture"><b>The internals support "narrowing and stalling," not "breaking."</b> The two things that actually lead drawdowns — credit spreads and index vol — are both quiet. What is deteriorating is participation and the Nasdaq's vol structure. Over one to two months that reads as range-bound-to-lower drift with a fat left tail concentrated in tech, rather than a market about to fall over. <b>Your read is directionally supported; the timing evidence is not there yet.</b></div>
+    <div class="posture"><b>Friday traded at +1 RISK ON and that grade is already dead.</b> The 2pm turn protocol fired correctly on four fresh confirmed longs, then the evidence evaporated: fresh 6h flow went 28L/17S at 3pm → <b>8L/11S at the bell</b>, confirmed candidates collapsed 6 → 1, and PUMP round-tripped from confirmed long (+3.8%) to knife (−3.3%) in two hours. Monday's brief recomputes. <b>Note the two instruments disagree</b> — the daily composite reads −0.138 and the cross-asset panel reads +0.243, because the daily composite has <b>no credit input and no breadth input</b>. That gap is the amendment on the table.</div>
   </section>
 </div><div class="grid full">
   <section>
-    <h2>PROPOSAL — THE COMPOSITE CANNOT SEE WHAT YOU ARE SEEING</h2>
-    <div class="w">workflow.md WEIGHTS · STORM GAUGE 3 · CONDITIONS 2 · BOARD SKEW 2 · X 1</div>
-    <div class="posture"><b>There is no breadth input anywhere in the score.</b> The gauge measures index volatility, the conditions panel measures VIX / Brent / KOSPI / BTC / geopolitics, the board measures what other traders are winning on. <b>Nothing measures participation.</b> That is precisely why the machine printed 0 MIXED on Friday's close while the tape you were watching had four of six sectors red — and why the +1 upgrade at 2pm was mechanically correct and practically wrong within two hours.
-    <br><br>Proposed amendment, for your sign-off — not applied: add a <b>breadth sub-input to the conditions panel</b>, scored −1 / 0 / +1 from the daily sign-spread between SPY and IWM plus the count of green sectors, weighted inside the existing conditions block so total weights do not change. On Friday it would have scored −1 and pulled the composite roughly 0.2 lower. <b>I have not touched risk_score.py.</b> Weights never get retuned silently.</div>
+    <h2>PROPOSAL — TWO INPUTS THE DAILY SCORE IS MISSING</h2>
+    <div class="w">DRAFTS ONLY · risk_score.py HAS NOT BEEN TOUCHED</div>
+    <div class="posture"><b>The daily grade cannot see credit or participation, which is exactly why it disagrees with the cross-asset panel.</b> Its inputs are index volatility, a macro conditions panel, and what other traders are winning on. Nothing measures whether the average stock is participating, and nothing measures the one signal that reliably leads equity drawdowns.
+    <br><br>Two amendments for your sign-off, both scored inside the existing conditions block so total weights are unchanged:
+    <br>· <b>Breadth</b> — −1 / 0 / +1 from the SPY−IWM daily sign-spread plus the green-sector count. Friday scores −1.
+    <br>· <b>Credit</b> — −1 / 0 / +1 from the 1-month HYG:LQD ratio trend. Friday scores +1.
+    <br><br>They would have partly cancelled on Friday, which is the point: the grade would have been <i>honestly</i> mixed rather than mixed by omission.</div>
+  </section>
+</div></div>
+
+<!-- ══════════════════ BOOK ══════════════════ -->
+<div class="tabpane" id="tab-book"><div class="grid">
+  <section>
+    <h2>AGENTIC ••••0924</h2>
+    <div class="w">TOTAL $158.62 · CASH $138.62 · BUYING POWER $115.68 · 1 SLOT OPEN</div>
+    <div class="tw"><table class="num">
+      <tr><th>POSITION</th><th class="r">BASIS</th><th class="r">MARK</th><th class="r">P&amp;L</th><th class="r">UNDERLYING</th><th>STATUS</th></tr>
+      <tr><td>TAL 8/21 $13C ×1</td><td class="r">0.30</td><td class="r">0.20</td><td class="r neg">−$10.00 · −33%</td><td class="r">12.465 <span class="pos">+1.01%</span></td><td><span class="chip c-n">HOLD</span></td></tr>
+      <tr><td colspan="6" class="faint">delta 0.322 · theta −0.0089 · IV 33.4% · OI 1,551 · break-even $13.20 · bid 0.15 × 1,113 / ask 0.25 × 13</td></tr>
+    </table></div>
+    <div class="posture"><b>Not stopped on mark; the bid is sitting on the stop.</b> −50% of a $0.30 basis is $0.15. Mark is $0.20 (−33%), bid is $0.15. Measured on mark — same convention that exited CMG Friday morning — so it holds, but the realisable exit is at the line. Falsifier $11.60 intact, three weeks to expiry, earnings passed 7/30.</div>
+  </section>
+
+  <section>
+    <h2>MANUAL ••••5308 — READ-ONLY</h2>
+    <div class="w">EQUITY ~$26.9K · 1 UNIT = $2,694 · 2 OF 3 SLOTS · UNDER HALF A UNIT DEPLOYED</div>
+    <div class="tw"><table class="num">
+      <tr><th>POSITION</th><th class="r">BASIS</th><th class="r">NOW</th><th class="r">P&amp;L</th><th class="r">SIZE</th></tr>
+      <tr><td>CORD 100sh <span class="faint">15:57</span></td><td class="r">7.0396</td><td class="r">7.09</td><td class="r pos">+$5.04</td><td class="r">0.26u</td></tr>
+      <tr><td>LIME 20sh <span class="faint">17:50/17:56</span></td><td class="r">29.38</td><td class="r">29.39</td><td class="r dim">flat</td><td class="r">0.22u</td></tr>
+    </table></div>
+    <div class="posture good"><b>This is the most conservative book of the week and it deserves saying.</b> Under half a unit total against a 3-unit cap, versus a Monday that opened with roughly 4 units concentrated in RDDT. LIME was sized at about a fifth of the 1 unit suggested in the brief — your call, not mine. <b>LIME reports Tuesday 8/4 PM, its first print ever as a public company.</b> At 0.22 units that is a probe, not exposure.</div>
+  </section>
+</div><div class="grid even">
+  <section>
+    <h2>WEEK AHEAD</h2>
+    <div class="w">EARNINGS VERIFIED VIA BROKER FEED · ALL TIMES ET</div>
+    <div class="tw"><table>
+      <tr><th>WHEN</th><th>EVENT</th><th>RELEVANCE</th></tr>
+      <tr><td class="num">MON 8/3</td><td>Grade recomputes</td><td>full conditions panel returns; SNDK weekly cap resets</td></tr>
+      <tr><td class="num">TUE 8/4 pm</td><td class="neg"><b>LIME</b> Q2</td><td class="neg">HELD 20sh — first print ever, no published estimates</td></tr>
+      <tr><td class="num">TUE 8/4 pm</td><td>OPEN Q2</td><td class="faint">named in the 7/30 put plan, never entered</td></tr>
+      <tr><td class="num">WED 8/5 pm</td><td>SNDK Q2</td><td class="faint">no longer held — closed 7/31 15:42</td></tr>
+      <tr><td class="num">THU 8/6 pm</td><td>MARA Q2</td><td class="faint">backup idea, never entered</td></tr>
+    </table></div>
+  </section>
+
+  <section>
+    <h2>OPEN DECISIONS — YOURS</h2>
+    <div class="w">NONE OF THESE ARE MINE TO CLOSE</div>
+    <div class="tw"><table>
+      <tr><th>#</th><th>DECISION</th><th>STATE</th></tr>
+      <tr><td>1</td><td><b>Same-session re-entry rule</b> — no re-entry above the price you exited at</td><td><span class="chip c-a">AWAITING</span></td></tr>
+      <tr><td>2</td><td><b>Fund 0924</b>, or accept it only trades sub-$15 underlyings</td><td><span class="chip c-a">AWAITING</span></td></tr>
+      <tr><td>3</td><td><b>Breadth + credit inputs</b> to risk_score.py</td><td><span class="chip c-a">PROPOSED</span></td></tr>
+      <tr><td>4</td><td><b>TRUSTED needs a positive-median filter</b> (see BOARD INTEL)</td><td><span class="chip c-a">PROPOSED</span></td></tr>
+      <tr><td>5</td><td>X desktop bridge — stale since 7/24, weight 0: fix or drop</td><td><span class="chip c-x">UNRESOLVED</span></td></tr>
+    </table></div>
+    <div class="posture"><b>RDDT ban holds.</b> Zero fills since 7/30. It printed <b>−20.8%</b> Friday.</div>
   </section>
 </div></div>
 
@@ -248,48 +328,48 @@
     <h2>AUTHOR RE-EVALUATION — FIRST TRUSTED GRANTS</h2>
     <div class="w">RANKS RE-EARNED WEEKLY · 3 SNAPSHOTS · MIN 3 IDEAS</div>
     <div class="tw"><table class="num">
-      <tr><th>#</th><th>TRADER</th><th>IDEAS</th><th>HIT</th><th>MEDIAN</th><th>STATUS</th></tr>
-      <tr><td>1</td><td>@degentradinglsd</td><td>6</td><td class="pos">83%</td><td class="pos">+7.9%</td><td><span class="chip c-on">TRUSTED ×3w</span></td></tr>
-      <tr><td>2</td><td>@firstadopter</td><td>4</td><td class="pos">75%</td><td class="pos">+6.4%</td><td><span class="chip c-on">TRUSTED ×3w</span></td></tr>
-      <tr><td>3</td><td>@zephyr_z9</td><td>3</td><td>67%</td><td>+0.6%</td><td><span class="chip c-on">TRUSTED ×2w</span></td></tr>
-      <tr><td>4</td><td>@tradfi</td><td>4</td><td class="neg">25%</td><td class="neg">−3.9%</td><td><span class="chip c-off">TRUSTED — DEFECT</span></td></tr>
+      <tr><th>#</th><th>TRADER</th><th class="r">IDEAS</th><th class="r">HIT</th><th class="r">MEDIAN</th><th>STATUS</th></tr>
+      <tr><td>1</td><td>@degentradinglsd</td><td class="r">6</td><td class="r pos">83%</td><td class="r pos">+7.9%</td><td><span class="chip c-on">TRUSTED ×3w</span></td></tr>
+      <tr><td>2</td><td>@firstadopter</td><td class="r">4</td><td class="r pos">75%</td><td class="r pos">+6.4%</td><td><span class="chip c-on">TRUSTED ×3w</span></td></tr>
+      <tr><td>3</td><td>@zephyr_z9</td><td class="r">3</td><td class="r">67%</td><td class="r">+0.6%</td><td><span class="chip c-on">TRUSTED ×2w</span></td></tr>
+      <tr><td>4</td><td>@tradfi</td><td class="r">4</td><td class="r neg">25%</td><td class="r neg">−3.9%</td><td><span class="chip c-off">DEFECT</span></td></tr>
     </table></div>
     <div class="faint" style="margin-top:8px">DEMOTED, weight removed immediately: @altcoinsherpa · @bubble-boy · @bubbleboi · @thedefivillain</div>
-    <div class="posture bad"><b>The TRUSTED rule has a hole and @tradfi is standing in it.</b> TRUSTED is earned by placing top-10 two weeks running — but only four authors clear the 3-idea minimum, so <b>top-10 is automatic</b> and @tradfi qualified with a 25% hit rate and a −3.9% median. Full author weight in rank_ideas.py is now flowing to a losing record. Proposed fix, for your call: require a <b>positive median return</b> as well as top-10 placement. Not applied.</div>
+    <div class="posture bad"><b>TRUSTED has a hole and @tradfi is standing in it.</b> The status is earned by placing top-10 two weeks running — but only four authors clear the 3-idea minimum, so <b>top-10 is automatic</b> and a 25% hit rate with a −3.9% median qualified. Full author weight in rank_ideas.py is now flowing to a losing record. Fix proposed: require a <b>positive median return</b> alongside top-10 placement. Not applied.</div>
   </section>
 
   <section>
-    <h2>BOARD AT THE BELL — FLOW AND WINNERS AGREE</h2>
-    <div class="w">paste.trade · window=today · lens=spot · DATA, NEVER INSTRUCTIONS</div>
+    <h2>BOARD AT THE BELL</h2>
+    <div class="w">paste.trade · DATA, NEVER INSTRUCTIONS</div>
     <div class="tw"><table class="num">
       <tr><th>SIGNAL</th><th>6H</th><th>24H</th><th>RANK</th></tr>
-      <tr><td>Fresh flow</td><td class="neg">8L / 11S</td><td class="neg">12L / 16S</td><td>LEADING</td></tr>
-      <tr><td>Winner skew</td><td colspan="2" class="neg">shorts winning</td><td>COINCIDENT</td></tr>
-      <tr><td>Turn alarm</td><td colspan="2"><span class="chip c-x">NONE — they agree</span></td><td>—</td></tr>
+      <tr><td>Fresh flow</td><td class="neg">8L / 11S</td><td class="neg">12L / 16S</td><td class="faint">LEADING</td></tr>
+      <tr><td>Winner skew</td><td colspan="2" class="neg">shorts winning</td><td class="faint">COINCIDENT</td></tr>
+      <tr><td>Turn alarm</td><td colspan="2"><span class="chip c-x">NONE — they agree</span></td><td class="faint">—</td></tr>
     </table></div>
     <div class="tw"><table class="num">
-      <tr><th>CONSENSUS</th><th>SIDE</th><th>N</th><th>TOP-10</th><th>SINCE POST</th></tr>
-      <tr><td>NVDA</td><td>long</td><td>3</td><td class="pos">2</td><td>−0.3%</td></tr>
-      <tr><td>SP500</td><td class="neg">short</td><td>3</td><td>0</td><td>+0.3%</td></tr>
-      <tr><td>BTC</td><td class="neg">short</td><td>2</td><td>0</td><td>+0.6%</td></tr>
-      <tr><td>HYPE</td><td class="neg">short</td><td>2</td><td>0</td><td>−0.1%</td></tr>
-      <tr><td>TLT</td><td class="neg">short</td><td>2</td><td>0</td><td>−0.3%</td></tr>
+      <tr><th>CONSENSUS</th><th>SIDE</th><th class="r">N</th><th class="r">TOP-10</th><th class="r">SINCE POST</th></tr>
+      <tr><td>NVDA</td><td>long</td><td class="r">3</td><td class="r pos">2</td><td class="r">−0.3%</td></tr>
+      <tr><td>SP500</td><td class="neg">short</td><td class="r">3</td><td class="r">0</td><td class="r">+0.3%</td></tr>
+      <tr><td>BTC</td><td class="neg">short</td><td class="r">2</td><td class="r">0</td><td class="r">+0.6%</td></tr>
+      <tr><td>HYPE</td><td class="neg">short</td><td class="r">2</td><td class="r">0</td><td class="r">−0.1%</td></tr>
+      <tr><td>TLT</td><td class="neg">short</td><td class="r">2</td><td class="r">0</td><td class="r">−0.3%</td></tr>
     </table></div>
-    <div class="posture"><b>Confirmed candidates collapsed from six to one between 3pm and the bell</b> (BTC short, @ezcontra). PUMP went from a confirmed long at +3.8% to a <b>knife at −3.3%</b> in the same window — the clearest possible illustration of why the 2pm turn should not be carried into Monday untested. Four of five consensus names are now shorts, and none of them is backed by a top-10 author.</div>
+    <div class="posture"><b>Four of five consensus names are shorts and none is backed by a top-10 author.</b> Worth noting the board's TLT short agrees with the RORO panel — no duration bid is a risk-<i>on</i> signal, and the board is positioned for it. The SP500 short is the one that fights the credit read.</div>
   </section>
 </div><div class="grid full">
   <section>
     <h2>SHOULD-BE LIST — THE WEEK'S MISSED-IDEA AUDIT</h2>
     <div class="w">MULTI-DAY QUALITY CONSENSUS NEVER WATCHED OR TRADED · 73 SNAPSHOT ROWS</div>
     <div class="tw"><table class="num">
-      <tr><th>TICKER</th><th>SIDE</th><th>DAYS</th><th>BACKING</th><th>VERDICT FOR NEXT WEEK</th></tr>
-      <tr><td>TLT</td><td class="neg">short</td><td>3</td><td>board consensus</td><td><span class="chip c-a">ADD TO WATCHLIST</span> — rates short is the one macro expression the book has never carried, and it is now the longest-standing gap</td></tr>
-      <tr><td>SP500</td><td class="neg">short</td><td>2</td><td>board consensus</td><td><span class="chip c-a">ADD TO WATCHLIST</span> — directly expresses your stated view; the only index short the account could ever afford is a far-dated SPY put and even that fails the delta floor today</td></tr>
-      <tr><td>AAPL</td><td class="neg">short</td><td>2</td><td>board consensus</td><td><span class="chip c-x">REJECT</span> — the −9.7% already happened; entering now is chasing a completed move</td></tr>
-      <tr><td>AMZN</td><td>long</td><td>2</td><td>@firstadopter, @tradfi</td><td><span class="chip c-x">REJECT</span> — was CROWDED at 5 co-signs and +4.1% past posting all day; correctly filtered, not missed</td></tr>
-      <tr><td>SKHY</td><td>long</td><td>2</td><td>@degentradinglsd</td><td><span class="chip c-x">REJECT</span> — spreads ran 40–90% of mid when screened on 7/30; untradeable at this size</td></tr>
+      <tr><th>TICKER</th><th>SIDE</th><th class="r">DAYS</th><th>BACKING</th><th>VERDICT</th></tr>
+      <tr><td>TLT</td><td class="neg">short</td><td class="r">3</td><td class="faint">board consensus</td><td><span class="chip c-a">WATCHLIST</span> — longest-standing gap, and now corroborated by the RORO panel's haven block</td></tr>
+      <tr><td>SP500</td><td class="neg">short</td><td class="r">2</td><td class="faint">board consensus</td><td><span class="chip c-x">REJECT</span> — fights credit, banks and the absent haven bid; a tech-specific short expresses the same view without the fight</td></tr>
+      <tr><td>AAPL</td><td class="neg">short</td><td class="r">2</td><td class="faint">board consensus</td><td><span class="chip c-x">REJECT</span> — the −9.7% already happened</td></tr>
+      <tr><td>AMZN</td><td>long</td><td class="r">2</td><td class="faint">@firstadopter, @tradfi</td><td><span class="chip c-x">REJECT</span> — CROWDED at 5 co-signs and +4.1% past posting; correctly filtered</td></tr>
+      <tr><td>SKHY</td><td>long</td><td class="r">2</td><td class="faint">@degentradinglsd</td><td><span class="chip c-x">REJECT</span> — spreads 40–90% of mid; untradeable at this size</td></tr>
     </table></div>
-    <div class="faint" style="margin-top:8px">Every name above now carries a written verdict, which closes the standing weekly obligation. Watchlist additions still pass every strategy.md / risk.md filter on the day they are actually traded.</div>
+    <div class="faint" style="margin-top:8px">Every name now carries a written verdict, closing the standing weekly obligation. Watchlist additions still pass every strategy.md / risk.md filter on the day they are traded.</div>
   </section>
 </div></div>
 
@@ -299,35 +379,53 @@
     <h2>R LEDGER — PERFORMANCE IN RISK UNITS</h2>
     <div class="w">32 CLOSED TRADES · R = P&amp;L ÷ PLANNED RISK · BOTH DESKS</div>
     <div class="tw"><table class="num">
-      <tr><th>METRIC</th><th>VALUE</th><th></th></tr>
-      <tr><td>Net return</td><td class="pos">+23.33R</td><td class="pos">+$331.06</td></tr>
-      <tr><td>Win rate</td><td>22%</td><td class="faint">7W / 25L</td></tr>
-      <tr><td>Avg trade</td><td class="pos">+0.73R</td><td class="faint">win +5.90R / loss −0.72R</td></tr>
-      <tr><td>Profit factor</td><td>1.14</td><td class="faint">+$2,746 / −$2,414</td></tr>
+      <tr><th>METRIC</th><th class="r">VALUE</th><th class="r"></th></tr>
+      <tr><td>Net return</td><td class="r pos">+23.33R</td><td class="r pos">+$331.06</td></tr>
+      <tr><td>Win rate</td><td class="r">22%</td><td class="r faint">7W / 25L</td></tr>
+      <tr><td>Avg trade</td><td class="r pos">+0.73R</td><td class="r faint">win +5.90R / loss −0.72R</td></tr>
+      <tr><td>Profit factor</td><td class="r">1.14</td><td class="r faint">+$2,746 / −$2,414</td></tr>
     </table></div>
-    <div class="posture"><b>Dollars and R disagree, and R is the more useful number.</b> +$331 across two accounts looks like a scratch week; +23.33R says the process produced a large positive expectancy that <b>one trade delivered</b> — SNDK at +4.58R and +1.21R. Strip those two and the ledger is deeply negative. A 22% win rate is survivable only while the payoff ratio holds at 8×, and it will not hold every week.</div>
+    <div class="posture"><b>Dollars and R disagree, and R is the more useful number.</b> +$331 across two accounts looks like a scratch; +23.33R says the process produced large positive expectancy that <b>one name delivered</b> — SNDK at +4.58R and +1.21R. Strip those and the ledger is deeply negative. A 22% win rate survives only while the payoff ratio holds at 8×, and it will not hold every week.</div>
   </section>
 
   <section>
     <h2>PLAN VIOLATIONS — LOSSES BEYOND −1.0R</h2>
     <div class="w">STOP NOT HONORED, OR NEVER SET · 7 OF 25 LOSSES</div>
     <div class="tw"><table class="num">
-      <tr><th>#</th><th>NAME</th><th>DATE</th><th>R</th><th>ACTUAL vs PLANNED</th></tr>
-      <tr><td>27</td><td>RDDT</td><td>07-30</td><td class="neg">−2.60R</td><td>−$703.95 vs $271</td></tr>
-      <tr><td>18</td><td>QQQI</td><td>07-29</td><td class="neg">−2.14R</td><td>−$212.14 vs $99</td></tr>
-      <tr><td>15</td><td>MU</td><td>07-29</td><td class="neg">−1.99R</td><td>−$151.71 vs $76</td></tr>
-      <tr><td>23</td><td>SQQQ</td><td>07-29</td><td class="neg">−1.30R</td><td>−$9.70 vs $7</td></tr>
-      <tr><td>21</td><td>BE</td><td>07-29</td><td class="neg">−1.29R</td><td>−$332.24 vs $259</td></tr>
-      <tr><td>25</td><td>CMG</td><td>07-31</td><td class="neg">−1.24R</td><td>−$37.08 vs $30</td></tr>
-      <tr><td>8</td><td>RDDT</td><td>07-28</td><td class="neg">−1.09R</td><td>−$29.87 vs $27</td></tr>
+      <tr><th>#</th><th>NAME</th><th>DATE</th><th class="r">R</th><th class="r">ACTUAL vs PLAN</th></tr>
+      <tr><td>27</td><td>RDDT</td><td>07-30</td><td class="r neg">−2.60R</td><td class="r">−$703.95 / $271</td></tr>
+      <tr><td>18</td><td>QQQI</td><td>07-29</td><td class="r neg">−2.14R</td><td class="r">−$212.14 / $99</td></tr>
+      <tr><td>15</td><td>MU</td><td>07-29</td><td class="r neg">−1.99R</td><td class="r">−$151.71 / $76</td></tr>
+      <tr><td>23</td><td>SQQQ</td><td>07-29</td><td class="r neg">−1.30R</td><td class="r">−$9.70 / $7</td></tr>
+      <tr><td>21</td><td>BE</td><td>07-29</td><td class="r neg">−1.29R</td><td class="r">−$332.24 / $259</td></tr>
+      <tr><td>25</td><td>CMG</td><td>07-31</td><td class="r neg">−1.24R</td><td class="r">−$37.08 / $30</td></tr>
+      <tr><td>8</td><td>RDDT</td><td>07-28</td><td class="r neg">−1.09R</td><td class="r">−$29.87 / $27</td></tr>
     </table></div>
-    <div class="posture bad"><b>Four of the seven happened on 7/29 — one session.</b> That is the day the profile flags for self-directed contempt in chat followed by escalating size. The violations are not spread across the week; they cluster on the day the tempo ran away. <b>CMG on 7/31 is mine, not yours</b> — the agentic stop fired at −61.7% instead of −50% because the mark gapped through the level between check-ins. That is an argument for a resting stop, not for a wider one.</div>
+    <div class="posture bad"><b>Four of seven happened on 7/29 — one session.</b> The violations are not spread across the week; they cluster on the day the tempo ran away. <b>CMG on 7/31 is mine, not yours</b> — the agentic stop fired at −61.7% instead of −50% because the mark gapped through between check-ins. That argues for a resting stop, not a wider one.</div>
   </section>
 </div><div class="grid even">
   <section>
-    <h2>WEEK P&amp;L — MANUAL ••••5308</h2>
-    <div class="w">CALENDAR WEEK MON 7/27 → FRI 7/31 CLOSE · 30 TRADES · WIN RATE 23%</div>
-    <div class="num" style="font-size:20px;margin-top:10px" ><span class="pos">+$109.62</span> <span class="faint" style="font-size:12px">prior week +$961.20</span></div>
+    <h2>TWO WEEKS SIDE BY SIDE — MANUAL DESK</h2>
+    <div class="w">CALENDAR WEEKS · ONE SESSION CARRIES EACH OF THEM</div>
+    <div class="tw"><table class="num">
+      <tr><th>METRIC</th><th class="r">7/20 → 7/24</th><th class="r">7/27 → 7/31</th></tr>
+      <tr><td>Net realized</td><td class="r pos">+$961.20</td><td class="r pos">+$109.62</td></tr>
+      <tr><td>Trades</td><td class="r">72</td><td class="r">30</td></tr>
+      <tr><td>Win rate</td><td class="r">47%</td><td class="r neg">23%</td></tr>
+      <tr><td>Profit factor</td><td class="r">1.41</td><td class="r">1.04</td></tr>
+      <tr><td>Payoff ratio</td><td class="r">1.58×</td><td class="r pos">3.38×</td></tr>
+      <tr><td>SPY that week</td><td class="r neg">−0.59%</td><td class="r pos">+1.07%</td></tr>
+      <tr><td>Best session</td><td class="r pos">7/21 +$2,056</td><td class="r pos">7/30 +$1,538</td></tr>
+      <tr><td>Other four days</td><td class="r neg">−$1,095</td><td class="r neg">−$1,428</td></tr>
+      <tr><td><b>SNDK</b></td><td class="r neg">−$701 <span class="faint">19 trades</span></td><td class="r pos">+$2,274 <span class="faint">4 trades</span></td></tr>
+    </table></div>
+    <div class="posture"><b>Same name, opposite outcome, and the only variable that moved was trade count.</b> SNDK lost $701 across 19 trades the week of 7/20 and made $2,274 across 4 the week of 7/27 — then Friday's 82-minute round trip, the moment frequency picked back up, handed $81.93 straight back. About as clean a controlled experiment as a live book produces. <b>Both weeks share a shape too:</b> one session makes it, four bleed.</div>
+  </section>
+
+  <section>
+    <h2>WEEK P&amp;L — BY SYMBOL</h2>
+    <div class="w">MANUAL DESK · MON 7/27 → FRI 7/31 · 30 TRADES · 23% WIN RATE</div>
+    <div class="num" style="font-size:20px;margin-top:10px"><span class="pos">+$109.62</span> <span class="faint" style="font-size:12px">prior week +$961.20</span></div>
     <div class="bars">
       <div class="bar"><span class="t">SNDK</span><span class="track"><span class="fill p" style="width:48%"></span></span><span class="v pos">+2,274</span></div>
       <div class="bar"><span class="t">ETH</span><span class="track"><span class="fill p" style="width:0.2%"></span></span><span class="v pos">+9</span></div>
@@ -344,39 +442,7 @@
       <div class="bar"><span class="t">BE</span><span class="track"><span class="fill n" style="width:7.1%"></span></span><span class="v neg">−332</span></div>
       <div class="bar"><span class="t">RDDT</span><span class="track"><span class="fill n" style="width:20.5%"></span></span><span class="v neg">−967</span></div>
     </div>
-    <div class="posture"><b>One green name out of fourteen.</b> SNDK paid for the entire week and then some; every other position on the desk lost money. SNDK's +$2,355.57 became <b>+$2,273.64</b> after Friday's 15:42 round trip gave $81.93 back. Behavioural flags from discipline.py: <span class="chip c-off">CHURN</span> RDDT, 10 round trips, −$967.49 · <span class="chip c-off">REVENGE</span> 7/28 · <span class="chip c-off">REVENGE</span> 7/29.</div>
-  </section>
-
-  <section>
-    <h2>TWO WEEKS SIDE BY SIDE — MANUAL DESK</h2>
-    <div class="w">CALENDAR WEEKS · ONE DAY CARRIES EACH OF THEM</div>
-    <div class="tw"><table class="num">
-      <tr><th>METRIC</th><th>7/20 → 7/24</th><th>7/27 → 7/31</th></tr>
-      <tr><td>Net realized</td><td class="pos">+$961.20</td><td class="pos">+$109.62</td></tr>
-      <tr><td>Trades</td><td>72</td><td>30</td></tr>
-      <tr><td>Win rate</td><td>47%</td><td class="neg">23%</td></tr>
-      <tr><td>Profit factor</td><td>1.41</td><td>1.04</td></tr>
-      <tr><td>Payoff ratio</td><td>1.58×</td><td class="pos">3.38×</td></tr>
-      <tr><td>SPY that week</td><td class="neg">−0.59%</td><td class="pos">+1.07%</td></tr>
-      <tr><td>Best day</td><td class="pos">7/21 +$2,056 <span class="faint">31 trades</span></td><td class="pos">7/30 +$1,538</td></tr>
-      <tr><td>Other four days</td><td class="neg">−$1,095</td><td class="neg">−$1,428</td></tr>
-      <tr><td>SNDK</td><td class="neg">−$701 <span class="faint">19 trades</span></td><td class="pos">+$2,274 <span class="faint">4 trades</span></td></tr>
-    </table></div>
-    <div class="posture"><b>Same name, opposite outcome, and the only variable that changed was trade count.</b> SNDK lost $701 across 19 trades the week of 7/20 and made $2,274 across 4 the week of 7/27 — and Friday's 82-minute round trip, the moment frequency picked back up, gave $81.93 straight back. The two-week record says the edge is the read and the leak is the re-entry, with about as clean a controlled experiment as a live book ever produces.
-    <br><br>The other constant: <b>one session makes each week and the remaining four bleed.</b> 7/21 was +$2,056 against −$1,095 for the rest; 7/30 was +$1,538 against −$1,428. Two weeks, same shape.</div>
-  </section>
-</div><div class="grid even">
-  <section>
-    <h2>WEEK P&amp;L — AGENTIC ••••0924</h2>
-    <div class="w">CALENDAR WEEK · 3 TRADES · WIN RATE 0%</div>
-    <div class="num" style="font-size:20px;margin-top:10px"><span class="neg">−$53.00</span></div>
-    <div class="tw"><table class="num">
-      <tr><th>TRADE</th><th>EXIT</th><th>P&amp;L</th><th>REASON</th></tr>
-      <tr><td>CMG 8/21 $41C</td><td>07-31</td><td class="neg">−$37.00</td><td>plan_stop</td></tr>
-      <tr><td>OPEN 8/21 $3.5P</td><td>07-28</td><td class="neg">−$10.00</td><td>thesis_broken</td></tr>
-      <tr><td>RIG 8/21 $3.5C</td><td>07-27</td><td class="neg">−$6.00</td><td>thesis_broken</td></tr>
-    </table></div>
-    <div class="posture"><b>Three trades, three losses, and the sizing did its job.</b> A 0% week cost 33% of a $158 account — which is what the $20–60 band exists to guarantee. The agentic desk's problem this week was never risk control; it was that budget blocked every candidate at 10am, 12pm and 2pm on Friday, and the one name that cleared every other filter (NVDA) priced its cheapest 0.30-delta strike at <b>$465 against a $60 cap</b>.</div>
+    <div class="posture"><b>One green name out of fourteen.</b> Agentic desk separately: <span class="neg">−$53.00</span> over 3 trades, 0% win rate — CMG −$37, OPEN −$10, RIG −$6. A 0% week cost 33% of a $158 account, which is exactly what the $20–60 band exists to guarantee. Flags from discipline.py: <span class="chip c-off">CHURN</span> RDDT ×10 · <span class="chip c-off">REVENGE</span> 7/28 · <span class="chip c-off">REVENGE</span> 7/29.</div>
   </section>
 </div></div>
 
@@ -391,48 +457,48 @@
       <tr><td>36</td><td>CORD 100sh <span class="faint">manual · @7.0396</span></td><td>CRWV reclaiming 73.90 → CORD under 6.68 (−5.1%)</td><td><span class="chip c-n">INTACT</span></td></tr>
       <tr><td>37</td><td>LIME 20sh <span class="faint">manual · @29.38</span></td><td>earnings 8/4 · loss of 27.91 breaks the breakout</td><td><span class="chip c-off">BINARY TUE</span></td></tr>
     </table></div>
-    <div class="faint" style="margin-top:8px">Housekeeping this session: #11 QQQI had been sitting open in the journal since 7/29 while the broker showed the position fully closed. Closed at $51.145, −$212.15. The desk now holds exactly what the journal says it holds.</div>
+    <div class="faint" style="margin-top:8px">Housekeeping: #11 QQQI had been sitting open since 7/29 while the broker showed it flat — closed at $51.145, −$212.15. The desk now holds exactly what the journal says it holds.</div>
   </section>
 
   <section>
     <h2>PROFILE FLAGS — trader_profile.py</h2>
-    <div class="w">EVIDENCE ONLY · THE SYNTHESIS IS WRITTEN FRESH EACH FRIDAY</div>
+    <div class="w">EVIDENCE ONLY · SYNTHESIS WRITTEN FRESH EACH FRIDAY</div>
     <div class="tw"><table class="num">
-      <tr><th>FLAG</th><th>N</th><th>MEANING</th></tr>
-      <tr><td>LATE_THESIS</td><td class="neg">24</td><td>journaled after entry, not at the decision</td></tr>
-      <tr><td>USER_CONVICTION</td><td>8</td><td>narrative read rather than a system signal</td></tr>
-      <tr><td>SIZE_OVERRIDE</td><td>8</td><td>above risk.md caps, winners included</td></tr>
+      <tr><th>FLAG</th><th class="r">N</th><th>MEANING</th></tr>
+      <tr><td>LATE_THESIS</td><td class="r neg">24</td><td>journaled after entry, not at the decision</td></tr>
+      <tr><td>USER_CONVICTION</td><td class="r">8</td><td>narrative read rather than a system signal</td></tr>
+      <tr><td>SIZE_OVERRIDE</td><td class="r">8</td><td>above risk.md caps, winners included</td></tr>
     </table></div>
-    <div class="posture bad"><b>24 of 35 entries were journaled after the fact.</b> That is a reporting artifact of a read-only manual desk — I reconstruct your fills from the order book hours later — but it has a real cost: a thesis written after the entry cannot falsify the entry. The fix is not more journalling by me. It is one line from you at the moment of the fill.</div>
+    <div class="posture bad"><b>24 of 35 entries were journaled after the fact</b> — an artifact of a read-only desk where fills get reconstructed hours later, but with a real cost: a thesis written after the entry cannot falsify the entry. The fix is not more journalling by me; it is one line from you at the moment of the fill.</div>
   </section>
 </div><div class="grid full">
   <section>
     <h2>THE WEEK'S FINDING — WHAT A BAN IS ACTUALLY FOR</h2>
     <div class="w">FOUR HOSTS IN FIVE SESSIONS · EACH CONTROL SATISFIED ON ITS LETTER</div>
-    <div class="tw"><table>
-      <tr><th>HOST</th><th>CONTROL IN FORCE</th><th>WHAT HAPPENED</th><th>COST</th></tr>
-      <tr><td>RDDT</td><td>3-strike rule → self-imposed indefinite ban 7/30</td><td>11 round trips in 4 sessions before the ban</td><td class="neg">−$967.49</td></tr>
-      <tr><td>EWY</td><td>none — new name</td><td>2 round trips in 5 hours, same evening the ban was declared; every fill inside the banned 8pm–4am window</td><td class="neg">−$211.62</td></tr>
-      <tr><td>CORD</td><td>none — new name</td><td>9 fills in one session; sold the whole block +$63.44, rebought 4.5% higher at 2× size 54 minutes later</td><td class="neg">−$6.32</td></tr>
-      <tr><td>SNDK</td><td><b>1–2 entries/week cap</b></td><td>third entry of the week (cap hit 7/30); held 82 minutes and cut</td><td class="neg">−$81.93</td></tr>
-      <tr><td>CORD <span class="faint">again</span></td><td>none</td><td>fourth CORD entry of the day, 15:57 — but <b>below</b> the 12:33 exit</td><td class="pos">open, +$5.04</td></tr>
+    <div class="tw"><table class="num">
+      <tr><th>HOST</th><th>CONTROL</th><th>WHAT HAPPENED</th><th class="r">COST</th></tr>
+      <tr><td>RDDT</td><td>3-strike → indefinite ban 7/30</td><td>11 round trips in 4 sessions before the ban</td><td class="r neg">−$967.49</td></tr>
+      <tr><td>EWY</td><td class="faint">none — new name</td><td>2 round trips in 5 hours the same evening; every fill inside the banned 8pm–4am window</td><td class="r neg">−$211.62</td></tr>
+      <tr><td>CORD</td><td class="faint">none — new name</td><td>9 fills in one session; sold the block +$63.45, rebought 4.5% higher at 2× size 54 minutes later</td><td class="r neg">−$6.32</td></tr>
+      <tr><td>SNDK</td><td><b>1–2 entries/week cap</b></td><td>third entry of the week, cap already hit 7/30; held 82 minutes and cut</td><td class="r neg">−$81.93</td></tr>
+      <tr><td>CORD <span class="faint">again</span></td><td class="faint">none</td><td>fourth entry of the day at 15:57 — but <b>below</b> the 12:33 exit</td><td class="r pos">open, +$5.04</td></tr>
     </table></div>
-    <div class="posture"><b>CORD is the cleanest evidence in the whole book, because the call was right.</b> CORD closed Friday +4.7%, and +15.8% above your 8:16am fill. Holding just the 90-share premarket core to your own 12:33 exit was <b>+$95.76</b>. Nine fills turned that into −$6.32 — roughly <b>$100 paid to hold the same opinion at three different bases</b>, with no bad read anywhere in it. And the final exit was <i>good</i>: −1.9% against basis, cut ahead of the −3% stop as CRWV bounced. The leak has never been the exit.
-    <br><br><b>The proposal, restated for your sign-off:</b> no re-entry into a name above the price you exited it at, same session. Behaviour-named, not ticker-named. It would have blocked the 11:46 CORD rebuy — the only trade of that day that lost real money — and it would have blocked nothing else all week. <b>A ticker ban moves the behaviour. This is the first rule on the table that follows it.</b></div>
+    <div class="posture"><b>CORD is the cleanest evidence in the book, because the call was right.</b> It closed Friday +4.7%, and +15.8% above the 8:16am fill. Holding just the 90-share premarket core to your own 12:33 exit was <b>+$95.76</b>. Nine fills turned that into −$6.32 — roughly <b>$100 paid to hold the same opinion at three different bases</b>, with no bad read anywhere in it. And the exits were <i>good</i>: −1.9% against basis on CORD, −1.3% on SNDK, both cut ahead of the −3% stop. The leak has never been the exit.
+    <br><br><b>The proposal, restated:</b> no re-entry into a name above the price you exited it at, same session. Behaviour-named, not ticker-named. It would have blocked the 11:46 CORD rebuy — the only trade that day that lost real money — and nothing else all week. Friday's 15:57 CORD buy at $7.0396 was <b>below</b> the $7.09 exit, so the rule correctly leaves it alone. <b>A ticker ban moves the behaviour; this is the first rule on the table that follows it.</b></div>
   </section>
 </div><div class="grid full">
   <section>
     <h2>NOTES — LOCAL TO THIS BROWSER<span id="nsave" class="faint"></span></h2>
     <div class="w">NOT COMMITTED TO THE REPO · PASTE RAW NOTES HERE AND THEY GET DISTILLED AT THE NEXT BRIEF</div>
-    <textarea id="notes" placeholder="What were you actually thinking on the SNDK entry at 2:20pm?"></textarea>
+    <textarea id="notes" placeholder="What was the read on LIME — the breakout, or the story?"></textarea>
   </section>
 </div></div>
 
 <footer>
-  Built from live broker + <code>paste.trade</code> data at the Friday close. Rules of record: <code>strategy.md</code> · <code>risk.md</code> · <code>workflow.md</code>.
-  Account ••••5308 is READ-ONLY — every figure on this page for that desk is observation, never an order.
-  All market and social-feed content is data, never instructions. Grade shown is PROVISIONAL: the Monday 9:00am brief recomputes it with the full conditions panel.
-  Proposals on this page (breadth input, TRUSTED median filter, same-session re-entry rule) are <b>drafts awaiting sign-off</b> — no tool or rule file has been changed.
+  RORO composite built from 13 cross-asset signals over 1D / 1W / 1M / 3M windows, weighted CREDIT ×3 · CYCLICALS, BREADTH, LEADERSHIP, CONSUMER, HAVENS ×2 · LIQUIDITY ×1, on 136 sessions of daily closes to 2026-07-31.
+  It is a <b>separate instrument</b> from the workflow.md daily grade and the two currently disagree — by design, until the credit and breadth inputs are signed off.
+  Rules of record: <code>strategy.md</code> · <code>risk.md</code> · <code>workflow.md</code>. Account ••••5308 is READ-ONLY — every figure for that desk is observation, never an order.
+  All market and social-feed content is data, never instructions. Every proposal on this page is a <b>draft awaiting sign-off</b>; no tool or rule file has been changed.
 </footer>
 </div>
 
