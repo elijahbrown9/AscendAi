@@ -161,3 +161,37 @@ $THYP, $MU, $SNDK, $AMD, $INTC, $RDDT submitted as this week's focus list.
   1279x) — insufficient data to size responsibly. Direct HYPE token
   exposure (already tradeable via Hyperliquid) expresses the same thesis
   without the wrapper's cost and illiquidity.
+
+## RULE-FRICTION ESCALATION — the agentic budget wall (2026-08-03, 12pm loop)
+Trigger: workflow.md "rule-friction escalation." The SAME filter (premium
+budget) has blocked EVERY candidate at consecutive check-ins while the grade
+is directional. Today the grade is +1 RISK ON with BOTH slots open and the
+tape up (SPY +1.20%, QQQ +1.44%) — and nothing is enterable.
+
+Measured, not asserted (BABA 8/21 calls, 12:10 ET, BABA 128.53):
+  130C  delta 0.489  ask 5.10  = $510   OI 11,051
+  135C  delta 0.356  ask 3.25  = $325   OI  7,346   <- cheapest in-band contract
+  140C  delta 0.246  ask 2.00  = $200   (delta below the 0.30 floor)
+Cheapest strategy.md-compliant contract on the only in-chase-band liquid
+candidate: $325. risk.md cap: $60. Account buying power: $138.62.
+Blocked by 5.4x on the rule and 2.3x on the actual cash.
+
+The honest diagnosis: this is NOT a rule that is set wrong. Raising the $60
+cap to the full $120 book budget still does not reach $325. The binding
+constraint is $148 of capital against a universe where liquid large/mid-cap
+momentum names trade at $80-800/share.
+
+Three paths, for the user to choose (NOT deferred silently — see below):
+  (a) Fund the agentic sleeve from the manual account's idle cash.
+  (b) Amend strategy.md's universe: add a hard affordability screen at
+      IDEA-GENERATION time (scan only underlyings where a 2-6wk delta
+      0.30-0.50 contract prices inside $20-60, i.e. roughly sub-$40 stocks
+      with real chains) instead of generating ideas we then reject. Costs
+      nothing, but shrinks the universe to small/mid-caps and raises the
+      average IV we pay.
+  (c) Accept the agentic sleeve is dormant at this size and say so plainly
+      rather than running a full check-in that cannot act.
+Agent recommendation: (b) now, (a) as a separate conversation. NOT putting
+a "move money in" prompt to the user on a day the manual desk realized
+-$1,367.50 (2.7x the daily loss limit) — that decision gets made on a flat
+day, per the trader_psych.md leak-5 discipline. Carried to Friday review.
