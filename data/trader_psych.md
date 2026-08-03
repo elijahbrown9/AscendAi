@@ -267,3 +267,31 @@ Standing position going into Monday: CORD 100sh @7.0396 and LIME 20sh @29.38,
 journal #36 named "CRWV reclaiming 73.90 -> CORD under 6.68" and CRWV printed
 73.82 with CORD bid 6.65. The falsifier discipline is working; what it costs
 is $39 on a $704 position.
+
+### 2026-08-03 — the fade rule, and the stop that would have made it moot
+User declared a new standing rule mid-drawdown: no longer permitted to take
+the other side of @firstadopter's ideas. Recorded in watchlist.md with scope
+and an expiry condition tied to his weekly rank rather than his name.
+
+**The rule targets the right thing.** 82% of the CORD loss (-$606 of -$742)
+is in the 400 shares bought AFTER his CRWV long went up, not the 100 opened
+before it. The instinct behind the rule is correct and the arithmetic
+supports it.
+
+**But the loss was not caused by the fade.** CORD hit its risk.md -3% line at
+$6.945 and was held to $5.68. Honoring the stop that already exists caps this
+at -$107.40 instead of -$741.97 — **the stop was worth $634.57 today**, more
+than the entire fade. Journal #36 records "no stop set" at entry; that single
+omission is now the most expensive line in the book after RDDT.
+
+**Pattern note for the next review:** this is the fifth control the trader has
+imposed in eight sessions (RDDT ban, SNDK weekly cap, the proposed
+same-session re-entry rule, the daily-loss limit, now the fade rule). Four of
+the five name a ticker or a person. The one that names a behaviour — the -3%
+stop — is the one that already existed and was not used. The trader keeps
+writing new rules at the moment of pain and then not executing the old ones.
+That observation belongs in the Friday review, not in the middle of a
+drawdown, and it is logged here so it is not lost.
+
+Also today: the daily-loss limit (2% ~= $532) was breached at 09:54 and the
+position was still open at 10:04 at -$740, 139% of the limit.

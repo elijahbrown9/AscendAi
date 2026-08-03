@@ -4,6 +4,45 @@ Names here are re-evaluated every pre-open brief. Being on this list is not
 an entry signal — every name still has to clear strategy.md/risk.md filters
 the day it's actually traded.
 
+## STANDING RULE — DO NOT FADE @firstadopter (user-imposed, 2026-08-03)
+The user's own words: "i faded the trader who is really good. i am no longer
+allowed to go against him in my ideas."
+
+Receipt: @firstadopter posted CRWV LONG at $73.596 on Sun 2026-08-02 22:28 ET.
+The book was short CRWV via CORD (2x inverse) and ADDED 400 shares 8.5 hours
+later, 07:07-07:42 ET Monday, at ~$7.195. CRWV ran to $78.86 (+9.9% on the
+day, +7.1% since his post). CORD went to $5.68.
+
+Loss attribution, computed not estimated:
+  - original 100sh @ 7.0396 (opened Fri, BEFORE his post) ... -$135.96
+  - 400sh added AFTER his post @ 7.1950 .................... -$606.01
+  - 82% of the damage sits in the shares bought against him.
+
+Scope, as the agent will enforce it at every check-in:
+  - A fresh LONG from @firstadopter in a name bars a NEW short or any ADD to
+    an existing short in that name or its inverse/leveraged proxies, and
+    vice versa. CORD/CRWV, SOXL/SOXS-type pairs count as the same name.
+  - It does NOT force an exit of a position opened before his post. It stops
+    you adding to it.
+  - @firstadopter's rank is re-earned weekly like everyone else's. If he
+    drops out of the TRUSTED set, this rule lapses with his rank — it is a
+    rule about a RECORD, not about a person.
+  - Current live idea to check against: KIOXIA LONG @ 255.82 (+16.83%).
+
+CAVEAT THE AGENT IS OBLIGED TO KEEP RAISING: this is a person-named rule,
+and every person/ticker-named control in this file has relocated the
+behaviour rather than stopped it (RDDT banned -> EWY -> CORD -> SNDK). It is
+worth having. It is not sufficient on its own. See the stop note below.
+
+## THE STOP WAS WORTH $634.57 TODAY (2026-08-03)
+risk.md already mandates -3% from entry. On the $7.16 average that is $6.945.
+  honored:  -$107.40
+  actual:   -$741.97  (at $5.68)
+  cost of not honoring it: -$634.57
+No stop was written on CORD at any point - journal #36 records "none set".
+The fade rule would have prevented the add. The stop would have capped the
+damage whether or not the add happened. Both, not either.
+
 ## STANDING BAN — RDDT (user-imposed, 2026-07-30, indefinite)
 The user has banned themselves from trading RDDT: "i am no longer allowed
 to trade it anymore." Context: 11 round trips in 4 sessions, CHURN x9 and
