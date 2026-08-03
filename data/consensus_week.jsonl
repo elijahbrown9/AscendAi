@@ -71,3 +71,13 @@
 {"ts": "2026-08-01T18:05+00:00", "ticker": "HYPE", "side": "short", "n_authors": 2, "n_top": 0, "top": [], "now_pct": 0.0}
 {"ts": "2026-08-01T18:05+00:00", "ticker": "TLT", "side": "short", "n_authors": 2, "n_top": 0, "top": [], "now_pct": 0.0}
 {"ts": "2026-08-01T18:05+00:00", "ticker": "NVDA", "side": "long", "n_authors": 3, "n_top": 2, "top": ["degentradinglsd", "firstadopter"], "now_pct": 0.0}
+{"ts": "2026-08-03T02:28+00:00", "ticker": "AMZN", "side": "long", "n_authors": 2, "n_top": 0, "top": [], "now_pct": 1.11}
+{"ts": "2026-08-03T02:28+00:00", "ticker": "BRENT", "side": "short", "n_authors": 2, "n_top": 0, "top": [], "now_pct": 0.77}
+{"ts": "2026-08-03T02:28+00:00", "ticker": "NVDA", "side": "long", "n_authors": 3, "n_top": 0, "top": [], "now_pct": 0.77}
+{"ts": "2026-08-03T02:28+00:00", "ticker": "WTI", "side": "short", "n_authors": 5, "n_top": 0, "top": [], "now_pct": 0.06}
+{"ts": "2026-08-03T02:28+00:00", "ticker": "BTC", "side": "long", "n_authors": 2, "n_top": 0, "top": [], "now_pct": 0.06}
+{"ts": "2026-08-03T02:28+00:00", "ticker": "AZN", "side": "short", "n_authors": 2, "n_top": 0, "top": [], "now_pct": 0.0}
+{"ts": "2026-08-03T02:28+00:00", "ticker": "BTC", "side": "short", "n_authors": 2, "n_top": 0, "top": [], "now_pct": 0.0}
+{"ts": "2026-08-03T02:28+00:00", "ticker": "INDA", "side": "short", "n_authors": 2, "n_top": 0, "top": [], "now_pct": 0.0}
+{"ts": "2026-08-03T02:28+00:00", "ticker": "TLT", "side": "short", "n_authors": 2, "n_top": 1, "top": ["firstadopter"], "now_pct": 0.0}
+{"ts": "2026-08-03T02:28+00:00", "ticker": "BRENT", "side": "long", "n_authors": 2, "n_top": 0, "top": [], "now_pct": 0.0}
