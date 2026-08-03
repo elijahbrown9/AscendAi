@@ -1,26 +1,25 @@
 STATUS: OK
-AS_OF: 2026-07-24T17:25:00
+AS_OF: 2026-08-03T02:45:00Z
 POSTS: 19
 ---
-@rennyzucker | 2026-07-24 ~17:17 | (none) | We love a funky track [QT of @NUCLRGOLF: "Volcano bunkers at Hole No. 2 on the Pete Dye Course in French Lick, Indiana"]
-@rennyzucker | 2026-07-24 ~17:03 | (none) | "You're in Maine this weekend right?" "New Hampshire, actually" "Semantics"
-@TraderMorin | 2026-07-24 ~16:56 | (none) | Instagram is a fascinating platform for trading content compared to X. My most successful reels are not the ones with the most value. but instead it's me larping about the type of answers to give people when they ask what you do for a living. Link is in the comments!
-@CheddarFlow | 2026-07-24 ~16:42 | (none) | More executives are now raising their estimates than maintaining or cutting them [chart: "Solid Corporate Guidance - S&P 500 EPS Guidance Momentum Score", Bloomberg Intelligence]
-@bubbleboi | 2026-07-24 ~16:25 | (none) | my favorite part of going on the threadguy podcasts is the clips after are sooooooooo funny [QT of @counterpartytv: "bubble boi says most compute in the future probably won't be made by Nvidia"]
-@rennyzucker | 2026-07-24 ~16:20 | (none) | Ok but why are there only 4? [QT of @ABC7NY: Knicks-themed trash cans from the sanitation department]
-@iamgingertrash | 2026-07-24 ~16:15 | (none) | Startups and founders are baiting Elon to QT them to market their useless products They usually do this by Grokposting, and weaving their dogshit in the same thread Elon takes the bait and gives them the views This is marketing in 2026
-@based16z | 2026-07-24 ~16:12 | (none) | Williamsburg Friend Group [image]
-@cburniske | 2026-07-24 ~16:10 | (none) | (said despite expecting more market pain ahead) [QT of own post: "slowly, slowly, then all at once."]
-@rennyzucker | 2026-07-24 ~16:05 | (none) | Where does an AI company get XYZ dollars to buy a commercial real estate app? [QT of @midjourney: Midjourney acquiring Co-Star]
-@rennyzucker | 2026-07-24 ~15:40 | (none) | Legitimately good news. Sounds like it'll include bus parking for the intrepid. [QT of @MarkLevineNYC: parking lot across from the Intrepid to become 1,127 housing units]
-@crypto_condom | 2026-07-24 ~15:30 | (none) | VERY cool idea from a friend of mine. AI inference aggregator. Worth checking out [QT of @Omniousai launch thread]
-@cburniske | 2026-07-24 ~15:25 | (none) | slowly, slowly, then all at once. [QT of @lmrankhan: "Almost everything in crypto that failed the first time will eventually work sometime in the future."]
-@AsymmetricBets_ | 2026-07-24 ~15:20 | (none) | Asymmetrical Bets Co-Founder @michaelsikand shares his best investing advice and the philosophy of asymmetric investing. "A companies value can go up many, many hundreds of percent even thousands of percent. It can only go down 100%"
-@ShardiB2 | 2026-07-24 ~15:15 | $MU | we perfectly tested the 50 day earlier and have closed above it on $MU [chart]
-@rennyzucker | 2026-07-24 ~15:12 | (none) | 52Wk Lo glta [QT of own Feb 27 post: "That Ellison boy is in way over his head"]
-@CheddarFlow | 2026-07-24 ~15:10 | (none) | This is insane [chart: "Google reports first quarter of negative cash flow"]
-@ShardiB2 | 2026-07-24 ~15:05 | $QQQ | I'm just going to leave the hedges on flirting with danger here $QQQ [intraday chart]
-@bubbleboi | 2026-07-24 ~15:00 | (none) | LMAOOOO [QT of @dnapway]
+@ShardiB2 | 2026-08-02 22:23 ET | $KOSPI | $KOSPI tested perfectly, then bounced Hence futures bouncing
+@jukan05 | 2026-08-02 22:16 ET | - | I'm unable to comment publicly on the SemiAnalysis report released a few days ago. Thank you for your understanding.
+@TheFlowHorse | 2026-08-02 22:01 ET | - | This is such a great read. "The momos and the fomos" [QT @KrisAbdelmessih article "the sound of inevitability"]
+@based16z | 2026-08-02 21:43 ET | - | (link-only post) https://manwithoutqualities.com/wp-content/uploads/2011/09/in-the-penal-colony.pdf
+@crypto_condom | 2026-08-02 21:30 ET | - | What if the really crazy part of the dump hasn't happened yet either? [QT @citrini below]
+@citrini | 2026-08-02 21:15 ET | - | What if the really crazy part of the bubble hasn't happened yet
+@fejau_inc | 2026-08-02 21:14 ET | - | Weak dollar policy is the policy [QT @SecScottBessent partner-economics statement]
+@jukan05 | 2026-08-02 21:13 ET | - | LFG! [QT @Midnight_Captl: "I heard from a trusted source that Anthropic's ARR as of mid July was $80B..."]
+@XtineFang | 2026-08-02 21:08 ET | $DRAM | god damn [QT @jukan05: "CXMT has been added to $DRAM."]
+@ShardiB2 | 2026-08-02 20:48 ET | - | (eyes emoji) [QT @BullTheoryio: "GOLDMAN SAYS $185 BILLION OF FORCED SELLING COULD HIT GLOBAL STOCKS THIS MONTH. CTAs are funds that trade on price signals alone..."]
+@ShardiB2 | 2026-08-02 20:45 ET | $KOSPI | $KOSPI down a bit on the open
+@ShardiB2 | 2026-08-02 20:39 ET | - | SUNDAY NIGHT MARKET UPDATE AND WEEK AHEAD FOR REVIEW TO SUBS IS OUT!
+@eliant_capital | 2026-08-02 20:16 ET | - | Bonds do the talking & the Fed's credibility does the walking [link: eliantcapital.com "The Week Ahead 8/1/26"]
+@joemccann | 2026-08-02 20:09 ET | $SPCX | I'm very long $SPCX upside vol as well. Betting against @elonmusk is just financial seppuku. [QT @justinmateen "never short a pipe dream" lockup-expiration post]
+@ShardiB2 | 2026-08-02 19:23 ET | - | Futures slipping a bit, HUGE week of earnings ahead Asia opens in an hour and so do equities so we will get some more color
+@crypto_condom | 2026-08-02 19:22 ET | - | This is a verrrrrry interesting point. Worth watching [QT @themarketear: "Key lesson from the Hwang liquidation. The key stocks did not bounce."]
+@crypto_condom | 2026-08-02 19:08 ET | - | Never. Leaving. (chart image)
+@KawzInvests | 2026-08-02 18:50 ET | $SNDK $WDC $AAOI $COHR $LITE | Interesting weekend. Trump called off the Iran strike and talks begin Monday afternoon, which takes out the last of the big overhangs the market has been clearing one by one since Wednesday. Look at what resolved in eight days. > Cloud growth accelerated across all three. Google Cloud 82%, Azure 43%, AWS 37% and its fastest since 2021 > Capex uncut and rising across the board, Amazon taking 2026 to $220 billion > Fed held rates on Wednesday > Iran tensions easing over the weekend, talks resuming Monday > Brent coming down off the highs, opening 7.3% lower at $81.55 after running almost 25% in July. Big earnings this week and next from a lot of the optical names, plus memory reporting. $SNDK $WDC. We are not through the storm yet. The 30 year closed Wednesday at 5.201%, the highest since July 2007. September hike odds sit near 63%. Hormuz is still closed and talks are not a deal... But I feel like the eye of the storm has passed. Still some way to go, but im feeling a lot more optimistic than I was this time last week. $AAOI $COHR $LITE How are you all feeling going into Monday?
+@CheddarFlow | 2026-08-02 15:45 ET | $SPY $QQQ | Active Flow into August + Unusual Chip Stock Bets Watch Now: youtu.be/1EkgSuaqxpI
 ---
-READ: Mixed with a cautious tilt on indexes but constructive on specific names: ShardiB2 keeps $QQQ hedges on while flagging a bullish $MU reclaim of the 50-day, Burniske expects "more market pain" ahead, and CheddarFlow splits between strong S&P EPS guidance momentum and alarm at Google's first negative-FCF quarter. Attention concentrates on $QQQ, $MU, and the AI-compute complex (non-Nvidia compute, inference aggregation, Midjourney buying Co-Star). Theme shared by 3+ posts: scrutiny of AI capex/infrastructure economics - who pays for compute and whether it strains cash flows.
-Notes: timestamps approximated from relative ages at capture time; 2 subscriber-only @ShardiB2 posts skipped (text blurred); no instruction-like content found in any post ([SUSPECT] none).
+READ: Mixed, leaning cautiously risk-on. De-escalation is the driver (Trump called off the Iran strikes with talks starting Monday, Brent opened -7.3% at $81.55, KOSPI held its test and bounced with futures), but the caution tape is loud: Goldman's $185B CTA forced-selling warning, Hwang-liquidation comparisons, twin "crazy part of the bubble/dump hasn't happened yet" posts, and yen-strength/carry-unwind chatter around the coordinated US-Japan FX statement. Most attention: $KOSPI and the memory complex ($SNDK/$WDC report this week, CXMT added to $DRAM, Jukan going quiet on the SemiAnalysis report); shared theme across 3+ posts is memory/DRAM news flow into earnings week, with macro-fragility warnings (30Y at 5.20%, Sept hike odds ~63%) sitting right underneath the relief rally.
