@@ -249,3 +249,21 @@ re-pull, so the first revision claimed SNDK was held into Wednesday's
 earnings after it had been sold. Fourth stale-position report this week.
 Standing fix: re-pull get_equity_positions immediately before any artifact
 or brief that states a position, never carry a prior check-in's picture.
+
+### 2026-08-02 (Sun 22:20 ET) — the week-start ritual did not fire
+Checked the overnight session live, inside the banned 8pm-4am window.
+**Zero fills in either account since Friday 17:56 ET.** The 7/30 retro named
+Sunday-night positioning as a deliberate ritual — "The trader opened this
+week (MU, INTC, RDDT, ETH) in the Sunday overnight session by design" — and
+the profile listed 8 overnight violations in the prior week, every one a
+loss. This Sunday: nothing. **First clean week-start in the record**, and it
+follows the first week where trade count fell (72 -> 30) and the closing
+book was under half a unit. Three independent things moving the same way is
+no longer noise; log it as evidence the session rule is being kept, not just
+acknowledged.
+
+Standing position going into Monday: CORD 100sh @7.0396 and LIME 20sh @29.38,
+0.48 units combined. CORD's falsifier hit overnight almost to the tick —
+journal #36 named "CRWV reclaiming 73.90 -> CORD under 6.68" and CRWV printed
+73.82 with CORD bid 6.65. The falsifier discipline is working; what it costs
+is $39 on a $704 position.
