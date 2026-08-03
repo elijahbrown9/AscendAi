@@ -332,3 +332,35 @@ Naming only the churn would be its own kind of dishonesty.
 Open question for the user, not rhetorical: is MAGS a HOLD or a TRADE?
 Journal #40 is deliberately parked on that ambiguity. An unlabelled
 position gets managed by mood, and mood is the documented leak.
+
+### 2026-08-03 (close) — the last 25 minutes
+
+Four more buys between 15:06 and 15:14 ET, after the 3pm brief:
+  NBIS   5 @217.985 (15:06)   CRWV  20 @85.32 (15:07)
+  NBIS   5 @217.97  (15:10)   CRWV  30 @85.94 (15:14)
+
+Manual desk closes with FOUR concurrent positions. risk.md caps it at
+THREE. That is a hard-limit breach, and it happened on the day realized
+P&L hit 327pct of the daily loss limit — a day whose rule says "flat,
+done." The book closed 42pct invested instead.
+
+  CRWV  50 @85.69  -> 85.74   +2.50    1.70u
+  MAGS  50 @68.55  -> 68.335 -10.75    1.35u
+  NBIS  10 @217.98 -> 212.60 -53.80    0.84u
+  LIME  30 @29.10  -> 28.35  -22.50    0.34u
+                            ------
+                             -84.55    4.23u
+
+The CRWV entry deserves its own line. This morning the user was SHORT
+CRWV through CORD and lost 885.91 when it ran. CRWV closed +19.5pct.
+They bought the underlying at 85.32/85.94 in the last 25 minutes of that
+move — same name, opposite side, at the end. The board had it flagged at
++16.7pct past posting, i.e. eight times outside the 2pct chase band.
+
+Pattern to carry forward: today the losses did not come from being wrong
+about direction. The 10am read (turn confirmed, +1 RISK ON) was right and
+the tape closed SPY +1.5pct / QQQ +1.9pct. Every dollar lost came from
+tempo and sequencing — shorting the leader, sizing at 9.7 units, four
+sub-hour round trips, and a late-day chase into names already extended.
+Being right about the market and losing 1,672 in one session is a
+process failure, not an analysis failure, and the two need separate fixes.
