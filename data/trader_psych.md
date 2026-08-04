@@ -364,3 +364,38 @@ tempo and sequencing — shorting the leader, sizing at 9.7 units, four
 sub-hour round trips, and a late-day chase into names already extended.
 Being right about the market and losing 1,672 in one session is a
 process failure, not an analysis failure, and the two need separate fixes.
+
+### 2026-08-04 (close) — the right decision, 33 minutes late
+
+Manual desk realized +692.63 on 4 trades. Account 25,244.16 -> 26,100.20,
++856.04 (+3.39pct). First green day in this record after Monday's -1,759.67.
+
+THE BOOK IS INSIDE risk.md FOR THE FIRST TIME IN THIS RECORD:
+  positions      5  -> 2      (cap 3)
+  units      19.48  -> 3.83   (ceiling 9.0)
+  gross      1.95x  -> 0.39x  (permitted 0x at grade 0)
+  cash     -26,110  -> +16,020
+Every limit that was breached at 14:06 was clean by 16:40. That is the
+whole thing the last four check-ins were asking for, done in one decision.
+
+AND IT COST ~960 TO DO IT 33 MINUTES LATE. All three exits filled at
+16:33 ET in extended hours, below the 4pm close:
+  CRWV 200 @89.8135  close 91.89   -415.30 vs closing at the bell
+  SMH   20 @566.70   close 575.54  -176.80
+  AAOI  75 @126.75   close 131.66  -368.25
+                                   -960.35 total
+AAOI is the sharp one: it printed -292.71 realized, but at the 4pm close
+the same 75 shares were worth +75. The loss was manufactured entirely by
+the venue, not by the position.
+
+The pattern to carry: this trader can now SIZE DOWN correctly (the 14:54
+AAOI trim, then the full de-risk) - that was the missing skill all week
+and it appeared today. What has not appeared is executing inside regular
+hours. Monday's damage came from tempo; today's leakage came from timing.
+Same root: acting after the window rather than inside it. The fix is not
+another rule, it is a clock - decisions taken before 15:45 get filled at
+the close, decisions taken after get filled by whoever is still there.
+
+Still open: LIME 100sh (1.19u) into its first-ever earnings, flagged at
+every check-in from 12:06 and unchanged. After-hours book 30.39/34.65 is
+too wide to read.
