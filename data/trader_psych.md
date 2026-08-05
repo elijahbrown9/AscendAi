@@ -508,3 +508,43 @@ correction is logged here rather than left standing.
 What is carrying the book: LIME 200sh at +680 unrealized, +9.6pct today,
 a new all-time high at 34.07. The position declared a long-term HOLD on
 8/4 is the only thing making money, and it was never traded around.
+
+### 2026-08-05 (close) — LIME, and what actually made it work
+
+Sold 200 @ 35.2801 at 15:51 ET, market order, regular hours.
+REALIZED +921.81 = +15.03pct on a 30.6710 average basis.
+Largest single winning trade in this record. Day closed +568.59 realized,
+account 26,172.82, book FLAT.
+
+The position was built in EIGHT clips across four sessions:
+  7/31  20 @29.38  |  8/3  5 @28.36, 5 @28.74  |  8/4  20 @29.86,
+  50 @30.9102, 10 @30.86, 40 @30.87  |  8/5  50 @31.50
+Every clip was at a HIGHER price than the one before it after 8/3. That is
+adding to a winner, which is the opposite of the averaging-down pattern
+that produced the CORD and SNDK losses on Monday.
+
+WHY IT WORKED, stated precisely so it is repeatable:
+  1. It was DECLARED A HOLD on 8/4 and the -3pct price stop was formally
+     removed. LIME ranged 28.30-32.87 on 8/4 alone; any daily stop would
+     have ejected the position days before the +15pct.
+  2. It was NEVER TRADED AROUND. Zero round trips. Compare the same week:
+     SMH 6 closes, CRWV 5, AAOI 4, SNDK 3 - all churn, all net worse.
+  3. Size stayed inside the framework the whole way. It peaked at 2.76
+     units and never breached the 3-unit cap.
+  4. The exit was a MARKET ORDER IN REGULAR HOURS, 9 minutes before the
+     bell. No 16:33 extended-hours discount.
+
+The one blemish, small and worth logging honestly: the fill at 35.2801
+against a 36.00 close and a 36.50 after-hours print left $144-$244 on the
+table. On a +921.81 trade that is noise, and selling into liquidity beats
+reaching for the last 2pct.
+
+Also late-day, and NOT part of the LIME story: CRWV bought 50 @ ~92.26
+15:39-15:40 and sold 15:45 for -45.85; MAGS bought 20 then sold 120 @
+68.16 at 16:01 in extended hours for -54.19. Two more sub-hour round trips
+totalling -100.04, one of them again booked after the close. The churn
+habit and the hold discipline coexisted in the same twenty minutes.
+
+The transferable lesson is not "LIME was a good pick." It is that the ONE
+position managed on thesis rather than price, left alone, and sized inside
+the cap produced +921.81 while every position traded around it lost money.
