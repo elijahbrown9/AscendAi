@@ -195,3 +195,30 @@ Agent recommendation: (b) now, (a) as a separate conversation. NOT putting
 a "move money in" prompt to the user on a day the manual desk realized
 -$1,367.50 (2.7x the daily loss limit) — that decision gets made on a flat
 day, per the trader_psych.md leak-5 discipline. Carried to Friday review.
+
+## RULE GAP — POSITION DRIFT INTO THE UNIT CAP (raised 2026-08-05, 15:05 ET)
+risk.md sets "max-conviction 3 units (30pct of equity, HARD CAP)" but is
+silent on what happens when a position grows INTO the cap on appreciation
+rather than on buying.
+
+Live example today: LIME 200sh, basis 30.67, now 36.6132. Zero orders
+placed since 8/4. The position is 2.76 units purely because it is up
+19.4pct, and it crosses the 3.0-unit hard cap at $39.76 - another 8.6pct -
+without a single order being entered.
+
+Three possible readings, none of which the file settles:
+  (a) The cap governs ENTRY size only. A winner that drifts past it is
+      fine, because the risk was sized correctly when it was taken.
+  (b) The cap governs EXPOSURE at all times, so drift past 3.0u forces a
+      trim - which means systematically cutting winners, the exact
+      behaviour the R-ledger work says destroys expectancy.
+  (c) The cap governs exposure but drift gets a band (say 3.5u) before a
+      trim is required, so ordinary appreciation does not trigger churn.
+Agent view: (c). (a) lets one winner become the whole book; (b) turns the
+risk framework into a profit-taking rule, which it was never meant to be.
+Proposed wording for Friday, NOT applied unilaterally:
+  "The 3-unit cap is measured at ENTRY. A position that drifts above it on
+   appreciation is trimmed back to 3 units only once it exceeds 3.5 units,
+   and never below 3 units."
+Carried to the Friday review alongside the agentic budget-wall escalation
+and the TRUSTED positive-median fix.
