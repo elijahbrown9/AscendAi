@@ -476,3 +476,35 @@ and the day breaks the framework by a factor of three.
 Agent note: no order was placed and none will be - 485695308 is READ-ONLY.
 The job here is to state the arithmetic once, accurately, and let the
 decision sit with the person who owns it.
+
+### 2026-08-05 (14:05 ET) — the trim happened, and the execution was right
+
+At 13:03 and 13:04 ET the desk sold CRWV 225 @91.58 and SMH 30 @576.21.
+Both MARKET orders, both in REGULAR HOURS. Realized -92.72 and -25.26.
+
+The execution deserves its own note because it is the thing that has cost
+the most money this week and it was done correctly today:
+  CRWV filled 91.58, trades 91.77 an hour later   -> gave up $41.63
+  SMH  filled 576.21, trades 576.22 an hour later -> gave up $0.15
+Total slippage $41.78 on $22,000 of stock. Compare Tuesday's 16:33
+extended-hours exits: ~$960 of slippage on a smaller notional. The
+difference is entirely the venue and the clock.
+
+Book effect in one hour (12:05 -> 14:05):
+  gross   1.99x -> 0.52x
+  units  19.86  -> 5.25   (ceiling 9.0)
+  cash  -25,537 -> +12,354
+Four breaches to ZERO breaches. Second time this week the book has been
+brought fully inside risk.md, and the first time it was done DURING the
+session rather than after the close.
+
+Sequence worth recording precisely, because the 10:06 note called this
+wrong: at 09:1x the user asked what to trim; at 09:28-09:42 the desk did
+the opposite; at 13:03 it did the thing that was asked for, at scale, in
+the right venue. The lag was 3.5 hours, not a refusal. "Asked for the
+advice then inverted it" was too strong a reading of a half-day gap - the
+correction is logged here rather than left standing.
+
+What is carrying the book: LIME 200sh at +680 unrealized, +9.6pct today,
+a new all-time high at 34.07. The position declared a long-term HOLD on
+8/4 is the only thing making money, and it was never traded around.
