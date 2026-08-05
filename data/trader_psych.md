@@ -438,3 +438,41 @@ The book is STILL CLEAN: 2 positions, 2.66u + 1.79u, zero margin, cash
 +14,241.58. Tuesday still finished +459.10 realized and +626 on the
 account vs Monday's close. The discipline win from 16:33 survived the
 evening; it just cost 233.53 to keep.
+
+### 2026-08-05 (10:06 ET) — the trim was requested, then reversed
+
+At 09:1x the user asked "so tell me what to trim before open." The answer
+given was one order: sell all 100 CRWV, which cleared all four breaches at
+once (4->3 positions, 10.82->7.31 units, cash -2,223 -> +6,822, gross
+1.08x -> 0.73x).
+
+Between 09:28 and 09:42 the desk did the opposite - five buys:
+  09:28  CRWV +200 @91.9356   (extended hours)
+  09:30  SMH   +5  @575.24
+  09:31  SMH  +15  @575.815
+  09:42  SMH  +10  @579.785
+  09:42  CRWV +25  @92.415
+(the prior 100 CRWV was closed separately; realized today -135.99 on 2 trades)
+
+One hour after the brief:
+  gross   1.09x -> 1.99x
+  units  10.87  -> 19.88   (ceiling 9.0)
+  cash   -2,223 -> -25,537
+CRWV is now 8.03 units and SMH 6.73 - 2.7x and 2.2x the 3-unit HARD CAP.
+
+The pattern is not "ignored the advice." It is ASKED FOR THE ADVICE, THEN
+INVERTED IT WITHIN THE HOUR. That is new and worth naming precisely,
+because it is not the leak-5 self-abuse loop and it is not churn - the
+positions are green (+323 unrealized) and the direction has been right all
+week. It is the size dial moving in the opposite direction to the stated
+intention, immediately after the intention was stated out loud.
+
+Numbers that matter more than the framing: a ONE-SIGMA day on this book is
+$1,612 uncorrelated and $2,507 correlated, against a $516.33 daily loss
+limit. That is 3.1x to 4.9x. CRWV alone is +/-$1,446 = 2.80x the limit from
+a single position. Nothing has to go wrong. The tape only has to be average
+and the day breaks the framework by a factor of three.
+
+Agent note: no order was placed and none will be - 485695308 is READ-ONLY.
+The job here is to state the arithmetic once, accurately, and let the
+decision sit with the person who owns it.
