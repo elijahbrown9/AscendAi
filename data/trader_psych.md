@@ -399,3 +399,42 @@ the close, decisions taken after get filled by whoever is still there.
 Still open: LIME 100sh (1.19u) into its first-ever earnings, flagged at
 every check-in from 12:06 and unchanged. After-hours book 30.39/34.65 is
 too wide to read.
+
+### 2026-08-04 (21:40 ET) — the after-hours session, priced
+
+Realized 692.63 at 16:40 -> 459.10 at 21:40. Gave back 233.53.
+Account 26,100.20 -> 25,870.58.
+
+Seven round trips between 17:02 and 21:25, EVERY ONE A LOSS, average
+hold ~14 minutes:
+  SMH   17:02->17:15   30 @570.73 -> 570.04    -21.13   legal 4-8pm
+  CRWV  18:17->18:35  100 @ 90.88 ->  90.68    -20.21   legal
+  AAOI  18:22->18:35  100 @130.99 -> 130.50    -49.29   legal
+  SMH   18:17->18:35   20 @572.90 -> 572.40    -10.19   legal
+  SMH   20:13->21:24   20 @576.97 -> 573.51    -69.44   BANNED WINDOW
+  CRWV  20:13->21:22  134 @ 90.70 ->  90.41    -39.14   BANNED WINDOW
+  AAOI  21:13->21:25   25 @132.71 -> 131.68    -25.82   BANNED WINDOW
+                                     -235.22
+
+THREE ENTRIES INSIDE THE 8pm-4am BAN (20:13 SMH, 20:13 CRWV, 21:13 AAOI).
+risk.md closes that window for exactly one reason - thin books, wide
+spreads - and those three trades produced 134.40 of the 235.22, i.e.
+57pct of the damage from 43pct of the trades. The rule predicted its own
+violation's cost. The 21:22-21:25 sells are exits and the rule bans
+entries only, so those stand clean.
+
+The refinement: 8/4's leakage was NOT the same error as the 16:33 close
+slippage (~960). That was ONE decision executed late. This was SEVEN
+decisions executed in a venue where the spread is the counterparty. The
+16:33 exits at least accomplished something - they cleared the margin.
+These accomplished nothing: same names, in and out, back to flat.
+
+NOT churn, and worth separating: LIME 100 -> 150 via 30.86 and 30.87 in
+the legal 4-8pm window, basis 30.16 -> 30.39. That is the long-term hold
+reclassified earlier today actually being executed. Adding to a declared
+hold is a different act from round-tripping SMH three times in four hours.
+
+The book is STILL CLEAN: 2 positions, 2.66u + 1.79u, zero margin, cash
++14,241.58. Tuesday still finished +459.10 realized and +626 on the
+account vs Monday's close. The discipline win from 16:33 survived the
+evening; it just cost 233.53 to keep.
