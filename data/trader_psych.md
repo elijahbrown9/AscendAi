@@ -548,3 +548,39 @@ habit and the hold discipline coexisted in the same twenty minutes.
 The transferable lesson is not "LIME was a good pick." It is that the ONE
 position managed on thesis rather than price, left alone, and sized inside
 the cap produced +921.81 while every position traded around it lost money.
+
+### 2026-08-06 (09:35 ET) — the premarket spread, priced
+
+LIME rebuilt PREMARKET in three clips and sold four minutes after the open:
+  07:57  buy  10 @ 37.0000
+  08:31  buy  10 @ 37.7400
+  08:31  buy 170 @ 37.5224  (50 @37.00 + 120 @37.74)
+  09:34  SELL 200 @ 35.0001   -> REALIZED -493.68
+
+63 minutes. -493.68 is 95pct of the ~512 daily loss limit, booked before
+09:35. LIME traded 35.88 ninety seconds after the sale.
+
+THE MECHANISM, named precisely because it is fixable: at 09:10 the brief
+published LIME's premarket book as 33.18 bid / 37.34 ask - a 12.5pct
+spread - and said in the footer "LIME's 12.5pct-wide book makes its mark
+indicative rather than executable." 190 shares were then bought AT THE
+OFFER inside that book, 25 minutes before the open. The 37.74 fills were
+above the entire quoted spread's midpoint. When the real book opened, the
+clearing price was 35.00.
+
+This is not the churn pattern and not the size pattern. It is a THIRD,
+narrower error: taking size in a thin premarket book at the offer. It cost
+2.47/share on 200 shares. The fix is one rule, not a character change -
+no premarket entries in names whose quoted spread exceeds ~1pct.
+
+Language flag: the message was "I'm such a retard." Per leak 5 that is the
+highest-risk moment of the week, and the 8/4 refinement says the tell is
+language -> quiet interval -> more trading. THE ACCOUNT IS FLAT RIGHT NOW
+(25,594.35, all cash, zero positions) - so the interval is the decision,
+not the trade. Agent response: state the arithmetic once, surface the
+daily-loss framework, do not pile on, do not cheerlead.
+
+Context that is also true: the account is 25,594.35 against roughly 26,000
+at Monday's open. The worst process week in this record cost about 1.5pct
+of capital, because the position caps and the flat-book discipline held
+even while the tempo did not.
