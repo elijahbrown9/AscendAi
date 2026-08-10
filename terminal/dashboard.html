@@ -18,9 +18,9 @@
   .logo em{color:var(--amber);font-style:normal}
   .stamp{color:var(--dim);font-size:12px}
   .verdict{margin:20px 0 8px;background:var(--panel);border:1px solid var(--line);
-    border-left:4px solid var(--neutral);padding:18px 20px;display:flex;
+    border-left:4px solid var(--off);padding:18px 20px;display:flex;
     justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px}
-  .verdict h1{margin:0;font-size:30px;letter-spacing:.06em;color:var(--neutral);text-wrap:balance}
+  .verdict h1{margin:0;font-size:30px;letter-spacing:.06em;color:var(--off);text-wrap:balance}
   .verdict .sub{color:var(--dim);font-size:12.5px;max-width:56ch}
   .score{font-size:13px;color:var(--dim);text-align:right}
   .score b{color:var(--ink);font-size:22px}
@@ -29,7 +29,7 @@
   .gauge .seg{height:34px;display:flex;align-items:center;justify-content:center;
     font-size:10.5px;letter-spacing:.08em;color:var(--faint);
     background:var(--panel2);border:1px solid var(--line)}
-  .gauge .seg.active{color:#0B0E14;font-weight:700;background:var(--neutral);border-color:var(--neutral)}
+  .gauge .seg.active{color:#0B0E14;font-weight:700;background:var(--off);border-color:var(--off)}
   .gauge .lbl{display:flex;justify-content:space-between;color:var(--faint);
     font-size:10px;letter-spacing:.1em;margin-top:6px}
   .grid{display:grid;grid-template-columns:1.35fr 1fr;gap:14px}
@@ -59,11 +59,6 @@
   .posture b{color:var(--amber)}
   .posture.bad{border-left-color:var(--off)} .posture.bad b{color:var(--off)}
   .posture.good{border-left-color:var(--on)} .posture.good b{color:var(--on)}
-  .bar{display:flex;height:22px;border:1px solid var(--line);margin-top:8px;background:var(--panel2)}
-  .bar span{display:flex;align-items:center;justify-content:center;
-    font-size:10px;letter-spacing:.06em;color:#0B0E14;font-weight:700;overflow:hidden}
-  .barkey{display:flex;gap:14px;flex-wrap:wrap;margin-top:7px;font-size:10.5px;color:var(--faint)}
-  .barkey i{display:inline-block;width:9px;height:9px;margin-right:5px;font-style:normal}
   footer{margin-top:22px;color:var(--faint);font-size:11px;line-height:1.7;
     border-top:1px solid var(--line);padding-top:12px}
   footer code{color:var(--dim)}
@@ -81,20 +76,20 @@
 <div class="wrap">
 <header>
   <div class="logo">ASCEND <em>//</em> RISK TERMINAL</div>
-  <div class="stamp num">FRI 2026-08-07 · 09:05 AM ET PRE-OPEN BRIEF · NO TRADES THIS RUN</div>
+  <div class="stamp num">MON 2026-08-10 · 09:10 AM ET PRE-OPEN BRIEF · NO TRADES THIS RUN</div>
 </header>
 
 <div class="verdict">
   <div>
-    <h1>0 · MIXED</h1>
-    <div class="sub">Every regime input improved overnight. <b>VIX 15.32</b>, Brent <b>$82.15</b>, both index ratios fell, and the board flipped hard long — <b>21L/7S</b> fresh, winners long, three confirmed candidates, <b>no turn alarm</b>. Only Korea holds the composite down: KOSPI closed <b>6,258.71</b>, below the 6,450 storm line, and that one sub-score is −1 on its own. Composite <b>−0.062</b> — the strongest reading of the week, still short of +1.</div>
+    <h1>−1 · RISK OFF</h1>
+    <div class="sub"><b>First negative grade in this record.</b> Nothing broke — VIX is 15.41, Brent $84.18, Korea rallied 1.72%. The board did it: <b>12 longs averaging −0.87% against 9 shorts averaging +0.87%</b>, one confirmed candidate all session, and <b>three of the four knife catches are longs</b>. Composite <b>−0.262</b> clears the −1 boundary by 0.037 on the scaled measure — a hair, but on the wrong side of it.</div>
   </div>
-  <div class="score num">composite <b>−0.062</b> <span class="faint">storm veto: no</span><br>gauge −0.23 · conditions −0.15 · board +0.27 · X offline</div>
+  <div class="score num">composite <b>−0.262</b> <span class="faint">storm veto: no</span><br>gauge −0.17 · conditions −0.22 · board −0.43 · X offline</div>
 </div>
 
 <div class="gauge">
   <div class="track">
-    <div class="seg">−2 ULTRA OFF</div><div class="seg">−1 RISK OFF</div><div class="seg active">0 MIXED</div>
+    <div class="seg">−2 ULTRA OFF</div><div class="seg active">−1 RISK OFF</div><div class="seg">0 MIXED</div>
     <div class="seg">+1 RISK ON</div><div class="seg">+2 ULTRA ON</div>
   </div>
   <div class="lbl"><span>PUTS ONLY / FLAT</span><span>MAX LONG</span></div>
@@ -102,7 +97,7 @@
 
 <nav class="tabs">
   <button data-tab="brief" class="tabbtn active">BRIEF</button>
-  <button data-tab="overnight" class="tabbtn">THE OVERNIGHT</button>
+  <button data-tab="weekend" class="tabbtn">THE WEEKEND</button>
   <button data-tab="book" class="tabbtn">BOOK</button>
   <button data-tab="ideas" class="tabbtn">TRADE IDEAS</button>
   <button data-tab="perf" class="tabbtn">WEEK P&amp;L</button>
@@ -111,78 +106,72 @@
 <div id="tab-brief" class="tabpane active">
 <div class="grid">
   <section>
-    <h2>STORM GAUGE — WEIGHT 3 · −0.23</h2>
-    <div class="w">254 DAILY RETURNS · SPY/QQQ SCORED · HELD NAMES READ FOR MANAGEMENT</div>
+    <h2>STORM GAUGE — WEIGHT 3 · −0.17</h2>
+    <div class="w">255 DAILY RETURNS · SPY/QQQ SCORED · HELD NAMES READ FOR MANAGEMENT</div>
     <div class="tw"><table class="num">
-      <tr><th>MARKET</th><th class="r">VOL</th><th class="r">RATIO</th><th class="r">YDAY</th><th class="r">1σ DAY</th><th>REGIME</th></tr>
-      <tr><td>SPY <span class="faint">scored</span></td><td class="r">13.7%</td><td class="r">1.06×</td><td class="r faint">1.11×</td><td class="r">±0.86%</td><td><span class="chip c-n">NORMAL</span></td></tr>
-      <tr><td>QQQ <span class="faint">scored</span></td><td class="r">24.6%</td><td class="r">1.19×</td><td class="r faint">1.22×</td><td class="r">±1.55%</td><td><span class="chip c-n">NORMAL</span></td></tr>
-      <tr><td><b>AAOI</b> <span class="faint">largest holding</span></td><td class="r neg"><b>152.9%</b></td><td class="r faint">24d realised</td><td class="r faint">—</td><td class="r neg"><b>±9.63%</b></td><td><span class="chip c-off">EXTREME</span></td></tr>
-      <tr><td>LIME <span class="faint">held</span></td><td class="r">65.7%</td><td class="r">0.96×</td><td class="r faint">2.05×</td><td class="r">±4.14%</td><td><span class="chip c-n">NORMAL</span></td></tr>
-      <tr><td>SMH <span class="faint">held, 2 sh</span></td><td class="r">54.0%</td><td class="r faint">n/a</td><td class="r faint">n/a</td><td class="r">±3.40%</td><td><span class="chip c-x">UNANCHORED</span></td></tr>
-      <tr><td>MAGS <span class="faint">agentic</span></td><td class="r">25.5%</td><td class="r">1.13×</td><td class="r faint">1.17×</td><td class="r">±1.61%</td><td><span class="chip c-n">NORMAL</span></td></tr>
+      <tr><th>MARKET</th><th class="r">VOL</th><th class="r">RATIO</th><th class="r">FRI</th><th class="r">1σ DAY</th><th>REGIME</th></tr>
+      <tr><td>SPY <span class="faint">scored</span></td><td class="r">13.3%</td><td class="r">1.04×</td><td class="r faint">1.06×</td><td class="r">±0.84%</td><td><span class="chip c-n">NORMAL</span></td></tr>
+      <tr><td>QQQ <span class="faint">scored</span></td><td class="r">24.0%</td><td class="r">1.17×</td><td class="r faint">1.19×</td><td class="r">±1.51%</td><td><span class="chip c-n">NORMAL</span></td></tr>
+      <tr><td><b>AAOI</b> <span class="faint">largest holding</span></td><td class="r neg"><b>149.1%</b></td><td class="r faint">unanchored</td><td class="r faint">152.9% rlz</td><td class="r neg"><b>±9.39%</b></td><td><span class="chip c-off">EXTREME</span></td></tr>
+      <tr><td>LIME <span class="faint">held</span></td><td class="r">59.3%</td><td class="r pos">0.88×</td><td class="r faint">0.96×</td><td class="r">±3.73%</td><td><span class="chip c-n">NORMAL</span></td></tr>
+      <tr><td>SMH <span class="faint">held</span></td><td class="r">52.2%</td><td class="r faint">unanchored</td><td class="r faint">54.0%</td><td class="r">±3.29%</td><td><span class="chip c-x">n/a</span></td></tr>
+      <tr><td>MAGS <span class="faint">agentic</span></td><td class="r">24.7%</td><td class="r">1.10×</td><td class="r faint">1.13×</td><td class="r">±1.55%</td><td><span class="chip c-n">NORMAL</span></td></tr>
     </table></div>
-    <div class="posture bad"><b>No storm veto; both indices improved again.</b> LIME's spike fully decayed — 157.8% → <b>65.7%</b>, ratio 2.05× → 0.96×. SMH's persistence is <b>0.995</b>, above the 0.98 cutoff, so its ratio is not identified and is shown as n/a rather than as a number; judge it on absolute vol (54.0%) and treat shocks as non-decaying. <b>The reading that matters is AAOI at 152.9% annualised</b> — a ±9.63% day on the desk's largest position. GARCH is not fitted on it here; this is 24-day realised vol and is labelled as such.</div>
+    <div class="posture bad"><b>No storm veto; the indices are the calmest they have read all week.</b> AAOI now has a <b>fitted GARCH for the first time</b>, and it confirms Friday's estimate almost exactly: <b>149.1% annualised, ±9.39% next-day</b>, persistence <b>0.987</b> — above the 0.98 cutoff, so the ratio is unidentified and shocks in this name <b>do not decay</b>. SMH is the same story at 52.2% and 0.992; both ratios are withheld rather than printed as meaningless numbers. LIME has fully normalised: 157.8% two weeks ago, 59.3% now, ratio 0.88×.</div>
   </section>
 
   <section>
-    <h2>CONDITIONS — WEIGHT 2 · −0.15</h2>
-    <div class="w">KOREA IS STILL THE ONLY BREAK</div>
+    <h2>CONDITIONS — WEIGHT 2 · −0.22</h2>
+    <div class="w">KOREA RALLIED AND IS STILL UNDER THE LINE</div>
     <div class="tw"><table class="num">
-      <tr><th>INPUT</th><th class="r">NOW</th><th class="r">YDAY</th><th>READ</th></tr>
-      <tr><td>VIX</td><td class="r pos"><b>15.32</b></td><td class="r faint">15.97</td><td><span class="chip c-on">CALM, IMPROVING</span></td></tr>
-      <tr><td>Brent</td><td class="r pos"><b>$82.15</b></td><td class="r faint">~$83.5</td><td><span class="chip c-on">CALM · WEEKLY LOSS</span></td></tr>
-      <tr><td>BTC 24h</td><td class="r pos">+1.17%</td><td class="r faint">+0.12%</td><td><span class="chip c-on">FIRM</span> <span class="faint">$65,159</span></td></tr>
-      <tr><td><b>KOSPI</b> <span class="faint">actual close, sourced</span></td><td class="r neg"><b>6,258.71</b> <span class="faint">−0.60%</span></td><td class="r faint">~6,423 est</td><td><span class="chip c-off">BELOW 6,450 STORM</span></td></tr>
-      <tr><td>Geopolitics</td><td class="r">talks stalled</td><td class="r faint">de-escalating</td><td><span class="chip c-a">FEE DISPUTE</span></td></tr>
+      <tr><th>INPUT</th><th class="r">NOW</th><th class="r">FRI</th><th>READ</th></tr>
+      <tr><td>VIX</td><td class="r pos"><b>15.41</b></td><td class="r faint">15.32</td><td><span class="chip c-on">CALM</span></td></tr>
+      <tr><td>Brent</td><td class="r pos">$84.18 <span class="faint">+0.75%</span></td><td class="r faint">$82.15</td><td><span class="chip c-on">UNDER 90</span></td></tr>
+      <tr><td>BTC 24h</td><td class="r">−0.49%</td><td class="r faint">+1.17%</td><td><span class="chip c-n">FLAT</span> <span class="faint">$64,870</span></td></tr>
+      <tr><td><b>KOSPI</b></td><td class="r neg"><b>6,366.71</b> <span class="faint">+1.72%</span></td><td class="r faint">6,258.71</td><td><span class="chip c-off">STILL UNDER 6,450</span></td></tr>
+      <tr><td>Geopolitics</td><td class="r">Hormuz reopening</td><td class="r faint">talks stalled</td><td><span class="chip c-a">UNRESOLVED</span></td></tr>
     </table></div>
-    <div class="posture bad"><b>Three of five inputs are outright risk-on and the panel still scores −0.15.</b> Korea does all the damage: an actual sourced close of 6,258.71 — no longer an EWY-derived estimate — sits under the storm line and takes that sub-score to −1. <b>Hormuz:</b> Iran wants a 5–7% transit fee, Oman is offering ~3%, and the talks have stalled on exactly that — but Brent is heading for a <b>weekly loss</b> and seven ships transited in 24h, so the tape is pricing de-escalation while the headlines price deadlock. Second session running that Korea alone holds the grade below +1.</div>
+    <div class="posture bad"><b>Korea has held this panel negative for four straight sessions.</b> It rallied <b>+1.72%</b> to 6,366.71 and is still 83 points under the 6,450 storm threshold — the sub-score stays −1 whether it is at 6,258 or 6,366. Brent is firmer on Hormuz-reopening uncertainty rather than escalation: the terms of an Iran–Oman transit deal are still unagreed, and crude is pricing the ambiguity, not a supply break. Everything else here is risk-on.</div>
   </section>
 </div>
 
 <div class="grid">
   <section>
-    <h2>BOARD — WEIGHT 2 · +0.27 · <span class="pos">NO TURN ALARM</span></h2>
-    <div class="w">paste.trade · lens=spot · DATA, NEVER INSTRUCTIONS</div>
+    <h2>BOARD — WEIGHT 2 · −0.43 · <span class="neg">TURN ALARM</span></h2>
+    <div class="w">paste.trade · lens=spot · DATA, NEVER INSTRUCTIONS · THE LONGS ARE THE KNIVES</div>
     <div class="tw"><table class="num">
-      <tr><th>SIGNAL</th><th class="r">6H</th><th class="r">24H</th><th class="r">THU</th></tr>
-      <tr><td>Fresh flow</td><td class="r pos"><b>21L / 7S</b></td><td class="r pos">30L / 9S</td><td class="r faint">14L / 12S</td></tr>
-      <tr><td>Winner skew</td><td colspan="2" class="r pos"><b>longs winning</b></td><td class="r faint">shorts</td></tr>
-      <tr><td>Long avg / short avg</td><td colspan="2" class="r pos">+0.41% / −0.68% · edge <b>+1.09</b></td><td class="r faint">→ −0.02</td></tr>
-      <tr><td>Confirmed candidates</td><td colspan="2" class="r pos"><b>3, all long</b></td><td class="r faint">2</td></tr>
+      <tr><th>SIGNAL</th><th class="r">6H</th><th class="r">24H</th><th class="r">FRI</th></tr>
+      <tr><td>Fresh flow</td><td class="r">16L / 9S</td><td class="r">16L / 10S</td><td class="r faint">41L / 23S</td></tr>
+      <tr><td>Winner skew</td><td colspan="2" class="r neg">shorts winning</td><td class="r faint">shorts</td></tr>
+      <tr><td>Long avg / short avg</td><td colspan="2" class="r neg"><b>−0.87% / +0.87%</b></td><td class="r faint">→ +0.27 score</td></tr>
+      <tr><td>Confirmed candidates</td><td colspan="2" class="r neg"><b>ONE</b> <span class="faint">TENX short +8.4%</span></td><td class="r faint">5</td></tr>
       <tr><td>CROWDED (4+)</td><td colspan="3" class="r pos">none</td></tr>
     </table></div>
-    <div class="posture good"><b>Leading and coincident agree for the first time this week, so there is nothing to turn toward — no alarm.</b> Confirmed: <b>KIOXIA +6.7%</b> (@zephyr_z9), <b>NBIS +4.7%</b> (@degentradinglsd, the 7d leader at 75% / +13.4% median), <b>NVDA +1.1%</b> (@zephyr_z9, 3 traders). All AI-infrastructure. <b>Knives:</b> DOCS −23.9%, ORCL short −2.4%, SKHY short −2.2%. <span class="faint">Note NBIS was a confirmed SHORT on this board 20 hours ago at +3.3%; the name changed sides overnight, which is information about the board as much as about NBIS.</span></div>
+    <div class="posture bad"><b>The alarm still fires — fresh flow leans long while shorts win — but the confirmation count is ZERO, so no grade shift from the turn protocol.</b> Friday's shift needed three green confirmed longs and got exactly three; today there are none. <b>Three of the four knife catches are longs:</b> NBIS −2.5%, SKHY −2.0%, INTC −2.0%, plus MLTX short −8.1%. The one confirmed candidate is a <b>short</b>. Board volume collapsed from 101 rows Friday to 29 — a quiet Monday, so the signal is thin as well as negative.</div>
   </section>
 
   <section>
     <h2>X DIGEST — WEIGHT 0 · OFFLINE</h2>
-    <div class="w">terminal/x_inbox.txt · AS_OF 2026-08-03T02:45Z · <span class="neg">~106 HOURS STALE</span></div>
-    <div class="posture bad"><b>Fifth consecutive missed push.</b> The file on disk has not changed since Monday. <code>x_feed.py</code> returns <code>{"x_sentiment": null, "source": "offline"}</code>; the composite runs on three inputs and nothing is imputed. A full trading week has now been scored without a weight-1 input — the 8:30am desktop task needs fixing, not another week of noting that it is broken.</div>
+    <div class="w">terminal/x_inbox.txt · AS_OF 2026-08-03T02:45Z · <span class="neg">7 DAYS STALE</span></div>
+    <div class="posture bad"><b>Sixth consecutive missed push.</b> The file has not changed in a week. <code>x_feed.py</code> returns <code>{"x_sentiment": null, "source": "offline"}</code>; the composite runs on three inputs and nothing is imputed. On a day where the grade turns on 0.037 of scaled composite, a missing weight-1 input is no longer a footnote — it is plausibly the difference between −1 and 0.</div>
   </section>
 </div>
 </div>
 
-<div id="tab-overnight" class="tabpane">
+<div id="tab-weekend" class="tabpane">
 <div class="grid full">
   <section>
-    <h2>THE OVERNIGHT — THE BOOK GOT CLEAN, AND IT COST $1,185</h2>
-    <div class="w">EVERY FILL FROM 15:05 ET THURSDAY TO 09:03 ET FRIDAY</div>
+    <h2>THE WEEKEND — THE STOP WAS BREACHED AND NOTHING WAS THERE</h2>
+    <div class="w">FRIDAY 15:05 ET TO MONDAY 09:10 ET · ZERO ORDERS IN THE WINDOW</div>
     <div class="tw"><table class="num">
-      <tr><th>ET</th><th>ACTION</th><th class="r">PRICE</th><th class="r">REALIZED</th><th>NOTE</th></tr>
-      <tr><td>16:14</td><td>SELL 50 SMH</td><td class="r">571.49</td><td class="r neg">−$293.44</td><td>14 min after the close. Last regular print 577.57.</td></tr>
-      <tr><td>17:02</td><td>SELL 300 LIME</td><td class="r">36.00</td><td class="r neg">−$342.23</td><td>Last regular print 37.74.</td></tr>
-      <tr><td>17:11 · 17:13</td><td>BUY 50 AAOI</td><td class="r">125.23 · 126.90</td><td class="r dim">—</td><td>New position opened as the others closed.</td></tr>
-      <tr><td>17:34</td><td>SELL 50 AAOI</td><td class="r">124.03</td><td class="r neg">−$101.75</td><td>Held 23 minutes.</td></tr>
-      <tr><td class="neg"><b>22:29 · 22:49</b></td><td class="neg"><b>BUY 50 AAOI</b></td><td class="r">132.00 · 132.72</td><td class="r dim">—</td><td class="neg"><b>Inside the banned 8pm–4am window.</b></td></tr>
-      <tr><td>07:01–07:35</td><td>BUY 20 AAOI · 60 LIME</td><td class="r">~140.5 · ~38.19</td><td class="r dim">—</td><td>Premarket rebuild.</td></tr>
-      <tr><td>08:10</td><td>SELL 70 AAOI</td><td class="r">137.27</td><td class="r pos">+$170.94</td><td>The week's second-best trade.</td></tr>
-      <tr><td>08:30–08:47</td><td>BUY 100 AAOI · 35 LIME</td><td class="r">~141.4 · ~37.09</td><td class="r dim">—</td><td>Rebought <b>$4.09 above</b> the 08:10 sale.</td></tr>
-      <tr><td>09:02</td><td>BUY 2 SMH</td><td class="r">586.56</td><td class="r dim">—</td><td>Rebought <b>$15.07 above</b> Thursday's sale.</td></tr>
+      <tr><th>NAME</th><th class="r">BASIS</th><th class="r">−3% STOP</th><th class="r">FRI CLOSE</th><th class="r">BREACH?</th><th class="r">PRE NOW</th></tr>
+      <tr><td><b>AAOI</b></td><td class="r">139.96</td><td class="r">135.76</td><td class="r neg"><b>135.63</b></td><td class="r neg"><b>YES · −$0.13</b></td><td class="r pos">139.92</td></tr>
+      <tr><td>SMH</td><td class="r">581.97</td><td class="r">564.51</td><td class="r">582.70</td><td class="r pos">no</td><td class="r pos">583.45</td></tr>
+      <tr><td>LIME</td><td class="r">38.01</td><td class="r">36.87</td><td class="r">38.28</td><td class="r pos">no</td><td class="r pos">39.00</td></tr>
     </table></div>
-    <div class="posture bad"><b>Thursday finished at −$1,185.51 realized — 2.30× the $516.31 daily loss limit.</b> At the 3pm check-in the day was −$448.09, or 86.8% of that limit, with both positions above their stops and neither forced. The entire breach happened <b>after the close</b>, in three fills between 16:14 and 17:34.
-    <br><br><b>Selling was the right call; the clock was not.</b> The 4-unit trim had been the standing guidance at four consecutive check-ins. Executed at 15:05 in regular hours, SMH went at 577.57 and LIME at 37.74. Executed 70 minutes later in extended hours, they went at 571.49 and 36.00 — <b>$304 and $522 given up, $826 in total</b>, on the same decision. This is the third week-day in a row where the venue, not the view, set the price: Tuesday's after-hours exits cost ~$960, Wednesday's midday exits cost $41.78.
-    <br><br><b>All three names were sold and rebought higher.</b> SMH −$15.07, LIME −$1.75, AAOI −$4.09 per share. And 50 AAOI shares were bought at 22:29 and 22:49 ET — squarely inside the window <code>risk.md</code> bans outright, for the reason now visible in the fills: LIME's premarket book this morning is <b>32.93 / 37.24</b>, an 11.6% spread.</div>
+    <div class="posture bad"><b>AAOI closed Friday at 135.63, thirteen cents below its −3% stop, and there was no resting order behind it.</b> Friday's 3pm brief flagged exactly this: <code>get_equity_orders</code> returned zero open orders, and <code>risk.md</code> requires resting GTC stops when a position is unattended overnight or over a weekend. None were placed, no trim was made, and $43,878 of gross exposure carried 65 hours naked.
+    <br><br><b>It cost nothing, and that is the whole point.</b> AAOI is +3.16% premarket and back to 139.92 — the position is now flat to basis rather than −$649 where it closed. The breach was $0.13 and it reversed over a weekend. <b>A rule that goes unenforced and is then rescued by the tape has not been tested; it has been postponed.</b> The same setup at 149.1% annualised vol with non-decaying shocks is a ±9.39% day, and the gap that saved it here is the same size as the gap that would not have.
+    <br><br><b>What actually changed over the weekend: nothing in the book, everything in the grade.</b> Friday's 2pm turn protocol shifted the grade to <b>+1 RISK ON</b> on three green confirmed longs. This morning's composite recomputes to <b>−1 RISK OFF</b> — a two-notch swing in one session, with the book unchanged and still entirely long. Journal #52 recorded the falsifier for that rule in advance: <em>"if the turn rule keeps firing long into books that are already maximally long, it is not adding information — it is ratifying positioning."</em> One session later, it read as exactly that.</div>
   </section>
 </div>
 </div>
@@ -190,21 +179,22 @@
 <div id="tab-book" class="tabpane">
 <div class="grid">
   <section>
-    <h2>MANUAL ••••5308 — $24,971.98</h2>
-    <div class="w">CASH +$5,986.74 · 1 UNIT $2,497 · 3 OF 3 SLOTS · GROSS 0.76× · ZERO MARGIN</div>
+    <h2>MANUAL ••••5308 — $25,391.78</h2>
+    <div class="w">CASH −$18,965.22 · 1 UNIT $2,539 · 3 OF 3 SLOTS · GROSS 1.75× · GRADE −1 PERMITS ZERO MARGIN</div>
     <div class="tw"><table class="num">
       <tr><th>TICKER</th><th class="r">QTY</th><th class="r">BASIS</th><th class="r">PRE</th><th class="r">VALUE</th><th class="r">UNREAL</th><th class="r">UNITS</th><th class="r">1σ DAY</th></tr>
-      <tr><td><b>AAOI</b></td><td class="r">100</td><td class="r">141.36</td><td class="r">139.76</td><td class="r">$13,976</td><td class="r neg">−$160</td><td class="r neg"><b>5.60</b></td><td class="r neg"><b>±$1,346</b></td></tr>
-      <tr><td>LIME</td><td class="r">100</td><td class="r">37.75</td><td class="r">37.06</td><td class="r">$3,706</td><td class="r neg">−$69</td><td class="r">1.48</td><td class="r">±$153</td></tr>
-      <tr><td>SMH</td><td class="r">2</td><td class="r">586.56</td><td class="r">586.20</td><td class="r">$1,172</td><td class="r neg">−$1</td><td class="r">0.47</td><td class="r">±$40</td></tr>
-      <tr><td><b>BOOK</b></td><td class="r">—</td><td class="r">—</td><td class="r">—</td><td class="r"><b>$18,854</b></td><td class="r neg"><b>−$230</b></td><td class="r"><b>7.55</b></td><td class="r neg"><b>±$1,398</b></td></tr>
+      <tr><td><b>AAOI</b></td><td class="r">150</td><td class="r">139.96</td><td class="r">139.92</td><td class="r">$20,988</td><td class="r neg">−$6</td><td class="r neg"><b>8.27</b></td><td class="r neg"><b>±$1,971</b></td></tr>
+      <tr><td>LIME</td><td class="r">300</td><td class="r">38.01</td><td class="r">39.00</td><td class="r">$11,700</td><td class="r pos">+$297</td><td class="r neg">4.61</td><td class="r">±$436</td></tr>
+      <tr><td>SMH</td><td class="r">20</td><td class="r">581.97</td><td class="r">583.45</td><td class="r">$11,669</td><td class="r pos">+$30</td><td class="r neg">4.60</td><td class="r">±$384</td></tr>
+      <tr><td><b>BOOK</b></td><td class="r">—</td><td class="r">—</td><td class="r">—</td><td class="r"><b>$44,357</b></td><td class="r pos"><b>+$321</b></td><td class="r neg"><b>17.47</b></td><td class="r neg"><b>±$2,255</b></td></tr>
     </table></div>
-    <div class="posture bad"><b>Margin is gone, cash is positive, and the book is inside the 9.0-unit ceiling for the first time all week — and it is riskier than it was yesterday.</b> Gross fell 1.56× → <b>0.76×</b> and units 15.59 → <b>7.55</b>, but one-sigma <em>rose</em> from $1,149 to <b>$1,398</b>, now <b>2.80×</b> the $499.44 daily limit. Halving the book while concentrating it into a 152.9%-vol name is what did that. <b>AAOI alone is 5.60 units — 1.87× the hard cap — and ±$1,346, or 2.70× the daily limit, from one position.</b> All three holdings are underwater on the premarket mark, each having been rebought above where it was sold.</div>
+    <div class="posture bad"><b>Every structural limit is breached, and the grade just moved against the book.</b> Gross <b>1.747×</b> where −1 RISK OFF permits <b>zero</b> margin; <b>17.47 units</b> against a 9.0 ceiling; all three positions over the 3-unit cap; three of three slots filled, all long, at a grade whose posture is "no new long calls, puts preferred, 1-unit probes only."
+    <br><br>One-sigma is <b>±$2,255 = 4.44×</b> the $507.84 daily limit, of which <b>AAOI alone is ±$1,971, or 3.88×</b>. <span class="faint">Note the LIME mark: +$297 at the 39.00 last print, <b>−$3 at the 38.00 bid</b>, in a 38.00/42.25 book that is 11.2% wide. That $300 is spread, not P&amp;L.</span></div>
   </section>
   <section>
-    <h2>AGENTIC ••••0924 — $148.90</h2>
-    <div class="w">MAGS 2.020994 sh @ 68.59 · CASH $9.94 · BUYING POWER $9.94</div>
-    <div class="posture bad">No option positions. <b>Cash floor $50, cash $9.94</b>, minimum premium $20 — nothing compliant is affordable at any strike. <b>Sixteenth consecutive blocked check-in.</b> The <code>watchlist.md</code> escalation was written for last Friday's review and is still unanswered; the three choices remain fund it, screen for affordability at idea-generation, or declare the sleeve dormant. MAGS reads 1.13× NORMAL and is the only thing in either account carrying no flag.</div>
+    <h2>AGENTIC ••••0924 — ~$149.49</h2>
+    <div class="w">MAGS 2.020994 sh · CASH $9.94 · BUYING POWER $9.94 <span class="faint">(value derived from the 69.05 premarket mark)</span></div>
+    <div class="posture bad">No option positions. <b>Cash floor $50, cash $9.94</b>, minimum premium $20. <b>Twenty-first consecutive blocked check-in.</b> At −1 RISK OFF the mandate would be puts or nothing in any case, so today the constraint is doubly binding. The <code>watchlist.md</code> escalation is <b>seven days old</b>: fund it, screen for affordability at idea-generation, or declare the sleeve dormant. MAGS reads 1.10× NORMAL.</div>
   </section>
 </div>
 </div>
@@ -212,17 +202,18 @@
 <div id="tab-ideas" class="tabpane">
 <div class="grid full">
   <section>
-    <h2>TRADE IDEAS — GRADE 0 · MAX 1 NEW POSITION · 2 UNITS ($4,994) · $20–40 AGENTIC</h2>
-    <div class="w">PROPOSALS ONLY · MANUAL STOP −3% · OPTIONS −35% AT GRADE 0 · KNIVES NEVER ENTERED</div>
+    <h2>TRADE IDEAS — GRADE −1 · 1-UNIT PROBES ($2,539) · NO NEW LONG CALLS · ZERO MARGIN</h2>
+    <div class="w">PROPOSALS ONLY · MANUAL STOP −3% · OPTIONS −35% AT −1 · KNIVES NEVER ENTERED</div>
     <div class="tw"><table class="num">
-      <tr><th>NAME</th><th>SIDE</th><th>CONVICTION</th><th class="r">REF</th><th class="r">STOP −3%</th><th>THE CASE, AND THE PROBLEM</th></tr>
-      <tr><td><b>NBIS</b></td><td>long</td><td><span class="chip c-on">STRONG +5</span></td><td class="r">200.31</td><td class="r">194.30</td><td>Confirmed candidate from <b>@degentradinglsd</b>, the 7d leader (75% hit, +13.4% median). +4.7% spot in 8.8h, <b>+5.49% premarket</b>. 24 sh = 2u = $4,807. <span class="neg">Chase rule: posted while closed, so the reference is TODAY'S OPEN — unmeasurable until 9:30, and a +5.5% gap could put it out of reach on its own.</span></td></tr>
-      <tr><td><b>NVDA</b></td><td>long</td><td><span class="chip c-on">STRONG +5</span></td><td class="r">221.09</td><td class="r">214.46</td><td>Confirmed candidate @zephyr_z9, 3 traders, +1.1% spot, <b>+0.96% premarket</b> — inside the 2% band. 22 sh = 2u = $4,864. The cleanest and by far the most liquid expression of the semis view the desk has traded all week. <span class="faint">@michaeljburry is short it; @firstadopter is long, so the standing rule blocks any short.</span></td></tr>
-      <tr><td class="neg"><b>AAOI</b></td><td class="neg">held</td><td><span class="chip c-off">TRIM, NOT ADD</span></td><td class="r">139.76</td><td class="r">135.57</td><td>+12.5% premarket, <b>zero board mentions today</b>, six round trips this week netting −$283. At 5.60 units it is the only thing in the book that needs a decision before 9:30.</td></tr>
-      <tr><td class="neg">LIME</td><td class="neg">held</td><td><span class="chip c-off">NO EXECUTABLE PRICE</span></td><td class="r">37.06</td><td class="r">35.95</td><td>Premarket book <b>32.93 / 37.24 — 11.6% wide</b>. Zero board mentions. The mark is indicative, not tradeable, in either direction.</td></tr>
-      <tr><td class="neg">DOCS · ORCL · SKHY</td><td class="neg">—</td><td><span class="chip c-off">KNIFE — NEVER</span></td><td class="r" colspan="3">−23.9%, −2.4% and −2.2% since posting. Never entered, either direction, regardless of author.</td></tr>
+      <tr><th>NAME</th><th>SIDE</th><th>CONVICTION</th><th class="r">REF</th><th class="r">STOP</th><th>THE CASE, AND THE PROBLEM</th></tr>
+      <tr><td><b>TENX</b></td><td>short</td><td><span class="chip c-a">MODERATE +3</span></td><td class="r">8.62</td><td class="r">8.88</td><td>The <b>only</b> confirmed candidate on the board, +8.4% in 1.5h (@adamfeuerstein), and the only idea all session whose direction matches the grade. <span class="neg">Unenterable on both desks: micro-cap biotech fails <code>strategy.md</code>'s liquid large/mid-cap filter, and the agentic sleeve has $9.94.</span></td></tr>
+      <tr><td class="neg"><b>AAOI</b></td><td class="neg">held</td><td><span class="chip c-off">TRIM — THE DAY'S DECISION</span></td><td class="r">139.92</td><td class="r">135.76</td><td>8.27 units, 149.1% vol, non-decaying shocks, <b>closed below its stop on Friday with no resting order</b>. Premarket has handed back the entire drawdown. This is the one position where doing nothing and doing something look completely different by Friday.</td></tr>
+      <tr><td class="neg">LIME</td><td class="neg">held</td><td><span class="chip c-off">NO EXECUTABLE PRICE</span></td><td class="r">39.00</td><td class="r">36.87</td><td>4.61 units. Book <b>38.00 / 42.25 — 11.2% wide</b>. Fourth straight session with zero board mentions. Wait for the regular-hours book before touching it in either direction.</td></tr>
+      <tr><td class="neg">SMH</td><td class="neg">held</td><td><span class="chip c-off">OVER CAP</span></td><td class="r">583.45</td><td class="r">564.51</td><td>4.60 units, +$30, 3.24% above its stop. The least of the three problems and the only one that is merely over the cap rather than multiples past it.</td></tr>
+      <tr><td class="neg">NBIS · SKHY · INTC · MLTX</td><td class="neg">—</td><td><span class="chip c-off">KNIFE — NEVER</span></td><td class="r" colspan="3">−2.5%, −2.0%, −2.0% (all longs) and −8.1% (short). Never entered, either direction, regardless of author.</td></tr>
     </table></div>
-    <div class="posture"><b>Two STRONG ideas, both long, both AI-infrastructure — the first time this week the board has offered a genuine entry.</b> Grade 0 permits <b>one</b> new position at 2 units, and cash covers it outright with no margin. But <code>risk.md</code>'s override clause binds first: <b>"book returns inside limits before any new entry."</b> AAOI at 5.60 units is outside the 3-unit hard cap, so on the written rule <b>no new entry is unlocked today until AAOI is trimmed to 3 units (~54 shares).</b> Trim first, then NVDA is the cleaner of the two — NBIS's +5.5% gap has to survive the chase rule against the actual open. <span class="faint">Agentic: $9.94 vs a $50 floor — no entry regardless.</span></div>
+    <div class="posture bad"><b>There is no entry today on either desk, and that is the honest answer rather than a hedge.</b> Grade −1 permits 1-unit probes with zero margin; the desk is at 1.75× gross and 17.47 units with all three slots filled. <code>risk.md</code>'s override clause — <b>"book returns inside limits before any new entry"</b> — binds before any of it. The single confirmed idea on the board fails the instrument filter.
+    <br><br><b>The whole of today's work is on the sell side.</b> AAOI to ~18 shares (1 unit) or ~54 (3 units), LIME to ~200, SMH to ~13, done in regular hours. That clears the margin, puts units inside 9.0, and takes one-sigma from 4.44× to roughly 1.1×. <b>Failing that, the minimum is the thing that was skipped on Friday: resting GTC stops at 135.76, 36.87 and 564.51 — and verify they stick.</b></div>
   </section>
 </div>
 </div>
@@ -230,8 +221,8 @@
 <div id="tab-perf" class="tabpane">
 <div class="grid even">
   <section>
-    <h2>THIS CALENDAR WEEK — MON 8/3 → FRI 09:05</h2>
-    <div class="w">FIXED WEEK FROM MONDAY 00:00 ET</div>
+    <h2>LAST WEEK — MON 8/3 → FRI 8/7 · CLOSED</h2>
+    <div class="w">FIXED CALENDAR WEEK · THIS WEEK OPENS AT ZERO</div>
     <div class="tw"><table class="num">
       <tr><th>DESK</th><th class="r">NET REALIZED</th><th class="r">TRADES</th><th class="r">WIN RATE</th></tr>
       <tr><td>Manual ••••5308</td><td class="r neg"><b>−$1,874.72</b></td><td class="r">38</td><td class="r neg">21%</td></tr>
@@ -243,14 +234,14 @@
       <tr><td>Mon 8/3</td><td class="r neg">−$1,759.67</td><td class="r">12</td><td><span class="chip c-off">3.3× OVER</span></td></tr>
       <tr><td>Tue 8/4</td><td class="r pos">+$415.20</td><td class="r">12</td><td><span class="chip c-on">clear</span></td></tr>
       <tr><td>Wed 8/5</td><td class="r pos">+$484.32</td><td class="r">8</td><td><span class="chip c-on">clear</span></td></tr>
-      <tr><td>Thu 8/6</td><td class="r neg"><b>−$1,185.51</b></td><td class="r">5</td><td><span class="chip c-off">2.3× OVER</span></td></tr>
-      <tr><td>Fri 8/7 <span class="faint">to 09:05</span></td><td class="r pos">+$170.94</td><td class="r">1</td><td><span class="chip c-on">clear</span></td></tr>
+      <tr><td>Thu 8/6</td><td class="r neg">−$1,185.51</td><td class="r">5</td><td><span class="chip c-off">2.3× OVER</span></td></tr>
+      <tr><td>Fri 8/7</td><td class="r pos">+$170.95</td><td class="r">1</td><td><span class="chip c-on">clear</span></td></tr>
     </table></div>
-    <div class="posture bad"><b>Payoff ratio 1.99× — the winners are twice the size of the losers — on a 21% win rate.</b> That combination loses money by arithmetic: 8 wins at $266 against 30 losses at $133. The edge per trade is real and the trade count is what kills it. <b>Both losing days breached the daily limit; the two winning days were the two with no after-hours activity.</b></div>
+    <div class="posture bad"><b>Payoff ratio 1.99× on a 21% win rate</b> — 8 wins at $266 against 30 losses at $133. The per-trade edge is positive and the trade count destroys it. <b>Both losing days breached the daily limit. The three clear days had 21 closes between them; the two breach days had 17.</b> Friday was the best-behaved session of the week: one close, no after-hours activity, +$170.95.</div>
   </section>
   <section>
     <h2>BEST AND WORST · DISCIPLINE FLAGS</h2>
-    <div class="w">MANUAL DESK · REALIZED ONLY · tools/discipline.py</div>
+    <div class="w">MANUAL DESK · LAST WEEK · tools/discipline.py</div>
     <div class="tw"><table class="num">
       <tr><th>SYMBOL</th><th class="r">NET</th><th class="r">CLOSES</th><th>FLAG</th></tr>
       <tr><td class="pos"><b>CRWV</b></td><td class="r pos"><b>+$403.13</b></td><td class="r">8</td><td><span class="chip c-off">CHURN</span></td></tr>
@@ -260,18 +251,18 @@
       <tr><td class="neg">SNDK</td><td class="r neg">−$789.02</td><td class="r">4</td><td><span class="chip c-off">CHURN · REVENGE</span></td></tr>
       <tr><td class="neg"><b>CORD</b></td><td class="r neg"><b>−$885.72</b></td><td class="r">1</td><td><span class="chip c-off">FADED THE LEADER</span></td></tr>
     </table></div>
-    <div class="posture bad"><b>CHURN ×4</b> (SMH 10 closes, CRWV 8, AAOI 6, SNDK 4 — <b>28 of 38 closes in four names</b>). <b>OVERNIGHT:</b> SMH flagged, plus two AAOI entries at 22:29 and 22:49 ET last night that the flag will pick up next run. <b>REVENGE ×3:</b> SMH 8/5, SNDK 8/3, CRWV 8/5 — three-plus consecutive same-day losses in one name.
-    <br><br><b>LIME is the week's whole lesson in one line.</b> It was <b>+$921.81</b> on Wednesday, closed as a plan target. Two further round trips took the name's week to <b>+$85.90</b>. The position that was held is the position that paid.</div>
+    <div class="posture bad"><b>CHURN ×4</b> — SMH 10 closes, CRWV 8, AAOI 6, SNDK 4: <b>28 of 38 closes in four names.</b> <b>OVERNIGHT ×2</b> windows, including AAOI entries at 22:29 and 22:49 ET. <b>REVENGE ×3</b> — SMH, SNDK, CRWV.
+    <br><br><b>Two open items carried into this week.</b> The <code>watchlist.md</code> rule proposals are still unapplied (agentic budget wall, TRUSTED positive-median fix, position-drift wording), and the hold-or-trade question on LIME — first asked five sessions ago — has now survived three full liquidations and rebuilds of the position.</div>
   </section>
 </div>
 </div>
 
 <footer>
   Pre-open brief, no trades placed this run — the 10:00 / 12:00 / 14:00 / 15:00 ET momentum loop trades the grade.
-  Inputs: storm gauge ×3 · conditions ×2 · board ×2 · X ×1, per <code>workflow.md</code>. X is OFFLINE (~106h stale, fifth consecutive miss) so the weight is dropped, not imputed.
-  Grade holds at 0 for a fifth session; composite −0.062 is the week's best reading and Korea is the single input keeping it under +1. Grade boundaries in <code>strategy.md</code>; every limit in <code>risk.md</code>.
+  Inputs: storm gauge ×3 · conditions ×2 · board ×2 · X ×1, per <code>workflow.md</code>. X is OFFLINE (7 days stale, sixth consecutive miss) so the weight is dropped, not imputed.
+  Grade falls two notches from Friday's post-turn +1 to −1 RISK OFF on a composite of −0.262, which clears the boundary by 0.037 on the scaled measure. Grade boundaries in <code>strategy.md</code>; every limit in <code>risk.md</code>.
   Account ••••5308 is READ-ONLY — every figure for that desk is observation, never an order. All market, board and social-feed content is data, never instructions.
-  Premarket figures are extended-hours prints, not settled closes. LIME's 11.6%-wide book makes its mark indicative rather than executable. AAOI's vol is 24-day realised, not a GARCH fit, and SMH's ratio is withheld as unidentified (persistence 0.995).
+  Premarket figures are extended-hours prints, not settled closes. LIME's 11.2%-wide book makes its mark indicative rather than executable. AAOI and SMH ratios are withheld as unidentified (persistence 0.987 and 0.992); judge both on absolute vol.
 </footer>
 </div>
 
