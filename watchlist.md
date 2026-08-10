@@ -222,3 +222,37 @@ Proposed wording for Friday, NOT applied unilaterally:
    and never below 3 units."
 Carried to the Friday review alongside the agentic budget-wall escalation
 and the TRUSTED positive-median fix.
+
+## RULE REVIEW REQUEST — THE TURN PROTOCOL (2026-08-10)
+
+Raised at the 2pm loop on 8/10, after the third turn confirmation in four
+sessions. All three fired LONG. Record so far:
+
+| date | confirmed by | grade move | what happened next |
+|---|---|---|---|
+| 2026-08-05 | 5 fresh greens | 0 -> +1 | next session realised -1,185.51 |
+| 2026-08-07 | 3 fresh greens (STRC at +0.7%) | 0 -> +1 | next morning's composite recomputed to -1: a two-notch reversal overnight |
+| 2026-08-10 | 3 fresh greens, TWO OF THEM CRYPTO | -1 -> 0 | open |
+
+Two problems, both visible in the table:
+
+1. **The threshold counts ideas the desks cannot trade.** Today's confirmation
+   rests on PUMP and HYPE (crypto perps) plus BX. The manual desk trades US
+   large-cap shares; the agentic sleeve trades single-leg options. Two-thirds of
+   the evidence is untradeable by either desk, yet it moves the posture for both.
+2. **The shift has never unlocked anything.** On 8/5, 8/7 and 8/10 the book was
+   already past every limit the new grade would permit, so the notch changed the
+   label and nothing else. A rule that only ever ratifies existing positioning
+   is not adding information.
+
+Proposed wording, for the Friday review — not applied:
+
+> Turn confirmation counts only ideas in instruments a desk can actually trade:
+> US-listed equities and ETFs. Crypto and perp-only ideas set context and are
+> reported, but do not count toward the 3-idea threshold. A confirmed turn that
+> would not change what any desk is permitted to do is logged as CONTEXT ONLY
+> and does not move the grade.
+
+This joins the three proposals already waiting here: the agentic budget wall,
+the TRUSTED positive-median fix, and the position-drift-into-the-unit-cap
+wording. Four now, none applied.
