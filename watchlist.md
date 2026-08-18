@@ -256,3 +256,48 @@ Proposed wording, for the Friday review — not applied:
 This joins the three proposals already waiting here: the agentic budget wall,
 the TRUSTED positive-median fix, and the position-drift-into-the-unit-cap
 wording. Four now, none applied.
+
+### EVIDENCE FOR THE TURN-PROTOCOL REVIEW — 2026-08-18 (the cleanest counterexample yet)
+
+The turn rule treats rising fresh 6h long flow as a LEADING indicator against a
+coincident winner skew. Today inverted that premise for a full session, and the
+record should carry the numbers.
+
+Fresh 6h flow got steadily MORE long as the tape fell:
+  10:06  19L / 15S     SPY -0.53%  QQQ -1.50%
+  12:05  31L / 22S
+  14:04  35L / 21S
+  15:05  37L / 19S     SPY -0.64%  QQQ -1.73%
+
+Confirmed candidates over the same window went the other way, completely:
+  10:06  1 confirmed  (MU short)                       long-side greens: 0
+  12:05  5 confirmed  (3 equity shorts, BTC + ETH)     long-side greens: 2, both crypto
+  14:04  6 confirmed  (5 equity shorts, ETH)           long-side greens: 1, crypto
+  15:05  6 confirmed  (ALL SIX equity shorts)          long-side greens: 0
+
+At the 15:05 read there is not one confirmed idea on the "new" side the alarm
+points to. BTC dropped off the confirmed list into CROWDED at 4 co-signs — late
+consensus, which the rule itself reads as contrarian. The alarm fired at all four
+check-ins and the threshold was never approached.
+
+WHAT THIS SAYS ABOUT THE RULE: rising fresh long flow into a broad decline is not
+positioning leading a turn, it is the crowd getting longer on the way down. The
+protocol cannot distinguish the two, because it reads flow DIRECTION and never
+asks whether the fresh flow is WORKING. A candidate amendment to test at the
+weekly review:
+
+> TURN ALARM is suppressed when fresh flow on the new side has a negative median
+> return since posting. Divergence between positioning and winners only signals a
+> turn when the new positioning is at least breaking even; when the new side is
+> underwater, the same divergence signals capitulation-chasing and the grade does
+> not move.
+
+This is separate from, and compatible with, the 2026-08-10 proposal above
+(tradeable-instrument filter). Today both would have blocked the shift, and the
+rule as written also blocked it — so nothing was mistraded. The value is that this
+is the first session where the alarm's PREMISE, not just its threshold, can be
+tested against a full day of data.
+
+Running record of the alarm: 8/5, 8/7, 8/10, 8/14, 8/17 confirmed (five shifts,
+none of which changed a single permitted action); 8/18 fired four times and
+confirmed nothing.
