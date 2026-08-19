@@ -301,3 +301,25 @@ tested against a full day of data.
 Running record of the alarm: 8/5, 8/7, 8/10, 8/14, 8/17 confirmed (five shifts,
 none of which changed a single permitted action); 8/18 fired four times and
 confirmed nothing.
+
+### RULE REVIEW REQUEST — SELF-REFERENCE IN THE TURN PROTOCOL (2026-08-19)
+
+Today's turn confirmation cleared its 3-idea threshold on MRNA + SKHX + BTC. MRNA
+is the position the manual desk bought this morning at 9.11 units. The protocol
+therefore counted the desk's own holding as independent evidence for shifting the
+grade in the direction that would license more of it.
+
+Proposed clause, to sit alongside the 2026-08-10 tradeable-instrument filter:
+
+> A name the desk already holds does not count toward the turn threshold. Turn
+> confirmation measures whether OTHER participants' fresh positioning is working;
+> a position the desk itself owns is not independent evidence about the regime,
+> and counting it lets a single held name both create the exposure and justify it.
+
+Applying both proposals to today: BTC excluded as untradeable, MRNA excluded as
+held, leaving SKHX = 1 of 3 and no shift.
+
+Also worth noting for the review: the winner skew reversed twice inside three
+hours today — LONGS winning with no alarm at the 09:03 pre-open read, SHORTS
+winning with the alarm re-armed by 10:06. A coincident measure that flips inside
+a session is describing chop, not regime, and the alarm inherits that noise.
