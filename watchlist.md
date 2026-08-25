@@ -323,3 +323,33 @@ Also worth noting for the review: the winner skew reversed twice inside three
 hours today — LONGS winning with no alarm at the 09:03 pre-open read, SHORTS
 winning with the alarm re-armed by 10:06. A coincident measure that flips inside
 a session is describing chop, not regime, and the alarm inherits that noise.
+
+### RULE REVIEW REQUEST — THE PREMIUM BAND AND THE DELTA FILTER COLLIDE (2026-08-25)
+
+The agentic sleeve's cash settled today and buying power reached $144.93 — the
+first spendable dollar since August 3. It still cannot place a compliant order,
+and the reason is no longer money.
+
+risk.md sets the option premium band at **$20–60**. strategy.md requires
+**delta 0.30–0.50** and **2–6 weeks to expiry**. Priced against today's only
+confirmed board idea:
+
+  NVDA 2026-09-18 225 call — 24 DTE, delta 0.333, IV 41.5%, OI 47,958
+  ASK $4.75  =>  $475 per contract, 7.9x the top of the premium band
+
+A contract inside the $20–60 band on a $213 underlying prices at $0.20–0.60 per
+share, which at 24 days sits far out of the money with delta roughly 0.02–0.05 —
+failing the delta filter by an order of magnitude. **The two rules cannot both be
+satisfied on any underlying much above ~$20 a share.**
+
+This is arithmetic, not market conditions. It means the sleeve could not have
+traded most of this board even when funded, and it reframes the three paths
+filed on 8/5:
+
+> Fund it · screen for affordability at idea generation · declare it dormant
+> — **and now a fourth: resize the premium band to match the filters, or state
+> explicitly that the sleeve trades only low-priced underlyings.**
+
+The $20–60 band was written for an account holding $148. The delta and expiry
+filters were written for liquid large- and mid-caps. Those two intentions are
+incompatible and one of them has to give.
