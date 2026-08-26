@@ -380,3 +380,14 @@ incompatible and one of them has to give.
   Zero of the three are positions this desk could take. A rule that changes the grade off a count
   of board rows can be moved by names that do not exist here. Third instance since 8/10, and the
   first where the gap could have changed the posture rather than just the report.
+
+- **2026-08-26 15:03 — the premium band, priced to a number.**
+  INTC long joined the board's confirmed list at +1.0%. It is the cheapest tradeable large-cap the
+  board has confirmed this week, so it is the fairest test of the band. INTC $87.62; Sep-18 92.5
+  call, delta 0.395, 23 DTE, OI 4,229, volume 72, bid 3.30 / ask 3.50, spread 5.9% of mark —
+  clears delta, expiry and liquidity. **Ask $350 per contract, against $144.93 of buying power.**
+  That is the closest any candidate has come all week and it is still 2.4x the sleeve.
+  Four data points now bracket the answer: META $1,265, NVDA $475, INTC $350, VVV $65 (illiquid).
+  So the decision has a number attached. One standard position at current prices needs roughly
+  $350-500, i.e. about 3x the sleeve's size; a band that admits real contracts is roughly
+  $100-400, not $20-60. Fund it to ~$500, widen the band to ~$100-400, or declare it dormant.
