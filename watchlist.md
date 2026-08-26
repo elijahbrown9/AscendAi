@@ -370,3 +370,13 @@ incompatible and one of them has to give.
   protocol counted it toward the threshold anyway, because the protocol counts board rows, not
   positions the desk could actually take. Second time this has happened since 8/10. The fix is
   one line: a confirmed candidate only counts toward the turn threshold if the desk can trade it.
+
+- **2026-08-26 14:03 — the tradeable-instrument gap nearly moved the grade.**
+  Two hours after the 12:04 instance, the board shows **three** confirmed candidates: ZHIPU long,
+  NVDA short, ZEC long. The TURN ALARM had cleared by then, so the threshold was never applied —
+  but had it still been firing, the turn protocol would have counted 3 fresh confirmed ideas on
+  the new side and **shifted the grade a full notch**. Of those three: ZHIPU 404s, ZEC 404s, and
+  NVDA is disqualified by risk.md line 17 (reports tonight, >$30 exits before earnings, always).
+  Zero of the three are positions this desk could take. A rule that changes the grade off a count
+  of board rows can be moved by names that do not exist here. Third instance since 8/10, and the
+  first where the gap could have changed the posture rather than just the report.
