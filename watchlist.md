@@ -353,3 +353,13 @@ filed on 8/5:
 The $20–60 band was written for an account holding $148. The delta and expiry
 filters were written for liquid large- and mid-caps. Those two intentions are
 incompatible and one of them has to give.
+
+- **2026-08-26 — premium-band conflict, third data point (closes the "find a cheaper one" escape).**
+  Priced the board's one confirmed candidate as a compliant contract: META Sep-18 555 put,
+  delta −0.335, 23 DTE, OI 2,548, volume 190, spread 5.3% of mark. It passes the delta filter,
+  the expiry window, and the liquidity bar — every quality test in strategy.md. Ask $12.65 = **$1,265
+  per contract**, 8.7× the sleeve's entire $144.93 and 21× the top of the $20–60 band.
+  With NVDA ($475, passes) and VVV ($65, fails liquidity: zero volume, 48%-of-mark spread), the
+  pattern now has both ends nailed down: contracts inside the band are illiquid, contracts that
+  clear the quality filters cost multiples of the account. This is not a scanning problem that a
+  wider search fixes. Either the band moves, the sleeve gets funded, or the sleeve is dormant.
