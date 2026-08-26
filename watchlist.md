@@ -363,3 +363,10 @@ incompatible and one of them has to give.
   pattern now has both ends nailed down: contracts inside the band are illiquid, contracts that
   clear the quality filters cost multiples of the account. This is not a scanning problem that a
   wider search fixes. Either the band moves, the sleeve gets funded, or the sleeve is dormant.
+
+- **2026-08-26 12:04 — tradeable-instrument filter, fresh instance (see the 8/10 item).**
+  TURN ALARM fired with two confirmed candidates: ZHIPU long (+4.1%) and NVDA short (+1.6%).
+  ZHIPU returns 404 from the broker — it is not a tradeable instrument here at all. The turn
+  protocol counted it toward the threshold anyway, because the protocol counts board rows, not
+  positions the desk could actually take. Second time this has happened since 8/10. The fix is
+  one line: a confirmed candidate only counts toward the turn threshold if the desk can trade it.
