@@ -1,0 +1,17 @@
+{"grade":0,"manual_equity":30279.96,"agentic_cash":0.0,"candidates":[
+{"desk":"manual","ticker":"THYP","symbol":"THYP","direction":"sell","entry":48.14,"stop":46.70,"target":48.14,
+ "thesis":"Trim 13.59 units to 3. Still two thirds of the book's risk and the only holding the board has never once confirmed. The gauge reads 0.98x, so this remains a size decision, not a regime call.",
+ "regime_aligned":true,"price_confirms":false,"board_support":false,"x_support":false,"iv_ok":true,"crowded":false,
+ "conflict":"Selling into a -2.3% pre-market gap rather than into strength, which is a worse entry than any of yesterday's four opportunities."},
+{"desk":"manual","ticker":"BSOL","symbol":"BSOL","direction":"sell","entry":14.38,"stop":13.95,"target":14.38,
+ "thesis":"Trim 3.56 units to 3, or close it. Opened yesterday above the 3-unit hard cap, and GARCH now puts its one-sigma day at 6.39%, the highest in either account after TXXH.",
+ "regime_aligned":true,"price_confirms":false,"board_support":true,"x_support":false,"iv_ok":true,"crowded":false,
+ "conflict":"Already -3.9% from the entry, so a trim here books a loss rather than trimming a winner."},
+{"desk":"manual","ticker":"ARKG","symbol":"ARKG","direction":"sell","entry":49.83,"stop":48.34,"target":49.83,
+ "thesis":"Close the smallest sleeve to bring the book from four concurrent positions to three, satisfying risk.md line 26 at a cost of about ten dollars.",
+ "regime_aligned":true,"price_confirms":true,"board_support":false,"x_support":false,"iv_ok":true,"crowded":false},
+{"desk":"manual","ticker":"BTC","symbol":"BTC","direction":"hold","entry":35.11,"stop":34.06,"target":37.50,
+ "thesis":"Now 2.90 units and compliant after yesterday's trim. Gauge 0.99x, the calmest reading it has had in three weeks.",
+ "regime_aligned":true,"price_confirms":false,"board_support":false,"x_support":false,"iv_ok":true,"crowded":false,
+ "conflict":"At 2.90 units it is one 4% up-day away from breaching its cap again without a single order being placed."}
+]}
