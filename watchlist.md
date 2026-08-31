@@ -391,3 +391,14 @@ incompatible and one of them has to give.
   So the decision has a number attached. One standard position at current prices needs roughly
   $350-500, i.e. about 3x the sleeve's size; a band that admits real contracts is roughly
   $100-400, not $20-60. Fund it to ~$500, widen the band to ~$100-400, or declare it dormant.
+
+- **2026-08-31 10:20 — the tradeable-instrument gap is no longer hypothetical: it just set the grade.**
+  TURN ALARM fired with exactly three confirmed candidates on the new (long) side — SMSN, MU, INTC.
+  Under workflow.md as written that meets the threshold and the grade shifts one notch, 0 → +1 RISK ON.
+  **SMSN returns 404 from the broker.** MU and INTC are tradeable; SMSN is not. So the count is 3 by
+  board rows and 2 by positions this desk could take, and the entire posture change rests on the
+  difference. On 26 August this was logged as a near-miss — "the first where the gap could have
+  changed the posture rather than just the report." Five days later it did, and it did so on the
+  day the manual desk went flat with $28,510 of cash, which is the moment a permissive posture
+  matters most. Fifth instance since 8/10. The fix remains one line: a confirmed candidate counts
+  toward the turn threshold only if the desk can trade it.
