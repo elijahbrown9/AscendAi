@@ -1,0 +1,7 @@
+{
+  "garch": {"spy_ratio": 0.91, "qqq_ratio": 0.90},
+  "conditions": {"vix": 15.09, "brent": 95.25, "kospi": 6365.0,
+                 "btc_24h_pct": 1.94, "geo_risk": true},
+  "board_skew": {"long_avg_now": 1.500, "short_avg_now": 0.216},
+  "x_sentiment": null
+}
