@@ -1,7 +1,7 @@
 {
-  "garch": {"spy_ratio": 0.91, "qqq_ratio": 0.90},
-  "conditions": {"vix": 15.09, "brent": 95.25, "kospi": 6365.0,
-                 "btc_24h_pct": 1.94, "geo_risk": true},
-  "board_skew": {"long_avg_now": 1.500, "short_avg_now": 0.216},
+  "garch": {"spy_ratio": 0.95, "qqq_ratio": 0.91},
+  "conditions": {"vix": 14.19, "brent": 95.23, "kospi": 6687.21,
+                 "btc_24h_pct": 0.91, "geo_risk": true},
+  "board_skew": {"long_avg_now": -1.745, "short_avg_now": 0.540},
   "x_sentiment": null
 }
