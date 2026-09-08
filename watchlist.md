@@ -402,3 +402,19 @@ incompatible and one of them has to give.
   day the manual desk went flat with $28,510 of cash, which is the moment a permissive posture
   matters most. Fifth instance since 8/10. The fix remains one line: a confirmed candidate counts
   toward the turn threshold only if the desk can trade it.
+
+- **2026-09-08 15:03 — the losing mechanic today was re-entry price, not direction, and nothing measures it.**
+  The desk went flat for the third time in six sessions (final exits HOOD 210 @ 119.8903, −$684.16 and
+  ZCSH 250 @ 93.699, −$408.07, both 14:36–14:38 ET). Today realised **−$1,146.80 across 10 closes**:
+  HOOD −$718.75, ZCSH −$425.32, DRAM +$18.03, HIMS −$20.76. ZCSH was sold at 92.64 and re-bought the
+  same session at **95.33 — above its own exit** — and the loss on the second lot is roughly the gap.
+  The direction calls were not the problem: every name sold earlier today closed lower than where it
+  was sold, the same result as the prior three weeks. The cost sits entirely in paying up to get back
+  into a position the desk had just left.
+  `discipline.py` cannot see this. CHURN counts 5+ round trips in one symbol netting negative, OVERNIGHT
+  counts fills outside 9am–8pm, REVENGE counts 3+ consecutive same-day losses — all price-blind. A rule
+  that compares each entry against the most recent exit in the same symbol on the same day would have
+  flagged both ZCSH re-entries and at least two of the five HOOD round trips on 9/4. Proposed one-liner:
+  **no re-entry in a symbol above that day's own exit price in the same symbol without a fresh confirmed
+  board row.** Seventh instance of the discipline-flag scoping gap; the first where the missing dimension
+  is price rather than time or symbol count.
