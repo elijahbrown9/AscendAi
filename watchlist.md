@@ -459,3 +459,22 @@ incompatible and one of them has to give.
   stop while it was open, and the only number this record ever carried for it was its market value.
   The open item can be closed as resolved-by-liquidation rather than resolved-by-measurement, which is
   the weaker of the two outcomes: if it is re-established, nothing has changed about the instrumentation.
+
+- **2026-09-09 14:04 — two full liquidate-and-rebuild cycles in one session, and a number for what the
+  round-tripping costs.**
+  The manual desk went completely flat twice today and rebuilt both times: 11:22–11:51 ET (flat for
+  **81 seconds**) and 12:55–13:21 ET (flat for **4m48s**). Fifth and sixth full liquidations in seven
+  sessions. **ZCSH was re-entered above its own exit three separate times today** — 98.88 after a 93.699
+  exit, 101.67 after a 100.16 exit, 102.45 after a 101.8442 exit — with the rebuilds walking up in price
+  across six, then nine separate buy orders.
+  What makes today diagnostic is that the round-tripping *made money on the tape* and still lost against
+  doing nothing. ZCSH realised **+$776.35** across three closes today. But the average cost ratcheted up
+  at every reset — **98.88 → 99.42 → 101.67 → 102.45**, a 3.6% climb — while the stock rose 10.4% from
+  yesterday's 91.71 close to 101.255. Holding the original 500 shares at 98.88 untouched would be worth
+  **+$1,187.50** right now. The actual outcome is +$776.35 realised plus −$268.88 open on the surviving
+  225 shares = **+$507.47**. Roughly **$680 of a $1,188 move was given back** to the resets. (Share count
+  varied between 225 and 500 across the day, so treat the figure as an approximation, not an accounting.)
+  This is the cleanest evidence yet for the price-based rule proposed on 8 September. `discipline.py`
+  sees none of it: three closes in ZCSH is under the CHURN threshold of five, and the symbol is net
+  positive, so nothing fires. A rule keyed on *entry price versus the same day's exit price in the same
+  symbol* would have flagged all three.
