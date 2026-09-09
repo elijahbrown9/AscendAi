@@ -418,3 +418,20 @@ incompatible and one of them has to give.
   **no re-entry in a symbol above that day's own exit price in the same symbol without a fresh confirmed
   board row.** Seventh instance of the discipline-flag scoping gap; the first where the missing dimension
   is price rather than time or symbol count.
+
+- **2026-09-09 09:22 — a board ticker resolved to a completely different real asset at the broker (VVV).**
+  The board's only CONFIRMED candidate today was `VVV long +1.7%` from @degentradinglsd. The board's VVV is
+  the **Venice AI token**, a hyperliquid perp at $27.64 with the thesis "should absorb capital rotating away
+  from TAO as the default AI long." VVV at this broker is **Valvoline Inc.**, an NYSE automotive-lubricants
+  company at $30.59. Same three letters, unrelated assets, both real and both liquid.
+  This is worse than the tradeable-instrument gap logged five times since 10 August. Those tickers (ZHIPU,
+  ZEC, TAO, SMSN, and CHIP again today) returned 404 or no quote — they failed loudly and could not be
+  traded by accident. A collision fails **silently**: the order fills, in the wrong company, on a thesis
+  that has nothing to do with it.
+  It has already contaminated this record once. The 26 August premium-band review priced "VVV $65, OI 75,
+  48% spread, illiquid" as one of the four data points bracketing the options band — that was Valvoline's
+  chain, measured against a Venice AI signal. The band conclusion (~$100–400 needed) rests on META, NVDA
+  and INTC and survives without it, but the VVV row should be struck from that comparison.
+  Fix, one line, alongside the tradeable-instrument filter: **a board row counts as a candidate only when
+  the broker instrument matches the board's asset, not merely its symbol** — check the venue and the
+  underlying, not the three letters. All 25 board rows today were hyperliquid perps, so this is not rare.

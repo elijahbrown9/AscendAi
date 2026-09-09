@@ -71,12 +71,38 @@
   .tabpane{display:none} .tabpane.active{display:block}
   .tabpane .grid{margin-top:14px}
   @media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+
+  /* --- verdict / gauge / card primitives --- */
+  .verdict{align-items:center}
+  .verdict .grade{font-size:52px;font-weight:700;line-height:1;color:var(--neutral);
+    min-width:64px;text-align:center;font-variant-numeric:tabular-nums}
+  .verdict .vtext{flex:1 1 320px}
+  .vlabel{font-size:24px;letter-spacing:.10em;color:var(--neutral);font-weight:700}
+  .vsub{color:var(--dim);font-size:12.5px;max-width:72ch;margin-top:4px}
+  .gaugebar{display:grid;grid-template-columns:repeat(4,1fr);gap:4px;margin:14px 0 4px}
+  .gaugebar .seg{background:var(--panel2);border:1px solid var(--line);padding:9px 10px;
+    display:flex;justify-content:space-between;align-items:baseline;gap:8px;
+    font-size:10.5px;letter-spacing:.09em;color:var(--faint)}
+  .gaugebar .seg b{font-size:14px;color:var(--ink);font-weight:700}
+  .gaugebar .seg.on{border-color:var(--on)} .gaugebar .seg.on b{color:var(--on)}
+  .gaugebar .seg.off{border-color:var(--faint)} .gaugebar .seg.off b{color:var(--faint)}
+  .card{background:var(--panel2);border:1px solid var(--line);padding:13px 15px}
+  .card.bad{border-left:3px solid var(--off)}
+  .card.warn{border-left:3px solid var(--amber)}
+  .card h3{margin:0 0 6px;font-size:10.5px;letter-spacing:.13em;color:var(--faint);font-weight:400}
+  .card .big{margin:0;font-size:26px;font-weight:700;line-height:1.1;font-variant-numeric:tabular-nums}
+  .card.bad .big{color:var(--off)}
+  .card .sub{margin:6px 0 0}
+  .sub{color:var(--dim);font-size:12px;line-height:1.6;margin:10px 0 0}
+  .posture p{margin:0 0 9px} .posture p:last-child{margin-bottom:0}
+  td.ok,.ok{color:var(--on)} td.bad,.bad{color:var(--off)} td.warn,.warn{color:var(--amber)}
+  section h2{margin-top:22px} section h2:first-of-type{margin-top:0}
 </style>
 
 <div class="wrap">
 <header>
   <div class="logo">ASCEND <em>//</em> RISK TERMINAL</div>
-  <div class="stamp num">TUE 2026-09-08 · 09:18 AM ET PRE-OPEN BRIEF · NO TRADES THIS RUN</div>
+  <div class="stamp num">WED 2026-09-09 · 09:22 AM ET PRE-OPEN BRIEF · NO TRADES THIS RUN</div>
 </header>
 
 <nav class="tabs">
@@ -87,46 +113,46 @@
   <button class="tabbtn" data-pane="pnl">P&amp;L</button>
 </nav>
 
-<!-- ============ THE SIGNAL ============ -->
+<!-- ============ SIGNAL ============ -->
 <section class="tabpane active" id="signal">
 
   <div class="verdict">
     <div class="grade num">0</div>
     <div class="vtext">
       <div class="vlabel">MIXED</div>
-      <div class="vsub">composite <span class="num">−0.002</span> · tenth consecutive grade 0 · a calm gauge cancelled almost exactly by oil and a negative board</div>
+      <div class="vsub">composite <span class="num">+0.172</span> · eleventh consecutive grade 0 · the highest composite in this record, and the most over-leveraged book in it</div>
     </div>
   </div>
 
   <div class="gaugebar">
-    <div class="seg on" title="storm gauge +0.24 (weight 3)"><span>GAUGE</span><b class="num">+0.24</b></div>
-    <div class="seg" title="conditions -0.24 (weight 2)"><span>CONDITIONS</span><b class="num">−0.24</b></div>
-    <div class="seg" title="board -0.13 (weight 2)"><span>BOARD</span><b class="num">−0.13</b></div>
+    <div class="seg on" title="storm gauge +0.26 (weight 3)"><span>GAUGE</span><b class="num">+0.26</b></div>
+    <div class="seg" title="conditions -0.12 (weight 2)"><span>CONDITIONS</span><b class="num">−0.12</b></div>
+    <div class="seg on" title="board +0.34 (weight 2)"><span>BOARD</span><b class="num">+0.34</b></div>
     <div class="seg off" title="X feed offline"><span>X FEED</span><b class="num">OFF</b></div>
   </div>
 
   <div class="posture">
-    <p><strong>Monday was Labor Day; all four check-ins were skipped and no trades were placed.</strong> The book that went into the long weekend at 20.05 units has come back changed: HOOD cut 400 → 250, DRAM re-established at 200, ZCSH re-entered at an average of <span class="num">92.76</span> against Friday's 78.77. Every share of DRAM and ZCSH and 50 of the HOOD are marked intraday, so the repositioning happened this morning.</p>
-    <p><strong>ZCSH is up 10.72% pre-market</strong> — 83.77 to 92.75 — and the position's average cost is 92.76, one cent above the bid. The entire move was bought at the top of it. That is the chase pattern the 2% band exists to catch, and it is the fourth time in six sessions the desk has re-entered a name above its own most recent exit.</p>
-    <p><strong>Brent settled at $97</strong>, a fourth session above the storm line and the highest print in this record. The framing has turned though: Iran now says the Oman accord is in its final stages and will include a temporary safe route through Hormuz. Oil is at its high <em>on the expectation of a deal</em>, which is a different and more fragile configuration than the last three sessions.</p>
-    <p><strong>The composite is −0.002, effectively zero for the second time in this record.</strong> A calm gauge is being cancelled almost exactly by oil and a mildly negative board. TURN ALARM fires — fresh flow 11 long / 5 short while the shorts win — but with <em>zero</em> confirmed candidates on either side the threshold cannot be met, so the grade holds.</p>
+    <p><strong>The signal and the book have come apart.</strong> Every scored input improved overnight — the gauge is clean, the board turned positive for the first time in four sessions, Seoul reclaimed 7,000 — and the composite at <span class="num">+0.172</span> is the highest in this record. It is still grade 0, because grade 0 spans a wide band. Meanwhile the manual desk, flat at 15:03 yesterday, has rebuilt to <span class="num bad">19.53 units</span> against a 9.0 ceiling, funded with <span class="num bad">$30,079.82</span> of margin on a day the framework permits none.</p>
+    <p><strong>ZCSH alone is 16.41 units</strong> — 500 shares at an average of 98.88, worth $50,515 pre-market against an account of $30,778.42. The hard cap is 3 units per position. This is 5.5× it, and 84% of the book's gross. Its average cost is 7.8% above yesterday's close of 91.71 and 5.5% above the 93.699 the desk sold at yesterday afternoon. Four hundred of the five hundred shares are marked intraday.</p>
+    <p><strong>Brent printed $102.05</strong>, the first triple-digit reading in this record and up $2.20 in a day. Yesterday's framing — Iran near an Oman accord, oil high because a deal was close — inverted inside 24 hours: US and Iranian forces are striking each other in the Strait of Hormuz and the price is high because the waterway is contested. VIX at <span class="num">16.19</span> is not pricing any of it.</p>
+    <p><strong>The board's only confirmed candidate cannot be bought here.</strong> VVV on paste.trade is the Venice AI perp at $27.64; VVV at this broker is Valvoline, a lubricants company, at $30.59. Same three letters, unrelated assets. Every one of the 25 board rows today is a hyperliquid perp.</p>
   </div>
 
   <div class="grid">
-    <div class="card warn">
-      <h3>TURN WATCH</h3>
-      <p class="big num">ALARM</p>
-      <p class="sub">Flow long, winners short. Zero confirmed candidates, so no grade shift is possible.</p>
+    <div class="card bad">
+      <h3>MARGIN vs GRADE</h3>
+      <p class="big num">1.95×</p>
+      <p class="sub">Grade 0 permits zero margin. $30,079.82 drawn against $30,778.42 of equity.</p>
     </div>
     <div class="card">
       <h3>STORM VETO</h3>
       <p class="big num">NO</p>
-      <p class="sub">SPY 0.94×, QQQ 0.89×. Eighth consecutive session with every gauge normal.</p>
+      <p class="sub">SPY 0.94×, QQQ 0.88×. Ninth consecutive session with every gauge normal.</p>
     </div>
     <div class="card bad">
       <h3>BOOK vs CEILING</h3>
-      <p class="big num">18.21u</p>
-      <p class="sub">Three positions, all above the 3-unit cap, margin drawn at 1.82×.</p>
+      <p class="big num">19.53u</p>
+      <p class="sub">Two positions, both above the 3-unit cap. ZCSH is 16.41 of it.</p>
     </div>
   </div>
 
@@ -135,41 +161,50 @@
 <!-- ============ INPUTS ============ -->
 <section class="tabpane" id="inputs">
 
-  <h2>STORM GAUGE <span class="w">weight 3 · score +0.24</span></h2>
+  <h2>STORM GAUGE <span class="w">weight 3 · score +0.26</span></h2>
   <table>
     <tr><th>SYMBOL</th><th>RATIO</th><th>1σ NEXT DAY</th><th>BAND</th></tr>
-    <tr><td>SPY</td><td class="num">0.94×</td><td class="num">±0.76%</td><td class="ok">NORMAL</td></tr>
-    <tr><td>QQQ</td><td class="num">0.89×</td><td class="num">±1.11%</td><td class="ok">NORMAL</td></tr>
-    <tr><td>HOOD</td><td class="num">1.10×</td><td class="num">±5.01%</td><td class="ok">NORMAL</td></tr>
-    <tr><td>DRAM</td><td class="num">0.82×</td><td class="num">±4.93%</td><td class="ok">NORMAL</td></tr>
-    <tr><td>ZCSH</td><td class="num">0.83×</td><td class="num">±9.41%</td><td class="ok">CALM</td></tr>
-    <tr><td>TXXH</td><td class="num">0.92×</td><td class="num">±9.66%</td><td class="ok">NORMAL</td></tr>
-    <tr><td>BITX</td><td class="num">1.03×</td><td class="num">±6.18%</td><td class="ok">NORMAL</td></tr>
+    <tr><td>SPY</td><td class="num">0.94×</td><td class="num">±0.77%</td><td class="ok">NORMAL</td></tr>
+    <tr><td>QQQ</td><td class="num">0.88×</td><td class="num">±1.10%</td><td class="ok">NORMAL</td></tr>
+    <tr><td>HOOD</td><td class="num">1.06×</td><td class="num">±4.82%</td><td class="ok">NORMAL</td></tr>
+    <tr><td>ZCSH</td><td class="num">0.81×</td><td class="num bad">±9.38%</td><td class="ok">NORMAL</td></tr>
+    <tr><td>TXXH</td><td class="num">0.90×</td><td class="num">±9.36%</td><td class="ok">NORMAL</td></tr>
+    <tr><td>BITX</td><td class="num">0.98×</td><td class="num">±5.84%</td><td class="ok">NORMAL</td></tr>
   </table>
-  <p class="sub">Eighth consecutive clean session. DRAM now has a proper fit at ±4.93% a day — it was ungauged when the desk held it on Friday, so the book's one-sigma was unmeasurable then and is not now. ZCSH's expected day has widened from ±7.53% to <span class="num">±9.41%</span>: the gauge reads CALM at 0.83× only because its long-run baseline is extreme. HOOD is the one ratio above 1.0.</p>
+  <p class="sub">Ninth consecutive clean session; no storm veto is possible without both SPY and QQQ above 1.25×, and both fell further. The number that matters is not a ratio: ZCSH's <span class="num bad">±9.38%</span> expected day, applied to a $50,515 position, is <span class="num bad">$4,738</span> of one-sigma risk in a single name. The 0.81× band reads NORMAL only because ZCSH's long-run baseline is 184% annualised — the gauge is measuring calm relative to chaos.</p>
 
-  <h2>CONDITIONS <span class="w">weight 2 · score −0.24</span></h2>
+  <h2>CONDITIONS <span class="w">weight 2 · score −0.12</span></h2>
   <table>
     <tr><th>INPUT</th><th>LEVEL</th><th>THRESHOLD</th><th>READ</th></tr>
-    <tr><td>VIX</td><td class="num">15.43</td><td class="num">19 warn / 21 storm</td><td class="ok">CALM</td></tr>
-    <tr><td>Brent</td><td class="num bad">$97.00</td><td class="num">90 warn / 92 storm</td><td class="bad">STORM — 4th session, new high</td></tr>
-    <tr><td>KOSPI</td><td class="num ok">6,954.52 · −0.58%</td><td class="num">6,700 warn / 6,450 storm</td><td class="ok">ABOVE WARN</td></tr>
-    <tr><td>Bitcoin 24h</td><td class="num">−1.07%</td><td class="num">$78,480</td><td class="num">SOFT</td></tr>
-    <tr><td>Geopolitics</td><td class="num">Hormuz — accord "days away"</td><td class="num">—</td><td class="bad">ELEVATED</td></tr>
+    <tr><td>VIX</td><td class="num ok">16.19</td><td class="num">19 warn / 21 storm</td><td class="ok">CALM</td></tr>
+    <tr><td>Brent</td><td class="num bad">$102.05 · +$2.20</td><td class="num">90 warn / 92 storm</td><td class="bad">STORM — 5th session, first $100 print</td></tr>
+    <tr><td>KOSPI</td><td class="num ok">7,051.64 · +1.40%</td><td class="num">6,700 warn / 6,450 storm</td><td class="ok">RECLAIMED 7,000</td></tr>
+    <tr><td>Bitcoin 24h</td><td class="num ok">+2.08%</td><td class="num">$79,565</td><td class="ok">FIRM</td></tr>
+    <tr><td>Geopolitics</td><td class="num">US–Iran strikes in Hormuz</td><td class="num">—</td><td class="bad">ELEVATED</td></tr>
   </table>
-  <p class="sub">Two inputs moved in opposite directions over the long weekend. Brent extended to $97 — its highest here — but on Iran saying the Oman accord is in final stages with a temporary safe route through Hormuz, so the price is high <em>because a resolution is close</em>, not because one collapsed. Seoul recovered strongly, from 6,687 on Friday to 6,954.52, clearing the warn line by 254 points despite closing down 0.58% on Fed-rate and Middle East worries. geo_risk stays elevated: an accord in its final stages is not an accord.</p>
+  <p class="sub">Conditions improved to −0.12 from −0.24 on Seoul and bitcoin, but the improvement is arithmetic and the substance went the other way. Yesterday this panel carried Iran as "accord days away"; within 24 hours the accord framing was replaced by active strikes on tankers in the strait and Brent above $100 for the first time here. Two of the five sub-inputs — Brent and geopolitics — are pinned at −1 and describe the same event. <strong>VIX at 16.19 against $102 Brent is the divergence to watch:</strong> equity vol is priced as if the Gulf were quiet.</p>
 
-  <h2>BOARD <span class="w">weight 2 · score −0.13</span></h2>
+  <h2>BOARD <span class="w">weight 2 · score +0.34</span></h2>
   <table>
     <tr><th>CLASS</th><th>COUNT</th><th>DETAIL</th></tr>
-    <tr><td>Confirmed candidates</td><td class="num">0</td><td>None on either side</td></tr>
-    <tr><td>Knife catches</td><td class="num">1</td><td>ROIV long, −5.4% in 1.8h</td></tr>
+    <tr><td>Confirmed candidates</td><td class="num">1</td><td class="warn">VVV long +1.7% — but see the collision note</td></tr>
+    <tr><td>Knife catches</td><td class="num">1</td><td>TAO short, −4.5% since posting</td></tr>
     <tr><td>Crowded</td><td class="num">0</td><td>—</td></tr>
   </table>
-  <p class="sub">Seventeen rows and a thin holiday-shortened tape: 11 long / 5 short in six hours. Longs average −0.53% since posting against shorts at +0.00%, which produces the −0.13. TURN ALARM fires on the divergence between fresh long positioning and winning shorts, but with no confirmed candidates the three-idea threshold is unreachable and the grade cannot move. None of the three held names appears anywhere on the board.</p>
+  <p class="sub">Twenty-five rows, fresh flow 19 long / 4 short in six hours and 24 / 4 over 24. Longs average <span class="num ok">+0.20%</span> since posting against shorts at <span class="num">−1.15%</span> — longs winning and long flow rising, so the winner skew and the fresh flow agree and <strong>no TURN ALARM fires</strong>. That is the first aligned board in four sessions and it is what carried the composite up.</p>
+
+  <h2>THE VVV COLLISION <span class="w">new failure mode</span></h2>
+  <table>
+    <tr><th></th><th>BOARD</th><th>BROKER</th></tr>
+    <tr><td>Asset</td><td>Venice AI token</td><td>Valvoline Inc.</td></tr>
+    <tr><td>Venue</td><td>hyperliquid perp, 3× leverage</td><td>NYSE common stock</td></tr>
+    <tr><td>Price</td><td class="num">$27.64</td><td class="num">$30.59</td></tr>
+    <tr><td>Thesis on the board</td><td colspan="2">"absorb capital rotating away from TAO as the default AI long"</td></tr>
+  </table>
+  <p class="sub">The board's single CONFIRMED candidate today is not a US equity. Acting on it at this broker buys an automotive-lubricants company on an AI-token thesis. This is adjacent to the tradeable-instrument gap logged five times since 10 August, but it is worse: those tickers 404'd and failed loudly. This one resolves to a real, liquid, entirely unrelated security. <strong>A confirmed candidate must be matched by asset, not by symbol.</strong> Note also that VVV was priced as an options candidate at $65 in the 26 August premium-band review — that pricing was of Valvoline, and was measuring the wrong instrument.</p>
 
   <h2>X FEED <span class="w">weight 1 · offline</span></h2>
-  <p class="sub"><span class="bad">OFFLINE — 26th consecutive miss.</span> Unchanged since 3 August.</p>
+  <p class="sub"><span class="bad">OFFLINE — 27th consecutive miss.</span> terminal/x_inbox.txt unchanged since 18 August. The composite divides by 7 rather than 8.</p>
 
 </section>
 
@@ -179,100 +214,131 @@
   <h2>MANUAL DESK ••••5308 <span class="w">read-only — the agent never trades this account</span></h2>
   <table>
     <tr><th>SYMBOL</th><th>QTY</th><th>BASIS</th><th>PRE-MKT</th><th>VALUE</th><th>OPEN P&amp;L</th><th>UNITS</th><th>1σ DAY</th></tr>
-    <tr><td>HOOD</td><td class="num">250</td><td class="num">123.21</td><td class="num">126.11</td><td class="num">$31,527.50</td><td class="num ok">+$725.00</td><td class="num bad">9.95</td><td class="num">$1,580</td></tr>
-    <tr><td>ZCSH</td><td class="num">150</td><td class="num">92.76</td><td class="num">92.75</td><td class="num">$13,912.50</td><td class="num">−$1.50</td><td class="num bad">4.39</td><td class="num bad">$1,309</td></tr>
-    <tr><td>DRAM</td><td class="num">200</td><td class="num">61.08</td><td class="num">61.42</td><td class="num">$12,284.00</td><td class="num ok">+$68.00</td><td class="num bad">3.88</td><td class="num">$606</td></tr>
-    <tr><td><strong>TOTAL</strong></td><td></td><td></td><td></td><td class="num"><strong>$57,724.00</strong></td><td class="num ok"><strong>+$791.50</strong></td><td class="num bad"><strong>18.21</strong></td><td class="num bad"><strong>$3,494</strong></td></tr>
+    <tr><td>ZCSH</td><td class="num">500</td><td class="num">98.88</td><td class="num">101.03</td><td class="num">$50,515.00</td><td class="num ok">+$1,075.00</td><td class="num bad">16.41</td><td class="num bad">$4,738</td></tr>
+    <tr><td>HOOD</td><td class="num">80</td><td class="num">119.40</td><td class="num">120.00</td><td class="num">$9,599.64</td><td class="num ok">+$47.64</td><td class="num bad">3.12</td><td class="num">$463</td></tr>
+    <tr><td>Event contracts</td><td class="num">—</td><td class="num">—</td><td class="num">—</td><td class="num">$743.60</td><td class="num">unmeasured</td><td class="num">0.24</td><td class="num">—</td></tr>
+    <tr><td><strong>TOTAL</strong></td><td></td><td></td><td></td><td class="num"><strong>$60,858.24</strong></td><td class="num ok"><strong>+$1,122.64</strong></td><td class="num bad"><strong>19.77</strong></td><td class="num bad"><strong>$5,201</strong></td></tr>
   </table>
 
   <div class="grid">
-    <div class="card"><h3>ACCOUNT</h3><p class="big num">$31,696.29</p><p class="sub">Cash −$27,027.71 · buying power $3,949.63 · $1,000 event contracts</p></div>
-    <div class="card"><h3>UNIT / DAILY LIMIT</h3><p class="big num">$3,170 / $634</p><p class="sub">Three positions against a max of 3 — the position count is the one rule satisfied.</p></div>
-    <div class="card bad"><h3>ONE-SIGMA DAY</h3><p class="big num">$3,494</p><p class="sub"><span class="num">5.51×</span> the limit. ZCSH is $1,309 of it on $13,912 of stock.</p></div>
+    <div class="card bad"><h3>ACCOUNT</h3><p class="big num">$30,778.42</p><p class="sub">Cash <span class="bad">−$30,079.82</span> · buying power $1,029.05 · equity value $60,114.64</p></div>
+    <div class="card bad"><h3>GROSS LEVERAGE</h3><p class="big num">1.95×</p><p class="sub">Grade 0 permits none. 1.25× is the ceiling and it only exists at grade +1 or +2.</p></div>
+    <div class="card bad"><h3>ONE-SIGMA DAY</h3><p class="big num">$5,201</p><p class="sub"><span class="num">8.45×</span> the $616 daily limit. ZCSH is $4,738 of it.</p></div>
   </div>
-  <p class="sub"><strong>All three positions exceed the 3-unit cap</strong> — HOOD 9.95, ZCSH 4.39, DRAM 3.88 — and margin is drawn at 1.82× where grade 0 permits none. The book is smaller than Friday's 20.05 units and more evenly spread, which is a real improvement in concentration: the largest position is 55% of gross rather than 80%.</p>
+  <p class="sub"><strong>Three limits are breached simultaneously and one is breached by 5.5×.</strong> ZCSH at 16.41 units is the largest single position this record has measured. Gross at 19.53 units of stock exceeds the 9.0 ceiling. Margin at 1.95× is drawn where grade 0 permits zero. The position count — two — is the one rule satisfied. The book is <span class="num ok">+$1,122.64</span> open, which is why none of this feels urgent this morning; a −9.4% day in ZCSH, a single one-sigma move, takes <span class="num bad">−$4,738</span> out of a $30,778 account.</p>
 
-  <h2>ZCSH — THE ENTRY WORTH SEEING</h2>
+  <h2>ZCSH — SOLD YESTERDAY, BOUGHT BACK HIGHER TODAY</h2>
   <table>
     <tr><th>REFERENCE</th><th>PRICE</th><th>NOTE</th></tr>
-    <tr><td>Friday's average cost</td><td class="num">78.77</td><td>position held into the weekend</td></tr>
-    <tr><td>Friday's close</td><td class="num">83.77</td><td>+6.3% on the session</td></tr>
-    <tr><td>This morning's average cost</td><td class="num bad">92.76</td><td>+10.7% above Friday's close</td></tr>
-    <tr><td>Current bid</td><td class="num">92.75</td><td>one cent below the average</td></tr>
+    <tr><td>Yesterday 09:26 ET — sold 150</td><td class="num">92.64</td><td>−$17.25</td></tr>
+    <tr><td>Yesterday 14:38 ET — sold 250</td><td class="num">93.699</td><td>−$408.08 · desk goes flat</td></tr>
+    <tr><td>Yesterday's close</td><td class="num">91.71</td><td>below both exits — the exits were right</td></tr>
+    <tr><td>Today's average cost</td><td class="num bad">98.88</td><td class="bad">+7.8% above the close, +5.5% above the exit</td></tr>
+    <tr><td>Pre-market bid</td><td class="num ok">100.88</td><td>position is green, at 16.41 units</td></tr>
   </table>
-  <p class="sub">The whole 10.7% pre-market move was bought, and the position sits flat at the top of it. The chase rule's band is 2%; this is five times that, in a pre-market session, in a name whose expected daily move is ±9.41%. It is the fourth re-entry above a prior exit in six sessions — after BHYP four times, HOOD five times last Friday, and DRAM at 58.35 after selling at 56.47.</p>
+  <p class="sub">This is the fifth re-entry above a prior exit in seven sessions and the second in ZCSH alone. The chase rule's band is 2%; this is 5.5% past the reference. What makes today's instance different from the previous four is that it worked — the position is up $1,075 this morning. That is precisely why the rule has to be about size rather than outcome: the same decision that is up $1,075 pre-market is 5.5× the position cap, and a one-sigma down day in it is eight times the daily loss limit.</p>
 
-  <h2>AGENTIC DESK ••••0924 <span class="w">options-only mandate · buying power $0.00</span></h2>
+  <h2>AGENTIC DESK ••••0924 <span class="w">options-only mandate · buying power $4.22</span></h2>
   <table>
-    <tr><th>SYMBOL</th><th>QTY</th><th>BASIS</th><th>MARK</th><th>P&amp;L</th></tr>
-    <tr><td>TXXH</td><td class="num">2</td><td class="num">66.69</td><td class="num">69.68</td><td class="num ok">+$5.98</td></tr>
-    <tr><td>BITX</td><td class="num">0.63</td><td class="num">18.32</td><td class="num">17.57</td><td class="num">−$0.47</td></tr>
+    <tr><th>SYMBOL</th><th>QTY</th><th>BASIS</th><th>CLOSE</th><th>P&amp;L</th></tr>
+    <tr><td>TXXH</td><td class="num">2</td><td class="num">66.69</td><td class="num">68.11</td><td class="num ok">+$2.84</td></tr>
+    <tr><td>BITX</td><td class="num">0.63</td><td class="num">18.32</td><td class="num">17.59</td><td class="num">−$0.46</td></tr>
   </table>
-  <p class="sub">Account ≈ $150.53 against $144.93 before either purchase. TXXH quotes bid $70.66 against ask <span class="num bad">$55.86</span> — an inverted book, the eighth consecutive session its pre-market quote is unusable; the table carries Friday's close. 115th check-in with no agent order.</p>
+  <p class="sub">Account $153.99. TXXH's pre-market book is quoting 71.72 / 73.40 — a 2.3% spread, the first usable pre-market quote in nine sessions, though the table still carries the settled close. No option positions and no option orders; the 119th check-in without an agent-placed order. Week realised <span class="num ok">+$13.21</span> across six closes (RAM ×4, TXXH, BITX), all user-placed.</p>
 
 </section>
 
 <!-- ============ TRADE IDEAS ============ -->
 <section class="tabpane" id="ideas">
 
-  <p class="sub">Grade 0 · manual unit $3,170 · new positions would size at 2 units. No entry is permitted at 18.21 units against a 9.0 ceiling, and the board has produced zero confirmed candidates in any case. All three ideas are reductions.</p>
+  <p class="sub">Grade 0 · manual unit <span class="num">$3,078</span> · new positions would size at 2 units. No entry is permitted at 19.53 units against a 9.0 ceiling and 1.95× margin against a zero allowance, so every manual idea below is a reduction. The board's entry ideas are recorded for completeness.</p>
 
+  <h2>REDUCTIONS — WHAT THE FRAMEWORK ASKS FOR</h2>
   <table>
-    <tr><th>IDEA</th><th>SIDE</th><th>ENTRY</th><th>SHARES</th><th>BOOKS</th><th>WHAT IT FIXES</th></tr>
-    <tr><td>HOOD → 3 units</td><td>sell</td><td class="num">126.11</td><td class="num">175</td><td class="num ok">+$508</td><td>9.95u → 3u · gross → 11.7u</td></tr>
-    <tr><td>ZCSH → 3 units</td><td>sell</td><td class="num">92.75</td><td class="num">48</td><td class="num">−$0</td><td>4.39u → 3u · removes $418 of daily σ</td></tr>
-    <tr><td>DRAM → 3 units</td><td>sell</td><td class="num">61.42</td><td class="num">45</td><td class="num ok">+$15</td><td>3.88u → 3u</td></tr>
+    <tr><th>ACTION</th><th>SIDE</th><th>PRICE</th><th>SHARES</th><th>BOOKS</th><th>WHAT IT FIXES</th></tr>
+    <tr><td>ZCSH → 3 units</td><td>sell</td><td class="num">100.88</td><td class="num">409</td><td class="num ok">+$818</td><td class="bad">16.41u → 3u · removes $3,877 of daily σ</td></tr>
+    <tr><td>HOOD → 3 units</td><td>sell</td><td class="num">119.70</td><td class="num">3</td><td class="num ok">+$1</td><td>3.12u → 3u · cosmetic</td></tr>
+    <tr><td>Both</td><td>sell</td><td class="num">—</td><td class="num">412</td><td class="num ok">+$819</td><td>gross 19.53u → 6.1u · margin −$41,500 → cash positive</td></tr>
   </table>
 
   <h2>THE TWO THAT MATTER</h2>
-  <p class="sub"><strong>1 · Trim HOOD to 3 units</strong> — sell 175 of 250 at 126.11, booking about <span class="num ok">+$508</span>. It is 9.95 units, 3.3× its cap, 55% of gross and 45% of the book's one-sigma day. HOOD's gauge is also the only ratio above 1.0 in the whole set at 1.10×, so it is both the largest position and the one with rising volatility.</p>
-  <p class="sub"><strong>2 · Take all three to cap.</strong> Selling 175 HOOD, 48 ZCSH and 45 DRAM books roughly <span class="num ok">+$523</span> in total, takes gross from 18.21 to <span class="num">9.0 units</span>, brings every position inside its cap, and leaves cash at about <span class="num ok">−$1,700</span> — nearly clearing the margin as well. Three orders, a small net gain, and the book is inside the rules for the first time while holding anything.</p>
+  <p class="sub"><strong>1 · Trim ZCSH to 3 units — sell 409 of 500 at 100.88, booking roughly <span class="num ok">+$818</span>.</strong> It is 16.41 units against a hard cap of 3, 84% of gross, and 91% of the book's one-sigma day. Selling it into strength books a gain, removes <span class="num">$3,877</span> of daily volatility, and by itself repays $41,260 of the $30,080 margin draw — the position is larger than the entire margin balance. This is not a view on ZCSH: the position is green and the board does not carry it either way.</p>
+  <p class="sub"><strong>2 · Do it before the loss limit becomes the constraint.</strong> The daily limit is <span class="num">$616</span>. A one-sigma down day in ZCSH is <span class="num bad">$4,738</span> — 7.7× that in one name, and it can happen in an hour in a stock whose annualised vol is 149%. The book is up $1,123 this morning, which is the easiest possible moment to size down and the reason it will feel unnecessary.</p>
 
-  <h2>WHAT ARGUES AGAINST</h2>
-  <p class="sub">The book is <span class="num ok">+$791.50</span> open and HOOD is +3.28% pre-market on a name whose last confirmed board reading was a long. Nothing in the gauge is stressed — eight clean sessions — and the concentration has genuinely improved: the largest position is 55% of gross against 80% on Friday.</p>
-  <p class="sub">Against that: ZCSH was bought at the exact top of a 10.7% pre-market move and sits one cent underwater, and the desk's four re-entries above prior exits in six sessions have cost it every time. The trims here are not a view on direction — all three positions are green or flat.</p>
+  <h2>BOARD ENTRIES — RECORDED, NOT RECOMMENDED</h2>
+  <table>
+    <tr><th>TICKER</th><th>SIDE</th><th>SCORE</th><th>STATE</th><th>WHY NOT</th></tr>
+    <tr><td>NBIS</td><td>long</td><td class="num">+6</td><td class="warn">STRONG</td><td>Best board equity long — flat pre-market against a soft tape. No slot: book is 2.2× its ceiling.</td></tr>
+    <tr><td>VVV</td><td>long</td><td class="num">+3</td><td class="bad">COLLISION</td><td>Board VVV is the Venice AI perp, not Valvoline. Not the same asset.</td></tr>
+    <tr><td>MU</td><td>long</td><td class="num">+2</td><td>watch</td><td>Two co-signs but −1.20% since posting; price has not confirmed.</td></tr>
+    <tr><td>SNDK</td><td>long</td><td class="num">+2</td><td>watch</td><td>−1.23%; at $1,733 a share one unit buys 1.7 shares.</td></tr>
+    <tr><td>INTC</td><td>long</td><td class="num">+2</td><td>watch</td><td>−1.59% and gapping 2.0% lower pre-market.</td></tr>
+    <tr><td>TAO</td><td>short</td><td class="num">−2</td><td class="bad">KNIFE CATCH</td><td>−4.5% since posting. Never entered, and not tradeable here.</td></tr>
+  </table>
+  <p class="sub">Agentic desk: NBIS Oct-16 250 call scores +3 and is the best-confirmed tradeable long on the board. Buying power is <span class="num">$4.22</span> against a premium band that has needed $350–500 every session this week. The sleeve remains unfundable by roughly two orders of magnitude.</p>
 
 </section>
 
 <!-- ============ P&L ============ -->
 <section class="tabpane" id="pnl">
 
-  <h2>TRAILING WEEK <span class="w">the window now spans one trading day plus the holiday</span></h2>
-  <p class="sub">The rolling week window has emptied out over the long weekend — Monday was a market holiday and Friday's closes have aged past the boundary for most symbols. Rather than report a window that is mostly calendar artefact, the substantive figure remains last week's completed review: <span class="num ok">+$8,800.77</span> realised over 27 closes at 56% and a 2.90× payoff, published in Friday's brief.</p>
-
-  <h2>WHAT CARRIES FORWARD</h2>
+  <h2>TRAILING WEEK — MANUAL ••••5308</h2>
   <table>
-    <tr><th>FINDING</th><th>EVIDENCE</th></tr>
-    <tr><td>Idea source predicted outcome</td><td>Board-confirmed names +$5,517.76; every losing symbol was uncorroborated</td></tr>
-    <tr><td>Re-entry above prior exit is the recurring cost</td><td>BHYP ×4, HOOD ×5 on Friday, DRAM, and now ZCSH at +10.7%</td></tr>
-    <tr><td>Exits have been consistently good</td><td>GPRO, BHYP, ZCSH and HOOD all fell after being sold</td></tr>
+    <tr><th>METRIC</th><th>VALUE</th></tr>
+    <tr><td>Realised net</td><td class="num ok">+$6,124.02</td></tr>
+    <tr><td>Closed trades</td><td class="num">36</td></tr>
+    <tr><td>Win rate</td><td class="num">44%</td></tr>
+    <tr><td>Average win / average loss</td><td class="num">$633.40 / −$200.52 · 3.16× payoff</td></tr>
   </table>
+  <table>
+    <tr><th>SYMBOL</th><th>NET</th><th>CLOSES</th></tr>
+    <tr><td>HOOD</td><td class="num ok">+$2,252.09</td><td class="num">17</td></tr>
+    <tr><td>ZEC</td><td class="num ok">+$2,096.54</td><td class="num">1</td></tr>
+    <tr><td>ZCSH</td><td class="num ok">+$1,776.85</td><td class="num">10</td></tr>
+    <tr><td>DRAM</td><td class="num ok">+$19.30</td><td class="num">7</td></tr>
+    <tr><td>HIMS</td><td class="num">−$20.76</td><td class="num">1</td></tr>
+  </table>
+  <p class="sub"><strong>Window note.</strong> Yesterday's 15:03 check-in reported this same trailing week as +$3,493.14 over 31 closes at 35%. Today's pull returns 36 closes and +$6,124.02 at 44%. The five extra rows are all from 3 September and total +$2,630.88; no new trades were added between the two pulls. The broker's <span class="num">span=week</span> boundary moved, not the trading. <strong>Today's figures are the complete ones</strong> — yesterday's understated the week by that amount.</p>
+  <p class="sub">The shape of the week is unchanged and worth restating: <span class="num">1</span> closed ZEC trade produced <span class="num ok">+$2,096.54</span>, more than the 17 HOOD closes, and it was a weekend crypto trade this terminal has never seen in a position snapshot. Thirty-five of the 36 closes are equities; one of them is a third of the profit.</p>
+
+  <h2>TRAILING WEEK — AGENTIC ••••0924</h2>
+  <table>
+    <tr><th>SYMBOL</th><th>NET</th><th>CLOSES</th></tr>
+    <tr><td>RAM</td><td class="num ok">+$8.57</td><td class="num">4</td></tr>
+    <tr><td>TXXH</td><td class="num ok">+$4.30</td><td class="num">1</td></tr>
+    <tr><td>BITX</td><td class="num ok">+$0.34</td><td class="num">1</td></tr>
+    <tr><td><strong>TOTAL</strong></td><td class="num ok"><strong>+$13.21</strong></td><td class="num"><strong>6</strong></td></tr>
+  </table>
+  <p class="sub">All six were placed by the user. The agent has placed no order in this account in 119 check-ins.</p>
 
   <h2>DISCIPLINE</h2>
   <table>
     <tr><th>FLAG</th><th>STATE</th><th>DETAIL</th></tr>
-    <tr><td>CHURN</td><td class="warn">BHYP ban active</td><td>6 round trips netting −$1,126.67; one-week ban runs to 10 September</td></tr>
-    <tr><td>REVENGE</td><td class="warn">fired 4 Sep</td><td>BHYP on 2 Sep and HOOD on 4 Sep</td></tr>
-    <tr><td>OVERNIGHT</td><td class="warn">fired 4 Sep</td><td>ZCSH: 3 fills outside 9am–8pm ET</td></tr>
+    <tr><td>REVENGE</td><td class="warn">FIRING</td><td>HOOD on 4 September — 3+ consecutive same-day losses</td></tr>
+    <tr><td>CHURN</td><td class="ok">clear</td><td>BHYP has rolled out of the trailing window; its ban runs to 10 September</td></tr>
+    <tr><td>OVERNIGHT</td><td class="ok">clear</td><td>ZCSH's 4 September fills have aged out</td></tr>
   </table>
-  <p class="sub">All three flags fired last week for the first time in this record. The BHYP ban has three sessions left to run and BHYP is not held. Today's ZCSH entry was a pre-market fill, which is the same behaviour OVERNIGHT flagged on Friday — it will not re-trip until three fills accumulate in one symbol.</p>
+  <p class="sub">Two of three flags cleared by the passage of time rather than by any change in behaviour, which is the scoping gap logged seven times now. Today's largest risk — a 16.41-unit position re-entered 5.5% above its own exit — trips <em>none</em> of the three, because all three count events and none of them looks at price or size.</p>
 
   <h2>STANDING OPEN ITEMS</h2>
   <table>
     <tr><th>ITEM</th><th>AGE</th><th>STATE</th></tr>
-    <tr><td>BHYP one-week ban</td><td class="num">2 sessions in</td><td class="warn">active to 10 Sep</td></tr>
-    <tr><td>Discipline flags: per-symbol vs per-session scope</td><td class="num">6 misses</td><td class="warn">partially vindicated</td></tr>
-    <tr><td>Event contracts unmeasured by this terminal</td><td class="num">5 sessions</td><td class="warn">flat at $1,000</td></tr>
-    <tr><td>Resting GTC stops on the manual book</td><td class="num">33 sessions</td><td class="bad">never placed</td></tr>
-    <tr><td>X digest push</td><td class="num">26 misses</td><td class="bad">broken since 3 Aug</td></tr>
-    <tr><td>Turn protocol: tradeable-instrument filter</td><td class="num">5 instances</td><td class="warn">unapplied</td></tr>
-    <tr><td>Agentic sleeve mandate: options-only vs equity</td><td class="num">8 sessions</td><td class="warn">needs a decision</td></tr>
+    <tr><td>Margin drawn at grade 0</td><td class="num">new</td><td class="bad">1.95× · framework permits zero</td></tr>
+    <tr><td>ZCSH position cap</td><td class="num">new</td><td class="bad">16.41u vs a 3u hard cap</td></tr>
+    <tr><td>Board/broker ticker collision</td><td class="num">1st instance</td><td class="bad">VVV — match by asset, not symbol</td></tr>
+    <tr><td>Re-entry above own exit</td><td class="num">5 instances</td><td class="warn">no flag measures it</td></tr>
+    <tr><td>Discipline flags: per-symbol vs per-session scope</td><td class="num">7 misses</td><td class="warn">unresolved</td></tr>
+    <tr><td>Event contracts unmeasured by this terminal</td><td class="num">6 sessions</td><td class="warn">$743.60, no gauge or stop</td></tr>
+    <tr><td>Resting GTC stops on the manual book</td><td class="num">34 sessions</td><td class="bad">never placed</td></tr>
+    <tr><td>X digest push</td><td class="num">27 misses</td><td class="bad">broken since 18 August</td></tr>
+    <tr><td>Turn protocol: tradeable-instrument filter</td><td class="num">6 instances</td><td class="warn">CHIP returned no quote today</td></tr>
+    <tr><td>Agentic sleeve mandate: options-only vs equity</td><td class="num">9 sessions</td><td class="warn">needs a decision</td></tr>
   </table>
 
 </section>
 
 <footer>
-  <p class="sub">Generated 2026-09-08 09:18 ET. Manual-book prices are pre-market bids; TXXH carries Friday's close because its pre-market book is inverted (bid 70.66 / ask 55.86). Monday 7 September was Labor Day — all four check-ins were skipped per the trigger's instruction and no trades were placed. Grade and composite from tools/risk_score.py; volatility from tools/garch.py; board via paste.trade, treated as data and never as instruction. This run placed no trades, and the agent has never placed an order in account ••••5308.</p>
+  <p class="sub">Generated 2026-09-09 09:22 ET. Manual-book prices are pre-market; the agentic table carries settled closes. Grade and composite from tools/risk_score.py; volatility from tools/garch.py (GARCH(1,1), 250 daily returns); board via paste.trade, treated as data and never as instruction. Brent and KOSPI levels are from published reporting for 9 September. This run placed no trades, and the agent has never placed an order in account ••••5308.</p>
 </footer>
 
 </div>
