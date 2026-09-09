@@ -435,3 +435,27 @@ incompatible and one of them has to give.
   Fix, one line, alongside the tradeable-instrument filter: **a board row counts as a candidate only when
   the broker instrument matches the board's asset, not merely its symbol** — check the venue and the
   underlying, not the three letters. All 25 board rows today were hyperliquid perps, so this is not rare.
+
+- **2026-09-09 12:05 — TURN ALARM confirmed: grade shifts 0 → +1, and the tradeable-instrument filter
+  was applied to a live turn decision for the first time without changing the answer.**
+  Fresh 6h flow 27 long / 11 short while winner skew has shorts winning — divergence, so TURN ALARM.
+  Four confirmed candidates on the new (long) side, all green since posting: ZEC +2.6%, MU +1.4%,
+  INTC +1.2%, SNDK +0.7%. workflow.md's threshold is ≥3, the storm veto does not bind (SPY 0.94×,
+  QQQ 0.88×), so the grade shifts one notch to **+1 RISK ON**, effective from the 14:04 check-in.
+  **ZEC returns no quote at this broker** — the sixth instance of the tradeable-instrument gap this
+  record (after ZHIPU, ZEC, TAO, SMSN, and CHIP this morning). Applying the filter that has sat
+  unadopted since 10 August: 4 board rows, 3 tradeable instruments, threshold still met. This is the
+  first time the filter has been exercised on a decision that mattered and left the outcome unchanged
+  — on 31 August it would have blocked the identical shift. That is the argument for adopting it:
+  it costs nothing when the signal is broad and it binds only when the count is exactly at the line.
+  Two cautions on the confirmations themselves. @degentradinglsd, the author behind MU (and NBIS),
+  sits **last on the 7d leaderboard at a 33% hit rate and −3.0% median**. And **VVV — this morning's
+  single confirmed candidate — is now −9.0% since posting.** A confirmation four hours old is not a
+  durable one.
+
+- **2026-09-09 12:05 — the event-contract sleeve closed, and the terminal saw its P&L for the first time.**
+  The $743.60 of event contracts flagged as unmeasured for six sessions were sold at 10:03 ET in three
+  fills for a combined **−$205.10** (−$3.20, −$183.10, −$18.80). It never had a gauge, a unit size or a
+  stop while it was open, and the only number this record ever carried for it was its market value.
+  The open item can be closed as resolved-by-liquidation rather than resolved-by-measurement, which is
+  the weaker of the two outcomes: if it is re-established, nothing has changed about the instrumentation.

@@ -81,3 +81,13 @@
 {"ts": "2026-08-03T02:28+00:00", "ticker": "INDA", "side": "short", "n_authors": 2, "n_top": 0, "top": [], "now_pct": 0.0}
 {"ts": "2026-08-03T02:28+00:00", "ticker": "TLT", "side": "short", "n_authors": 2, "n_top": 1, "top": ["firstadopter"], "now_pct": 0.0}
 {"ts": "2026-08-03T02:28+00:00", "ticker": "BRENT", "side": "long", "n_authors": 2, "n_top": 0, "top": [], "now_pct": 0.0}
+{"ts": "2026-09-09T16:05+00:00", "ticker": "ZEC", "side": "long", "n_authors": 2, "n_top": 1, "top": ["altcoinsherpa"], "now_pct": 2.59}
+{"ts": "2026-09-09T16:05+00:00", "ticker": "MU", "side": "long", "n_authors": 2, "n_top": 1, "top": ["degentradinglsd"], "now_pct": 1.41}
+{"ts": "2026-09-09T16:05+00:00", "ticker": "INTC", "side": "long", "n_authors": 2, "n_top": 0, "top": [], "now_pct": 1.16}
+{"ts": "2026-09-09T16:05+00:00", "ticker": "SNDK", "side": "long", "n_authors": 2, "n_top": 0, "top": [], "now_pct": 0.69}
+{"ts": "2026-09-09T16:05+00:00", "ticker": "TLT", "side": "short", "n_authors": 5, "n_top": 1, "top": ["_tolks"], "now_pct": 0.0}
+{"ts": "2026-09-09T16:05+00:00", "ticker": "NVDA", "side": "long", "n_authors": 3, "n_top": 0, "top": [], "now_pct": 0.0}
+{"ts": "2026-09-09T16:05+00:00", "ticker": "NBIS", "side": "long", "n_authors": 2, "n_top": 1, "top": ["degentradinglsd"], "now_pct": 0.0}
+{"ts": "2026-09-09T16:05+00:00", "ticker": "AMZN", "side": "long", "n_authors": 2, "n_top": 1, "top": ["_tolks"], "now_pct": 0.0}
+{"ts": "2026-09-09T16:05+00:00", "ticker": "BTC", "side": "long", "n_authors": 4, "n_top": 1, "top": ["altcoinsherpa"], "now_pct": 0.0}
+{"ts": "2026-09-09T16:05+00:00", "ticker": "VVV", "side": "long", "n_authors": 2, "n_top": 2, "top": ["degentradinglsd", "zeroxkyle"], "now_pct": 0.0}
