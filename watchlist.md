@@ -478,3 +478,22 @@ incompatible and one of them has to give.
   sees none of it: three closes in ZCSH is under the CHURN threshold of five, and the symbol is net
   positive, so nothing fires. A rule keyed on *entry price versus the same day's exit price in the same
   symbol* would have flagged all three.
+
+- **2026-09-09 15:04 — I reported agentic positions the account did not hold, for four sessions.**
+  Every agentic-desk panel since 4 September has listed **TXXH 2 @ 66.69 and BITX 0.63 @ 18.32**. The
+  account has not held either since **3 September at 12:59 ET**, when both were sold (TXXH 2 @ 68.84,
+  +$4.30; BITX 0.6305 @ 18.8586, +$0.34). Since then the sleeve has held a single equity position in
+  **RAM**, now 10.8194 shares at a 14.62 basis. Today's pre-open brief, its published dashboard, and the
+  10:04, 12:04 and 14:04 check-ins all carried the wrong book.
+  The mechanism is specific and worth fixing rather than apologising for: I called `get_portfolio` on
+  981890924 at every check-in — which is why **every account-value figure was correct** — but I did not
+  call `get_equity_positions` on it. `get_option_positions` returned `[]`, I read that as "nothing has
+  changed in the sleeve," and reprinted the last equity snapshot I had. The trigger's step 1 names
+  get_portfolio, get_option_positions and get_option_orders; equity positions are only implied by
+  "+ get_equity_orders if relevant." For an options-only sleeve that holds equities, they are always
+  relevant. **Fix: fetch `get_equity_positions` for 981890924 at every check-in, and never restate a
+  position that was not re-fetched in the same turn.**
+  Related, and only visible once the real book was fetched: cash in the sleeve is now **$0.00** — the last
+  $4.22 went into RAM at 14:39 ET today. risk.md's cash floor is **$50**. The sleeve has been below its own
+  hard floor all day, which is a cleaner statement of why no option entry is permissible than the premium
+  band I have been citing for nine sessions. The dashboard has been corrected and republished.
