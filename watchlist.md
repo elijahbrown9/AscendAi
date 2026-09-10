@@ -497,3 +497,21 @@ incompatible and one of them has to give.
   $4.22 went into RAM at 14:39 ET today. risk.md's cash floor is **$50**. The sleeve has been below its own
   hard floor all day, which is a cleaner statement of why no option entry is permissible than the premium
   band I have been citing for nine sessions. The dashboard has been corrected and republished.
+
+- **2026-09-10 09:24 — the book is inside every hard limit for the first time, and it cost $788 to get there.**
+  The manual desk this morning: 2 positions (max 3), ZCSH 1.81u and DRAM 2.16u (cap 3), gross **4.10 units**
+  against a 9.0 ceiling, **zero margin** at a grade that permits zero, and **+$17,117.54 of cash** where
+  yesterday there was $30,079.82 of debt. Every hard limit in risk.md satisfied simultaneously, with
+  positions held. That has not happened before in this record.
+  The route was a third liquidation at 16:49 ET yesterday: ZCSH 250 @ 99.30 (**−$788.38**) and DRAM 350 @
+  61.5435 (−$32.11). Those turned 9 September from the +$378.23 I reported at 15:03 into **−$442.28** on
+  the day. The ZCSH lot sold at 99.30 was the one bought at 102.45 in the 13:01–13:21 rebuild — the third
+  re-entry above its own exit that day, carried three hours, and it accounts for essentially the whole loss.
+  Two things worth recording rather than celebrating. **The compliance was produced by capitulation, not by
+  sizing** — the desk did not trim to the cap, it sold everything and re-entered small. Nothing in the
+  process changed, so nothing prevents 19 units reappearing tomorrow. And **today's ZCSH re-entry at 98.52
+  is the first below a prior exit in eight sessions** (the exit was 99.30), which is the behaviour the
+  proposed price rule is trying to make routine.
+  **CHURN now fires on a held ticker.** DRAM: 11 round trips this week netting −$121.45, first strike of
+  three. The desk holds 105 shares of it. Separately, the event-contract sleeve is **back at $390** one
+  session after closing at −$205.10 — confirming that closing it was not the same as instrumenting it.
