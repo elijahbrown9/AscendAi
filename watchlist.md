@@ -515,3 +515,20 @@ incompatible and one of them has to give.
   **CHURN now fires on a held ticker.** DRAM: 11 round trips this week netting −$121.45, first strike of
   three. The desk holds 105 shares of it. Separately, the event-contract sleeve is **back at $390** one
   session after closing at −$205.10 — confirming that closing it was not the same as instrumenting it.
+
+- **2026-09-10 12:05 — the daily-loss limit is the binding constraint for the first time, and the event
+  sleeve is now measurably losing.**
+  A fourth full liquidation, at **09:08 ET — five minutes after the pre-open brief fetched its positions
+  and sixteen minutes before it published.** DRAM 105 @ 59.42 (−$132.70), event contracts 1000 @ 0.36
+  (−$120.00), ZCSH 55 @ 94.58 (−$216.60). The ZCSH lot had been bought pre-market at 98.52 that same
+  morning and was sold −4.0% within minutes of the open. Today's realised is **−$469.30 against a
+  $574.11 daily limit — 82% of it** — with a further −$198.25 open. This is the first session in this
+  record where the daily-loss framework, rather than a size cap, is the live constraint.
+  Note for the brief itself: its book was accurate when fetched and stale when published. Worth stating
+  the limitation rather than pretending a 09:24 snapshot describes the day.
+  **Event contracts: two closes in two sessions, −$205.10 then −$120.00, −$325.10 combined.** The sleeve
+  was logged as "unmeasured" for seven sessions; now that it has been measured twice it has lost both
+  times. The open item changes from "we cannot see it" to "we can, and it is negative."
+  Also worth recording: the board carried **NVDA in both directions simultaneously** — a confirmed short
+  at +0.7% and a knife-catch long at −2.0% with four co-signs, the same ticker in the CONFIRMED, KNIFE
+  CATCH and CROWDED lists at once. `board_signals.py` does not reconcile opposing rows on one ticker.
