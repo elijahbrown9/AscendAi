@@ -532,3 +532,18 @@ incompatible and one of them has to give.
   Also worth recording: the board carried **NVDA in both directions simultaneously** — a confirmed short
   at +0.7% and a knife-catch long at −2.0% with four co-signs, the same ticker in the CONFIRMED, KNIFE
   CATCH and CROWDED lists at once. `board_signals.py` does not reconcile opposing rows on one ticker.
+
+- **2026-09-10 14:04 — the daily-loss limit is breached: −$806.00 realised against a $570.18 cap (141%).**
+  A second full liquidation today at **12:17 ET** — ZCSH 50 @ 92.2052 (−$106.54), HOOD 75 @ 113.5752
+  (−$155.49), DRAM 125 @ 58.56512 (−$74.67) — on top of the 09:08 one. **Six closes today, all six losses:**
+  DRAM −$132.70, event contracts −$120.00, ZCSH −$216.60, ZCSH −$106.54, HOOD −$155.49, DRAM −$74.67.
+  risk.md's daily loss limit is 2% of equity, $570.18 on today's $28,509.16. Realised is **−$806.00,
+  141% of it, over by $235.82.** This is the first time in this record the loss limit has actually been
+  breached rather than approached — and it is the one limit that is supposed to end the session.
+  **All three names were re-entered after the breach**, at 25 shares each. The size limits are all
+  comfortably satisfied — book 2.31 units against a 9.0 ceiling, zero margin, one-sigma day $412 against
+  $570 — which is precisely the problem with reading compliance off the size caps alone: the book has
+  never looked safer and the day has never lost more.
+  **Count correction:** at 12:04 I called the 09:08 liquidation "the fourth." It was the fifth since
+  8 September (8 Sep 14:36 · 9 Sep 11:22, 12:55, 16:49 · 10 Sep 09:08), and the 12:17 one is the sixth.
+  Two full liquidations today, four yesterday and today combined.
