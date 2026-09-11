@@ -100,3 +100,4 @@
 {"ts": "2026-09-10T13:03+00:00", "ticker": "TSM", "side": "long", "n_authors": 2, "n_top": 0, "top": [], "now_pct": 0.0}
 {"ts": "2026-09-10T13:03+00:00", "ticker": "PLTR", "side": "long", "n_authors": 2, "n_top": 0, "top": [], "now_pct": 0.0}
 {"ts": "2026-09-10T13:03+00:00", "ticker": "SKHY", "side": "long", "n_authors": 2, "n_top": 0, "top": [], "now_pct": 0.0}
+{"ts": "2026-09-11T13:02+00:00", "ticker": "ZEC", "side": "long", "n_authors": 2, "n_top": 1, "top": ["altcoinsherpa"], "now_pct": 5.82}

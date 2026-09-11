@@ -547,3 +547,24 @@ incompatible and one of them has to give.
   **Count correction:** at 12:04 I called the 09:08 liquidation "the fourth." It was the fifth since
   8 September (8 Sep 14:36 · 9 Sep 11:22, 12:55, 16:49 · 10 Sep 09:08), and the 12:17 one is the sixth.
   Two full liquidations today, four yesterday and today combined.
+
+- **2026-09-11 09:25 — compliance lasted eighteen hours; leverage is now the highest on record.**
+  Thursday 15:04 the manual desk held **2.31 units, zero margin, every hard limit satisfied**. This
+  morning it holds **20.27 units** — DRAM 500 @ 59.82 (10.58u), ZCSH 300 @ 92.72 (9.69u) — against
+  **−$29,237.30** of cash, a gross of **2.03×**. That is above the 1.96× of 9 September and the highest
+  this record has measured. Yesterday's entry read *"nothing prevents 19 units reappearing tomorrow."*
+  It took eighteen hours, and the grade being +1 does not help: the margin ceiling at +1 is 1.25×, so
+  this is 62% over even at today's permissive setting.
+  **Thursday's real close was −$883.59, not the −$806.00 I reported at 15:03** — HOOD 25 was sold at
+  111.5728 at 18:06 ET for a further −$77.56. Seven closes, seven losses, **155% of the $570.18 limit.**
+  **The trailing week is negative: −$388.85 over 31 closes at a 23% win rate.** Every symbol except ZEC
+  lost: HOOD −$1,036.21 (5), ZCSH −$760.51 (8), event contracts −$337.80 (5), DRAM −$330.11 (11),
+  HIMS −$20.76 (1). ZEC's single close made +$2,096.54; **the 30 closes this terminal can see produced
+  −$2,485.39.** The win rate has fallen 44% → 35% → 23% across Tuesday, Thursday and today as the
+  early-week winners aged out of the window.
+  **Three CHURN flags fire at once — HOOD, ZCSH and DRAM — the most this record has carried** (previous
+  high: one). Every ticker the desk traded this week is flagged and every one is negative, and two of
+  the three are currently held at more than three times their cap.
+  Worth holding against the +1: the board scored **−0.66 yesterday, its most negative, and +0.82 today,
+  its most positive** — both extremes inside 24 hours, off 17 rows. And the 7d author leaderboard has
+  decayed to three of six qualifying authors at a 33% hit rate or worse, with @_tolks 0-for-4.
