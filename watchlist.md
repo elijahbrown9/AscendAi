@@ -568,3 +568,19 @@ incompatible and one of them has to give.
   Worth holding against the +1: the board scored **−0.66 yesterday, its most negative, and +0.82 today,
   its most positive** — both extremes inside 24 hours, off 17 rows. And the 7d author leaderboard has
   decayed to three of six qualifying authors at a 33% hit rate or worse, with @_tolks 0-for-4.
+
+- **2026-09-11 14:04 — the first board-confirmed entry, bought ~6% above the poster's price.**
+  ETH is one of today's confirmed candidates and the desk holds it — the first time in this record that
+  an entry and a live board confirmation are the same name. That is the right direction. The execution
+  is the old problem in a new place: the board row shows **+4.4% since posting**, implying the author's
+  entry near **23.35**; ETH closed 23.49 yesterday and trades **24.375** now. **The desk's basis is 24.80**
+  — roughly **6% above the poster's entry and above the current price.** So the idea is a winner by the
+  board's measure and the position is **−1.71%**.
+  This is what the 2% chase band is for, and it is the cleanest illustration yet of why: the signal was
+  correct, the desk acted on the correct signal, and the entry price turned it negative anyway. Following
+  the board only pays if the entry is inside the band from the reference — the confirmation is not a
+  licence to buy at any price.
+  Elsewhere the day is the size lesson again. One trade all session (the 09:54 DRAM exit, −$379.96) and
+  the account is down **$1,283.22** since 10:12 on marks alone — open P&L +$1,216.50 → +$96.00 → −$86.75
+  across three check-ins. Book 20.13 units against a 9.0 ceiling, margin 2.01x against the 1.25x that
+  grade +1 permits. Nothing is breached on stops or the loss limit; the exposure is doing all the work.
