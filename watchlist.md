@@ -644,3 +644,19 @@ incompatible and one of them has to give.
   these confirmations decay — the ZEC/ETH confirmations on 11 September lasted about six hours too.
   Third instance today of one ticker on both sides (NVDA twice, now WTI), which strengthens the proposed
   rule: **a ticker on both sides counts as no signal.**
+
+- **2026-09-14 15:04 — my USO idea would have stopped out the same session it was published.**
+  This morning's brief made **USO long** idea #1 at an entry of **160.19** with a **−3% stop at 155.38**.
+  USO peaked at +3.28% pre-market, and at 15:04 it trades **155.41** — **−2.98% from that entry, three
+  cents above the stop.** The trade as written is a stop-out on day one.
+  Two things went wrong and they are separable. The **thesis** was a real supply event (Saudi pipeline
+  shut, Brent $108.34) and it is not obviously refuted — Brent is still above $100. The **entry** was the
+  pre-market high after a 9% weekly rally, which is the same chase error logged against ETH on
+  11 September: right idea, price already extended. The 09:26 scoring gave it `price_confirms: true` on a
+  **+3.28% pre-market print**, which is precisely the input that reversed at the open on 10 September.
+  **Proposed fix, and it applies to the brief's own scoring rather than to the desk:** `price_confirms`
+  should not be satisfied by a pre-market print more than ~2% above the prior close. On today's numbers
+  that single condition would have disqualified the USO entry while leaving the thesis intact for a
+  pullback entry.
+  The board then confirmed **WTI short** at +1.3% with three co-signs — the opposite side of my own top
+  idea, five hours after publication.
