@@ -584,3 +584,36 @@ incompatible and one of them has to give.
   the account is down **$1,283.22** since 10:12 on marks alone — open P&L +$1,216.50 → +$96.00 → −$86.75
   across three check-ins. Book 20.13 units against a 9.0 ceiling, margin 2.01x against the 1.25x that
   grade +1 permits. Nothing is breached on stops or the loss limit; the exposure is doing all the work.
+
+- **2026-09-14 09:26 — the payoff ratio was the edge, and it collapsed.**
+  Last week: **−$3,836.78 over 36 closes at a 16% win rate**, five losing sessions out of five. Every one
+  of the six symbols lost. Compare the month to 10 September: +$7,565.25, 39% win rate, **2.42× payoff**.
+  Last week the payoff was **1.01×** — average win $161.66 against average loss $160.23.
+  **The win rate was never the edge.** At 39% and 2.42× the style makes money; at 16% and 1.01× the same
+  style cannot. What actually changed is the size of the winners: **average win $550.38 → $161.66.**
+  Positions were cut before they could become the kind of trade that carried August (THYP +$1,150/close,
+  ZEC +$2,096 on one). That is the mirror of the sizing problem already logged — **too large on the way
+  in, too quick on the way out.** A book at 20 units cannot sit through a 9% one-sigma day, so winners
+  get closed at +1% and losers get closed at −2.5%; the payoff ratio is the arithmetic consequence of the
+  position size, not a separate failing.
+  Friday closed at **−$945.39**, not the −$379.96 standing at the 15:03 check-in — **174% of the cap, the
+  second consecutive breach** after Thursday's 155%. ETH stopped out at 24.18 against a 24.80 basis
+  (−2.5%); at 6.66 units instead of the permitted 3 that cost **$465 instead of about $210**.
+  **Four CHURN flags** — ZCSH −$1,186.69 (11), HOOD −$1,036.21 (5), DRAM −$710.07 (12), event contracts
+  −$337.80 (5) — the most carried at once. None is held, so the ban rule has nothing to bite on: the
+  flags describe a pattern, not a ticker.
+
+- **2026-09-14 09:26 — the agentic mandate question is now a live 22% drawdown.**
+  RAM is **−14.91% pre-market, 2.07× its own one-sigma day**, and **−21.96% from a 14.62 basis**. It is
+  100% of the sleeve, which has fallen $158.29 → **$123.45** since Thursday. **No exit rule in risk.md
+  reaches it:** the sleeve's stops are written on option premium (−50% / −35% / −25%) and this is an
+  equity. Cash is **$0.00** against a $50 hard floor for an eighth session, so it cannot be hedged or
+  reduced into either. Eleven sessions after the options-only-vs-equity question was first raised as a
+  governance item, it has stopped being a governance item.
+
+- **2026-09-14 09:26 — second instance of one ticker on both sides of the board.**
+  NVDA is today's *only* confirmed candidate (short, +1.3%, two co-signs) and simultaneously sits in
+  CROWDED as a long with four co-signs at −1.2%. The same defect appeared on 10 September. Proposed
+  handling until `board_signals.py` reconciles opposing rows: **a ticker appearing on both sides counts
+  as no signal, not as a confirmation.** Today that would leave the board with zero confirmed candidates,
+  which is the honest reading of a 10-long/10-short tape.
