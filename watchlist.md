@@ -617,3 +617,30 @@ incompatible and one of them has to give.
   handling until `board_signals.py` reconciles opposing rows: **a ticker appearing on both sides counts
   as no signal, not as a confirmation.** Today that would leave the board with zero confirmed candidates,
   which is the honest reading of a 10-long/10-short tape.
+
+- **2026-09-14 14:04 — the clean book lasted about three hours, and leverage set a new record.**
+  At 12:04 the manual desk was **4.59 units, zero margin, +$14,358 cash** — the best-shaped book in this
+  record. At 14:04 it is **20.89 units on 2.089× gross with −$29,198.66 of cash**, the highest leverage
+  measured here (previous 2.034× on 11 September). Three positions, all three above the 3-unit cap:
+  DRAM 10.36u, ZCSH 6.02u, ETH 4.51u.
+  The pattern is now precisely dated three times: **compliant at 15:04 Thu 10 Sep → 20.27u by Fri open;
+  compliant at 12:04 Mon 14 Sep → 20.89u by 14:04 the same day.** The interval has compressed from
+  eighteen hours to two. Sizing is not drifting upward gradually; the book is rebuilt to ~20 units in a
+  single burst each time it is emptied.
+  One thing did change: **DRAM was re-entered at 55.45 against a 59.06 exit on Friday — 6.1% BELOW its
+  own exit**, and ETH at 23.89 against a 23.88 exit. Two consecutive entries at or below the prior exit
+  after ten above it. The entry-price habit is improving while the size habit is not, which suggests
+  they are separate problems and should be tracked separately.
+
+- **2026-09-14 14:04 — the board reversed on my own top idea inside five hours, and a third
+  ticker-both-sides case.**
+  This morning's brief made **USO long** idea #1 on a supply-shock thesis (Brent $108.34, Saudi pipeline
+  shut). At 14:04 the board carries **WTI as a CONFIRMED SHORT** (+0.8%, two co-signs, @tradfi) *and*
+  **WTI long as a KNIFE CATCH** (−2.8%). USO peaked at +3.28% pre-market and is now **+0.93%** — it gave
+  back two-thirds of the move.
+  The honest read: the idea was scored +3 on regime-and-price with **no board row at all** at 09:26,
+  which I flagged as its conflict. Five hours later the board arrived and it arrived on the other side.
+  A same-session reversal of a thesis backed by a physical supply event is a caution about how quickly
+  these confirmations decay — the ZEC/ETH confirmations on 11 September lasted about six hours too.
+  Third instance today of one ticker on both sides (NVDA twice, now WTI), which strengthens the proposed
+  rule: **a ticker on both sides counts as no signal.**
