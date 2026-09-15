@@ -660,3 +660,30 @@ incompatible and one of them has to give.
   pullback entry.
   The board then confirmed **WTI short** at +1.3% with three co-signs — the opposite side of my own top
   idea, five hours after publication.
+
+- **2026-09-15 09:25 — what is improving and what is not, separated cleanly.**
+  Three behaviours have measurably changed in a week and one has not:
+  **Improving — entry price.** DRAM re-entered 6.1% *below* its own exit, ETH 0.04% above. Two consecutive
+  entries at or below the prior exit after ten above it.
+  **Improving — holding.** DRAM was held ~75 minutes and closed **+$47.12**, the first green DRAM sequence
+  in this record; both ETH and ZCSH were carried overnight (`intraday_quantity 0`), the first overnight
+  carry since 8 September, rather than round-tripped.
+  **Not improving — size.** 20.27u Friday, 20.89u Monday, **19.91u today**. Margin 1.99× where grade 0
+  permits zero. Time-to-rebuild after going flat has *compressed*: 18 hours Thursday, 2 hours Monday.
+  **Monday's DRAM trade is the whole argument in miniature:** correct entry, held not churned, closed
+  green — for $47.12, because it was one of three positions each carried at ten units. The good habits
+  are being executed at a size that makes them irrelevant to the P&L, while the bad one sets the loss.
+  Today's version: both held names sit **within 1% of their −3% stops** (ZCSH 0.75%, ETH 1.0%). A
+  double stop-out at current sizes realises about **−$490** on top of what is open; at the 3-unit cap it
+  would be about **−$140**. Nothing about either direction call has to change to alter that number.
+  The payoff ratio has now fallen through 1.0: **2.42× over the month → 1.01× last week → 0.77× now**
+  (avg win $129.11 vs avg loss $168.28) at a 25% win rate. That combination is unprofitable at any size.
+
+- **2026-09-15 09:25 — the emptiest board in this record, scoring +0.21.**
+  Fifteen rows and **zero** confirmed candidates, zero knife catches, zero crowded — all three
+  classifications empty for the first time. Longs average +0.29% against shorts at −0.55%, which produces
+  a mildly positive **+0.21** from essentially no information. The score is arithmetically correct and
+  substantively meaningless. Worth a note in the scoring: **a board with zero confirmations and fewer
+  than ~20 rows should contribute a damped score, not a full-weight one** — at weight 2 this reading is
+  currently doing as much work in the composite as the −0.66 of 10 September, which came off 24 rows with
+  five knife catches.

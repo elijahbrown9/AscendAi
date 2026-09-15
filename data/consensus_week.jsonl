@@ -104,3 +104,5 @@
 {"ts": "2026-09-14T13:02+00:00", "ticker": "NVDA", "side": "short", "n_authors": 3, "n_top": 0, "top": [], "now_pct": 1.25}
 {"ts": "2026-09-14T13:02+00:00", "ticker": "BTC", "side": "long", "n_authors": 4, "n_top": 1, "top": ["altcoinsherpa"], "now_pct": 0.0}
 {"ts": "2026-09-14T13:02+00:00", "ticker": "NVDA", "side": "long", "n_authors": 5, "n_top": 0, "top": [], "now_pct": 0.0}
+{"ts": "2026-09-15T13:02+00:00", "ticker": "BTC", "side": "long", "n_authors": 4, "n_top": 1, "top": ["altcoinsherpa"], "now_pct": 0.0}
+{"ts": "2026-09-15T13:02+00:00", "ticker": "TLT", "side": "long", "n_authors": 2, "n_top": 0, "top": [], "now_pct": 0.0}
