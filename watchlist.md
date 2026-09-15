@@ -687,3 +687,21 @@ incompatible and one of them has to give.
   than ~20 rows should contribute a damped score, not a full-weight one** — at weight 2 this reading is
   currently doing as much work in the composite as the −0.66 of 10 September, which came off 24 rows with
   five knife catches.
+
+- **2026-09-15 12:03 — both stops hit, and the size multiplied the loss by 3.4×.**
+  At 10:41 ET both positions were closed: **ETH 1000 @ 22.99 for −$1,160.10** and **ZCSH 300 @ 88.95 for
+  −$1,175.73**. Today's realised is **−$2,335.83** against a **$506.10** daily limit — **4.6× the cap**,
+  the largest single-day breach in this record. The desk is flat with $24,348.70 of cash and no margin.
+  **This was priced in advance and the arithmetic held.** At the 10:04 check-in ETH was already through
+  its −3% stop at 9.22 units, and the note read: stop-out costs about −$820 at current size versus
+  roughly −$267 at cap. Both names then fell further before the exit, so the actual numbers are larger,
+  but the ratio is the point:
+  · ETH lost **$1.16/share**; 1,000 shares = −$1,160. At the 3-unit cap (314 shares) = **−$364**.
+  · ZCSH lost **$3.92/share**; 300 shares = −$1,176. At the 3-unit cap (82 shares) = **−$321**.
+  · Actual **−$2,336** versus **≈−$685** at cap. **The direction calls were identical; the size
+  multiplied the loss 3.4×.**
+  The exits themselves were correct — both names were through or at their stops and both were sold.
+  Entry timing was fine (ETH 0.04% above its own prior exit, DRAM 6.1% below). Holding was fine (both
+  carried overnight, not round-tripped). **Every behaviour logged as improving over the past week did
+  improve, and the session still lost $2,336, because the one behaviour that did not improve is the one
+  that sets the number.**
