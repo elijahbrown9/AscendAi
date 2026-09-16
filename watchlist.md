@@ -705,3 +705,28 @@ incompatible and one of them has to give.
   carried overnight, not round-tripped). **Every behaviour logged as improving over the past week did
   improve, and the session still lost $2,336, because the one behaviour that did not improve is the one
   that sets the number.**
+
+- **2026-09-16 09:26 — the payoff ratio has collapsed to 0.13×, and the winners are what vanished.**
+  Four readings of the same measure:
+  · Month to 10 Sep — 39% hit rate, avg win **$550.38**, avg loss −$227.62, **2.42×** → **+$7,565.25**
+  · Week to 11 Sep — 23%, $497.70 / −$151.86, 1.01× → −$388.85
+  · Week to 15 Sep — 25%, $129.11 / −$168.28, 0.77× → −$2,630.14
+  · **Week to 16 Sep — 16%, $31.86 / −$239.45, 0.13× → −$4,901.10**
+  **The average win fell 94% while the average loss barely moved.** The hit rate going 39% → 16% on
+  25 trades is well inside noise; what is not noise is that no position is being held long enough, or
+  sized small enough to be held long enough, to become a large winner. The month worked because a
+  sub-40% hit rate was paired with winners 2.4× the size of losers. That is the whole edge and it is gone.
+  Every symbol in the window is negative for a third consecutive week: ZCSH −$2,147.76 (8 closes),
+  ETH −$1,762.42 (5), DRAM −$540.22 (6), HOOD −$233.06 (2), event contracts −$188.21 (3), ARKG −$29.43.
+
+- **2026-09-16 09:26 — the largest re-entry-above-exit yet: ZCSH bought 10.1% above yesterday's stop-out.**
+  ZCSH was stopped out yesterday at **88.95** for −$1,175.73. This morning it was re-entered at **97.97**
+  — **10.1% above that exit**, on a stock that gapped **+8.2%** from its own close. Eleventh instance of
+  the pattern and nearly double the previous worst (5.5%, ZCSH on 9 September).
+  The rest of the book is nearly right, which is what makes this legible: one position of a permitted
+  three, 4.10 units against a 9.0 ceiling, **zero margin**, $14,136.78 of cash — the second-cleanest book
+  this record has measured. Size is no longer the binding error this morning; **entry price is.**
+  Also today, before this brief was written: **five pre-market closes, five losses, −$309.20** — already
+  65% of the $479 daily limit with the session yet to open. Two new OVERNIGHT flags (ZCSH, ETH) match
+  that: three fills each outside 9am–8pm ET. And **ARKG** appeared and was closed inside the same window,
+  a name that has never been in a position snapshot at any check-in.
