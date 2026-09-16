@@ -730,3 +730,18 @@ incompatible and one of them has to give.
   65% of the $479 daily limit with the session yet to open. Two new OVERNIGHT flags (ZCSH, ETH) match
   that: three fills each outside 9am–8pm ET. And **ARKG** appeared and was closed inside the same window,
   a name that has never been in a position snapshot at any check-in.
+
+- **2026-09-16 12:04 — margin redrawn inside two hours, and BHYP is back.**
+  At 10:08 the manual desk held one position, 8.27 units, **zero margin** and $4,176.96 of cash. At 12:04
+  it holds ZCSH 300 @ 99.85 (**12.44u**) and BHYP 100 @ 44.08 (1.83u) — **14.27 units** on
+  **−$10,317.23** of cash, gross **1.43×** where grade 0 permits none. ZCSH was added to at roughly
+  **101.99**, above its own 99.85 average: averaging up into a position already 4.1× its cap.
+  **BHYP is the notable name.** It carried this record's only completed CHURN ban (7 round trips netting
+  **−$1,596.35**, ban ran to 10 September) and was the worst single symbol of the trailing month. It has
+  now been re-established. The ban expired six sessions ago and nothing carried forward from it — which
+  is the practical weakness of a time-boxed ban: it ends, and the ticker returns with no record attached.
+  One-sigma day on ZCSH alone is **$2,532** against a **$482.80** limit — **5.25×**. The position is only
+  +$79.50 open; the whole of today's gain in it (+10.4% on the day) has been given back by adding at
+  higher prices as it rose.
+  Fifth instance of one ticker on both sides of the board: **INTC is a confirmed long (+2.1%) and a
+  knife-catch short (−2.3%) simultaneously.** ZEC has moved from confirmed to CROWDED at five co-signs.
