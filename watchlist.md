@@ -745,3 +745,20 @@ incompatible and one of them has to give.
   higher prices as it rose.
   Fifth instance of one ticker on both sides of the board: **INTC is a confirmed long (+2.1%) and a
   knife-catch short (−2.3%) simultaneously.** ZEC has moved from confirmed to CROWDED at five co-signs.
+
+- **2026-09-16 14:02 — first green session in seven, and the entry I called the worst on record made money.**
+  Today closed the manual desk at **+$45.03 realised**, breaking a run of six consecutive losing sessions
+  (−$1,159.52 / −$442.28 / −$883.59 / −$945.39 / −$358.88 / −$2,404.04). The account is up **$308.21** on
+  the day at $24,262.85, flat, **zero margin**, every hard limit satisfied.
+  The morning was −$309.20 across five pre-market closes; the afternoon was **+$354.23** across five:
+  ZCSH 200 @ 99.35 (+$113.69), BHYP 50 @ 44.33 (+$12.50), ZCSH 50 @ 101.34 (+$72.92), ZCSH 300 @ 100.57
+  (+$143.94), BHYP 300 @ 44.30 (+$11.18).
+  **The ZCSH entry at 97.97 — 10.1% above the prior day's 88.95 stop-out, which this morning's brief called
+  the largest re-entry-above-exit on record — finished net positive.** ZCSH's five closes today total
+  **+$107.85**. Recording that plainly because the brief criticised it twice before the outcome was known.
+  It does not change the case against the pattern: eleven instances, and the argument is about expectation
+  across all of them, not this one. But the one-sided version of the record would be wrong.
+  What did work today is visible and worth keeping: **the position was scaled out in three tranches on the
+  way up (200, 50, 300) rather than round-tripped**, and the desk finished flat rather than rebuilding.
+  That is the first session in this record where an oversized position was reduced into strength instead
+  of being carried to a stop.
