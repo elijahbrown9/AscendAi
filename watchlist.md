@@ -788,3 +788,20 @@ incompatible and one of them has to give.
   And the **week's win rate recovered to 40% while the payoff stayed at 0.18×** — four of today's closes
   were 5-share ZCSH sales booking ~$23 each, which lift the count and move no money. Win rate is the
   wrong number to watch on this book.
+
+- **2026-09-17 12:03 — holding produced the largest open gain in this record: ZCSH +$4,340.**
+  ZCSH 350 @ 107.35 marks **119.75**, **+15.7% on the session**, and the position is **+$4,340.00** open.
+  ETH 500 @ 23.46 is +$52.50. Book open **+$4,392.50**; the account is up **$3,420** since the 10:03
+  check-in, and **no trade has been placed since four 5-share sales at 08:19.**
+  This is the behaviour the 11 September month review identified as the actual edge — THYP +$1,150/close,
+  ZEC +$2,096 on one trade, BTC +$3,410 over thirteen — and it is the first time since that review that
+  the desk has held a large winner through a double-digit move instead of round-tripping it. Recorded as
+  a success with the same specificity the failures get.
+  The unresolved half: the gain is **unrealised and concentrated**. ZCSH is **15.15 units** against a
+  3-unit cap, 78% of a book at **1.940× gross** on −$26,018.81 of cash, and its one-sigma day is
+  **$3,827** against a **$553.31** limit — **7.63×**. A single one-sigma down day gives back 88% of the
+  open gain. Yesterday is the precedent: +$45.03 at 14:02 became −$547.22 by the close.
+  Scaling out partially resolves both at once, which is what 16 September got right between 10:51 and
+  13:18 before the rebuild undid it. Selling 284 of 350 at 119.30 books roughly **+$3,393**, leaves 66
+  shares in a name that is working, and takes the book from 19.40 units to about 7.5 — inside every limit
+  for the first time while holding a winner.
