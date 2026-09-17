@@ -805,3 +805,20 @@ incompatible and one of them has to give.
   13:18 before the rebuild undid it. Selling 284 of 350 at 119.30 books roughly **+$3,393**, leaves 66
   shares in a name that is working, and takes the book from 19.40 units to about 7.5 — inside every limit
   for the first time while holding a winner.
+
+- **2026-09-17 15:03 — the full arc of a board idea, and $840 of an unrealised gain given back.**
+  **INTC lifecycle, start to finish in three sessions:** not on the board 15 Sep → consensus-without-
+  confirmation at 100.52 on 16 Sep (idea #2 in that brief, entry 100.55, stop 97.53) → confirmed three
+  sessions running → **CROWDED at four co-signs today at +7.6%**, trading 110.59. That is **+10.0% from
+  the quoted entry**, and the board's own contrarian flag now marks it as late consensus. The complete
+  arc — unnoticed, consensus, confirmed, crowded — took three sessions, which is the practical lifespan
+  of a signal on this board and matches the six-hour confirmation decay logged on 11 September.
+  **ZCSH, meanwhile, has given back $840 of an unrealised gain with no trade placed.** 119.75 at 12:03 →
+  118.48 at 14:03 → **117.35** now; open **+$4,340.00 → +$3,895.50 → +$3,500.00**. The trim flagged at
+  every check-in today would have booked about **+$3,393 at 12:03 and +$2,741 now** — roughly $652 of
+  trim value lost in three hours, on top of the $444.50 lost in the previous two.
+  ETH was closed at 14:35, 500 @ 23.425 for **−$17.10** — a clean, small exit on a confirmed name, and
+  the first position this week closed within 0.1% of its basis. ETH's week nonetheless finishes
+  **−$1,779.52 over six closes.**
+  Today's realised stands at **+$75.75**; the book is ZCSH alone at **15.35 units**, gross 1.535×, with a
+  one-sigma day of **$3,750** against a **$535.32** limit — **7.01×**. Twenty-seven minutes to the close.
