@@ -762,3 +762,29 @@ incompatible and one of them has to give.
   way up (200, 50, 300) rather than round-tripped**, and the desk finished flat rather than rebuilding.
   That is the first session in this record where an oversized position was reduced into strength instead
   of being carried to a stop.
+
+- **2026-09-17 09:26 — correction: 16 September ended at −$547.22, not the +$45.03 I reported.**
+  At the 14:02 check-in I reported +$45.03 realised and called it the first green session in seven. It was
+  accurate to that minute and wrong by the close. After 15:00: BHYP 400 @ 44.45 (−$51.80), ZCSH 300 @
+  107.44 (−$186.41), event contracts (−$23.52), then **ZCSH 220 after hours at ~104.34 (−$330.50)**.
+  **Final: −$547.22 across 15 closes.** The losing run was not broken.
+  The specific failure mode is one I had already described in the same check-in and then narrated as a
+  success: I praised the afternoon scale-out (200/50/300 into strength) as "the first session where an
+  oversized position was reduced into strength instead of being carried to a stop." It was — and then the
+  position was rebuilt at 107.62 and liquidated twice more, the second time after hours 3.0% below the
+  earlier exit. **Reporting a mid-session number as a session outcome is the error; the check-in cadence
+  invites it and I should date-stamp such claims as provisional until the close.**
+
+- **2026-09-17 09:26 — third leverage record in four sessions, and the first ticker to carry three flags.**
+  Gross **2.102×**, above 2.089× (14 Sep) and 2.034× (11 Sep). ZCSH 350 @ 107.35 is **16.05 units**
+  against a 3-unit cap — 5.4× — and 76% of the book; ETH 500 @ 23.46 is 4.98u. Book **21.02 units** on
+  **−$26,018.81** of cash at a grade that permits no margin. One-sigma day **$3,854** against a **$472**
+  limit, **8.17×**.
+  **ZCSH now carries CHURN (16 round trips, −$1,918.14), OVERNIGHT (7 fills outside hours) and REVENGE
+  (16 Sep) simultaneously** — the first name in this record to hold three at once.
+  Two measurement notes worth keeping. **ETH and ZCSH show the identical 0.82× ratio and differ 2.7× in
+  daily risk** (±3.37% vs ±9.13%); the ratio is a regime read and the absolute vol is what sizes a
+  position, and conflating them is how a 5-unit ETH and a 16-unit ZCSH end up looking equally "NORMAL".
+  And the **week's win rate recovered to 40% while the payoff stayed at 0.18×** — four of today's closes
+  were 5-share ZCSH sales booking ~$23 each, which lift the count and move no money. Win rate is the
+  wrong number to watch on this book.
