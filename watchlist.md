@@ -933,3 +933,21 @@ not merely its symbol.
 
 Manual desk realised today: **+$175.26** over two closes, both winners (GLD +$67.21,
 BHYP +$108.05). Provisional until the close — the 16 September lesson stands.
+
+### 18 Sep 14:03 ET — ZEC ran the full arc to CROWDED and turned negative
+
+ZEC is now **CROWDED at 5 co-signs and −0.9%**, down from +0.9% at the 12:06 check-in.
+That is the second ticker in two days to complete confirmed → crowded → negative; INTC
+did it yesterday into today and is a knife catch at −3.8%.
+
+This cuts against my own framing of the crypto-sleeve open item. I have logged ZEC four
+times as "the board's best idea, unreachable" — the implication being that the missing
+instrument was costing money. Today is the first time the signal was watched all the way
+through, and it decayed to negative before it crowded. One observation is not a base rate,
+but the honest version of that open item is now: *the sleeve has no gauge, no unit size and
+no stop, and the signal it would have traded has not yet been shown to be worth reaching.*
+The gap is a process defect either way; the cost of it is unproven.
+
+**HOOD sits at 3 co-signs.** One more makes it crowded, which on the only two observations
+available today has been the exit signal, not the entry. The desk owns 110 shares at
+117.92, +$279.40 at 120.46.
