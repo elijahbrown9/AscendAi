@@ -866,3 +866,35 @@ record is invisible to all of them.
 (all_day_hours), sold 35 @ 401.67 at 07:37 ET Friday: +$67.21, +0.48%, eleven hours. The
 OVERNIGHT flag fires on this window because fills there usually cost money on this book.
 This one did not.
+
+### 18 Sep 10:12 ET — TURN CONFIRMED, grade 0 → +1
+
+At the 09:15 pre-open the TURN ALARM fired with exactly one fresh green idea on the
+new (long) side — NEAR +3.4% — against a threshold of three, so no shift was made.
+One hour later the board carries **three** confirmed longs: NEAR +3.8% (2 co-signs),
+ZEC +0.7%, MU +0.7%. Fresh 6h flow is 35 long / 9 short while the winner skew is still
+short. workflow.md's condition is met. **Grade shifts one notch toward the new side:
+0 → +1.** Storm veto is not active (SPY 0.97×, QQQ 0.92×), so the shift stands. Per
+protocol the adjusted posture is traded from the NEXT check-in, not this one.
+
+This is the second confirmed turn in this record (first: 9 September) and the first
+where the alarm fired at the pre-open and confirmed intraday — the one-hour gap between
+alarm and confirmation is the whole argument for not acting on the alarm alone.
+
+**INTC completed the full board lifecycle in four sessions.** Absent 15 Sep →
+consensus-without-confirmation at 100.52 on the 16th (my idea #2 at 100.55) → confirmed
+three sessions → CROWDED at four co-signs at 110.59 on the 17th → **KNIFE CATCH at −2.5%
+today**. Every stage of the taxonomy, in order, on one ticker. The crowded reading was
+the sell signal it is documented to be.
+
+**Ticker-on-both-sides, 7th instance: BTC.** BTC long is CROWDED at 4 co-signs and +3.1%;
+BTC short is a KNIFE CATCH at −2.8%. Same asset, same board, opposite classifications.
+The proposed rule — a ticker appearing on both sides counts as no signal, not a
+confirmation — would have excluded BTC from today's count. It was not among the three
+that confirmed the turn, so the outcome is unchanged either way.
+
+**MU, against my own morning call.** I scored MU −2 WATCH ONLY at 978.67 on the grounds
+that a +0.12% pre-market print was not confirmation and the board skew was net short.
+Both conditions have since flipped: MU is a confirmed candidate and the skew has turned.
+MU trades 996.70, +1.96% on the day and +1.84% above the entry I declined to rank. The
+reasoning was right for the data available at 09:15; the data changed within an hour.
