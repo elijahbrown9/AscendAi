@@ -951,3 +951,21 @@ The gap is a process defect either way; the cost of it is unproven.
 **HOOD sits at 3 co-signs.** One more makes it crowded, which on the only two observations
 available today has been the exit signal, not the entry. The desk owns 110 shares at
 117.92, +$279.40 at 120.46.
+
+### 18 Sep 15:03 ET — largest weekend carry in this record
+
+With 57 minutes to the close the desk holds ZCSH 350 @ 107.35 (**15.32 units**, +$3,384.50)
+and HOOD 110 @ 117.92 (4.91 units, +$167.20), gross **2.023×**, book **20.23 units** against
+a 9.0 ceiling. If both are carried, this is the largest weekend exposure in this record.
+
+The number that frames it: ZCSH gauges at **158.1% annualised, ±9.96% for one day**. On a
+$40,957 position that is **±$4,079 of one-sigma over a single session** — 7.6× the $535
+daily loss limit — before any weekend gap, in a crypto-linked name that trades continuously
+while the equity wrapper does not. The book's entire margin cushion is $802.42 of buying
+power.
+
+**This is the same clock that decided the last two sessions in opposite directions.** On
+16 September the desk was +$45.03 at 14:02 and closed −$547.22 after three liquidations
+between 15:07 and 18:34. On 17 September it held and was rewarded with a +$4,459 mark.
+The distinction the record supports is trimming into strength versus flushing and
+re-entering higher — not holding versus selling as such.
