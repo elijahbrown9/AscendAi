@@ -898,3 +898,38 @@ that a +0.12% pre-market print was not confirmation and the board skew was net s
 Both conditions have since flipped: MU is a confirmed candidate and the skew has turned.
 MU trades 996.70, +1.96% on the day and +1.84% above the entry I declined to rank. The
 reasoning was right for the data available at 09:15; the data changed within an hour.
+
+### 18 Sep 12:06 ET — the chase I called the worst on record made money
+
+BHYP was sold at 10:24 ET, 260 @ 51.5711, for **+$108.05** — 4.4 hours after the entry
+I described this morning as the largest re-entry-above-exit in this record. The entry was
++15.1% above its own 16 Sep exit and 4.6× outside the 2% chase band; it returned +0.80%.
+
+**This is the second consecutive time the most extreme chase on record has been
+profitable** (ZCSH at +10.1% above its own exit on 16 Sep netted +$107.85 across five
+closes). Two of the two largest instances have made money. The aggregate case against the
+pattern rests on 13 instances and on expectation, not on these outcomes — but it is worth
+stating plainly that the two most extreme examples have both paid, and that my framing has
+now been contradicted twice by the tape within a day of writing it.
+
+**HOOD bought 110 @ 117.925 at 10:24 ET, twelve minutes after the grade shift.** That is
++7.4% above yesterday's 109.81 close, outside the 2% band again. It is also the first
+entry in weeks that the system would sanction on direction and source: HOOD is a CONFIRMED
+CANDIDATE on the board at +5.0% with two co-signs, long, aligned with the +1 grade the turn
+protocol produced an hour earlier. Size is the problem, not the idea — 4.76 units against a
+3-unit hard cap. Per the month review, HOOD is the name where five large closes made
++$3,378 while the other fifteen lost $1,443.
+
+**The turn protocol's leading indicator was right.** At 10:12 fresh flow was long while
+winners were short; by 12:06 the winner skew had flipped to long and the alarm cleared.
+Two hours from confirmation to coincident agreement. This is the first clean end-to-end
+validation of the workflow.md turn sequence in this record.
+
+**VVV collision, second occurrence.** The board carries VVV long +1.8% (@notthreadguy,
+0.7h old). Broker VVV is Valvoline, trading 27.19 — close enough to the Venice AI perp's
+price that the 9 September contamination could repeat exactly. The proposed rule is still
+unadopted: a board row counts only when the broker instrument matches the board's asset,
+not merely its symbol.
+
+Manual desk realised today: **+$175.26** over two closes, both winners (GLD +$67.21,
+BHYP +$108.05). Provisional until the close — the 16 September lesson stands.
