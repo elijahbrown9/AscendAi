@@ -822,3 +822,47 @@ incompatible and one of them has to give.
   **−$1,779.52 over six closes.**
   Today's realised stands at **+$75.75**; the book is ZCSH alone at **15.35 units**, gross 1.535×, with a
   one-sigma day of **$3,750** against a **$535.32** limit — **7.01×**. Twenty-seven minutes to the close.
+
+## 18 Sep 2026 — pre-open rule review
+
+**A held winner survived a session for the first time.** ZCSH 350 @ 107.35 showed +$3,500
+unrealised at the 15:03 check-in on 16 Sep. It was not scaled out and not rebuilt higher;
+it was carried, ZCSH settled 17 Sep at 120.09, and the position closed +$4,459 unrealised.
+At this morning's 116.77 bid it is +$3,297. Every prior large open gain in this record was
+either flushed and re-entered above the exit, or given back. Recording the counter-example
+with the same care as the failures.
+
+**New record: BHYP re-entered 15.1% above its own exit.** Bought back this morning in six
+pre-market clips 07:46–09:01 ET, 250 shares, average 51.15, against exits at 44.45 and 44.30
+on 16 Sep and a 46.85 close yesterday (+9.2%). Previous record was ZCSH at 97.97 versus an
+88.95 exit on 16 Sep, +10.1%. This is the 13th instance of the pattern and 4.6× the 2% chase
+band. Structure of the fills is the new detail: the three cheapest clips are the three
+smallest (75 shares over 75 minutes), and 175 shares — 70% of the position — filled inside
+thirty seconds at 09:01 at the three highest prices of the morning. Size follows price up.
+
+**Proposed rule (unadopted), applied against my own idea today.** The 14 Sep proposal —
+`price_confirms` should not be satisfied by a pre-market print more than ~2% above the prior
+close — was written after my USO idea stopped out on day one. IBIT would have scored +2 on
+price this morning at +2.01%. One basis point outside. Marked it as failing the test rather
+than rounding in favour of an idea I generated, because a rule only applied when it is
+convenient is not a rule.
+
+**Win rate is not the number.** Week to 18 Sep: 48% hit rate, the best since the month
+review, on a week that is −$3,075.45 over 27 closes. Avg win $43.18 vs avg loss $259.77,
+payoff 0.17×. Fifth consecutive sub-1.0 reading: 1.01× → 0.77× → 0.13× → 0.18× → 0.17×.
+Average win is down 92% from $550.38 (month to 10 Sep); average loss has barely moved.
+
+**Tradeable-instrument gap, 7th instance: NEAR.** The board's only confirmed candidate this
+morning (+3.4%, 1 co-sign) has no equity instrument at this broker. ZEC is on the consensus
+list again — 4th signal in six sessions. The crypto sleeve that produced +$2,096.54 on
+7 Sep still has no gauge, no unit size and no stop.
+
+**Discipline analyzer gap.** BHYP does not raise a flag this week — three closes is below
+every threshold — yet this morning's entry is exactly the behaviour CHURN and the chase band
+exist to catch. The flags are backward-looking on closed round trips; the worst entry in this
+record is invisible to all of them.
+
+**Overnight session, counter-example.** GLD bought 35 @ 399.75 at 20:45 ET Thursday
+(all_day_hours), sold 35 @ 401.67 at 07:37 ET Friday: +$67.21, +0.48%, eleven hours. The
+OVERNIGHT flag fires on this window because fills there usually cost money on this book.
+This one did not.
