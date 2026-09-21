@@ -1101,3 +1101,17 @@ flushing and re-entering, and that was true of that session. Today the same posi
 through the same hours cost $1,907.50 of paper gain. **Neither holding nor trimming is free;
 what is not free is holding 14.70 units of a name that moves ±9.30% a day and calling the
 decision settled by the last outcome.** Gross is back above 2× at 2.002×.
+
+### 21 Sep 15:11 ET — applying this morning's own fix
+
+At 10:11 I proposed that pre-open book values be quoted off the prior settled close, with
+the pre-market move shown separately, after my 09:21 marks overstated the book by ~$630.
+Applying it to today: Friday's settled close values the book at 350 × 117.72 + 110 × 119.82
+= $54,382.20 against cash of −$27,353.78, an account of **$27,028.42**. It is now
+**$28,294.55** — the session is **+$1,266.13**, not the −$1,300.17 that comparing against
+this morning's inflated pre-market figure would suggest. The two framings differ by $2,566
+on the same day. The settled-close baseline is the one that does not move.
+
+META is crowded at **8 co-signs** now, up from 6 at 14:04, +8.9% since posting; the position
+is +$753.20 off a +$780.70 high. ZCSH recovered to 118.50 from 117.55, +$4,002.50 open.
+Gross 1.991×, book 19.91u. Realised +$450.23, provisional.
