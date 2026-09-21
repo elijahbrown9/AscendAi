@@ -1048,3 +1048,33 @@ where the direction matched a board confirmation and the size did not match risk
 **ZEC is a knife catch at −2.4% on today's window while sitting +37.5% on the 7-day.**
 Same contradiction as this morning, now in the opposite direction from Friday's. The
 window, not the signal, is what keeps changing.
+
+### 21 Sep 12:05 ET — scoring the pre-market rule on the day I said would test it
+
+This morning I disqualified all three tradeable board ideas for gapping more than 2% above
+Friday's close, and wrote that "this is the day the rule is worth the most and the day it is
+hardest to keep." It is fair to score it.
+
+| idea | my quoted entry | 12:05 | move | 2-unit P&L foregone |
+|---|---|---|---|---|
+| AMD  | 579.66 | 610.50 | **+5.32%** | ≈ +$308 |
+| INTC | 114.98 | 123.53 | **+7.44%** | ≈ +$436 |
+| IBIT | 48.30  | 48.65  | +0.72% | ≈ +$43 |
+
+**The rule cost roughly $787 on paper today**, across three ideas it would have sized at two
+units each. That is the largest single-day cost of the rule since it was proposed on
+14 September, and it is the honest counterweight to the USO stop-out that motivated it.
+
+The qualification that matters: **AMD and INTC are both CROWDED now** — 5 and 6 co-signs —
+which is the board's documented exit signal, not an entry. The move happened between the
+posting and the crowd, which is a window the desk has never yet caught, on either side of
+this rule. The rule's real cost is therefore bounded by whether that window is capturable at
+all, and nothing in this record yet shows that it is.
+
+**ZEC is a knife catch at −4.1% on today's window and +37.5% on the 7-day.** Third
+observation of the same contradiction in one session. Whatever else the board measures, its
+today-window classification of a multi-day trend is not stable enough to act on.
+
+Book at 12:05: ZCSH 350 @ 107.35 → 119.975, +$4,419.25, **14.78u**; META 20 @ 705.39 →
+722.515, +$342.50, **5.09u**. Gross 1.987×, book 19.87u against the 9.0 ceiling. Realised
+today +$450.23, provisional.
