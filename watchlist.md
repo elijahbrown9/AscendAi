@@ -1017,3 +1017,34 @@ file header reads `AS_OF 2026-08-03T02:45:00Z`, 19 posts — a fortnight staler 
 0.999, so its ratio is meaningless and the governing number is 73.9% annualised — above
 risk.md's 60% threshold, which calls for one unit and a −5% stop. It is held at 4.70 units
 with no stop. RAM is the same diagnosis at 118.5% for a sixth session.
+
+### 21 Sep 10:11 ET — the gap was sold, and my pre-open marks were too generous
+
+At 09:51 HOOD 110 was sold @ 122.013 for **+$450.23**; at 09:52 META 20 was bought
+@ 705.39. Both regular-hours market orders.
+
+**The pre-market marks in this morning's brief overstated the book by roughly $630.** I
+published open P&L of +$6,420.77 using pre-market prints of ZCSH 123.00 and HOOD 126.49.
+HOOD actually sold twenty-one minutes into the session at **122.013** — the gap gave back
+$4.48 a share, about half of it, before the position could be realised at the quoted level
+— and ZCSH is 122.09 rather than 123.00. Realised plus open now stands at $5,788.38 against
+the $6,420.77 I published at 09:21. The figures were correctly labelled as pre-market, but
+the lesson is the same one the `price_confirms` rule encodes from the other side: a
+pre-market print is not a price you can transact at, whether you are buying into it or
+marking a position against it. **Pre-open book values should be quoted off the prior
+settled close, with the pre-market move shown separately.**
+
+**HOOD's exit was well timed against the board.** A fresh HOOD long posted 1.7h ago is a
+KNIFE CATCH at −2.9%; the desk was out before that classification landed. The name also
+illustrates the full round trip: bought Friday at 117.925 (+7.4% above the prior close,
+which I criticised), sold today at 122.013 for +$450.23. Third consecutive chase entry to
+close profitably.
+
+**META bought +5.95% above Friday's close**, at 4.93 units against a 3-unit cap. It is a
+CONFIRMED board candidate at +4.7% with 2 co-signs, so the idea has support; the entry is
+again a gap-chase and the size is again above cap. That is now four consecutive entries
+where the direction matched a board confirmation and the size did not match risk.md.
+
+**ZEC is a knife catch at −2.4% on today's window while sitting +37.5% on the 7-day.**
+Same contradiction as this morning, now in the opposite direction from Friday's. The
+window, not the signal, is what keeps changing.
