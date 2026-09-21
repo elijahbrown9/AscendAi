@@ -969,3 +969,51 @@ power.
 between 15:07 and 18:34. On 17 September it held and was rewarded with a +$4,459 mark.
 The distinction the record supports is trimming into strength versus flushing and
 re-entering higher — not holding versus selling as such.
+
+## 21 Sep 2026 — pre-open rule review
+
+**Correction to the 18 Sep 14:03 entry.** I wrote that ZEC "decayed to negative before it
+crowded" and concluded the crypto sleeve's missing-instrument cost was "unproven." That
+read an intraday wiggle as a trend. On the 7-day board window **ZEC is +37.5% with 17
+co-signs and NEAR is +45.6% with 7** — the two largest moves on the board are the two names
+the sleeve cannot reach. The cost is demonstrated, not unproven, and the open item is now
+the most expensive one in this record. The methodological error was judging a multi-day
+signal on a two-hour sample; workflow.md line 137 requires running both windows precisely
+so this does not happen, and I ran both and then reasoned from one.
+
+**Friday's provisional figure held.** No trade after 10:24; 18 September closed +$175.26
+over two closes, both winners. First time since the 16 September correction that a
+mid-session green number survived to the bell — and the first session in this record with
+no trade placed after 10:24.
+
+**The weekend carry paid +$2,853.10.** ZCSH +4.5% and HOOD +5.6% from Friday's closes; open
+P&L +$6,420.77. The exposure flagged on Friday was real either way — 14.55 units of a name
+that moves ±9.30% a day, across three calendar days, against $978 of buying power — and the
+outcome does not retire the sizing point. Third consecutive instance of a position held
+against the sizing rules paying.
+
+**Everything gapped.** AMD +3.54%, IBIT +4.95%, INTC +5.87% pre-market. All three are board
+confirmations and all three fail the 14 September pre-market rule, so the best score today
+is +1. This is the day that rule costs the most, which is the only real test of it.
+
+**INTC: four classifications in four sessions.** Confirmed 16 Sep → CROWDED at 4 co-signs
+17 Sep → KNIFE CATCH at −3.8% 18 Sep → CONFIRMED again 1.3h ago. Whatever the board is
+measuring on this ticker is not persistent enough to hold a position against. USELESS shows
+the same instability in reverse: knife catch at −7.3% on 17 Sep, confirmed at +2.7% today.
+
+**Board skew has a sample-size problem today.** 23 rows: 22 long, **one** short. The +0.54
+board score is computed from a single row on one side. Recomputed from the long side alone
+it is +0.136 and the composite lands at +0.207 scaled — still grade 0, so the posture is
+unaffected, but the score should not be quoted as a skew measurement at this n.
+
+**Composite missed +1 by 0.002.** 0.239 × 5/3 = 0.3983 against a 0.400 threshold. Friday's
++1 came from the turn protocol and does not carry over; today opens at 0 on its own inputs.
+
+**X inbox correction.** Previous briefs said the digest was unchanged since 18 August. The
+file header reads `AS_OF 2026-08-03T02:45:00Z`, 19 posts — a fortnight staler than reported.
+35th consecutive miss.
+
+**Wider-volatility clause unapplied on two of three positions.** HOOD's GARCH persistence is
+0.999, so its ratio is meaningless and the governing number is 73.9% annualised — above
+risk.md's 60% threshold, which calls for one unit and a −5% stop. It is held at 4.70 units
+with no stop. RAM is the same diagnosis at 118.5% for a sixth session.
