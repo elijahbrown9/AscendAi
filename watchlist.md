@@ -1078,3 +1078,26 @@ today-window classification of a multi-day trend is not stable enough to act on.
 Book at 12:05: ZCSH 350 @ 107.35 → 119.975, +$4,419.25, **14.78u**; META 20 @ 705.39 →
 722.515, +$342.50, **5.09u**. Gross 1.987×, book 19.87u against the 9.0 ceiling. Realised
 today +$450.23, provisional.
+
+### 21 Sep 14:04 ET — META reaches CROWDED while held; ZCSH gives back $1,907
+
+**META is CROWDED at 6 co-signs and +9.0% since posting, and the desk owns it.** This is
+the first time in this record a held position has reached the crowded threshold while being
+watched. The three prior observations all went the same way inside one or two sessions:
+INTC crowded at 4 co-signs on 17 Sep at 110.59 → knife catch at −3.8% on the 18th; ZEC
+crowded at 5 co-signs on the 18th → knife catch at −5.9% today; AMD crowded at 7 today after
+running +7.9% from posting. Three for three is not a base rate, but the taxonomy documents
+crowded as contrarian information, and the desk is now on the wrong side of that reading
+with 5.32 units.
+
+**ZCSH gave back $1,907.50 of open gain today without a single trade.** It marked 123.00
+pre-market, 122.09 at 10:11, 119.98 at 12:05 and **117.55 now — below Friday's 117.72
+close**. Open P&L on the position has fallen from +$5,477.50 at the pre-open to +$3,570.00.
+The account has tracked it down: $29,594.72 → $28,974.77 → $28,405.20 → **$27,989.15**,
+which is −$1,605.57 on the day despite +$450.23 of realised gains.
+
+This is the counterweight to Friday's entry. On Friday I recorded that holding a winner beat
+flushing and re-entering, and that was true of that session. Today the same position held
+through the same hours cost $1,907.50 of paper gain. **Neither holding nor trimming is free;
+what is not free is holding 14.70 units of a name that moves ±9.30% a day and calling the
+decision settled by the last outcome.** Gross is back above 2× at 2.002×.
