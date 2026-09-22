@@ -1164,3 +1164,35 @@ enter. The scorer returns −2 on ZCSH and −3 on BTC — both positions the bo
 **ZCSH's CHURN flag cleared** (13 closes now netting +$195.08) and Monday's 50-share trim at
 116.15 is the first scale-out into strength in this record that was not followed by a
 rebuild at a higher price.
+
+### 22 Sep 10:12 ET — BTC held 22 minutes; RAM turns green; the board firms on its own merits
+
+**BTC was sold at 09:23 for −$34.50 after a 22-minute hold.** Bought 500 @ 38.05 at 09:01,
+sold @ 37.981 at 09:23 — the position this morning's brief flagged as the first in this
+record gauged into a storm band at 6.53 units. It was gone before the brief had been
+published twenty minutes. The exposure the brief warned about lasted less than the time it
+took to write about it, which is worth recording: **the sizing critique was right about the
+size and irrelevant to the outcome, because the holding period was 22 minutes.** A rule
+about units and stops has little purchase on a book that turns over intraday.
+
+**ETH re-established at 800 @ 26.30 — the sixth round trip in under 24 hours.** Sold last
+night at 26.45 for −$171.01, re-bought this morning in four clips: 100 @ 26.2397, 100 @
+26.22, 100 @ 26.1981 (all extended hours, 09:23–09:29) and 500 @ 26.355 (regular, 09:35).
+The re-entry is *below* the exit, so it is not a chase — but ETH already carries CHURN at 5
+round trips netting −$269.68 and is now **7.26 units**, the largest non-ZCSH position in
+weeks, in the only name on the book with an active churn flag.
+
+**RAM is green for the first time.** 15.1095 against a 14.62 basis: **+$4.89, +3.09%**, and
+the agentic sleeve is $163.07. It was −14.98% on 17 September. Eight consecutive up
+sessions. No rule in risk.md reaches it in either direction — the exits are premium-based
+and this is an equity — so it has run its entire arc untouched by the framework that is
+supposed to govern it.
+
+**The board firmed on its own merits, and the grade still holds at 0.** This morning I
+excluded a CLDX outlier to operate on 0 rather than the printed +1. At 10:12 the long side
+averages +1.494% across 18 rows and the short side is negative even after winsorising at
+±15% (−2.332%), so the board scores **+0.956 winsorised, not +0.06**. Recomputing the
+composite with that: (3×0.01 + 2×(−0.17) + 2×0.956)/7 = 0.229, scaled **+0.382** against a
++0.400 threshold. **Still grade 0**, by 0.018. The morning call does not need revising, but
+the reason has changed: it is no longer the outlier holding the grade down, it is
+conditions.
