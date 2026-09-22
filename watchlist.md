@@ -1222,3 +1222,38 @@ and the one the account has never been able to act on.
 Book at 12:11: ZCSH 300 @ 107.59 → 123.13, **+$4,662.00**, 12.71u; ETH 800 @ 26.30 → 26.10,
 **−$160.00**, 7.18u. Gross 1.989×, book 19.89u. Realised today −$148.70, provisional.
 Agentic sleeve $162.29, RAM +2.60% and still above basis.
+
+### 22 Sep 14:11 ET — three losses today, all three opened inside 24 hours
+
+ETH 800 sold at 13:19 @ 26.21 for **−$72.00** — the **seventh ETH round trip in 26 hours**,
+taking the name to −$341.68 over six closes this week. DRAM 325 bought @ 63.06 twenty-four
+seconds later.
+
+**Today's realised is −$220.70 across three closes, and all three were losers. Every one of
+them was a position opened within the previous 24 hours:**
+
+| close | opened | held | result |
+|---|---|---|---|
+| META 20 @ 735.672 | 20:13–22:29 Mon, extended | ~11h | −$114.20 |
+| BTC 500 @ 37.981 | 09:01 Tue | **22 min** | −$34.50 |
+| ETH 800 @ 26.21 | 09:23–09:35 Tue | ~4h | −$72.00 |
+
+Meanwhile the one position held longer than a day — ZCSH, open since 15 September — is
+**+$4,706.70**. Monday's three large winners were held 4.5h, 1.5 days and 6 days
+respectively. **The pattern across the last two sessions is not about direction or size: it
+is that nothing opened and closed inside a day has made money, and everything carried has.**
+Six of the last seven sub-24-hour round trips have lost.
+
+**DRAM is the second-best-disciplined entry of the week.** Bought at 63.06 against a 61.58
+close — **+2.40%**, just outside the 2% band, versus BHYP +9.2%, HOOD +7.4% and META +5.95%.
+Only BTC's entry at −0.52% below the prior close was tighter. Recorded because the chase
+criticism has been made repeatedly and this one barely qualifies.
+
+**MU is on both sides of the board — 8th instance.** MU long is a confirmed candidate at
++3.6% (@notthreadguy, 2.5h); MU short is a knife catch at −5.0% (@michaeljburry, 5.3h).
+Same ticker, same board, opposite classifications, both live. The proposed rule — a ticker
+on both sides counts as no signal, not a confirmation — is still unadopted after eight
+occurrences.
+
+Book: ZCSH 300 @ 107.59 → 123.28, +$4,706.70, 12.63u; DRAM 325 @ 63.06 → 63.34, +$91.00,
+7.03u. Gross **1.965×**, book 19.65u. Agentic sleeve $164.73, RAM **+4.14%**, a new high.
