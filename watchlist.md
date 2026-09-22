@@ -1115,3 +1115,52 @@ on the same day. The settled-close baseline is the one that does not move.
 META is crowded at **8 co-signs** now, up from 6 at 14:04, +8.9% since posting; the position
 is +$753.20 off a +$780.70 high. ZCSH recovered to 118.50 from 117.55, +$4,002.50 open.
 Gross 1.991×, book 19.91u. Realised +$450.23, provisional.
+
+## 22 Sep 2026 — pre-open rule review
+
+**A single board row moved the grade a full notch.** The board carries a CLDX short posted
+36 minutes ago at −32.3%. On a 20-row board with 6 short rows, that one entry drags the
+short average to −5.242%, clamps the board sub-score at +1.00 and prints **+1 RISK ON**.
+Excluding it, the short side averages +0.170, the board scores +0.06 and the grade is
+**0 MIXED**. The row also fails to reconcile: CLDX the equity trades 35.89 against a 37.89
+close, a −5.3% move, not a 32% one.
+
+**I am operating on 0** — the conservative of two defensible readings on contaminated input,
+and the one that permits no margin. Recorded explicitly because it is a judgement call that
+overrides the tool's printed output, and the reasoning should be auditable.
+
+**Proposed rule:** winsorise board rows at ±15% before averaging, and require at least three
+rows on a side before the skew is scored at all. Either clause alone produces 0 today. This
+is the third consecutive session with a board-sample defect — 26 vs 9 on Friday, 22 vs 1 on
+Monday, 14 vs 6 with one outlier today — and the first where it changed the posture.
+
+**Monday was the best session in this record: +$1,530.48 over five closes.** META 20 sold at
+743.64 for +$765.00, one minute after the 15:11 check-in flagged it crowded at 8 co-signs;
+ZCSH 50 at 116.15 for +$511.31; HOOD 110 at 122.013 for +$449.68. Three large wins in one
+session, the first since the month review. **The week has flipped positive at +$1,143.58
+with a 1.81× payoff** — first reading above 1.0 in seven.
+
+Honest qualification on that payoff: the average loss fell from $269.24 to $92.67 **largely
+because the 15 September pair rolled out of the rolling window**, not because losses got
+smaller. The average win rising from $56.57 to $167.74 is real.
+
+**Every loss in the last two sessions came from the extended session.** ETH was churned four
+times between 15:33 and 20:27 on Monday — buy 550, buy 50, sell 600, buy 700, sell 700 — for
+−$195.51. META, correctly exited at 743.64 on the crowded signal, was re-bought in three
+clips averaging 741.28 between 20:13 and 22:29 and sold this morning at 735.672 for
+−$114.20. The regular-hours record over the same span is +$1,726.20 across four closes.
+**The edge was in what was closed during regular hours; the leak was in what was opened
+after them.**
+
+**BTC 500 @ 38.05 bought 09:01, into the storm band.** GARCH reads **1.28× — the first
+position in this record gauged into STORM while held** — 60.7% annualised, ±3.82% a day.
+That clears risk.md's 60% wider-volatility threshold, which calls for one unit and a −5%
+stop: 76 shares, stop 36.14. It is held at 6.53 units with no stop. The board also had BTC
+CROWDED at 7–8 co-signs through yesterday afternoon. Three rules point the same way.
+
+**First session in this record with zero confirmed board candidates.** There is nothing to
+enter. The scorer returns −2 on ZCSH and −3 on BTC — both positions the book already owns.
+
+**ZCSH's CHURN flag cleared** (13 closes now netting +$195.08) and Monday's 50-share trim at
+116.15 is the first scale-out into strength in this record that was not followed by a
+rebuild at a higher price.
