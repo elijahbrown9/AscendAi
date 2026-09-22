@@ -1196,3 +1196,29 @@ composite with that: (3×0.01 + 2×(−0.17) + 2×0.956)/7 = 0.229, scaled **+0.
 +0.400 threshold. **Still grade 0**, by 0.018. The morning call does not need revising, but
 the reason has changed: it is no longer the outlier holding the grade down, it is
 conditions.
+
+### 22 Sep 12:11 ET — the crowded signal was right for eighteen hours, then wrong
+
+I have now cited the CROWDED → fade pattern four times, most forcefully on Monday at 14:04
+and 15:11 when META hit 6 then 8 co-signs. The desk sold META at 743.64 on that signal for
++$765.00. Follow-through:
+
+- Tue 09:00 — META 735.45. The signal was right; the exit saved ~$8/share.
+- Tue 12:11 — META **749.67**, above the 743.64 exit. The signal is now wrong by $6.03/share,
+  about $120 on the 20 shares sold.
+
+META is still crowded on the board, now at 5 co-signs but only **+0.5% since posting**,
+versus +9.0% yesterday. So the *board row* has faded exactly as the taxonomy predicts while
+the *price* has recovered past the exit. Those are two different claims and I have been
+running them together. **The accurate version: crowded has reliably marked the end of the
+board idea's run in this record; it has not reliably marked a price top.** The exit was
+sound on the day and the pattern's predictive claim needs narrowing to what the data
+supports.
+
+**ZEC is a confirmed candidate again at +2.4% — the fifth confirmation in eight sessions**,
+and still has no instrument at this broker. It is the most persistent signal on this board
+and the one the account has never been able to act on.
+
+Book at 12:11: ZCSH 300 @ 107.59 → 123.13, **+$4,662.00**, 12.71u; ETH 800 @ 26.30 → 26.10,
+**−$160.00**, 7.18u. Gross 1.989×, book 19.89u. Realised today −$148.70, provisional.
+Agentic sleeve $162.29, RAM +2.60% and still above basis.
