@@ -1281,3 +1281,8 @@ as written, the only reachable underlyings are stocks under roughly $20–25, wh
 almost never confirms. This — more than the cash floor — is why the sleeve has gone 155
 check-ins without an agent-placed order, and adding cash does not change it. Raised with the
 user as a decision; no rule changed and no order placed.
+
+### 22 Sep 21:10 ET — first agent-placed order in ••••0924
+User confirmed. Resting GTC stop placed on RAM under the new risk.md: sell 10 @ stop $13.00
+(entry 14.62 − max(6%, 1.5 × 7.38% one-day sigma) = −11.1%). Order 6ab326f3, state queued,
+verified on re-fetch. The 0.819405 fractional share cannot carry a stop order.
