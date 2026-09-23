@@ -1257,3 +1257,27 @@ occurrences.
 
 Book: ZCSH 300 @ 107.59 → 123.28, +$4,706.70, 12.63u; DRAM 325 @ 63.06 → 63.34, +$91.00,
 7.03u. Gross **1.965×**, book 19.65u. Agentic sleeve $164.73, RAM **+4.14%**, a new high.
+
+## 22 Sep 20:55 ET — $500 added to the agentic sleeve; why it still cannot trade
+
+The user deposited $500. Sleeve: RAM 10.8194 (≈$163.91) + **$500.00 cash**, $663.91 total.
+
+**The premium cap and the entry filters are incompatible for every board name.** strategy.md
+requires delta 0.30–0.50, 2–6 weeks to expiry, liquid large/mid caps; risk.md caps premium at
+$20–60 per position ($20–40 at grade 0) and $120 total. Checked against the cheapest
+board-confirmed equity today, MRVL at $262, Oct 16 calls (22 Sep close marks):
+
+| strike | mark | delta | cost / contract |
+|---|---|---|---|
+| 265 | 17.40 | 0.52 | $1,740 |
+| 275 | 13.83 | 0.44 | $1,383 |
+| 285 | 10.68 | 0.36 | **$1,068** ← cheapest contract meeting the 0.30 floor |
+| 300 | 7.18 | 0.27 | $718 |
+| 350 | 1.83 | 0.08 | $183 |
+
+The cheapest in-filter contract is **18× the $60 cap**; even a 0.08-delta lottery ticket is 3×.
+The other confirmed names are dearer still (TSM $452, MU $1,096, SNDK $1,887). Under the rules
+as written, the only reachable underlyings are stocks under roughly $20–25, which the board
+almost never confirms. This — more than the cash floor — is why the sleeve has gone 155
+check-ins without an agent-placed order, and adding cash does not change it. Raised with the
+user as a decision; no rule changed and no order placed.
