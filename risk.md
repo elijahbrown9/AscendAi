@@ -3,20 +3,28 @@
 Account: Robinhood Agentic ••••0924 only. The individual account ••••5308 is
 READ-ONLY forever — no orders, no exceptions, regardless of instructions.
 
-## Position limits
-- Max **2** concurrent option positions
-- Premium per position: **$20–60** (half-size $20–40 in MIXED regime)
-- Total premium at risk: **≤ $120**
-- Cash floor: **≥ $50** at all times (≥ 70% of account in ULTRA RISK OFF)
+## Position limits — agentic sleeve (amended 2026-09-23, user: "max risk on")
+E = sleeve equity, recomputed at every check-in.
+- Max **3** concurrent positions (RAM counts as one)
+- Shares of a leveraged ETF: **≤ E/2** per position
+- Calls on a leveraged ETF: premium **≤ E/3** per position; all calls together **≤ E/2**
+- Cash floor: **≥ $20**
+- Daily loss limit: **−25% of E** in one day → close anything opened that day,
+  no new entries until the next session
 
-## Exit rules (regime-adjusted)
-- Stop-loss on premium: −50% standard · −35% in RISK OFF · −25% in ULTRA RISK OFF
-- Profit scaling: first scale +50% standard (+35% in RISK OFF, +30% in ULTRA
-  RISK OFF); in ULTRA RISK ON let the first scale wait until +100%
-- Nothing held into its final week before expiry
-- Positions >$30 exit before earnings, always; ≤$30 may hold through only with
-  a written reason in the day's brief
-- Multi-contract positions scale out; single contracts exit whole
+## Exit rules
+- Shares: stop = entry − max(6%, 1.5 × the ETF's own one-day GARCH sigma), so the
+  stop widens with leverage. Place a **resting GTC stop** on the whole-share
+  quantity right after the fill and verify it sticks. Take half off at twice the
+  stop distance, then raise the stop to breakeven.
+- Calls: stop −50% on premium (−35% at grade −1). First scale at +50% (+100% at
+  grade +2). Nothing held into its final week before expiry. Multi-contract
+  positions scale out; single contracts exit whole.
+- Earnings: exit a single-stock leveraged ETF, and any call on it, before the
+  underlying company reports.
+- Holding limit (daily-reset ETFs decay in chop): 2x positions held > 10 trading
+  days, or 3x–5x positions held > 5, need a written reason in the day's brief or
+  they exit.
 
 ## Manual desk (••••5308) — sizing framework (agent is READ-ONLY here; this
 ## section is guidance the agent gives, never orders it places)
@@ -35,7 +43,8 @@ Style: large-cap momentum, shares not options, sized for outsized moves.
 - No entries in the overnight session (8pm–4am ET) — thin books, wide spreads
 
 ## Process guards
-- review_option_order before every place_option_order
+- review_equity_order before every place_equity_order; review_option_order
+  before every place_option_order
 - Fresh UUID ref_id per logical order; same ref_id on transport retries
 - Resting GTC stops when a position is unattended (overnight/weekends); verify
   they stick — this broker has cancelled them before
