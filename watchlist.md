@@ -1299,3 +1299,11 @@ verified on re-fetch. The 0.819405 fractional share cannot carry a stop order.
   inside the band. On fill: GTC stop at fill × 0.94 (6% floor; 1.5σ ≈ 4.4%),
   half off at fill × 1.12. AAPL earnings 29 Oct (pm) — clear.
 - Skipped: INTC (LINT/INTW) +2.4% past its open = chase; MU no longer confirmed.
+- 10:05–10:06 ET user override: cancelled the agent's AAPU limit and ZCSH stop;
+  market-bought 6 AAPU @ 45.68 and 1 ZCSH @ 39.72 (ZCSH now 8 @ 38.13).
+  User: "Let the zcash trade run" → ZCSH held with NO stop and no trims, at
+  the user's direction. Cash $5.84 (< $20 floor); ZCSH ~$318 > E/2.
+  Per risk.md, user overrides are one-off: no new agent entries until the
+  book is back inside limits (cash ≥ $20, each share position ≤ E/2).
+- STOP 6 AAPU GTC stop_market 42.94 (45.68 × 0.94). Confirmed 10:06.
+  Half off at 51.16 (+12%), then stop to breakeven.
