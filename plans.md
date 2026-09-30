@@ -20,15 +20,8 @@ Thesis: AAPL board-confirmed long (+2.0%, posted pre-open 30 Sep), grade 0.
 - REGIME: grade −1 → sell 3 and stop the rest at breakeven; grade −2 → sell all.
 - BOARD: AAPL a knife catch or on both sides while in profit → stop to breakeven.
 
-## ZCSH — 8 sh @ 38.13 (user-held; "let the zcash trade run")
-User cancelled the resting stop on 30 Sep: NO resting stop order on ZCSH.
-Levels are checked at each monitor and acted on there; a gap through them
-between monitors is accepted by the user.
-- TARGET 1: ZCSH ≥ **43.85** (+15%) → sell 4 (marketable limit at the bid).
-- TRAIL (after T1): sell the last 4 if ZCSH falls 11% (1.5 × 7.33% σ) from the
-  highest price seen at any monitor since T1.
-- FLOOR: ZCSH ≤ **33.94** at a monitor (−11% from cost, 1.5σ) → sell all 8.
-- ZCSH is not a 2x–5x ETF; no adds by the agent.
+## ZCSH — CLOSED
+User sold all 8 @ 37.69 (market) at 11:29 ET 30 Sep. Plan retired.
 
 ## Next trade
 Opens when the book is inside risk.md: cash ≥ $20 after the buy and every share
@@ -41,3 +34,6 @@ Every new position gets its section here before the fill is reported.
   and 1 ZCSH @ 39.72, cancelled agent orders; 10:06 agent AAPU stop 42.94.
 - 30 Sep ~10:10 user bought 0.127782 AAPU with the last $5.84 (cash $0). 10:11
   check-in: AAPU stop verified open; no level hit (AAPU 45.57, ZCSH ~39.0).
+- 30 Sep 11:29 user sold 8 ZCSH @ 37.69 (−$3.52 vs 38.13). 11:40 monitor: AAPU
+  45.53, stop verified open; cash $301.52, E $580.52 — book back inside limits
+  (1 position, AAPU ≤ E/2, cash ≥ $20). Next entry eligible at the 12pm check-in.
