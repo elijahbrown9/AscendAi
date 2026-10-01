@@ -4,6 +4,23 @@ Read at every check-in and position monitor. Levels are fixed when a position
 opens and only ever move in the position's favour. Execute exactly as written
 (autonomy: risk.md Process guards). ••••5308 is read-only and is never traded.
 
+## NVDL — 7 sh @ 37.7486 (agent buy, 1 Oct 15:12 ET, limit 37.80)
+Thesis: NVDA board-confirmed long (posted 10:32 ET @ 230.17, +0.7% at entry,
+1 co-sign, one side only); grade +1 after the 2pm turn confirmation. Earnings
+17 Nov (pm, verified) — clear. Sized ≤ E/2 ($264 of $564.57).
+- STOP: resting GTC stop_market 7 @ **35.48** (−6% floor; 1.5σ ≈ 4.8%).
+  Order id 6abeb0a4-72b5-452f-81cf-dabb3b62ed05. Verify open at every monitor;
+  re-place at once if missing.
+- TARGET 1: NVDL ≥ **42.28** (+12% = 2× stop distance) → cancel the stop, sell 3
+  (marketable limit at the bid), re-place a GTC stop on the last 4 at **37.75**.
+- TRAIL (after T1): stop on the last 4 = 6% below the highest NVDL price seen at
+  any monitor, never lowered.
+- TIME: sold in full by the close on **Thu 15 Oct** (10-session limit for 2x)
+  unless a reason is logged here.
+- REGIME: grade −1 → sell 3 and stop the rest at breakeven; grade −2 → sell all.
+- BOARD: NVDA a knife catch or on both sides while in profit → stop to breakeven.
+- FALSIFIER: NVDA closes below 225.00 (−2.2% from the post) → thesis broken, exit.
+
 ## AAPU — CLOSED
 Stop hit: 6 @ 42.931 (GTC stop 42.94, filled 11:32 ET 1 Oct); fractional 0.127782
 sold @ 42.71 at the 11:40 monitor. Result −$16.88 (−6.0%) on $279.92. AAPL
@@ -37,3 +54,6 @@ Every new position gets its section here before the fill is reported.
   today's 147.14 open, band 2% at grade 0; last 30m spike +1.9%). TURN CONFIRMED:
   alarm + 4 fresh longs green (SNPS, COHR, RKT, WTI) → grade 0 → +1 from the 3pm
   check-in (posture unchanged: full size, any leverage). Alert sent: COHR.
+- 1 Oct 15:11 check-in (grade +1): bought 7 NVDL @ 37.7486 (NVDA confirmed long
+  +0.7% from 230.17 post, inside 2%). GTC stop 7 @ 35.48 placed and verified
+  (confirmed). Cash $300.33. UCO: WTI dropped off the confirmed list — no entry.
