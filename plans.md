@@ -32,3 +32,8 @@ Every new position gets its section here before the fill is reported.
 - 1 Oct 12:11 check-in: book flat ($564.57 cash). Only confirmed long SNPS (+5.3%
   since post) has no 2x–5x ETF → no entry. TURN ALARM (fresh flow long vs short
   winners) unconfirmed: 1 of 3 fresh longs green. Grade stays 0.
+- 1 Oct 14:11 check-in: book flat ($564.57). Candidates: SNPS/COHR/RKT no 2x–5x
+  ETF; TLT on both sides (no signal); WTI → UCO blocked by chase (USO +2.2% from
+  today's 147.14 open, band 2% at grade 0; last 30m spike +1.9%). TURN CONFIRMED:
+  alarm + 4 fresh longs green (SNPS, COHR, RKT, WTI) → grade 0 → +1 from the 3pm
+  check-in (posture unchanged: full size, any leverage). Alert sent: COHR.
