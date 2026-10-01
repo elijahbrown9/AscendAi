@@ -29,3 +29,6 @@ Every new position gets its section here before the fill is reported.
 - 1 Oct 11:32 AAPU stop filled 6 @ 42.931 (AAPL ~327.5). 11:41 monitor: agent sold
   0.127782 AAPU @ 42.71 (market, fractional). Book flat: cash $564.57, E $564.57.
   AAPU −$16.88. Next entry eligible at the 12pm check-in under risk.md.
+- 1 Oct 12:11 check-in: book flat ($564.57 cash). Only confirmed long SNPS (+5.3%
+  since post) has no 2x–5x ETF → no entry. TURN ALARM (fresh flow long vs short
+  winners) unconfirmed: 1 of 3 fresh longs green. Grade stays 0.
