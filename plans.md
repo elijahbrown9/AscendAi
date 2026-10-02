@@ -85,3 +85,6 @@ Every new position gets its section here before the fill is reported.
 - 2 Oct 12:12 check-in: E $572.65, cash $90.57, RAM $285.60 ≤ E/2 $286.32 → book
   back inside limits (1 slot open). No confirmed candidates (TLT aged off) → no
   entry. NVDL 39.25 / RAM 14.28, both stops open.
+- 2 Oct 14:12 check-in: E $568.52; NVDL 38.72 / RAM 14.21, both stops open. TURN
+  ALARM back on (shorts winning, fresh flow long) — 0 confirmed shorts, no shift.
+  No confirmed candidates → no entry.
