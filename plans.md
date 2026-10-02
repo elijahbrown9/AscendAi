@@ -11,6 +11,7 @@ stops on this one, so the AAPU precedent applies: the agent places the resting
 stop at the 10am check-in (no exits before then — this brief places no trades).
 - STOP: resting GTC stop_market 20 @ **13.02** (1.5σ ≈ 9.9% > 6% floor; σ from
   realized vol — RAM listed 25 Jun, too little history for GARCH).
+  Order id 6abfb484-5988-4bff-9310-15d455cdcda7 (placed 9:41 ET 2 Oct, confirmed).
 - TARGET 1: RAM ≥ **17.31** (2× stop distance) → cancel the stop, sell 10, stop
   the last 10 at **14.45** (breakeven).
 - TRAIL (after T1): 9.9% below the highest RAM price seen at any monitor.
@@ -74,3 +75,5 @@ Every new position gets its section here before the fill is reported.
 - 2 Oct 09:25 brief: grade +1 (composite +0.252). User bought 20 RAM @ 14.45 at
   21:15 ET 1 Oct; cash $11.33 → book outside limits, no agent entries until fixed.
   Pre-market NVDL 38.98 (stop 35.48 open), RAM 14.71. RAM stop 13.02 at 10am.
+- 2 Oct 09:41 monitor: RAM GTC stop 20 @ 13.02 placed and verified (confirmed).
+  NVDL 39.19 (stop 35.48 open), RAM 14.43, NVDA 236.14. E $574.23, cash $11.33.
