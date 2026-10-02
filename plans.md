@@ -4,38 +4,14 @@ Read at every check-in and position monitor. Levels are fixed when a position
 opens and only ever move in the position's favour. Execute exactly as written
 (autonomy: risk.md Process guards). ••••5308 is read-only and is never traded.
 
-## RAM — 20 sh @ 14.45 (USER buy, limit GTC all-day session, 1 Oct 21:15 ET)
-User override: the buy took cash to $11.33 (< $20 floor) and RAM ≈ E/2. No new
-agent entries until the book is back inside risk.md. No user instruction about
-stops on this one, so the AAPU precedent applies: the agent places the resting
-stop at the 10am check-in (no exits before then — this brief places no trades).
-- STOP: resting GTC stop_market 20 @ **13.02** (1.5σ ≈ 9.9% > 6% floor; σ from
-  realized vol — RAM listed 25 Jun, too little history for GARCH).
-  Order id 6abfb484-5988-4bff-9310-15d455cdcda7 (placed 9:41 ET 2 Oct, confirmed).
-- TARGET 1: RAM ≥ **17.31** (2× stop distance) → cancel the stop, sell 10, stop
-  the last 10 at **14.45** (breakeven).
-- TRAIL (after T1): 9.9% below the highest RAM price seen at any monitor.
-- TIME: sold by the close on **Fri 16 Oct** (10-session limit for 2x) unless a
-  reason is logged. MU reports in late Dec — clear.
-- REGIME: grade −1 → sell 10; grade −2 → sell all.
+## RAM — CLOSED
+User bought 20 @ 14.45 (1 Oct 21:15 ET) and sold 20 @ 14.1901 at 14:21 ET 2 Oct
+(cancelled the agent stop 13.02 first). Result −$5.20. Plan retired.
 
-## NVDL — 5 sh @ 37.7486 (agent buy 7, 1 Oct 15:12 ET; user sold 2 @ 39.62, 2 Oct 09:53)
-Thesis: NVDA board-confirmed long (posted 10:32 ET @ 230.17, +0.7% at entry,
-1 co-sign, one side only); grade +1 after the 2pm turn confirmation. Earnings
-17 Nov (pm, verified) — clear. Sized ≤ E/2 ($264 of $564.57).
-- STOP: resting GTC stop_market 5 @ **35.48** (−6% floor; 1.5σ ≈ 4.8%).
-  Order id 6abfbcba-6dfc-4bd0-a631-1c4e6e76c40e (re-placed 10:16 ET 2 Oct after
-  the user cancelled the 7-share stop to sell 2). Verify open at every monitor;
-  re-place at once if missing.
-- TARGET 1: NVDL ≥ **42.28** (+12% = 2× stop distance) → cancel the stop, sell 2
-  (marketable limit at the bid), re-place a GTC stop on the last 3 at **37.75**.
-- TRAIL (after T1): stop on the last 3 = 6% below the highest NVDL price seen at
-  any monitor, never lowered.
-- TIME: sold in full by the close on **Thu 15 Oct** (10-session limit for 2x)
-  unless a reason is logged here.
-- REGIME: grade −1 → sell 3 and stop the rest at breakeven; grade −2 → sell all.
-- BOARD: NVDA a knife catch or on both sides while in profit → stop to breakeven.
-- FALSIFIER: NVDA closes below 225.00 (−2.2% from the post) → thesis broken, exit.
+## NVDL — CLOSED
+Agent bought 7 @ 37.7486 (1 Oct 15:12). User sold 2 @ 39.62 (09:53) and 5 @
+38.7302 (14:21 ET 2 Oct, cancelled the agent stop 35.48 first). Result +$8.65
+(journal #73, reason discretion). Plan retired.
 
 ## AAPU — CLOSED
 Stop hit: 6 @ 42.931 (GTC stop 42.94, filled 11:32 ET 1 Oct); fractional 0.127782
@@ -88,3 +64,5 @@ Every new position gets its section here before the fill is reported.
 - 2 Oct 14:12 check-in: E $568.52; NVDL 38.72 / RAM 14.21, both stops open. TURN
   ALARM back on (shorts winning, fresh flow long) — 0 confirmed shorts, no shift.
   No confirmed candidates → no entry.
+- 2 Oct 14:21 user cancelled both agent stops and sold RAM 20 @ 14.19 and NVDL 5 @
+  38.73. Book flat: cash $568.02. 14:40 monitor: no alerts.
