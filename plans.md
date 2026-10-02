@@ -66,3 +66,6 @@ Every new position gets its section here before the fill is reported.
   No confirmed candidates → no entry.
 - 2 Oct 14:21 user cancelled both agent stops and sold RAM 20 @ 14.19 and NVDL 5 @
   38.73. Book flat: cash $568.02. 14:40 monitor: no alerts.
+- 2 Oct 15:11 check-in: book flat $568.02. Only confirmed idea BTC short (two-sided,
+  and long-only mandate) → no entry. Turn alarm: 1 confirmed short, < 3, no shift.
+  Main account went to all cash ($23,089.56) — the user flattened into the weekend.
