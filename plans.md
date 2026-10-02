@@ -4,6 +4,20 @@ Read at every check-in and position monitor. Levels are fixed when a position
 opens and only ever move in the position's favour. Execute exactly as written
 (autonomy: risk.md Process guards). ••••5308 is read-only and is never traded.
 
+## RAM — 20 sh @ 14.45 (USER buy, limit GTC all-day session, 1 Oct 21:15 ET)
+User override: the buy took cash to $11.33 (< $20 floor) and RAM ≈ E/2. No new
+agent entries until the book is back inside risk.md. No user instruction about
+stops on this one, so the AAPU precedent applies: the agent places the resting
+stop at the 10am check-in (no exits before then — this brief places no trades).
+- STOP: resting GTC stop_market 20 @ **13.02** (1.5σ ≈ 9.9% > 6% floor; σ from
+  realized vol — RAM listed 25 Jun, too little history for GARCH).
+- TARGET 1: RAM ≥ **17.31** (2× stop distance) → cancel the stop, sell 10, stop
+  the last 10 at **14.45** (breakeven).
+- TRAIL (after T1): 9.9% below the highest RAM price seen at any monitor.
+- TIME: sold by the close on **Fri 16 Oct** (10-session limit for 2x) unless a
+  reason is logged. MU reports in late Dec — clear.
+- REGIME: grade −1 → sell 10; grade −2 → sell all.
+
 ## NVDL — 7 sh @ 37.7486 (agent buy, 1 Oct 15:12 ET, limit 37.80)
 Thesis: NVDA board-confirmed long (posted 10:32 ET @ 230.17, +0.7% at entry,
 1 co-sign, one side only); grade +1 after the 2pm turn confirmation. Earnings
@@ -57,3 +71,6 @@ Every new position gets its section here before the fill is reported.
 - 1 Oct 15:11 check-in (grade +1): bought 7 NVDL @ 37.7486 (NVDA confirmed long
   +0.7% from 230.17 post, inside 2%). GTC stop 7 @ 35.48 placed and verified
   (confirmed). Cash $300.33. UCO: WTI dropped off the confirmed list — no entry.
+- 2 Oct 09:25 brief: grade +1 (composite +0.252). User bought 20 RAM @ 14.45 at
+  21:15 ET 1 Oct; cash $11.33 → book outside limits, no agent entries until fixed.
+  Pre-market NVDL 38.98 (stop 35.48 open), RAM 14.71. RAM stop 13.02 at 10am.
