@@ -82,3 +82,6 @@ Every new position gets its section here before the fill is reported.
   check-in: agent re-placed GTC stop 5 @ 35.48 (confirmed). Cash $90.57; RAM
   $290.80 vs E/2 $289.11 → still $1.69 over, no entry. TLT long confirmed (crowd
   3, one side) → TMF would qualify once the book is inside limits.
+- 2 Oct 12:12 check-in: E $572.65, cash $90.57, RAM $285.60 ≤ E/2 $286.32 → book
+  back inside limits (1 slot open). No confirmed candidates (TLT aged off) → no
+  entry. NVDL 39.25 / RAM 14.28, both stops open.
