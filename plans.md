@@ -19,16 +19,17 @@ stop at the 10am check-in (no exits before then — this brief places no trades)
   reason is logged. MU reports in late Dec — clear.
 - REGIME: grade −1 → sell 10; grade −2 → sell all.
 
-## NVDL — 7 sh @ 37.7486 (agent buy, 1 Oct 15:12 ET, limit 37.80)
+## NVDL — 5 sh @ 37.7486 (agent buy 7, 1 Oct 15:12 ET; user sold 2 @ 39.62, 2 Oct 09:53)
 Thesis: NVDA board-confirmed long (posted 10:32 ET @ 230.17, +0.7% at entry,
 1 co-sign, one side only); grade +1 after the 2pm turn confirmation. Earnings
 17 Nov (pm, verified) — clear. Sized ≤ E/2 ($264 of $564.57).
-- STOP: resting GTC stop_market 7 @ **35.48** (−6% floor; 1.5σ ≈ 4.8%).
-  Order id 6abeb0a4-72b5-452f-81cf-dabb3b62ed05. Verify open at every monitor;
+- STOP: resting GTC stop_market 5 @ **35.48** (−6% floor; 1.5σ ≈ 4.8%).
+  Order id 6abfbcba-6dfc-4bd0-a631-1c4e6e76c40e (re-placed 10:16 ET 2 Oct after
+  the user cancelled the 7-share stop to sell 2). Verify open at every monitor;
   re-place at once if missing.
-- TARGET 1: NVDL ≥ **42.28** (+12% = 2× stop distance) → cancel the stop, sell 3
-  (marketable limit at the bid), re-place a GTC stop on the last 4 at **37.75**.
-- TRAIL (after T1): stop on the last 4 = 6% below the highest NVDL price seen at
+- TARGET 1: NVDL ≥ **42.28** (+12% = 2× stop distance) → cancel the stop, sell 2
+  (marketable limit at the bid), re-place a GTC stop on the last 3 at **37.75**.
+- TRAIL (after T1): stop on the last 3 = 6% below the highest NVDL price seen at
   any monitor, never lowered.
 - TIME: sold in full by the close on **Thu 15 Oct** (10-session limit for 2x)
   unless a reason is logged here.
@@ -77,3 +78,7 @@ Every new position gets its section here before the fill is reported.
   Pre-market NVDL 38.98 (stop 35.48 open), RAM 14.71. RAM stop 13.02 at 10am.
 - 2 Oct 09:41 monitor: RAM GTC stop 20 @ 13.02 placed and verified (confirmed).
   NVDL 39.19 (stop 35.48 open), RAM 14.43, NVDA 236.14. E $574.23, cash $11.33.
+- 2 Oct 09:53 user cancelled the NVDL stop and sold 2 @ 39.62 (+$3.74). 10:16
+  check-in: agent re-placed GTC stop 5 @ 35.48 (confirmed). Cash $90.57; RAM
+  $290.80 vs E/2 $289.11 → still $1.69 over, no entry. TLT long confirmed (crowd
+  3, one side) → TMF would qualify once the book is inside limits.
