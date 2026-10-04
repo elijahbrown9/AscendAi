@@ -4,6 +4,43 @@ Names here are re-evaluated every pre-open brief. Being on this list is not
 an entry signal — every name still has to clear strategy.md/risk.md filters
 the day it's actually traded.
 
+## Week plan — 5–9 Oct 2026 (user, 4 Oct: optical exposure, memory, ARKG +
+## ZCSH long term). Manual desk ••••5308 = guidance only; agent never trades it.
+Account $22,631 cash, no margin → 1 unit = $2,263. Daily loss limit $453.
+Budget: 3 tactical units + 2 core units = 5 units ($11.3k, ~50% of equity).
+No buys 9:30–10:00 ET. Limit orders at the zone, never market-chasing a gap.
+Grade from the 9am brief: −1 → only the core buys; −2 → no new buys at all.
+Earnings this week: none of these names (optical early Nov, SNDK 29 Oct).
+
+Tactical (3 slots; R = 5% on all three — every one is >50% annualised vol):
+- **AAOI** — 1 unit. Zone $107–110 (Thursday's close was $107.32; Friday ran
+  +7.7% to $115.59 after a +14% week). ~20 sh at $108: stop $102.60,
+  +1R $113.40 sell 7, +2R $118.80 sell 7, trail 6.
+- **LITE** — 1 unit. Leader at the highs (+55% in 3 months, 0.6% off the
+  high). Zone $1,045–1,060 (Thursday's close). 2 sh at $1,050: stop $997.50,
+  +1R $1,102.50 sell 1, trail 1. Alternate if LITE never pulls back: COHR
+  zone $319–325.
+- **DRAM** (memory basket) — 1 unit, not 2: DRAM was traded 17 times last
+  month (−$1,276); fewer shares, wider stop, one entry. Zone $60.50–61.80.
+  ~36 sh at $61.50: stop $58.43, +1R $64.58 sell 12, +2R $67.65 sell 12.
+- Watch only: WDC (−10% Fri on Toshiba HDD capacity news; Morgan Stanley
+  says buy the dip). Needs a green close above $415.29 first — until then it
+  is a knife catch by the system's own definition.
+
+Core (outside the 3 slots; bought once, weekly-close stop, no intraday trades):
+- **ARKG** — 1 unit, ~41 sh at ~$54. Stop: a Friday close below $49.68 (−8%).
+- **ZCSH** — 1 unit, ~66 sh at ~$34. Stop: a Friday close below $30 (−12%).
+  ZCSH is last month's #1 churn name (37 trades, −$1,652): any sale = full
+  exit and 2 weeks out.
+
+Desk guard flags for this week: --wide AAOI LITE COHR DRAM WDC
+--core ARKG:49.68 ZCSH:30
+
+Agentic sleeve ••••0924 (agent trades, $568): optical via AAOX (Tradr 2x
+AAOI, ~11M sh/day) and memory via RAM / MUU. Entries still need a fresh
+board-confirmed long in the theme and the chase rule (strategy.md). LITE's 2x
+ETFs (LITG ~20k sh/day, LITC ~1k) fail the $20M liquidity floor — not used.
+
 ## STANDING RULE — DO NOT FADE @firstadopter (user-imposed, 2026-08-03)
 The user's own words: "i faded the trader who is really good. i am no longer
 allowed to go against him in my ideas."

@@ -42,6 +42,27 @@ Style: large-cap momentum, shares not options, sized for outsized moves.
 - Ticker ban: 3 stop-outs on one name = banned for 5 trading days
 - No entries in the overnight session (8pm–4am ET) — thin books, wide spreads
 
+### Profit, churn and size rules (added 2026-10-04, user: "yes" to the fixes
+### after the month review: 104 trades, −$4,468; nine $400+ losses = −$7,061;
+### ZCSH/DRAM/ETH = 63 trades, −$4,978; MU gave back ~$980 of +$1,364 on 2 Oct)
+- **Profit ladder.** R = the stop distance (3%, or 5% on wide-vol names).
+  At +1R sell a third and move the stop to breakeven; at +2R sell another
+  third; trail the last third. The first target is written before the buy —
+  no target, no trade.
+- **Churn caps.** Max 2 entries per ticker per day. A stopped-out ticker is
+  done until the next session. Max 4 round trips per day across the book. A
+  re-entry needs a new written reason; "it came back" is not one.
+- **Size cap enforced, not advisory.** No position above 30% of equity, ever —
+  including crypto and including weekends.
+- **Weekends.** No new positions Saturday/Sunday (crypto included).
+- **Core sleeve (ARKG, ZCSH).** Long-term holds sit outside the 3 tactical
+  slots: max 2 names, 1 unit each, bought once. Stop on a weekly close only
+  (ARKG −8%, ZCSH −12%). No intraday trading of a core name — any sale is a
+  full exit and the name is out for 2 weeks. (User may veto this sleeve.)
+- **Alerts.** Every hourly monitor runs tools/desk_guard.py on ••••5308 and
+  pushes any new line: +1R/+2R, stop hit, 3rd entry in a name, a position
+  over 30%, margin over the grade's cap, the −2% day.
+
 ## Process guards
 - review_equity_order before every place_equity_order; review_option_order
   before every place_option_order
