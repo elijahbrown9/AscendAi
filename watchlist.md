@@ -35,6 +35,33 @@ otherwise. Pick 3; the rest are the bench.
 - Watch only: WDC (−10% Fri on Toshiba HDD capacity news). Needs a green
   close above $415.29 first.
 
+Asymmetric setups (user, 4 Oct: "find asymmetric upside ... from your scan
+and where you see the money flowing"). Money flow, 20 sector ETFs over the
+month: only semis (SMH +14.6%, up-volume 2.7× down-volume, at the high) and
+tech (XLK +8.8%) are being bought; financials, health care, defense, metals,
+uranium, utilities, China are all down. So the asymmetry is inside AI
+hardware: names with accumulation (up/down volume ≥1.9, options volume 2–3×
+normal) still 15–45% under their highs. Sized so the stop costs ~$113
+(0.5% of equity) — fixed risk, the size floats. All report after this week.
+- **SMCI** — zone $41.00–42.50 (two-week shelf; 10-day low $39.85). 43 sh,
+  stop $39.40, T1 $51.40 (3-month high, 4.1R), T2 $58 (6.9R). Earnings 3 Nov.
+- **CRDO** — zone $192–200 (late-Sep base), 6 sh, stop $178 (under the
+  10-day low), T1 $250 (3.0R), T2 $300 (5.8R). +32% in a month, still 29%
+  under its $308 high. Earnings 30 Nov.
+- **VIAV** — zone $42–44 (Wed/Thu breakout area; it closed $47.10 after 12
+  straight up days — do not chase). 35 sh, stop $39.80, T1 $52 (2.8R),
+  T2 $60 (5.3R). Up/down volume 7×. Earnings 28 Oct — out before it.
+- **VSH** — zone $34.50–36.00 (retest of the $32–34 base it broke out of on
+  Friday, +11%). 30 sh, stop $31.80, T1 $45 (2.8R), T2 $52 (4.9R).
+- **INOD** (speculative, $2.4B) — zone $65.50–68.00, 18 sh, stop $60.80,
+  T1 $85 (3.1R), T2 $100 (5.6R). 44% under its high.
+- Avoid: CBRS (−20% on the week, distribution), STX/WDC until they reclaim.
+By comparison the momentum picks above are 1–2R setups (AAOI, SKHY, ANET).
+
+Buy-zone alerts: tools/zone_alerts.py pushes when any pick in
+data/zones.json trades inside its zone (once per name per day, only while a
+tactical slot is open). Max 3 tactical positions — first zones hit fill them.
+
 Core (outside the 3 slots): units only at the data/core_plan.json ladder,
 pushed as alerts by tools/core_adds.py; whole-position Friday-close stop.
 - **ARKG** — max 3 units. u1 ≤ $54.50 · u2 ≤ $50.75 (20-day avg) · u3 on a

@@ -1,0 +1,18 @@
+{
+ "_doc": "Tactical buy zones (manual desk 485695308, guidance only). Set 2026-10-04 from Friday 2 Oct closes; refreshed at Sunday review. qty = suggested shares; risk-sized names (asym) are sized so the stop costs ~$113 (0.5% of equity). Max 3 tactical positions at once — the first setups to hit their zones fill the slots.",
+ "valid_through": "2026-10-09",
+ "zones": [
+  {"sym": "AAOI", "lo": 107.00, "hi": 110.00, "qty": 20, "stop": 102.60, "t1": 113.40, "t2": 118.80, "tag": "optical"},
+  {"sym": "SKHY", "lo": 188.00, "hi": 192.00, "qty": 12, "stop": 180.50, "t1": 199.50, "t2": 209.00, "tag": "memory"},
+  {"sym": "ANET", "lo": 200.00, "hi": 205.00, "qty": 22, "stop": 196.91, "t1": 209.09, "t2": 215.18, "tag": "AI networking"},
+  {"sym": "VIAV", "lo": 42.00, "hi": 44.00, "qty": 35, "stop": 39.80, "t1": 52.00, "t2": 60.00, "tag": "asym: optical test, 12-day streak; earnings 28 Oct"},
+  {"sym": "SMCI", "lo": 41.00, "hi": 42.50, "qty": 43, "stop": 39.40, "t1": 51.40, "t2": 58.00, "tag": "asym: AI servers, 15% under its high"},
+  {"sym": "CRDO", "lo": 192.00, "hi": 200.00, "qty": 6, "stop": 178.00, "t1": 250.00, "t2": 300.00, "tag": "asym: AI connectivity, 29% under its high"},
+  {"sym": "VSH", "lo": 34.50, "hi": 36.00, "qty": 30, "stop": 31.80, "t1": 45.00, "t2": 52.00, "tag": "asym: base breakout, 45% under its high"},
+  {"sym": "INOD", "lo": 65.50, "hi": 68.00, "qty": 18, "stop": 60.80, "t1": 85.00, "t2": 100.00, "tag": "asym (speculative): AI data, 44% under its high"},
+  {"sym": "LITE", "lo": 1045.00, "hi": 1060.00, "qty": 2, "stop": 997.50, "t1": 1102.50, "t2": 1155.00, "tag": "bench: optical leader"},
+  {"sym": "COHR", "lo": 319.00, "hi": 325.00, "qty": 7, "stop": 304.00, "t1": 338.00, "t2": 354.00, "tag": "bench: optical"},
+  {"sym": "DRAM", "lo": 60.50, "hi": 61.80, "qty": 36, "stop": 58.43, "t1": 64.58, "t2": 67.65, "tag": "bench: memory basket"},
+  {"sym": "VLO", "lo": 395.00, "hi": 400.00, "qty": 11, "stop": 386.00, "t1": 409.00, "t2": 421.00, "tag": "bench: refiner (non-AI); earnings 22 Oct"}
+ ]
+}
