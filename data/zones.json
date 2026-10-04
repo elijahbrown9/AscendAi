@@ -1,18 +1,174 @@
 {
- "_doc": "Tactical buy zones (manual desk 485695308, guidance only). Set 2026-10-04 from Friday 2 Oct closes; refreshed at Sunday review. qty = suggested shares; risk-sized names (asym) are sized so the stop costs ~$113 (0.5% of equity). Max 3 tactical positions at once — the first setups to hit their zones fill the slots.",
- "valid_through": "2026-10-09",
+ "_doc": "Tactical buy zones (manual desk 485695308, guidance only). Set 2026-10-04 from Friday 2 Oct closes; refreshed at Sunday review. qty = suggested shares; risk-sized names (asym) are sized so the stop costs ~$113 (0.5% of equity). Max 3 tactical positions at once \u2014 the first setups to hit their zones fill the slots.",
+ "valid_through": "2099-12-31",
  "zones": [
-  {"sym": "AAOI", "lo": 107.00, "hi": 110.00, "qty": 20, "stop": 102.60, "t1": 113.40, "t2": 118.80, "tag": "optical"},
-  {"sym": "SKHY", "lo": 188.00, "hi": 192.00, "qty": 12, "stop": 180.50, "t1": 199.50, "t2": 209.00, "tag": "memory"},
-  {"sym": "ANET", "lo": 200.00, "hi": 205.00, "qty": 22, "stop": 196.91, "t1": 209.09, "t2": 215.18, "tag": "AI networking"},
-  {"sym": "VIAV", "lo": 42.00, "hi": 44.00, "qty": 35, "stop": 39.80, "t1": 52.00, "t2": 60.00, "tag": "asym: optical test, 12-day streak; earnings 28 Oct"},
-  {"sym": "SMCI", "lo": 41.00, "hi": 42.50, "qty": 43, "stop": 39.40, "t1": 51.40, "t2": 58.00, "tag": "asym: AI servers, 15% under its high"},
-  {"sym": "CRDO", "lo": 192.00, "hi": 200.00, "qty": 6, "stop": 178.00, "t1": 250.00, "t2": 300.00, "tag": "asym: AI connectivity, 29% under its high"},
-  {"sym": "VSH", "lo": 34.50, "hi": 36.00, "qty": 30, "stop": 31.80, "t1": 45.00, "t2": 52.00, "tag": "asym: base breakout, 45% under its high"},
-  {"sym": "INOD", "lo": 65.50, "hi": 68.00, "qty": 18, "stop": 60.80, "t1": 85.00, "t2": 100.00, "tag": "asym (speculative): AI data, 44% under its high"},
-  {"sym": "LITE", "lo": 1045.00, "hi": 1060.00, "qty": 2, "stop": 997.50, "t1": 1102.50, "t2": 1155.00, "tag": "bench: optical leader"},
-  {"sym": "COHR", "lo": 319.00, "hi": 325.00, "qty": 7, "stop": 304.00, "t1": 338.00, "t2": 354.00, "tag": "bench: optical"},
-  {"sym": "DRAM", "lo": 60.50, "hi": 61.80, "qty": 36, "stop": 58.43, "t1": 64.58, "t2": 67.65, "tag": "bench: memory basket"},
-  {"sym": "VLO", "lo": 395.00, "hi": 400.00, "qty": 11, "stop": 386.00, "t1": 409.00, "t2": 421.00, "tag": "bench: refiner (non-AI); earnings 22 Oct"}
+  {
+   "sym": "AAOI",
+   "lo": 107.0,
+   "hi": 110.0,
+   "qty": 20,
+   "stop": 102.6,
+   "t1": 113.4,
+   "t2": 118.8,
+   "tag": "optical",
+   "expires": "2026-10-09"
+  },
+  {
+   "sym": "SKHY",
+   "lo": 188.0,
+   "hi": 192.0,
+   "qty": 12,
+   "stop": 180.5,
+   "t1": 199.5,
+   "t2": 209.0,
+   "tag": "memory",
+   "expires": "2026-10-09"
+  },
+  {
+   "sym": "ANET",
+   "lo": 200.0,
+   "hi": 205.0,
+   "qty": 22,
+   "stop": 196.91,
+   "t1": 209.09,
+   "t2": 215.18,
+   "tag": "AI networking",
+   "expires": "2026-10-09"
+  },
+  {
+   "sym": "VIAV",
+   "lo": 42.0,
+   "hi": 44.0,
+   "qty": 35,
+   "stop": 39.8,
+   "t1": 52.0,
+   "t2": 60.0,
+   "tag": "asym: optical test, 12-day streak; earnings 28 Oct",
+   "expires": "2026-10-09"
+  },
+  {
+   "sym": "SMCI",
+   "lo": 41.0,
+   "hi": 42.5,
+   "qty": 43,
+   "stop": 39.4,
+   "t1": 51.4,
+   "t2": 58.0,
+   "tag": "asym: AI servers, 15% under its high",
+   "expires": "2026-10-09"
+  },
+  {
+   "sym": "CRDO",
+   "lo": 192.0,
+   "hi": 200.0,
+   "qty": 6,
+   "stop": 178.0,
+   "t1": 250.0,
+   "t2": 300.0,
+   "tag": "asym: AI connectivity, 29% under its high",
+   "expires": "2026-10-09"
+  },
+  {
+   "sym": "VSH",
+   "lo": 34.5,
+   "hi": 36.0,
+   "qty": 30,
+   "stop": 31.8,
+   "t1": 45.0,
+   "t2": 52.0,
+   "tag": "asym: base breakout, 45% under its high",
+   "expires": "2026-10-09"
+  },
+  {
+   "sym": "INOD",
+   "lo": 65.5,
+   "hi": 68.0,
+   "qty": 18,
+   "stop": 60.8,
+   "t1": 85.0,
+   "t2": 100.0,
+   "tag": "asym (speculative): AI data, 44% under its high",
+   "expires": "2026-10-09"
+  },
+  {
+   "sym": "LITE",
+   "lo": 1045.0,
+   "hi": 1060.0,
+   "qty": 2,
+   "stop": 997.5,
+   "t1": 1102.5,
+   "t2": 1155.0,
+   "tag": "bench: optical leader",
+   "expires": "2026-10-09"
+  },
+  {
+   "sym": "COHR",
+   "lo": 319.0,
+   "hi": 325.0,
+   "qty": 7,
+   "stop": 304.0,
+   "t1": 338.0,
+   "t2": 354.0,
+   "tag": "bench: optical",
+   "expires": "2026-10-09"
+  },
+  {
+   "sym": "DRAM",
+   "lo": 60.5,
+   "hi": 61.8,
+   "qty": 36,
+   "stop": 58.43,
+   "t1": 64.58,
+   "t2": 67.65,
+   "tag": "bench: memory basket",
+   "expires": "2026-10-09"
+  },
+  {
+   "sym": "VLO",
+   "lo": 395.0,
+   "hi": 400.0,
+   "qty": 11,
+   "stop": 386.0,
+   "t1": 409.0,
+   "t2": 421.0,
+   "tag": "bench: refiner (non-AI); earnings 22 Oct",
+   "expires": "2026-10-09"
+  },
+  {
+   "sym": "ARM",
+   "lo": 283.5,
+   "hi": 292.0,
+   "qty": 7,
+   "stop": 276.41,
+   "t1": 336.98,
+   "t2": 452.7,
+   "expires": "2026-10-11",
+   "added": "2026-10-04",
+   "tag": "scan 2026-10-04: 14.5R to the 6-month high, buying vol 2.0x selling"
+  },
+  {
+   "sym": "SYNA",
+   "lo": 99.68,
+   "hi": 102.67,
+   "qty": 10,
+   "stop": 90.09,
+   "t1": 128.18,
+   "t2": 149.11,
+   "expires": "2026-10-11",
+   "added": "2026-10-04",
+   "tag": "scan 2026-10-04: 4.3R to the 6-month high, buying vol 3.4x selling"
+  },
+  {
+   "sym": "AZTA",
+   "lo": 34.14,
+   "hi": 35.16,
+   "qty": 60,
+   "stop": 32.77,
+   "t1": 41.99,
+   "t2": 41.99,
+   "expires": "2026-10-11",
+   "added": "2026-10-04",
+   "tag": "scan 2026-10-04: 3.9R to the 6-month high, buying vol 2.3x selling"
+  }
  ]
 }

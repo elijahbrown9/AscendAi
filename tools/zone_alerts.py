@@ -9,7 +9,8 @@ Usage: python3 tools/zone_alerts.py --px AAOI:108.2 SKHY:191 ... [--held AAOI ..
                                     [--open-slots 3] [--dry-run]
 Prints one line per symbol newly inside its zone (<200 chars) or NO ZONE ALERTS.
 Each symbol alerts at most once per Eastern day (data/alerts/zones-DATE.json).
-Nothing fires after valid_through, or when no tactical slot is open.
+A zone stops firing after its own 'expires' date (else valid_through), and
+nothing fires when no tactical slot is open.
 """
 import argparse, json, os
 from datetime import datetime, timezone, timedelta
@@ -28,10 +29,10 @@ now = datetime.now(timezone.utc).astimezone(ET)
 day = now.strftime("%Y-%m-%d")
 px = {s.split(":")[0]: float(s.split(":")[1]) for s in a.px}
 out = []
-if day <= plan["valid_through"] and a.open_slots > 0:
+if a.open_slots > 0:
     for z in plan["zones"]:
         s = z["sym"]
-        if s in a.held or s not in px:
+        if s in a.held or s not in px or day > z.get("expires", plan["valid_through"]):
             continue
         if z["lo"] <= px[s] <= z["hi"]:
             out.append((s, f"{s} in its buy zone: ${px[s]:,.2f} (zone ${z['lo']:,.2f}-{z['hi']:,.2f}). {z['qty']} sh, stop ${z['stop']:,.2f}, targets ${z['t1']:,.2f} / ${z['t2']:,.2f}. {z['tag']}"))
