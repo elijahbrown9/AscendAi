@@ -91,28 +91,6 @@
    "expires": "2026-10-09"
   },
   {
-   "sym": "LITE",
-   "lo": 1045.0,
-   "hi": 1060.0,
-   "qty": 2,
-   "stop": 997.5,
-   "t1": 1102.5,
-   "t2": 1155.0,
-   "tag": "bench: optical leader",
-   "expires": "2026-10-09"
-  },
-  {
-   "sym": "COHR",
-   "lo": 319.0,
-   "hi": 325.0,
-   "qty": 7,
-   "stop": 304.0,
-   "t1": 338.0,
-   "t2": 354.0,
-   "tag": "bench: optical",
-   "expires": "2026-10-09"
-  },
-  {
    "sym": "DRAM",
    "lo": 60.5,
    "hi": 61.8,
@@ -169,6 +147,30 @@
    "expires": "2026-10-11",
    "added": "2026-10-04",
    "tag": "scan 2026-10-04: 3.9R to the 6-month high, buying vol 2.3x selling"
+  },
+  {
+   "sym": "BB",
+   "lo": 8.68,
+   "hi": 8.94,
+   "qty": 108,
+   "stop": 7.77,
+   "t1": 11.45,
+   "t2": 13.59,
+   "expires": "2026-10-11",
+   "added": "2026-10-04",
+   "tag": "scan 2026-10-04: 4.6R to the 6-month high, buying vol 2.4x selling"
+  },
+  {
+   "sym": "SMMT",
+   "lo": 16.5,
+   "hi": 16.75,
+   "qty": 70,
+   "stop": 15.03,
+   "t1": 19.09,
+   "t2": 29.23,
+   "expires": "2026-10-11",
+   "added": "2026-10-04",
+   "tag": "scan 2026-10-04: 7.9R to the 6-month high, buying vol 1.7x selling; biotech \u2014 trial/news gaps can jump the stop"
   }
  ]
 }
