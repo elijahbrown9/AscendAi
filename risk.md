@@ -56,9 +56,16 @@ Style: large-cap momentum, shares not options, sized for outsized moves.
   including crypto and including weekends.
 - **Weekends.** No new positions Saturday/Sunday (crypto included).
 - **Core sleeve (ARKG, ZCSH).** Long-term holds sit outside the 3 tactical
-  slots: max 2 names, 1 unit each, bought once. Stop on a weekly close only
-  (ARKG −8%, ZCSH −12%). No intraday trading of a core name — any sale is a
-  full exit and the name is out for 2 weeks. (User may veto this sleeve.)
+  slots. Units go in only at the ladder levels in data/core_plan.json, one
+  unit per alert (user, 4 Oct: "send me alerts of when to put a unit into
+  either of them"): ARKG max 3 units, ZCSH max 2 (twice the volatility).
+  One stop for the whole position, judged on the Friday close only
+  (ARKG < $48, ZCSH < $27). No intraday trading of a core name — any sale is a
+  full exit and the name is out for 2 weeks. The ladder is reviewed Sundays.
+- **Margin (user, 4 Oct: "i want to utilize margin").** Used inside the
+  existing cap: up to 1.25× gross on grade +1/+2 days only; on a 0/−1/−2 day
+  the book is back to ≤1.0× by the close. Margin is headroom for the plan's
+  units, never a reason to add size beyond the 30%-per-position cap.
 - **Alerts.** Every hourly monitor runs tools/desk_guard.py on ••••5308 and
   pushes any new line: +1R/+2R, stop hit, 3rd entry in a name, a position
   over 30%, margin over the grade's cap, the −2% day.

@@ -6,35 +6,49 @@ the day it's actually traded.
 
 ## Week plan — 5–9 Oct 2026 (user, 4 Oct: optical exposure, memory, ARKG +
 ## ZCSH long term). Manual desk ••••5308 = guidance only; agent never trades it.
-Account $22,631 cash, no margin → 1 unit = $2,263. Daily loss limit $453.
-Budget: 3 tactical units + 2 core units = 5 units ($11.3k, ~50% of equity).
+Account $22,631 cash → 1 unit = $2,263. Daily loss limit $453. Margin up to
+1.25× gross on +1/+2 days only. Budget: 3 tactical slots (4 units) + core
+ladder (up to 5 units) = up to 9 units (~0.90× at full size).
 No buys 9:30–10:00 ET. Limit orders at the zone, never market-chasing a gap.
 Grade from the 9am brief: −1 → only the core buys; −2 → no new buys at all.
 Earnings this week: none of these names (optical early Nov, SNDK 29 Oct).
 
-Tactical (3 slots; R = 5% on all three — every one is >50% annualised vol):
-- **AAOI** — 1 unit. Zone $107–110 (Thursday's close was $107.32; Friday ran
-  +7.7% to $115.59 after a +14% week). ~20 sh at $108: stop $102.60,
-  +1R $113.40 sell 7, +2R $118.80 sell 7, trail 6.
-- **LITE** — 1 unit. Leader at the highs (+55% in 3 months, 0.6% off the
-  high). Zone $1,045–1,060 (Thursday's close). 2 sh at $1,050: stop $997.50,
-  +1R $1,102.50 sell 1, trail 1. Alternate if LITE never pulls back: COHR
-  zone $319–325.
-- **DRAM** (memory basket) — 1 unit, not 2: DRAM was traded 17 times last
-  month (−$1,276); fewer shares, wider stop, one entry. Zone $60.50–61.80.
-  ~36 sh at $61.50: stop $58.43, +1R $64.58 sell 12, +2R $67.65 sell 12.
-- Watch only: WDC (−10% Fri on Toshiba HDD capacity news; Morgan Stanley
-  says buy the dip). Needs a green close above $415.29 first — until then it
-  is a knife catch by the system's own definition.
+Tactical (3 slots). Scan 4 Oct: large caps (>$5B, >1.5M sh/day) in an
+uptrend (20d > 50d > 200d), up 8%+ vs the 60-day average but within −2%/+5%
+of the 20-day average — trending, not stretched. 39 names; the picks below
+have no earnings this week. R = 5% on wide-vol names (>~55% annualised), 3%
+otherwise. Pick 3; the rest are the bench.
+- **AAOI** (optical, user pick) — 1 unit, wide. Zone $107–110 (Thursday close
+  $107.32; Friday ran to $115.59). ~20 sh at $108: stop $102.60, +1R $113.40
+  sell 7, +2R $118.80 sell 7, trail 6. Earnings ~5 Nov.
+- **SKHY** (SK hynix ADR, memory leader) — 1 unit, wide (4.1%/day). +18% in a
+  month, 2.4% off the high, 20-day avg $186.41. Zone $188–192. ~12 sh at $190:
+  stop $180.50, +1R $199.50 sell 4, +2R $209 sell 4. Earnings ~13 Nov.
+- **ANET** (AI networking — optical exposure at half the volatility) —
+  2 units, R 3% (2.3%/day). 3.5% off the high, 20-day avg $199.84, 10-day low
+  $198.76. Zone $200–205. ~22 sh at $203: stop $196.91, +1R $209.09 sell 7,
+  +2R $215.18 sell 7. Earnings ~3 Nov.
+- Bench: LITE (zone $1,045–1,060, 2 sh, wide) · DRAM (memory basket, zone
+  $60.50–61.80, 1 unit, wide — churned 17× last month) · VLO (refiner, not AI:
+  +51% in 3 months on ~$100 Brent, zone $395–400, 2 units, R 3%; earnings
+  22 Oct) · COHR (zone $319–325, wide).
+- Watch only: WDC (−10% Fri on Toshiba HDD capacity news). Needs a green
+  close above $415.29 first.
 
-Core (outside the 3 slots; bought once, weekly-close stop, no intraday trades):
-- **ARKG** — 1 unit, ~41 sh at ~$54. Stop: a Friday close below $49.68 (−8%).
-- **ZCSH** — 1 unit, ~66 sh at ~$34. Stop: a Friday close below $30 (−12%).
-  ZCSH is last month's #1 churn name (37 trades, −$1,652): any sale = full
-  exit and 2 weeks out.
+Core (outside the 3 slots): units only at the data/core_plan.json ladder,
+pushed as alerts by tools/core_adds.py; whole-position Friday-close stop.
+- **ARKG** — max 3 units. u1 ≤ $54.50 · u2 ≤ $50.75 (20-day avg) · u3 on a
+  close ≥ $55.50 (new 3-month high). Stop: Friday close < $48.
+- **ZCSH** — max 2 units. u1 ≤ $34.50 · u2 ≤ $30.00 or a close ≥ $38.50,
+  whichever comes first. Stop: Friday close < $27. Last month's #1 churn name
+  (37 trades, −$1,652): any sale = full exit, 2 weeks out.
+- Full core at the stops would lose ~$1,400 (ARKG 3u ~−$680, ZCSH 2u ~−$710).
 
-Desk guard flags for this week: --wide AAOI LITE COHR DRAM WDC
---core ARKG:49.68 ZCSH:30
+Exposure at full plan: tactical 4 units + core 5 units = 9 units ≈ 0.90×.
+Margin (≤1.25× on +1/+2 days) is headroom, not a target.
+
+Desk guard flags for this week: --wide AAOI SKHY LITE COHR DRAM WDC
+--core ARKG:48 ZCSH:27
 
 Agentic sleeve ••••0924 (agent trades, $568): optical via AAOX (Tradr 2x
 AAOI, ~11M sh/day) and memory via RAM / MUU. Entries still need a fresh

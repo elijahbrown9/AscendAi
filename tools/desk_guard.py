@@ -44,7 +44,7 @@ for spec in a.pos:
     value = qty * px
     if sym in core:
         if px <= core[sym]:
-            cands.append((f"{sym}:core_stop", f"{sym} core stop: ${px:,.2f} is at/below ${core[sym]:,.2f}. Plan says exit in full, then 2 weeks out."))
+            cands.append((f"{sym}:core_stop", f"{sym} ${px:,.2f} is below its weekly-close stop ${core[sym]:,.2f}. If it closes Friday below that, exit in full, then 2 weeks out."))
     else:
         r = 0.05 if sym in a.wide else 0.03
         third = max(1, int(qty // 3))

@@ -1,0 +1,24 @@
+{
+ "_doc": "Core sleeve add ladder (manual desk 485695308, guidance only). Set 2026-10-04 from Friday 2 Oct closes; review every Sunday. units_before = units already held when this level may fire; 'close_at_or_above' levels are judged only at the 3:40pm monitor (--late).",
+ "unit_pct": 0.10,
+ "names": {
+  "ARKG": {
+   "max_units": 3,
+   "stop_weekly_close": 48.00,
+   "levels": [
+    {"id": "u1", "units_before": 0, "type": "at_or_below", "price": 54.50, "why": "starter unit near Friday's 54.00 close"},
+    {"id": "u2", "units_before": 1, "type": "at_or_below", "price": 50.75, "why": "pullback to the 20-day average (50.40) / 10-day low (50.18)"},
+    {"id": "u3", "units_before": 2, "type": "close_at_or_above", "price": 55.50, "why": "close above the 3-month high (55.33)"}
+   ]
+  },
+  "ZCSH": {
+   "max_units": 2,
+   "stop_weekly_close": 27.00,
+   "levels": [
+    {"id": "u1", "units_before": 0, "type": "at_or_below", "price": 34.50, "why": "starter unit near Friday's 34.04 close"},
+    {"id": "u2a", "units_before": 1, "type": "at_or_below", "price": 30.00, "why": "deep pullback, ~-12% from the starter"},
+    {"id": "u2b", "units_before": 1, "type": "close_at_or_above", "price": 38.50, "why": "close back above last week's high (38.5)"}
+   ]
+  }
+ }
+}
