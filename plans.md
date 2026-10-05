@@ -102,3 +102,9 @@ Every new position gets its section here before the fill is reported.
   the floor). INTW 29.63, stop 27.10. Main desk sold AAOI → all cash $22,629 (+$170 vs
   9am). Zone hit INOD 66.20 not pushed: the desk is past the 4-round-trip cap today;
   it re-fires tomorrow if still in zone.
+- 5 Oct 15:11 check-in: NVDA long CONFIRMED (crowd 3; +1.55% from the 9:30 print 236.02,
+  inside the 2% chase band; earnings 17 Nov clear). Qualified entry: NVDL 6 @ ≤40.40
+  ($242; E/2 = $287, cash stays ≥ $20), stop 37.50 (1.5σ = 7.1%), half at 46.05,
+  10-day limit. NOT placed — agent order placement is blocked by the session's
+  permission check since 10:20; waiting on the user. INTW 29.29 (−$4.90), stop 27.10.
+  Main desk: cash $22,452 + ZCSH 5 sh (a 9th ZCSH buy today).
