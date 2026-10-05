@@ -98,3 +98,7 @@ Every new position gets its section here before the fill is reported.
 - 5 Oct 14:12 check-in: no entry (cash $8.93 < $20 floor; AAOI two-sided on the board;
   NVDA confirmed but blocked by the floor). INTW 29.62 (−$1.60, stop 27.10), AAOX 13.05
   (+$12.70, stop 10.70). Main desk AAOI 119.22 (+$608), day +$276.
+- 5 Oct 14:41 monitor: USER sold AAOX (book now INTW 10 + $281 cash = $577, back inside
+  the floor). INTW 29.63, stop 27.10. Main desk sold AAOI → all cash $22,629 (+$170 vs
+  9am). Zone hit INOD 66.20 not pushed: the desk is past the 4-round-trip cap today;
+  it re-fires tomorrow if still in zone.
