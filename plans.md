@@ -69,3 +69,9 @@ Every new position gets its section here before the fill is reported.
 - 2 Oct 15:11 check-in: book flat $568.02. Only confirmed idea BTC short (two-sided,
   and long-only mandate) → no entry. Turn alarm: 1 confirmed short, < 3, no shift.
   Main account went to all cash ($23,089.56) — the user flattened into the weekend.
+- 5 Oct 10:20 check-in (grade 0, TURN ALARM; confirmed longs HYPE, BTC). Book flat
+  $568.02; user's BRZL buy 10 @ 40.32 open (holds $403 of buying power, ~71% of E).
+  Qualified entry: BITX (2x BTC) 6 @ ≤20.95 ($126), stop 19.27 (1.5σ = 7.9%), half
+  at 24.22, 10-day limit; BTC +0.3% from the 9:30 print. Review passed, but the
+  place call was DENIED by the session's permission check → NOT placed; awaiting
+  user. Main desk: EWZ 600 @ 42.91 (43.02), ZCSH 300 @ 35.72 (36.07), 1.61× gross.
