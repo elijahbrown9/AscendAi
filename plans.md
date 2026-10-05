@@ -95,3 +95,6 @@ Every new position gets its section here before the fill is reported.
   INTW 29.77 (flat), stop 27.10. Main desk: INTC sold; now AAOI 200 @ 116.18 (105% of
   equity), day −$282. Core ZCSH alert at 34.39 suppressed: ZCSH and ARKG were sold today
   → both out of the core ladder for 2 weeks (until 19 Oct).
+- 5 Oct 14:12 check-in: no entry (cash $8.93 < $20 floor; AAOI two-sided on the board;
+  NVDA confirmed but blocked by the floor). INTW 29.62 (−$1.60, stop 27.10), AAOX 13.05
+  (+$12.70, stop 10.70). Main desk AAOI 119.22 (+$608), day +$276.
