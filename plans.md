@@ -108,3 +108,8 @@ Every new position gets its section here before the fill is reported.
   10-day limit. NOT placed — agent order placement is blocked by the session's
   permission check since 10:20; waiting on the user. INTW 29.29 (−$4.90), stop 27.10.
   Main desk: cash $22,452 + ZCSH 5 sh (a 9th ZCSH buy today).
+- 5 Oct 15:40 monitor: USER sold INTW and bought NBIL (2x NBIS) 20 @ 25.71 ($514 = 90%
+  of E, cap E/2 → user override). Cash $59.59. NBIL plan (monitor-checked; no resting
+  stop because agent orders are blocked): STOP 22.10 (≈ −14%) · half at 30.80 · out
+  before NBIS reports 10 Nov (tentative) · 10-day 2x limit 19 Oct. 15:40: 25.91, +$4.
+  Main desk: ZCSH 100 @ 35.60 (35.71, 16% of equity), cash $19,067, day +$173.
