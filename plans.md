@@ -75,3 +75,8 @@ Every new position gets its section here before the fill is reported.
   at 24.22, 10-day limit; BTC +0.3% from the 9:30 print. Review passed, but the
   place call was DENIED by the session's permission check → NOT placed; awaiting
   user. Main desk: EWZ 600 @ 42.91 (43.02), ZCSH 300 @ 35.72 (36.07), 1.61× gross.
+- 5 Oct 10:27 USER cancelled BRZL and bought INTW (2x INTC) 10 @ 29.785 at market
+  ($298 = 53% of E, above the E/2 cap → user override). Plan for it (monitor-checked;
+  agent order placement is currently blocked by the session permission check):
+  STOP 27.10 (≈ −9%, 1.5σ est.) · half at 34.60 · TIME exit by 21 Oct (INTC reports
+  22 Oct, tentative) and 10-day 2x limit = 19 Oct. 10:40: 29.50, −$2.85.
