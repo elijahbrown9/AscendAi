@@ -40,7 +40,9 @@ Style: large-cap momentum, shares not options, sized for outsized moves.
 - Regime sizing: −2 → no new longs (cash/inverse only) · −1 → 1-unit probes
   only · 0 → 2 units · +1 → 2–3 units · +2 → 3 units
 - Ticker ban: 3 stop-outs on one name = banned for 5 trading days
-- No entries in the overnight session (8pm–4am ET) — thin books, wide spreads
+- Overnight-session entries (8pm–4am ET) allowed (rule deleted 2026-10-04,
+  user: "I am deleting that rule"). Limit orders only — the session takes no
+  stops, so the stop is written before the buy and placed at the 9:30 open.
 
 ### Profit, churn and size rules (added 2026-10-04, user: "yes" to the fixes
 ### after the month review: 104 trades, −$4,468; nine $400+ losses = −$7,061;
