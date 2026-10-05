@@ -88,3 +88,10 @@ Every new position gets its section here before the fill is reported.
   CROWDED; PCVX, QCOM knife catches) → no entry. INTW 29.88 (+$1), stop 27.10.
   Main desk: user bought INTC 200 @ 117.48 ($23.5k = 106% of equity, 1.06×); day
   −$317 vs the $443 limit. Pushed the size alert; 3% guidance stop 113.96.
+- 5 Oct 12:40 monitor: USER bought AAOX (2x AAOI) 21 @ 12.44 ($261, 46% of E). Cash
+  $8.93 < $20 floor → book outside limits (user override); no agent entries until back
+  inside. AAOX plan (monitor-checked): STOP 10.70 (≈ −14%, 1.5σ est. on a ~9%/day ETF)
+  · half at 15.90 · out before AAOI reports 5 Nov (tentative) · 10-day 2x limit 19 Oct.
+  INTW 29.77 (flat), stop 27.10. Main desk: INTC sold; now AAOI 200 @ 116.18 (105% of
+  equity), day −$282. Core ZCSH alert at 34.39 suppressed: ZCSH and ARKG were sold today
+  → both out of the core ladder for 2 weeks (until 19 Oct).
