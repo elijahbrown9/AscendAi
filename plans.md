@@ -80,3 +80,7 @@ Every new position gets its section here before the fill is reported.
   agent order placement is currently blocked by the session permission check):
   STOP 27.10 (≈ −9%, 1.5σ est.) · half at 34.60 · TIME exit by 21 Oct (INTC reports
   22 Oct, tentative) and 10-day 2x limit = 19 Oct. 10:40: 29.50, −$2.85.
+- 5 Oct 11:40 monitor: INTW 29.58 (−$2), stop 27.10 is 8.4% away (monitor-checked).
+  Main desk went ALL CASH $22,383.68 by 11:34: ZCSH 400 sold @ 34.98 (≈ −$328), EWZ 600
+  @ 43.075 (≈ +$99), ARKG 100 in/out (+$27; core name sold → out 2 weeks per risk.md),
+  DRAM 10 in/out. Day vs 9am baseline −$75. 7 round trips today vs the cap of 4.
