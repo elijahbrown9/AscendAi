@@ -84,3 +84,7 @@ Every new position gets its section here before the fill is reported.
   Main desk went ALL CASH $22,383.68 by 11:34: ZCSH 400 sold @ 34.98 (≈ −$328), EWZ 600
   @ 43.075 (≈ +$99), ARKG 100 in/out (+$27; core name sold → out 2 weeks per risk.md),
   DRAM 10 in/out. Day vs 9am baseline −$75. 7 round trips today vs the cap of 4.
+- 5 Oct 12:11 check-in (grade 0, TURN ALARM). No confirmed candidates (HYPE/BTC now
+  CROWDED; PCVX, QCOM knife catches) → no entry. INTW 29.88 (+$1), stop 27.10.
+  Main desk: user bought INTC 200 @ 117.48 ($23.5k = 106% of equity, 1.06×); day
+  −$317 vs the $443 limit. Pushed the size alert; 3% guidance stop 113.96.
