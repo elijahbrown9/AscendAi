@@ -113,3 +113,7 @@ Every new position gets its section here before the fill is reported.
   stop because agent orders are blocked): STOP 22.10 (≈ −14%) · half at 30.80 · out
   before NBIS reports 10 Nov (tentative) · 10-day 2x limit 19 Oct. 15:40: 25.91, +$4.
   Main desk: ZCSH 100 @ 35.60 (35.71, 16% of equity), cash $19,067, day +$173.
+- 6 Oct 09:20 brief: grade 0 (+0.059). Agentic: USER SOLT 7 @ 79.44 ($545, 97% of E),
+  cash $17.69 < floor → no agent entries. SOLT plan (monitor-checked): STOP 67.50
+  (≈ −15%, 2x SOL) · half at 103.30 · 10-day limit 16 Oct. Main desk 2.1× (ZCSH 700,
+  EWZ 500); pushed. Confirmed longs NVDA, BTC — blocked on both desks by limits.
