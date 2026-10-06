@@ -117,3 +117,5 @@ Every new position gets its section here before the fill is reported.
   cash $17.69 < floor → no agent entries. SOLT plan (monitor-checked): STOP 67.50
   (≈ −15%, 2x SOL) · half at 103.30 · 10-day limit 16 Oct. Main desk 2.1× (ZCSH 700,
   EWZ 500); pushed. Confirmed longs NVDA, BTC — blocked on both desks by limits.
+- 6 Oct 09:40 monitor: SOLT 78.64 (−$5.60), stop 67.50. Main desk sold EWZ; ZCSH 700
+  @ 36.13 (36.73, +$420, 113% of equity, 1.13×). Zone hits SKHY 189.98, DRAM 60.75 pushed.
