@@ -123,3 +123,7 @@ Every new position gets its section here before the fill is reported.
   shift). No entry: cash $17.69 < floor. SOLT 78.67 (−$5), stop 67.50. Main desk:
   ZCSH 800 @ 36.21 + BTC (Grayscale mini) 500 @ 38.19 = $48.2k on $22.3k (2.17×); day
   −$356 vs the $453 limit. Pushed.
+- 6 Oct 12:12 check-in: no entry (cash $17.69 < floor; NVDA the only confirmed long;
+  TURN ALARM, 1 < 3 → no shift). SOLT ~78.8, stop 67.50. Main desk went ALL CASH
+  $22,116 — day −$509 vs the 9am $22,625 baseline, past the 2% limit ($453): done for
+  the day per risk.md. Pushed.
