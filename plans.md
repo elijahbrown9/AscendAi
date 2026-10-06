@@ -119,3 +119,7 @@ Every new position gets its section here before the fill is reported.
   EWZ 500); pushed. Confirmed longs NVDA, BTC — blocked on both desks by limits.
 - 6 Oct 09:40 monitor: SOLT 78.64 (−$5.60), stop 67.50. Main desk sold EWZ; ZCSH 700
   @ 36.13 (36.73, +$420, 113% of equity, 1.13×). Zone hits SKHY 189.98, DRAM 60.75 pushed.
+- 6 Oct 10:21 check-in (grade 0; TURN ALARM again, 2 confirmed longs NVDA/BTC < 3 → no
+  shift). No entry: cash $17.69 < floor. SOLT 78.67 (−$5), stop 67.50. Main desk:
+  ZCSH 800 @ 36.21 + BTC (Grayscale mini) 500 @ 38.19 = $48.2k on $22.3k (2.17×); day
+  −$356 vs the $453 limit. Pushed.
