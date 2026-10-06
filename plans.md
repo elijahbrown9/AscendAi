@@ -135,3 +135,5 @@ Every new position gets its section here before the fill is reported.
   shift. No agent entry (floor). Trade approvals OFF on the account (broker side); agent
   orders remain blocked by the session permission check. Main desk re-entered after the
   day limit: INTC 200 @ 115.10 + ZCSH 125 @ 36.49 (1.25×), day −$528. Pushed.
+- 6 Oct 14:41 monitor: INTW 28.21 (−$8.20), stop 26.06 (7.6% away). Main desk flat again
+  $21,981 (day −$644 vs 9am).
