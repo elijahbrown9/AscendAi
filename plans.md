@@ -141,3 +141,5 @@ Every new position gets its section here before the fill is reported.
   pre-market (−$29), stop 26.06 3.8% away. Agentic cash $18.78 < floor → no entries.
   Main desk all cash $21,981. Ideas: SMCI zone (manual), TBT as the long expression of
   the board's TLT short (agentic, once inside limits).
+- 7 Oct 10:41 monitor: INTW 28.14 (−$9.50), stop 26.06. Main desk bought INTC 200 @
+  114.19 ($22.9k = 104% of equity, 1.04×); size + margin alert pushed.
