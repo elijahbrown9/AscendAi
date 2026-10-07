@@ -150,3 +150,7 @@ Every new position gets its section here before the fill is reported.
   ($539 = 99.6% of E; cash $1.92). Plan (monitor-checked): STOP 12.20 (≈ −10%, 1.5σ) ·
   half at 16.25 · 10-day 2x limit 21 Oct; MU itself is the read-through. Main desk: INTC
   sold; MU 20 @ 1072.74 (1077.86, +$102), 98% of equity, cash +$334 (≈0.98×).
+- 7 Oct 15:12 check-in: TURN PROTOCOL — TURN ALARM with 5 fresh confirmed longs (NEAR,
+  ZEC, AEHR, ASML, PLTR) → grade shifts 0 → +1 from the next check-in (3pm). AEHR play
+  alert pushed. No agent entry (cash $1.92 < floor). RAM 13.46 (−$3), stop 12.20. Main
+  desk MU 20 @ 1072.74 (1082.60, +$197).
