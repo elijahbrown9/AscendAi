@@ -155,3 +155,4 @@ Every new position gets its section here before the fill is reported.
   alert pushed. No agent entry (cash $1.92 < floor). RAM 13.46 (−$3), stop 12.20. Main
   desk MU 20 @ 1072.74 (1082.60, +$197).
 - 7 Oct 15:40 monitor: main desk sold MU → all cash $21,953 (day ≈ −$29). RAM 13.48 (−$3), stop 12.20. Zone alert BB 8.89 in 8.68–8.94 pushed. Board quiet. Core adds suppressed (ARKG/ZCSH out until 19 Oct).
+- 7 Oct 16:20 post-close sweep: 40 money-flow names screened (gainers scan empty). Added NVAX 10.36–10.67 (stop 10.16, T 13.38, 8.0R) and RXRX 4.01–4.13 (stop 3.73, T 5.19, 3.3R), expire 14 Oct, no earnings before 4–5 Nov. Rejected: RXO/PTC/OPCH/INTR (zones 20–25% under price after gaps), SDGR (traded 26.87 today, through its 27.41 stop). No zones pruned (none expired or stopped; main desk flat). 15 live zones.

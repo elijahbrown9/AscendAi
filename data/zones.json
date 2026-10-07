@@ -149,6 +149,30 @@
    "expires": "2026-10-11",
    "added": "2026-10-04",
    "tag": "scan 2026-10-04: 7.9R to the 6-month high, buying vol 1.7x selling; biotech \u2014 trial/news gaps can jump the stop"
+  },
+  {
+   "sym": "NVAX",
+   "lo": 10.36,
+   "hi": 10.67,
+   "qty": 208,
+   "stop": 10.16,
+   "t1": 13.38,
+   "t2": 13.38,
+   "expires": "2026-10-14",
+   "added": "2026-10-07",
+   "tag": "scan 2026-10-07: 8.0R to the 6-month high, buying vol 1.8x selling"
+  },
+  {
+   "sym": "RXRX",
+   "lo": 4.01,
+   "hi": 4.13,
+   "qty": 322,
+   "stop": 3.73,
+   "t1": 5.19,
+   "t2": 5.19,
+   "expires": "2026-10-14",
+   "added": "2026-10-07",
+   "tag": "scan 2026-10-07: 3.3R to the 6-month high, buying vol 1.8x selling"
   }
  ]
 }
