@@ -14,17 +14,6 @@
    "expires": "2026-10-09"
   },
   {
-   "sym": "SKHY",
-   "lo": 188.0,
-   "hi": 192.0,
-   "qty": 12,
-   "stop": 180.5,
-   "t1": 199.5,
-   "t2": 209.0,
-   "tag": "memory",
-   "expires": "2026-10-09"
-  },
-  {
    "sym": "ANET",
    "lo": 200.0,
    "hi": 205.0,
@@ -88,17 +77,6 @@
    "t1": 85.0,
    "t2": 100.0,
    "tag": "asym (speculative): AI data, 44% under its high",
-   "expires": "2026-10-09"
-  },
-  {
-   "sym": "DRAM",
-   "lo": 60.5,
-   "hi": 61.8,
-   "qty": 36,
-   "stop": 58.43,
-   "t1": 64.58,
-   "t2": 67.65,
-   "tag": "bench: memory basket",
    "expires": "2026-10-09"
   },
   {
