@@ -154,3 +154,4 @@ Every new position gets its section here before the fill is reported.
   ZEC, AEHR, ASML, PLTR) → grade shifts 0 → +1 from the next check-in (3pm). AEHR play
   alert pushed. No agent entry (cash $1.92 < floor). RAM 13.46 (−$3), stop 12.20. Main
   desk MU 20 @ 1072.74 (1082.60, +$197).
+- 7 Oct 15:40 monitor: main desk sold MU → all cash $21,953 (day ≈ −$29). RAM 13.48 (−$3), stop 12.20. Zone alert BB 8.89 in 8.68–8.94 pushed. Board quiet. Core adds suppressed (ARKG/ZCSH out until 19 Oct).
