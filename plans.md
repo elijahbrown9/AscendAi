@@ -137,3 +137,7 @@ Every new position gets its section here before the fill is reported.
   day limit: INTC 200 @ 115.10 + ZCSH 125 @ 36.49 (1.25×), day −$528. Pushed.
 - 6 Oct 14:41 monitor: INTW 28.21 (−$8.20), stop 26.06 (7.6% away). Main desk flat again
   $21,981 (day −$644 vs 9am).
+- 7 Oct 09:20 brief: grade 0 (−0.20, leaning off; TURN ALARM, shorts winning). INTW 27.09
+  pre-market (−$29), stop 26.06 3.8% away. Agentic cash $18.78 < floor → no entries.
+  Main desk all cash $21,981. Ideas: SMCI zone (manual), TBT as the long expression of
+  the board's TLT short (agentic, once inside limits).
