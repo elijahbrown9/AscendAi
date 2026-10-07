@@ -143,3 +143,6 @@ Every new position gets its section here before the fill is reported.
   the board's TLT short (agentic, once inside limits).
 - 7 Oct 10:41 monitor: INTW 28.14 (−$9.50), stop 26.06. Main desk bought INTC 200 @
   114.19 ($22.9k = 104% of equity, 1.04×); size + margin alert pushed.
+- 7 Oct 12:11 check-in: no entry (cash floor; confirmed: CRBU short, ZEC long — no 2x
+  ETF on ZEC; TLT short now CROWDED). INTW 27.76 (−$16.70), stop 26.06. Main desk
+  2.02×: INTC 200 @ 114.19 + MU 20 @ 1072.74; pushed.
