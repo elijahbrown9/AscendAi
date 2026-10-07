@@ -146,3 +146,7 @@ Every new position gets its section here before the fill is reported.
 - 7 Oct 12:11 check-in: no entry (cash floor; confirmed: CRBU short, ZEC long — no 2x
   ETF on ZEC; TLT short now CROWDED). INTW 27.76 (−$16.70), stop 26.06. Main desk
   2.02×: INTC 200 @ 114.19 + MU 20 @ 1072.74; pushed.
+- 7 Oct 12:41 monitor: USER sold INTW (≈ −$19) and bought RAM (2x memory) 40 @ 13.54
+  ($539 = 99.6% of E; cash $1.92). Plan (monitor-checked): STOP 12.20 (≈ −10%, 1.5σ) ·
+  half at 16.25 · 10-day 2x limit 21 Oct; MU itself is the read-through. Main desk: INTC
+  sold; MU 20 @ 1072.74 (1077.86, +$102), 98% of equity, cash +$334 (≈0.98×).
