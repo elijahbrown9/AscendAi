@@ -69,17 +69,6 @@
    "expires": "2026-10-09"
   },
   {
-   "sym": "INOD",
-   "lo": 65.5,
-   "hi": 68.0,
-   "qty": 18,
-   "stop": 60.8,
-   "t1": 85.0,
-   "t2": 100.0,
-   "tag": "asym (speculative): AI data, 44% under its high",
-   "expires": "2026-10-09"
-  },
-  {
    "sym": "VLO",
    "lo": 395.0,
    "hi": 400.0,
@@ -89,18 +78,6 @@
    "t2": 421.0,
    "tag": "bench: refiner (non-AI); earnings 22 Oct",
    "expires": "2026-10-09"
-  },
-  {
-   "sym": "ARM",
-   "lo": 283.5,
-   "hi": 292.0,
-   "qty": 7,
-   "stop": 276.41,
-   "t1": 336.98,
-   "t2": 452.7,
-   "expires": "2026-10-11",
-   "added": "2026-10-04",
-   "tag": "scan 2026-10-04: 14.5R to the 6-month high, buying vol 2.0x selling"
   },
   {
    "sym": "SYNA",
@@ -173,6 +150,18 @@
    "expires": "2026-10-14",
    "added": "2026-10-07",
    "tag": "scan 2026-10-07: 3.3R to the 6-month high, buying vol 1.8x selling"
+  },
+  {
+   "sym": "STNE",
+   "lo": 10.88,
+   "hi": 11.21,
+   "qty": 112,
+   "stop": 10.12,
+   "t1": 15.81,
+   "t2": 15.81,
+   "expires": "2026-10-15",
+   "added": "2026-10-08",
+   "tag": "scan 2026-10-08: 5.2R to the 6-month high, buying vol 2.4x selling"
   }
  ]
 }
