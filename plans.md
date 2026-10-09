@@ -179,3 +179,4 @@ Every new position gets its section here before the fill is reported.
 - 9 Oct 13:40 monitor: no change. Manual $20,844 (−$146 vs 9am), IBIT 500 + ZCSH 200, gross 1.43×. Agentic flat $509.09. No play alerts.
 - 9 Oct 14:12 check-in: agentic flat $509.09. Board: TURN ALARM (fresh long 23/10); confirmed STRK long (+8% past post → chase fails; no 2x ETF) and SNDK short → 1 long, no shift, grade 0. No entry. Manual $20,848, IBIT 500 + ZCSH 200, gross 1.43× — trim + GTC stops before the weekend.
 - 9 Oct 14:40 monitor: manual $20,700 (−$290 vs 9am, −1.4%; 2% limit at −$420), IBIT 500 + ZCSH 200, gross 1.44×. Agentic flat $509.09. No play alerts.
+- 9 Oct 15:12 check-in: agentic flat $509.09. Board: TURN ALARM, confirmed STRK long (+5.1%, no ETF) + SNDK short → no shift; no entry (last weekday check-in; weekend rule = no new positions Sat/Sun). Manual $20,728 (−$261 vs 9am), IBIT 500 + ZCSH 200, gross 1.44× → pre-weekend trim + GTC stop reminder pushed.
