@@ -4,83 +4,71 @@ Names here are re-evaluated every pre-open brief. Being on this list is not
 an entry signal — every name still has to clear strategy.md/risk.md filters
 the day it's actually traded.
 
-## Week plan — 5–9 Oct 2026 (user, 4 Oct: optical exposure, memory, ARKG +
-## ZCSH long term). Manual desk ••••5308 = guidance only; agent never trades it.
-Account $22,631 cash → 1 unit = $2,263. Daily loss limit $453. Margin up to
-1.25× gross on +1/+2 days only. Budget: 3 tactical slots (4 units) + core
-ladder (up to 5 units) = up to 9 units (~0.90× at full size).
+## Week plan — 12–16 Oct 2026 (Sunday review 11 Oct). Manual desk ••••5308 =
+## guidance only; agent never trades it.
+Account $25,755 (STRK 210,995 tokens ≈ $23,870 = 93%, SNDQ 100 ≈ $1,270,
+cash $621). 1 unit = $2,575. Daily loss limit $515. Margin ≤1.25× gross on
++1/+2 days only. Budget: 3 tactical slots + core ladder (paused to 19 Oct).
 No buys 9:30–10:00 ET. Limit orders at the zone, never market-chasing a gap.
 Grade from the 9am brief: −1 → only the core buys; −2 → no new buys at all.
-Earnings this week: none of these names (optical early Nov, SNDK 29 Oct).
 
-Tactical (3 slots). Scan 4 Oct: large caps (>$5B, >1.5M sh/day) in an
-uptrend (20d > 50d > 200d), up 8%+ vs the 60-day average but within −2%/+5%
-of the 20-day average — trending, not stretched. 39 names; the picks below
-have no earnings this week. R = 5% on wide-vol names (>~55% annualised), 3%
-otherwise. Pick 3; the rest are the bench.
-- **AAOI** (optical, user pick) — 1 unit, wide. Zone $107–110 (Thursday close
-  $107.32; Friday ran to $115.59). ~20 sh at $108: stop $102.60, +1R $113.40
-  sell 7, +2R $118.80 sell 7, trail 6. Earnings ~5 Nov.
-- **SKHY** (SK hynix ADR, memory leader) — 1 unit, wide (4.1%/day). +18% in a
-  month, 2.4% off the high, 20-day avg $186.41. Zone $188–192. ~12 sh at $190:
-  stop $180.50, +1R $199.50 sell 4, +2R $209 sell 4. Earnings ~13 Nov.
-- **ANET** (AI networking — optical exposure at half the volatility) —
-  2 units, R 3% (2.3%/day). 3.5% off the high, 20-day avg $199.84, 10-day low
-  $198.76. Zone $200–205. ~22 sh at $203: stop $196.91, +1R $209.09 sell 7,
-  +2R $215.18 sell 7. Earnings ~3 Nov.
-- Bench: LITE (zone $1,045–1,060, 2 sh, wide) · DRAM (memory basket, zone
-  $60.50–61.80, 1 unit, wide — churned 17× last month) · VLO (refiner, not AI:
-  +51% in 3 months on ~$100 Brent, zone $395–400, 2 units, R 3%; earnings
-  22 Oct) · COHR (zone $319–325, wide).
-- Watch only: WDC (−10% Fri on Toshiba HDD capacity news). Needs a green
-  close above $415.29 first.
+FIRST JOB — STRK concentration. 93% of equity in one thin-book alt (2% spread)
+vs the 30% cap. Realized +$3,921 on STRK this week, but the position was
+rebuilt Sunday (85,995 re-bought, avg basis now $0.1052; mark $0.1131 =
++$1,670 open). Guidance: cut to ≤$7,700 (≈68,000 tokens) with limit orders;
+GTC stop on the rest at $0.1050 (basis). Weekends: no new positions
+Sat/Sun (risk.md) — this week's STRK build was mostly Sat/Sun.
 
-Asymmetric setups (user, 4 Oct: "find asymmetric upside ... from your scan
-and where you see the money flowing"). Money flow, 20 sector ETFs over the
-month: only semis (SMH +14.6%, up-volume 2.7× down-volume, at the high) and
-tech (XLK +8.8%) are being bought; financials, health care, defense, metals,
-uranium, utilities, China are all down. So the asymmetry is inside AI
-hardware: names with accumulation (up/down volume ≥1.9, options volume 2–3×
-normal) still 15–45% under their highs. Sized so the stop costs ~$113
-(0.5% of equity) — fixed risk, the size floats. All report after this week.
-- **SMCI** — zone $41.00–42.50 (two-week shelf; 10-day low $39.85). 43 sh,
-  stop $39.40, T1 $51.40 (3-month high, 4.1R), T2 $58 (6.9R). Earnings 3 Nov.
-- **CRDO** — zone $192–200 (late-Sep base), 6 sh, stop $178 (under the
-  10-day low), T1 $250 (3.0R), T2 $300 (5.8R). +32% in a month, still 29%
-  under its $308 high. Earnings 30 Nov.
-- **VIAV** — zone $42–44 (Wed/Thu breakout area; it closed $47.10 after 12
-  straight up days — do not chase). 35 sh, stop $39.80, T1 $52 (2.8R),
-  T2 $60 (5.3R). Up/down volume 7×. Earnings 28 Oct — out before it.
-- **VSH** — zone $34.50–36.00 (retest of the $32–34 base it broke out of on
-  Friday, +11%). 30 sh, stop $31.80, T1 $45 (2.8R), T2 $52 (4.9R).
-- **INOD** (speculative, $2.4B) — zone $65.50–68.00, 18 sh, stop $60.80,
-  T1 $85 (3.1R), T2 $100 (5.6R). 44% under its high.
-- Avoid: CBRS (−20% on the week, distribution), STX/WDC until they reclaim.
-By comparison the momentum picks above are 1–2R setups (AAOI, SKHY, ANET).
+Money flow — 20 sector ETFs, 1 month (8 Sep → 9 Oct close) / last week:
+- In: software IGV +9.8% / +3.9% (new highs), tech XLK +5.8%, semis SMH +5.2%
+  (but −4.3% last week on the heaviest volume of the month, 8 Oct —
+  distribution), bitcoin IBIT +4.9%, ARKK +4.1%.
+- Rotating in last week: utilities XLU +4.0% (heavy volume since 29 Sep),
+  energy XLE +3.6%, health care XLV +2.8%, financials XLF +2.3%, China KWEB
+  +4.5% (3× volume Fri).
+- Out: uranium URA −18%, solar TAN −11%, gold miners GDX −9%, copper COPX −9%,
+  silver SLV −8%, defense ITA −8%, space UFO −5%, biotech XBI −5%.
 
-Buy-zone alerts: tools/zone_alerts.py pushes when any pick in
-data/zones.json trades inside its zone (once per name per day, only while a
-tactical slot is open). Max 3 tactical positions — first zones hit fill them.
+Tactical zones (data/zones.json, 10 live; T2 R in brackets). Rebuilt from 50
+money-flow names; no earnings before expiry (SMMT reports 23 Oct).
+| Name | Zone | Stop | T1 / T2 | Qty | R | Expires |
+|---|---|---|---|---|---|---|
+| SMMT | 17.03–17.54 | 15.84 | 19.09 / 29.23 | 88 | 6.9 | 18 Oct |
+| NVAX | 10.36–10.67 | 10.16 | 13.38 | 208 | 5.3 | 14 Oct (now 12.69 — stale) |
+| CIEN | 421.11–433.74 | 391.63 | 637.51 | 3 | 4.8 | 18 Oct |
+| BB | 8.58–8.84 | 7.77 | 9.72 / 13.59 | 137 | 4.4 | 18 Oct |
+| STNE | 10.88–11.21 | 10.12 | 15.81 | 112 | 4.2 | 15 Oct |
+| PCVX | 63.79–65.70 | 59.32 | 90.75 | 23 | 3.9 | 18 Oct |
+| TXG | 79.44–80.65 | 73.88 | 102.81 | 20 | 3.3 | 18 Oct |
+| AZTA | 35.19–36.25 | 32.95 | 46.41 | 46 | 3.1 | 18 Oct |
+| SYNA | 118.02–119.82 | 109.76 | 149.11 | 14 | 2.9 | 18 Oct |
+| RXRX | 4.01–4.13 | 3.73 | 5.19 | 322 | 2.7 | 14 Oct |
+Top 3 for the week: SMMT (6.9R, biotech gap risk), CIEN (4.8R, optical/AI
+networking — software & AI infra are where money is going), BB (4.4R, at
+the zone now).
 
-Core (outside the 3 slots): units only at the data/core_plan.json ladder,
-pushed as alerts by tools/core_adds.py; whole-position Friday-close stop.
-- **ARKG** — max 3 units. u1 ≤ $54.50 · u2 ≤ $50.75 (20-day avg) · u3 on a
-  close ≥ $55.50 (new 3-month high). Stop: Friday close < $48.
-- **ZCSH** — max 2 units. u1 ≤ $34.50 · u2 ≤ $30.00 or a close ≥ $38.50,
-  whichever comes first. Stop: Friday close < $27. Last month's #1 churn name
-  (37 trades, −$1,652): any sale = full exit, 2 weeks out.
-- Full core at the stops would lose ~$1,400 (ARKG 3u ~−$680, ZCSH 2u ~−$710).
+Core (outside the 3 slots) — PAUSED until 19 Oct (both sold this cycle;
+ZCSH was 8 round trips, −$451 this week). Ladder refreshed in
+data/core_plan.json:
+- **ARKG** (Fri 51.30) — u1 ≤ $51.80 (20-day avg) · u2 ≤ $49.00 (10-day low
+  48.29) · u3 on a close ≥ $59.00 (3-month high 58.83). Stop: Friday close
+  < $48.
+- **ZCSH** (Fri 32.02) — u1 ≤ $32.00 · u2 ≤ $29.75 or a close ≥ $37.00 (20-day
+  avg 36.60). Stop raised $27 → $29 (Friday close).
 
-Exposure at full plan: tactical 4 units + core 5 units = 9 units ≈ 0.90×.
-Margin (≤1.25× on +1/+2 days) is headroom, not a target.
+Last week (5–11 Oct), manual: realized +$2,323 over 47 closes (36% won,
+payoff 3.2×) — STRK +$3,921 carried it; ex-STRK −$1,598. Best STRK, AAOI
++$516, EWZ +$139. Worst W −$844, ZCSH −$451, INTC −$426. CHURN: ZCSH (8),
+INTC (5). REVENGE: EWZ 6 Oct. Loss limit broken twice (6 and 8 Oct: three
+positions opened after the limit on Thu). Alerts: 18 desk-guard, 8 zone, 2
+core pushed — 0 zone buys taken; the gross/cap alerts were followed only
+on Fri 3:40pm (IBIT/ZCSH trim).
+Agentic: −$58.85 over 7 trades (2 won). Now QQQ 0.678 sh (user, $509, 1x —
+outside the 2x–5x mandate), cash $0 < $20 floor → no agent entries until
+QQQ is sold.
 
-Desk guard flags for this week: --wide AAOI SKHY LITE COHR DRAM WDC
---core ARKG:48 ZCSH:27
-
-Agentic sleeve ••••0924 (agent trades, $568): optical via AAOX (Tradr 2x
-AAOI, ~11M sh/day) and memory via RAM / MUU. Entries still need a fresh
-board-confirmed long in the theme and the chase rule (strategy.md). LITE's 2x
-ETFs (LITG ~20k sh/day, LITC ~1k) fail the $20M liquidity floor — not used.
+Desk guard flags for this week: --wide STRK CIEN SMMT NVAX RXRX
+--core ARKG:48 ZCSH:29
 
 ## STANDING RULE — DO NOT FADE @firstadopter (user-imposed, 2026-08-03)
 The user's own words: "i faded the trader who is really good. i am no longer

@@ -1,23 +1,26 @@
 {
- "_doc": "Core sleeve add ladder (manual desk 485695308, guidance only). Set 2026-10-04 from Friday 2 Oct closes; review every Sunday. units_before = units already held when this level may fire; 'close_at_or_above' levels are judged only at the 3:40pm monitor (--late).",
+ "_doc": "Core sleeve add ladder (manual desk 485695308, guidance only). Refreshed 2026-10-11 (Sunday review) from Friday 9 Oct closes: 20-day average, 10-day low, 3-month high. units_before = units already held when this level may fire; 'close_at_or_above' levels are judged only at the 3:40pm monitor (--late). Both names were sold 5 Oct (ARKG) / 9 Oct (ZCSH) and are PAUSED until 2026-10-19 — core_adds alerts suppressed until then. Weekly-close stops are only ever raised.",
  "unit_pct": 0.10,
+ "paused_until": "2026-10-19",
  "names": {
   "ARKG": {
    "max_units": 3,
    "stop_weekly_close": 48.00,
+   "ref": {"close": 51.30, "avg20": 51.80, "low10": 48.29, "high3m": 58.83},
    "levels": [
-    {"id": "u1", "units_before": 0, "type": "at_or_below", "price": 54.50, "why": "starter unit near Friday's 54.00 close"},
-    {"id": "u2", "units_before": 1, "type": "at_or_below", "price": 50.75, "why": "pullback to the 20-day average (50.40) / 10-day low (50.18)"},
-    {"id": "u3", "units_before": 2, "type": "close_at_or_above", "price": 55.50, "why": "close above the 3-month high (55.33)"}
+    {"id": "u1", "units_before": 0, "type": "at_or_below", "price": 51.80, "why": "starter at the 20-day average (51.80)"},
+    {"id": "u2", "units_before": 1, "type": "at_or_below", "price": 49.00, "why": "pullback toward the 10-day low (48.29), above the 48 stop"},
+    {"id": "u3", "units_before": 2, "type": "close_at_or_above", "price": 59.00, "why": "close above the 3-month high (58.83)"}
    ]
   },
   "ZCSH": {
    "max_units": 2,
-   "stop_weekly_close": 27.00,
+   "stop_weekly_close": 29.00,
+   "ref": {"close": 32.02, "avg20": 36.60, "low10": 29.51, "high3m": 43.91},
    "levels": [
-    {"id": "u1", "units_before": 0, "type": "at_or_below", "price": 34.50, "why": "starter unit near Friday's 34.04 close"},
-    {"id": "u2a", "units_before": 1, "type": "at_or_below", "price": 30.00, "why": "deep pullback, ~-12% from the starter"},
-    {"id": "u2b", "units_before": 1, "type": "close_at_or_above", "price": 38.50, "why": "close back above last week's high (38.5)"}
+    {"id": "u1", "units_before": 0, "type": "at_or_below", "price": 32.00, "why": "starter near Friday's 32.02 close"},
+    {"id": "u2a", "units_before": 1, "type": "at_or_below", "price": 29.75, "why": "retest of the 10-day low (29.51)"},
+    {"id": "u2b", "units_before": 1, "type": "close_at_or_above", "price": 37.00, "why": "close back above the 20-day average (36.60)"}
    ]
   }
  }
