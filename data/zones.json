@@ -109,18 +109,6 @@
    "expires": "2026-10-18",
    "added": "2026-10-11",
    "tag": "scan 2026-10-11: 5.2R to the 6-month high, buying vol 1.9x selling"
-  },
-  {
-   "sym": "TXG",
-   "lo": 79.44,
-   "hi": 80.65,
-   "qty": 20,
-   "stop": 73.88,
-   "t1": 102.81,
-   "t2": 102.81,
-   "expires": "2026-10-18",
-   "added": "2026-10-11",
-   "tag": "scan 2026-10-11: 3.7R to the 6-month high, buying vol 1.5x selling"
   }
  ]
 }
