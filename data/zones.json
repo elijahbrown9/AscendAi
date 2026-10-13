@@ -75,18 +75,6 @@
       "tag": "scan 2026-10-11: 3.9R to the 6-month high, buying vol 2.0x selling"
     },
     {
-      "sym": "SMMT",
-      "lo": 17.03,
-      "hi": 17.54,
-      "qty": 88,
-      "stop": 15.84,
-      "t1": 19.09,
-      "t2": 29.23,
-      "expires": "2026-10-18",
-      "added": "2026-10-11",
-      "tag": "scan 2026-10-11: 8.2R to the 6-month high, buying vol 2.0x selling"
-    },
-    {
       "sym": "BB",
       "lo": 8.58,
       "hi": 8.84,
