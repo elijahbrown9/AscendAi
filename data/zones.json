@@ -1,114 +1,102 @@
 {
- "_doc": "Tactical buy zones (manual desk 485695308, guidance only). Set 2026-10-04 from Friday 2 Oct closes; refreshed at Sunday review. qty = suggested shares; risk-sized names (asym) are sized so the stop costs ~$113 (0.5% of equity). Max 3 tactical positions at once \u2014 the first setups to hit their zones fill the slots.",
- "valid_through": "2099-12-31",
- "zones": [
-  {
-   "sym": "NVAX",
-   "lo": 10.36,
-   "hi": 10.67,
-   "qty": 208,
-   "stop": 10.16,
-   "t1": 13.38,
-   "t2": 13.38,
-   "expires": "2026-10-14",
-   "added": "2026-10-07",
-   "tag": "scan 2026-10-07: 8.0R to the 6-month high, buying vol 1.8x selling"
-  },
-  {
-   "sym": "RXRX",
-   "lo": 4.01,
-   "hi": 4.13,
-   "qty": 322,
-   "stop": 3.73,
-   "t1": 5.19,
-   "t2": 5.19,
-   "expires": "2026-10-14",
-   "added": "2026-10-07",
-   "tag": "scan 2026-10-07: 3.3R to the 6-month high, buying vol 1.8x selling"
-  },
-  {
-   "sym": "STNE",
-   "lo": 10.88,
-   "hi": 11.21,
-   "qty": 112,
-   "stop": 10.12,
-   "t1": 15.81,
-   "t2": 15.81,
-   "expires": "2026-10-15",
-   "added": "2026-10-08",
-   "tag": "scan 2026-10-08: 5.2R to the 6-month high, buying vol 2.4x selling"
-  },
-  {
-   "sym": "PCVX",
-   "lo": 63.79,
-   "hi": 65.7,
-   "qty": 23,
-   "stop": 59.32,
-   "t1": 90.75,
-   "t2": 90.75,
-   "expires": "2026-10-18",
-   "added": "2026-10-11",
-   "tag": "scan 2026-10-11: 4.8R to the 6-month high, buying vol 1.7x selling"
-  },
-  {
-   "sym": "SYNA",
-   "lo": 118.02,
-   "hi": 119.82,
-   "qty": 14,
-   "stop": 109.76,
-   "t1": 149.11,
-   "t2": 149.11,
-   "expires": "2026-10-18",
-   "added": "2026-10-11",
-   "tag": "scan 2026-10-11: 3.3R to the 6-month high, buying vol 2.6x selling"
-  },
-  {
-   "sym": "AZTA",
-   "lo": 35.19,
-   "hi": 36.25,
-   "qty": 46,
-   "stop": 32.95,
-   "t1": 46.41,
-   "t2": 46.41,
-   "expires": "2026-10-18",
-   "added": "2026-10-11",
-   "tag": "scan 2026-10-11: 3.9R to the 6-month high, buying vol 2.0x selling"
-  },
-  {
-   "sym": "SMMT",
-   "lo": 17.03,
-   "hi": 17.54,
-   "qty": 88,
-   "stop": 15.84,
-   "t1": 19.09,
-   "t2": 29.23,
-   "expires": "2026-10-18",
-   "added": "2026-10-11",
-   "tag": "scan 2026-10-11: 8.2R to the 6-month high, buying vol 2.0x selling"
-  },
-  {
-   "sym": "CIEN",
-   "lo": 421.11,
-   "hi": 433.74,
-   "qty": 3,
-   "stop": 391.63,
-   "t1": 637.51,
-   "t2": 637.51,
-   "expires": "2026-10-18",
-   "added": "2026-10-11",
-   "tag": "scan 2026-10-11: 5.9R to the 6-month high, buying vol 2.6x selling"
-  },
-  {
-   "sym": "BB",
-   "lo": 8.58,
-   "hi": 8.84,
-   "qty": 137,
-   "stop": 7.77,
-   "t1": 9.72,
-   "t2": 13.59,
-   "expires": "2026-10-18",
-   "added": "2026-10-11",
-   "tag": "scan 2026-10-11: 5.2R to the 6-month high, buying vol 1.9x selling"
-  }
- ]
+  "_doc": "Tactical buy zones (manual desk 485695308, guidance only). Set 2026-10-04 from Friday 2 Oct closes; refreshed at Sunday review. qty = suggested shares; risk-sized names (asym) are sized so the stop costs ~$113 (0.5% of equity). Max 3 tactical positions at once \u2014 the first setups to hit their zones fill the slots.",
+  "valid_through": "2099-12-31",
+  "zones": [
+    {
+      "sym": "NVAX",
+      "lo": 10.36,
+      "hi": 10.67,
+      "qty": 208,
+      "stop": 10.16,
+      "t1": 13.38,
+      "t2": 13.38,
+      "expires": "2026-10-14",
+      "added": "2026-10-07",
+      "tag": "scan 2026-10-07: 8.0R to the 6-month high, buying vol 1.8x selling"
+    },
+    {
+      "sym": "RXRX",
+      "lo": 4.01,
+      "hi": 4.13,
+      "qty": 322,
+      "stop": 3.73,
+      "t1": 5.19,
+      "t2": 5.19,
+      "expires": "2026-10-14",
+      "added": "2026-10-07",
+      "tag": "scan 2026-10-07: 3.3R to the 6-month high, buying vol 1.8x selling"
+    },
+    {
+      "sym": "STNE",
+      "lo": 10.88,
+      "hi": 11.21,
+      "qty": 112,
+      "stop": 10.12,
+      "t1": 15.81,
+      "t2": 15.81,
+      "expires": "2026-10-15",
+      "added": "2026-10-08",
+      "tag": "scan 2026-10-08: 5.2R to the 6-month high, buying vol 2.4x selling"
+    },
+    {
+      "sym": "PCVX",
+      "lo": 63.79,
+      "hi": 65.7,
+      "qty": 23,
+      "stop": 59.32,
+      "t1": 90.75,
+      "t2": 90.75,
+      "expires": "2026-10-18",
+      "added": "2026-10-11",
+      "tag": "scan 2026-10-11: 4.8R to the 6-month high, buying vol 1.7x selling"
+    },
+    {
+      "sym": "SYNA",
+      "lo": 118.02,
+      "hi": 119.82,
+      "qty": 14,
+      "stop": 109.76,
+      "t1": 149.11,
+      "t2": 149.11,
+      "expires": "2026-10-18",
+      "added": "2026-10-11",
+      "tag": "scan 2026-10-11: 3.3R to the 6-month high, buying vol 2.6x selling"
+    },
+    {
+      "sym": "AZTA",
+      "lo": 35.19,
+      "hi": 36.25,
+      "qty": 46,
+      "stop": 32.95,
+      "t1": 46.41,
+      "t2": 46.41,
+      "expires": "2026-10-18",
+      "added": "2026-10-11",
+      "tag": "scan 2026-10-11: 3.9R to the 6-month high, buying vol 2.0x selling"
+    },
+    {
+      "sym": "SMMT",
+      "lo": 17.03,
+      "hi": 17.54,
+      "qty": 88,
+      "stop": 15.84,
+      "t1": 19.09,
+      "t2": 29.23,
+      "expires": "2026-10-18",
+      "added": "2026-10-11",
+      "tag": "scan 2026-10-11: 8.2R to the 6-month high, buying vol 2.0x selling"
+    },
+    {
+      "sym": "BB",
+      "lo": 8.58,
+      "hi": 8.84,
+      "qty": 137,
+      "stop": 7.77,
+      "t1": 9.72,
+      "t2": 13.59,
+      "expires": "2026-10-18",
+      "added": "2026-10-11",
+      "tag": "scan 2026-10-11: 5.2R to the 6-month high, buying vol 1.9x selling"
+    }
+  ]
 }
