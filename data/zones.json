@@ -15,18 +15,6 @@
       "tag": "scan 2026-10-07: 8.0R to the 6-month high, buying vol 1.8x selling"
     },
     {
-      "sym": "RXRX",
-      "lo": 4.01,
-      "hi": 4.13,
-      "qty": 322,
-      "stop": 3.73,
-      "t1": 5.19,
-      "t2": 5.19,
-      "expires": "2026-10-14",
-      "added": "2026-10-07",
-      "tag": "scan 2026-10-07: 3.3R to the 6-month high, buying vol 1.8x selling"
-    },
-    {
       "sym": "STNE",
       "lo": 10.88,
       "hi": 11.21,
