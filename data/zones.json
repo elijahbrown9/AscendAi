@@ -3,54 +3,6 @@
  "valid_through": "2099-12-31",
  "zones": [
   {
-   "sym": "PCVX",
-   "lo": 63.79,
-   "hi": 65.7,
-   "qty": 23,
-   "stop": 59.32,
-   "t1": 90.75,
-   "t2": 90.75,
-   "expires": "2026-10-18",
-   "added": "2026-10-11",
-   "tag": "scan 2026-10-11: 4.8R to the 6-month high, buying vol 1.7x selling"
-  },
-  {
-   "sym": "SYNA",
-   "lo": 118.02,
-   "hi": 119.82,
-   "qty": 14,
-   "stop": 109.76,
-   "t1": 149.11,
-   "t2": 149.11,
-   "expires": "2026-10-18",
-   "added": "2026-10-11",
-   "tag": "scan 2026-10-11: 3.3R to the 6-month high, buying vol 2.6x selling"
-  },
-  {
-   "sym": "AZTA",
-   "lo": 35.19,
-   "hi": 36.25,
-   "qty": 46,
-   "stop": 32.95,
-   "t1": 46.41,
-   "t2": 46.41,
-   "expires": "2026-10-18",
-   "added": "2026-10-11",
-   "tag": "scan 2026-10-11: 3.9R to the 6-month high, buying vol 2.0x selling"
-  },
-  {
-   "sym": "BB",
-   "lo": 8.58,
-   "hi": 8.84,
-   "qty": 137,
-   "stop": 7.77,
-   "t1": 9.72,
-   "t2": 13.59,
-   "expires": "2026-10-18",
-   "added": "2026-10-11",
-   "tag": "scan 2026-10-11: 5.2R to the 6-month high, buying vol 1.9x selling"
-  },
-  {
    "sym": "CDNA",
    "lo": 61.5,
    "hi": 63.34,
@@ -73,6 +25,18 @@
    "expires": "2026-10-22",
    "added": "2026-10-15",
    "tag": "scan 2026-10-15: 3.4R to the 6-month high, buying vol 1.9x selling"
+  },
+  {
+   "sym": "VFC",
+   "lo": 15.74,
+   "hi": 16.21,
+   "qty": 111,
+   "stop": 14.64,
+   "t1": 18.26,
+   "t2": 22.27,
+   "expires": "2026-10-23",
+   "added": "2026-10-16",
+   "tag": "scan 2026-10-16: 4.7R to the 6-month high, buying vol 3.3x selling"
   }
  ]
 }
