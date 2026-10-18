@@ -37,6 +37,42 @@
    "expires": "2026-10-23",
    "added": "2026-10-16",
    "tag": "scan 2026-10-16: 4.7R to the 6-month high, buying vol 3.3x selling"
+  },
+  {
+   "sym": "SYNA",
+   "lo": 115.42,
+   "hi": 117.18,
+   "qty": 16,
+   "stop": 107.34,
+   "t1": 149.11,
+   "t2": 149.11,
+   "expires": "2026-10-25",
+   "added": "2026-10-18",
+   "tag": "scan 2026-10-18: 3.7R to the 6-month high, buying vol 1.9x selling"
+  },
+  {
+   "sym": "STNE",
+   "lo": 11.11,
+   "hi": 11.28,
+   "qty": 258,
+   "stop": 10.77,
+   "t1": 12.49,
+   "t2": 15.81,
+   "expires": "2026-10-25",
+   "added": "2026-10-18",
+   "tag": "scan 2026-10-18: 10.9R to the 6-month high, buying vol 2.1x selling"
+  },
+  {
+   "sym": "ULS",
+   "lo": 70.64,
+   "hi": 72.76,
+   "qty": 21,
+   "stop": 64.89,
+   "t1": 93.61,
+   "t2": 107.54,
+   "expires": "2026-10-25",
+   "added": "2026-10-18",
+   "tag": "scan 2026-10-18: 5.3R to the 6-month high, buying vol 2.3x selling"
   }
  ]
 }
