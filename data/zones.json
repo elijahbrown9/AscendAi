@@ -85,6 +85,18 @@
    "expires": "2026-10-26",
    "added": "2026-10-19",
    "tag": "scan 2026-10-19: 4.0R to the 6-month high, buying vol 1.6x selling"
+  },
+  {
+   "sym": "DHT",
+   "lo": 22.68,
+   "hi": 23.03,
+   "qty": 127,
+   "stop": 22.14,
+   "t1": 26.91,
+   "t2": 26.91,
+   "expires": "2026-10-27",
+   "added": "2026-10-20",
+   "tag": "scan 2026-10-20: 5.7R to the 6-month high, buying vol 1.7x selling"
   }
  ]
 }
