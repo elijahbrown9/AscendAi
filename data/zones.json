@@ -3,18 +3,6 @@
   "valid_through": "2099-12-31",
   "zones": [
     {
-      "sym": "CDNA",
-      "lo": 61.5,
-      "hi": 63.34,
-      "qty": 48,
-      "stop": 60.58,
-      "t1": 72.51,
-      "t2": 72.51,
-      "expires": "2026-10-21",
-      "added": "2026-10-14",
-      "tag": "scan 2026-10-14: 5.5R to the 6-month high, buying vol 1.8x selling"
-    },
-    {
       "sym": "INTR",
       "lo": 6.89,
       "hi": 6.99,
