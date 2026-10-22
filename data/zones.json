@@ -3,18 +3,6 @@
   "valid_through": "2099-12-31",
   "zones": [
     {
-      "sym": "INTR",
-      "lo": 6.89,
-      "hi": 6.99,
-      "qty": 278,
-      "stop": 6.4,
-      "t1": 7.81,
-      "t2": 8.74,
-      "expires": "2026-10-22",
-      "added": "2026-10-15",
-      "tag": "scan 2026-10-15: 3.4R to the 6-month high, buying vol 1.9x selling"
-    },
-    {
       "sym": "VFC",
       "lo": 15.74,
       "hi": 16.21,
