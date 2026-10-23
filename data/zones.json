@@ -109,6 +109,18 @@
    "expires": "2026-10-30",
    "added": "2026-10-23",
    "tag": "scan 2026-10-23: 4.2R to the 6-month high, buying vol 2.0x selling"
+  },
+  {
+   "sym": "WIT",
+   "lo": 1.92,
+   "hi": 1.98,
+   "qty": 946,
+   "stop": 1.79,
+   "t1": 2.21,
+   "t2": 2.52,
+   "expires": "2026-10-30",
+   "added": "2026-10-23",
+   "tag": "scan 2026-10-23: 3.5R to the 6-month high, buying vol 2.8x selling"
   }
  ]
 }
