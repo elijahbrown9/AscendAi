@@ -97,6 +97,18 @@
    "expires": "2026-10-30",
    "added": "2026-10-23",
    "tag": "scan 2026-10-23: 5.1R to the 6-month high, buying vol 2.0x selling"
+  },
+  {
+   "sym": "TRAX",
+   "lo": 36.28,
+   "hi": 37.37,
+   "qty": 49,
+   "stop": 33.74,
+   "t1": 49.91,
+   "t2": 49.91,
+   "expires": "2026-10-30",
+   "added": "2026-10-23",
+   "tag": "scan 2026-10-23: 4.2R to the 6-month high, buying vol 2.0x selling"
   }
  ]
 }
