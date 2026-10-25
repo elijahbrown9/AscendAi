@@ -1,15 +1,15 @@
 {
- "_doc": "Core sleeve add ladder (manual desk 485695308, guidance only). Refreshed 2026-10-18 (Sunday review) from Friday 16 Oct closes: 20-day average, 10-day low, 3-month high. units_before = units already held when this level may fire; 'close_at_or_above' levels are judged only at the 3:40pm monitor (--late). Pause ends 2026-10-19. ARKG closed the week at 46.70, BELOW its 48 weekly-close stop: the setup is broken, so its first unit now needs a reclaim close instead of a dip buy. Weekly-close stops are only ever raised.",
+ "_doc": "Core sleeve add ladder (manual desk 485695308, guidance only). Refreshed 2026-10-25 (Sunday review) from Friday 23 Oct closes: 20-day average, 10-day low, 3-month high. units_before = units already held when this level may fire; 'close_at_or_above' levels are judged only at the 3:40pm monitor (--late). Weekly-close stops are only ever raised, never lowered. ARKG closed 48.16, back above its 48 stop but still under the 20-day average, so its first unit still needs a reclaim close.",
  "unit_pct": 0.10,
- "paused_until": "2026-10-19",
+ "paused_until": null,
  "names": {
   "ARKG": {
    "max_units": 3,
    "stop_weekly_close": 48.00,
-   "status": "broken 16 Oct (Friday close 46.70 < 48) - no dip buys until a close back above the 20-day average",
-   "ref": {"close": 46.70, "avg20": 51.63, "low10": 46.41, "high3m": 58.83},
+   "status": "repairing - Friday close 48.16 held the 48 stop; no dip buys until a close above the 20-day average",
+   "ref": {"close": 48.16, "avg20": 50.60, "low10": 46.41, "high3m": 58.83},
    "levels": [
-    {"id": "u1", "units_before": 0, "type": "close_at_or_above", "price": 51.65, "why": "reclaim close above the 20-day average (51.63) after the stop break"},
+    {"id": "u1", "units_before": 0, "type": "close_at_or_above", "price": 50.65, "why": "reclaim close above the 20-day average (50.60)"},
     {"id": "u2", "units_before": 1, "type": "at_or_below", "price": 49.00, "why": "pullback that holds above the 48 stop"},
     {"id": "u3", "units_before": 2, "type": "close_at_or_above", "price": 59.00, "why": "close above the 3-month high (58.83)"}
    ]
@@ -17,11 +17,11 @@
   "ZCSH": {
    "max_units": 2,
    "stop_weekly_close": 29.00,
-   "ref": {"close": 30.53, "avg20": 35.80, "low10": 28.70, "high3m": 43.91},
+   "ref": {"close": 32.59, "avg20": 33.81, "low10": 28.70, "high3m": 43.91},
    "levels": [
-    {"id": "u1", "units_before": 0, "type": "at_or_below", "price": 30.50, "why": "starter near Friday's 30.53 close, 5% above the 29 stop"},
-    {"id": "u2a", "units_before": 1, "type": "at_or_below", "price": 29.25, "why": "retest of the 10-day low (28.70 intraday 15 Oct) that holds above 29"},
-    {"id": "u2b", "units_before": 1, "type": "close_at_or_above", "price": 36.00, "why": "close back above the 20-day average (35.80)"}
+    {"id": "u1", "units_before": 0, "type": "at_or_below", "price": 31.25, "why": "pullback toward the 22 Oct low (31.51), 7.8% above the 29 stop"},
+    {"id": "u2a", "units_before": 1, "type": "at_or_below", "price": 29.50, "why": "retest of the 10-day low zone (28.70) that holds above 29"},
+    {"id": "u2b", "units_before": 1, "type": "close_at_or_above", "price": 33.85, "why": "close back above the 20-day average (33.81)"}
    ]
   }
  }

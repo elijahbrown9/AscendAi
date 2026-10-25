@@ -3,42 +3,6 @@
  "valid_through": "2099-12-31",
  "zones": [
   {
-   "sym": "SYNA",
-   "lo": 115.42,
-   "hi": 117.18,
-   "qty": 16,
-   "stop": 107.34,
-   "t1": 149.11,
-   "t2": 149.11,
-   "expires": "2026-10-25",
-   "added": "2026-10-18",
-   "tag": "scan 2026-10-18: 3.7R to the 6-month high, buying vol 1.9x selling"
-  },
-  {
-   "sym": "STNE",
-   "lo": 11.11,
-   "hi": 11.28,
-   "qty": 258,
-   "stop": 10.77,
-   "t1": 12.49,
-   "t2": 15.81,
-   "expires": "2026-10-25",
-   "added": "2026-10-18",
-   "tag": "scan 2026-10-18: 10.9R to the 6-month high, buying vol 2.1x selling"
-  },
-  {
-   "sym": "ULS",
-   "lo": 70.64,
-   "hi": 72.76,
-   "qty": 21,
-   "stop": 64.89,
-   "t1": 93.61,
-   "t2": 107.54,
-   "expires": "2026-10-25",
-   "added": "2026-10-18",
-   "tag": "scan 2026-10-18: 5.3R to the 6-month high, buying vol 2.3x selling"
-  },
-  {
    "sym": "TLN",
    "lo": 337.99,
    "hi": 348.13,
@@ -145,6 +109,18 @@
    "expires": "2026-10-30",
    "added": "2026-10-23",
    "tag": "scan 2026-10-23: 4.8R to the 6-month high, buying vol 1.7x selling"
+  },
+  {
+   "sym": "SYNA",
+   "lo": 115.5,
+   "hi": 117.26,
+   "qty": 16,
+   "stop": 107.42,
+   "t1": 149.11,
+   "t2": 149.11,
+   "expires": "2026-11-01",
+   "added": "2026-10-25",
+   "tag": "scan 2026-10-25: 3.7R to the 6-month high, buying vol 1.7x selling"
   }
  ]
 }

@@ -4,72 +4,75 @@ Names here are re-evaluated every pre-open brief. Being on this list is not
 an entry signal — every name still has to clear strategy.md/risk.md filters
 the day it's actually traded.
 
-## Week plan — 19–23 Oct 2026 (Sunday review 18 Oct). Manual desk ••••5308 =
+## Week plan — 26–30 Oct 2026 (Sunday review 25 Oct). Manual desk ••••5308 =
 ## guidance only; agent never trades it.
-Account $28,950 (all cash after the NEAR exit Fri night; $36 in event
-contracts). 1 unit = $2,895. Daily loss limit $579. Hard cap 30% per name
-($8,685). Margin ≤1.25× gross on +1/+2 days only — none at 0/−1/−2.
-Budget: 3 tactical slots + core ladder (pause ends Mon 19 Oct).
-No buys 9:30–10:00 ET. Limit orders at the zone, never market-chasing a gap.
-Max 2 entries per ticker per day, 4 round trips per day.
-Grade from the 9am brief: −1 → only the core buys; −2 → no new buys at all.
+Account $29,295 (all cash; $101 in event contracts). 1 unit = $2,929. Daily
+loss limit $586. Hard cap 30% per name ($8,788). Margin ≤1.25× gross on +1/+2
+days only — none at 0/−1/−2. Budget: 3 tactical slots + core ladder.
+No buys 9:30–10:00 ET and none outside regular hours. Limit orders at the
+zone, never market-chasing. Max 2 entries per ticker per day; 2 stop-outs in
+a name = done with it for the day. Size once, set a −3% stop (−5% wide-vol)
+and leave it. Grade from the 9am brief: −1 → only core buys; −2 → none.
 
-FIRST JOB — STOP THE CHURN. Last week's realized P&L was W (+$3,703) plus
-noise: everything else netted +$274 over 77 closes. ZCSH: 12 entries on 15
-Oct (cap 2) and a −$1,666 swing in the last 20 minutes; META 3 entries/day
-twice; margin up to 1.70× on a grade-0 day; NEAR at 66% of equity with a
-1.1% stop (sold Fri night −$226). Pick ≤3 names per day before the open,
-size each once, and let the stop or the target end the trade.
+FIRST JOB — SIZE SMALL ENOUGH TO HOLD. Friday's PANW: ~30 round trips on up
+to 150 sh (184% of equity, 1.87× margin on a −1 day) netted +$136; the first
+100 sh held from ~362 to the 380.70 close = +$1,864, and 25 sh (the cap) with
+a −3% stop never threatened = +$466. The weekend repeated it in crypto: 15 ZEC
+(~60% of equity) stopped −$303 at 2:45am Sun, re-bought, sold −$465 = −$768.
 
-Money flow — 20 sector ETFs, 1 month (16 Sep → 16 Oct close) / last week:
-- In (defensive rotation): energy XLE +6.6% / +4.9% (rising volume), health
-  care XLV +5.3% / +3.5%, utilities XLU +2.2% / +1.9%, financials XLF +1.4%
-  last week, defense ITA +1.2% last week (Friday volume 2.5× normal).
-- Out: semis SMH −1.1% / −10.5% (heaviest volume of the month every day
-  Tue–Fri — distribution), tech XLK −7.7% last week, software IGV −7.3% last
-  week (off new highs), quantum QTUM −9.8%, ARKK −8.8%, biotech XBI −6.1%.
-- Still bleeding: uranium URA −14.4% 1m, silver SLV −14.0%, space UFO −9.0%,
-  copper COPX −8.4%, solar TAN −8.3%, gold miners GDX −8.1%.
-- Flat: bitcoin IBIT +0.3%, China KWEB −1.7%, industrials XLI −0.6%.
-Read: money left growth/AI hardware for energy, health care and utilities.
-Favor setups in those groups; treat semis/AI bounces as suspect until SMH
-holds a higher low on lower volume.
+Money flow — 20 sector ETFs, 1 month (23 Sep → 23 Oct close) / last week:
+- In: energy XLE +10.8% / +1.6% (up/down volume 2.0×), utilities XLU +8.1%
+  (1.6×), health care XLV +5.5% / +1.5%, financials XLF +2.5%; software IGV
+  +6.0% last week and biotech XBI +3.6% last week (rebounds on light volume).
+- Out (distribution): copper COPX −15.3% / −8.6% (up/down 0.30, volume 1.4×
+  normal), silver SLV −15.4%, uranium URA −16.5%, gold miners GDX −13.2% /
+  −8.6%, semis SMH −12.2% (up/down 0.42), China KWEB −6.3% / −5.2%, defense
+  ITA −4.9% / −3.3%.
+- Flat-to-soft: bitcoin IBIT −3.9%, tech XLK −5.9%, industrials XLI −2.5%.
+Read: the defensive rotation held for a second month — energy, utilities and
+health care. Metals and semis are still being sold. Favor setups in the
+"in" groups; treat chip/metal bounces as suspect.
 
-Tactical zones (data/zones.json, 6 live; T2 R in brackets). Swept 50
-money-flow names; no earnings before expiry.
+Tactical zones (data/zones.json, 10 live; T2 R in brackets). Expired STNE,
+ULS, VFC; swept 20 fresh money-flow names → SYNA re-qualified.
 | Name | Zone | Stop | T1 / T2 | Qty | R | Fri close | Expires |
 |---|---|---|---|---|---|---|---|
-| STNE | 11.11–11.28 | 10.77 | 12.49 / 15.81 | 258 | 10.9 | 11.28 (top of zone) | 25 Oct |
-| CDNA | 61.50–63.34 | 60.58 | 72.51 | 48 | 5.5 | 64.06 | 21 Oct |
-| ULS | 70.64–72.76 | 64.89 | 93.61 / 107.54 | 21 | 5.3 | 73.31 | 25 Oct |
-| VFC | 15.74–16.21 | 14.64 | 18.26 / 22.27 | 111 | 4.7 | 16.85 | 23 Oct |
-| SYNA | 115.42–117.18 | 107.34 | 149.11 | 16 | 3.7 | 117.18 (top of zone) | 25 Oct |
-| INTR | 6.89–6.99 | 6.40 | 7.81 / 8.74 | 278 | 3.4 | 6.72 (below zone) | 22 Oct |
-Top 3 for the week: STNE (10.9R, in the zone now, tight 4.5% stop), ULS
-(5.3R, testing/inspection — fits the defensive rotation), CDNA (5.5R,
-health care — wait for 63.34 or lower).
+| LIME | 24.00–24.60 | 23.40 | 27.80 / 29.90 | 117 | 6.2 | 26.02 | 30 Oct |
+| DHT | 22.68–23.03 | 22.14 | 26.91 | 127 | 5.7 | 24.58 | 27 Oct |
+| BHVN | 12.29–12.66 | 11.43 | 18.24 | 145 | 5.5 | 14.69 | 30 Oct (earnings 5 Nov) |
+| LION | 11.29–11.63 | 10.43 | 13.77 / 16.70 | 148 | 5.1 | 12.51 | 30 Oct |
+| WH | 73.94–75.07 | 71.56 | 88.63 | 51 | 4.8 | 75.07 (top of zone) | 30 Oct |
+| TRAX | 36.28–37.37 | 33.74 | 49.91 | 49 | 4.2 | 44.03 | 30 Oct |
+| TLN | 337.99–348.13 | 316.04 | 390.54 / 449.84 | 5 | 4.0 | 327.91 (below zone) | 26 Oct |
+| SYNA | 115.50–117.26 | 107.42 | 149.11 | 16 | 3.7 | 117.26 (top of zone) | 1 Nov (earnings 5 Nov) |
+| ACI | 13.28–13.68 | 12.35 | 17.68 | 134 | 3.7 | 13.87 | 30 Oct |
+| WIT | 1.92–1.98 | 1.79 | 2.21 / 2.52 | 946 | 3.6 | 2.12 | 30 Oct |
+Top 3 for the week: WH (4.8R, sitting in its zone, earnings done), DHT (5.7R,
+tankers fit the energy bid — wait for 23.03 or lower), SYNA (3.7R, in its
+zone; out before the 5 Nov report).
 
-Core (outside the 3 slots) — pause ends Mon 19 Oct. Ladder refreshed in
-data/core_plan.json:
-- **ARKG** (Fri 46.70) — BROKEN: Friday close below the 48 stop. No dip buys.
-  u1 only on a close ≥ $51.65 (20-day avg 51.63) · u2 ≤ $49.00 after u1 ·
-  u3 on a close ≥ $59.00 (3-month high 58.83). Stop stays $48.
-- **ZCSH** (Fri 30.53) — u1 ≤ $30.50 · u2 ≤ $29.25 (10-day low 28.70) or a
-  close ≥ $36.00 (20-day avg 35.80). Stop $29 (Friday close). After 12
-  entries on 15 Oct: one u1 order, then hands off for the day.
+Core (outside the 3 slots). Ladder refreshed in data/core_plan.json:
+- **ARKG** (Fri 48.16) — held the 48 stop but under the 20-day avg (50.60).
+  u1 only on a close ≥ $50.65 · u2 ≤ $49.00 after u1 · u3 on a close ≥
+  $59.00 (3-month high 58.83). Stop $48 weekly close.
+- **ZCSH** (Fri 32.59) — u1 ≤ $31.25 · u2 ≤ $29.50 (10-day low 28.70) or a
+  close ≥ $33.85 (20-day avg 33.81). Stop $29 weekly close. One u1 order,
+  then hands off for the day.
 
-Last week (12–18 Oct, calendar), manual: realized +$3,977 over 78 closes (40%
-won). Best W +$3,703, ZCSH +$491, HOOD +$488, SOXL +$396. Worst STRK −$547,
-BITI −$291, NEAR −$226, BTC (ETF) −$187, AAOX −$152. Ex-W: +$274. CHURN: ZCSH
-(12 entries 15 Oct), META (3/day 13 and 15 Oct). REVENGE: AAOX 13 Oct; event
-contracts 17 Oct (21 fills over the weekend, +$51). OVERNIGHT: STRK, events.
-Alerts: 16 desk-guard, 13 zone pushed — 0 zone buys taken; oversize/margin
-alerts were usually followed by an exit within 1–2 hours, then a re-entry.
-Agentic: −$3.24 over 8 closes (5 won), all user-placed; now $605.76 cash.
-Two agent trades qualified (TMF 15 Oct, UCO 15/16 Oct) but were not placed —
-order placement is blocked in this session; they were pushed to the user.
+Last week (19–25 Oct, calendar), manual: realized ≈ +$1,010 over ~91 closes
+(~41% won); Mon–Fri +$1,757, weekend −$747 (ZEC −$768, event contracts
++$21). Account $28,964 (Mon 9am) → $29,295 (Sun) = +$330. Best ZCSH +$1,206,
+IBIT +$259, SOXL +$233, LIME +$223, PANW +$211. Worst ZEC −$768, NVDL −$178,
+BITI −$113, SOXS −$89. CHURN: PANW ~20 entries on 23 Oct, ZCSH 9 on 20 Oct.
+OFF-HOURS: MUD (22 Oct after hours), ZCSH (23 Oct pre-market), TLT/UCO (23
+Oct after hours), ZEC + events over the weekend. REVENGE: ZEC re-bought after
+the 2:45am stop-out. MARGIN: 1.84–1.87× on the −1 day.
+Alerts: 23 desk-guard, 1 core, 6 zone/setup pushed. Oversize alerts were
+followed by a trim within an hour, then a re-entry; 0 zone buys taken.
+Agentic ••••0924: −$35.92 realized (NRR, NVDL); account reads $0 since 23 Oct
+(no orders — likely a withdrawal, unconfirmed).
 
-Desk guard flags for this week: --wide SOXL SOXS STRK NEAR
+Desk guard flags for this week: --wide SOXL SOXS STRK NEAR NRR ZEC
 --core ARKG:48 ZCSH:29
 
 ## STANDING RULE — DO NOT FADE @firstadopter (user-imposed, 2026-08-03)
