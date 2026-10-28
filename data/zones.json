@@ -97,6 +97,18 @@
    "expires": "2026-11-03",
    "added": "2026-10-27",
    "tag": "scan 2026-10-27: 3.2R to the 6-month high, buying vol 4.6x selling"
+  },
+  {
+   "sym": "RRC",
+   "lo": 43.4,
+   "hi": 44.7,
+   "qty": 37,
+   "stop": 40.45,
+   "t1": 56.47,
+   "t2": 56.47,
+   "expires": "2026-11-04",
+   "added": "2026-10-28",
+   "tag": "scan 2026-10-28: 3.5R to the 6-month high, buying vol 8.3x selling"
   }
  ]
 }
