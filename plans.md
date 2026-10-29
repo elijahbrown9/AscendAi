@@ -370,3 +370,4 @@ Every new position gets its section here before the fill is reported.
 - 2026-10-29 11:54 monitor: manual $30,143 (+$2,037 vs 9am), 1.86×. BHYP 750 @49.99 → 53.06 (+$2,303, +1R: sell 250, stop to 49.99). New ZCSH 450 @35.74 (35.96, 54% — trim to ~250). Push sent.
 - 2026-10-29 12:18 check-in: agentic $0. Board longs winning (58L/25S); confirmed ZEC/LLY/CRWV long, GOOGL short; HYPE crowd 14 (+21.9%). Manual $30,861 (+$2,755), 1.90×: BHYP 750 @49.99 → 53.89 (+$2,925), ZCSH added to 500 @35.84 (36.24, +$200).
 - 2026-10-29 12:41 monitor: manual $30,836 (+$2,730), 1.90×. BHYP 750 (53.90, +$2,933), ZCSH 500 (36.16, +$158). Board alert pushed: CVNA long confirmed $68.35.
+- 2026-10-29 13:43 monitor: manual $30,261 (+$2,154), gross 1.08× (−$2,366 cash) — big de-risk: ZCSH sold, BHYP trimmed to 500 @50.05 (53.34, +$1,645). New PURR 500 @11.97 (~11.92).
