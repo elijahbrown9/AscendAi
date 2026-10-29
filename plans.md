@@ -367,3 +367,4 @@ Every new position gets its section here before the fill is reported.
 - 2026-10-29 10:15 monitor (9:40 run, late): manual $28,247 (+$140 vs 9am), BHYP 1,000 @49.86 → 51.13 (+$1,270), 1.81× — desk push repeated. WH ran out of zone (76.36), ACI below zone (12.94, stop 12.35). No board/core alerts.
 - 2026-10-29 10:23 check-in: agentic $0. Board: longs winning (36L/17S); confirmed LLY/ZEC long, GOOGL/GOOG short; HYPE now crowd 9 (+16%). Manual $28,452 (+$345): BHYP 1,000 still held, 51.34 (+$1,475), 1.80×.
 - 2026-10-29 10:52 monitor: manual $28,177 (+$70). BHYP 1,000 @49.86 → 51.06 (+$1,200), 1.81× (deduped desk alert). No board/core/zone alerts.
+- 2026-10-29 11:54 monitor: manual $30,143 (+$2,037 vs 9am), 1.86×. BHYP 750 @49.99 → 53.06 (+$2,303, +1R: sell 250, stop to 49.99). New ZCSH 450 @35.74 (35.96, 54% — trim to ~250). Push sent.
