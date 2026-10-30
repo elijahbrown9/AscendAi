@@ -121,6 +121,18 @@
    "expires": "2026-11-05",
    "added": "2026-10-29",
    "tag": "scan 2026-10-29: 3.6R to the 6-month high, buying vol 1.7x selling"
+  },
+  {
+   "sym": "RBA",
+   "lo": 84.22,
+   "hi": 86.75,
+   "qty": 17,
+   "stop": 77.32,
+   "t1": 96.88,
+   "t2": 117.5,
+   "expires": "2026-11-06",
+   "added": "2026-10-30",
+   "tag": "scan 2026-10-30: 3.9R to the 6-month high, buying vol 1.6x selling"
   }
  ]
 }
