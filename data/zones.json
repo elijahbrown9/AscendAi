@@ -3,90 +3,6 @@
  "valid_through": "2099-12-31",
  "zones": [
   {
-   "sym": "LION",
-   "lo": 11.29,
-   "hi": 11.63,
-   "qty": 148,
-   "stop": 10.43,
-   "t1": 13.77,
-   "t2": 16.7,
-   "expires": "2026-10-30",
-   "added": "2026-10-23",
-   "tag": "scan 2026-10-23: 5.1R to the 6-month high, buying vol 2.0x selling"
-  },
-  {
-   "sym": "TRAX",
-   "lo": 36.28,
-   "hi": 37.37,
-   "qty": 49,
-   "stop": 33.74,
-   "t1": 49.91,
-   "t2": 49.91,
-   "expires": "2026-10-30",
-   "added": "2026-10-23",
-   "tag": "scan 2026-10-23: 4.2R to the 6-month high, buying vol 2.0x selling"
-  },
-  {
-   "sym": "WIT",
-   "lo": 1.92,
-   "hi": 1.98,
-   "qty": 946,
-   "stop": 1.79,
-   "t1": 2.21,
-   "t2": 2.52,
-   "expires": "2026-10-30",
-   "added": "2026-10-23",
-   "tag": "scan 2026-10-23: 3.5R to the 6-month high, buying vol 2.8x selling"
-  },
-  {
-   "sym": "BHVN",
-   "lo": 12.29,
-   "hi": 12.66,
-   "qty": 145,
-   "stop": 11.43,
-   "t1": 18.24,
-   "t2": 18.24,
-   "expires": "2026-10-30",
-   "added": "2026-10-23",
-   "tag": "scan 2026-10-23: 5.5R to the 6-month high, buying vol 2.3x selling"
-  },
-  {
-   "sym": "ACI",
-   "lo": 13.28,
-   "hi": 13.68,
-   "qty": 134,
-   "stop": 12.35,
-   "t1": 17.68,
-   "t2": 17.68,
-   "expires": "2026-10-30",
-   "added": "2026-10-23",
-   "tag": "scan 2026-10-23: 3.7R to the 6-month high, buying vol 1.9x selling"
-  },
-  {
-   "sym": "WH",
-   "lo": 73.94,
-   "hi": 75.07,
-   "qty": 51,
-   "stop": 71.56,
-   "t1": 88.63,
-   "t2": 88.63,
-   "expires": "2026-10-30",
-   "added": "2026-10-23",
-   "tag": "scan 2026-10-23: 4.8R to the 6-month high, buying vol 1.7x selling"
-  },
-  {
-   "sym": "SYNA",
-   "lo": 115.5,
-   "hi": 117.26,
-   "qty": 16,
-   "stop": 107.42,
-   "t1": 149.11,
-   "t2": 149.11,
-   "expires": "2026-11-01",
-   "added": "2026-10-25",
-   "tag": "scan 2026-10-25: 3.7R to the 6-month high, buying vol 1.7x selling"
-  },
-  {
    "sym": "CART",
    "lo": 50.33,
    "hi": 51.84,
@@ -133,6 +49,30 @@
    "expires": "2026-11-06",
    "added": "2026-10-30",
    "tag": "scan 2026-10-30: 3.9R to the 6-month high, buying vol 1.6x selling"
+  },
+  {
+   "sym": "BHC",
+   "lo": 6.34,
+   "hi": 6.53,
+   "qty": 435,
+   "stop": 6.14,
+   "t1": 9.04,
+   "t2": 9.04,
+   "expires": "2026-11-06",
+   "added": "2026-10-30",
+   "tag": "scan 2026-10-30: 8.7R to the 6-month high, buying vol 4.3x selling"
+  },
+  {
+   "sym": "BHVN",
+   "lo": 14.13,
+   "hi": 14.55,
+   "qty": 116,
+   "stop": 13.14,
+   "t1": 18.24,
+   "t2": 18.24,
+   "expires": "2026-11-06",
+   "added": "2026-10-30",
+   "tag": "scan 2026-10-30: 3.2R to the 6-month high, buying vol 2.4x selling"
   }
  ]
 }
