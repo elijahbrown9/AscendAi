@@ -4,76 +4,87 @@ Names here are re-evaluated every pre-open brief. Being on this list is not
 an entry signal — every name still has to clear strategy.md/risk.md filters
 the day it's actually traded.
 
-## Week plan — 26–30 Oct 2026 (Sunday review 25 Oct). Manual desk ••••5308 =
+## Week plan — 2–6 Nov 2026 (Sunday review 1 Nov). Manual desk ••••5308 =
 ## guidance only; agent never trades it.
-Account $29,295 (all cash; $101 in event contracts). 1 unit = $2,929. Daily
-loss limit $586. Hard cap 30% per name ($8,788). Margin ≤1.25× gross on +1/+2
-days only — none at 0/−1/−2. Budget: 3 tactical slots + core ladder.
+Account $27,551 (cash $26,661; IBIT Jan-27 $40 puts ×5 $835; events $55).
+1 unit = $2,755. Daily loss limit $551. Hard cap 30% per name ($8,265).
+Margin ≤1.25× gross on +1/+2 days only — none at 0/−1/−2. Inverse ETFs
+(BITI, SQQQ, SOXS…) only on a −2 day. Budget: 3 tactical slots + core.
 No buys 9:30–10:00 ET and none outside regular hours. Limit orders at the
 zone, never market-chasing. Max 2 entries per ticker per day; 2 stop-outs in
 a name = done with it for the day. Size once, set a −3% stop (−5% wide-vol)
 and leave it. Grade from the 9am brief: −1 → only core buys; −2 → none.
+Event week: midterms Tue 3 Nov, jobs report Fri 6 Nov. No new entries
+into Tuesday's close; let Wednesday's open show the reaction first.
 
-FIRST JOB — SIZE SMALL ENOUGH TO HOLD. Friday's PANW: ~30 round trips on up
-to 150 sh (184% of equity, 1.87× margin on a −1 day) netted +$136; the first
-100 sh held from ~362 to the 380.70 close = +$1,864, and 25 sh (the cap) with
-a −3% stop never threatened = +$466. The weekend repeated it in crypto: 15 ZEC
-(~60% of equity) stopped −$303 at 2:45am Sun, re-bought, sold −$465 = −$768.
+FIRST JOB — STOP AT THE LIMIT. Friday hit the loss limit at 10:25 and kept
+going: LLY added 15 sh before 10:00 right after a +1R trim alert (99% of
+equity), INTC bought 3 times on a −27% earnings day, then BITI 1,000 → 2,000
+sh (136%, 1.39× margin) plus IBIT puts at 3:30. Day −$640. The weekend added
+ZEC −$322 for the second weekend in a row. When the day hits −$551, the app
+closes until tomorrow — no "one more".
 
-Money flow — 20 sector ETFs, 1 month (23 Sep → 23 Oct close) / last week:
-- In: energy XLE +10.8% / +1.6% (up/down volume 2.0×), utilities XLU +8.1%
-  (1.6×), health care XLV +5.5% / +1.5%, financials XLF +2.5%; software IGV
-  +6.0% last week and biotech XBI +3.6% last week (rebounds on light volume).
-- Out (distribution): copper COPX −15.3% / −8.6% (up/down 0.30, volume 1.4×
-  normal), silver SLV −15.4%, uranium URA −16.5%, gold miners GDX −13.2% /
-  −8.6%, semis SMH −12.2% (up/down 0.42), China KWEB −6.3% / −5.2%, defense
-  ITA −4.9% / −3.3%.
-- Flat-to-soft: bitcoin IBIT −3.9%, tech XLK −5.9%, industrials XLI −2.5%.
-Read: the defensive rotation held for a second month — energy, utilities and
-health care. Metals and semis are still being sold. Favor setups in the
-"in" groups; treat chip/metal bounces as suspect.
+Money flow — 20 sector ETFs, 1 month (30 Sep → 30 Oct close) / last week:
+- In: energy XLE +13.9% / +1.0%, utilities XLU +10.1% / +2.0%, health care
+  XLV +9.8% / +3.1% (15–19M sh on the last two up days, ~2× normal),
+  financials XLF +5.8% / +1.1%. Defense ITA +3.7% and biotech XBI +4.3%
+  last week (bounces; XBI still −1.1% on the month).
+- Out (distribution): silver SLV −18.2% / −8.5% (40M sh Fri, 2–3× normal),
+  uranium URA −15.4%, copper COPX −15.0%, semis SMH −14.2% (−7% Fri on 17.6M,
+  2–3× normal), gold miners GDX −12.2% / −3.9% (35.8M Fri), QTUM −11.7%,
+  ARKK −9.4%, IBIT −8.4% / −5.7% (120M sh Fri, ~3× normal), XLK −8.3%.
+- Software IGV −5.7% last week after leading the week before.
+Read: third month of the defensive rotation — energy, utilities, health
+care, financials. Friday was a heavy-volume flush in semis, metals and
+bitcoin. Favor setups in the "in" groups; chip/metal bounces stay suspect
+until a close back above Friday's high.
 
-Tactical zones (data/zones.json, 10 live; T2 R in brackets). Expired STNE,
-ULS, VFC; swept 20 fresh money-flow names → SYNA re-qualified.
-| Name | Zone | Stop | T1 / T2 | Qty | R | Fri close | Expires |
+Tactical zones (data/zones.json, 9 live; R from the top of the zone to T2).
+Expired LION, TRAX, WIT, ACI, WH, SYNA (30 Oct); swept 50 fresh money-flow
+names → CROX, HAYW, REPL added; WEN dropped (earnings 5 Nov).
+| Name | Zone | Stop | T2 | Qty | R | Fri close | Expires |
 |---|---|---|---|---|---|---|---|
-| LIME | 24.00–24.60 | 23.40 | 27.80 / 29.90 | 117 | 6.2 | 26.02 | 30 Oct |
-| DHT | 22.68–23.03 | 22.14 | 26.91 | 127 | 5.7 | 24.58 | 27 Oct |
-| BHVN | 12.29–12.66 | 11.43 | 18.24 | 145 | 5.5 | 14.69 | 30 Oct (earnings 5 Nov) |
-| LION | 11.29–11.63 | 10.43 | 13.77 / 16.70 | 148 | 5.1 | 12.51 | 30 Oct |
-| WH | 73.94–75.07 | 71.56 | 88.63 | 51 | 4.8 | 75.07 (top of zone) | 30 Oct |
-| TRAX | 36.28–37.37 | 33.74 | 49.91 | 49 | 4.2 | 44.03 | 30 Oct |
-| TLN | 337.99–348.13 | 316.04 | 390.54 / 449.84 | 5 | 4.0 | 327.91 (below zone) | 26 Oct |
-| SYNA | 115.50–117.26 | 107.42 | 149.11 | 16 | 3.7 | 117.26 (top of zone) | 1 Nov (earnings 5 Nov) |
-| ACI | 13.28–13.68 | 12.35 | 17.68 | 134 | 3.7 | 13.87 | 30 Oct |
-| WIT | 1.92–1.98 | 1.79 | 2.21 / 2.52 | 946 | 3.6 | 2.12 | 30 Oct |
-Top 3 for the week: WH (4.8R, sitting in its zone, earnings done), DHT (5.7R,
-tankers fit the energy bid — wait for 23.03 or lower), SYNA (3.7R, in its
-zone; out before the 5 Nov report).
+| BHC | 6.34–6.53 | 6.14 | 9.04 | 435 | 6.4 | 8.21 (23% above) | 6 Nov |
+| REPL | 12.97–13.36 | 12.06 | 18.27 | 124 | 3.8 | 17.62 (32% above) | 8 Nov |
+| RBA | 84.22–86.75 | 77.32 | 117.50 | 17 | 3.3 | 89.79 | 6 Nov (earnings 9 Nov) |
+| ERIC | 10.72–11.04 | 10.08 | 13.77 | 180 | 2.8 | 11.18 | 5 Nov |
+| CROX | 122.22–125.89 | 115.83 | 154.05 | 16 | 2.8 | 150.54 (16% above) | 8 Nov |
+| RRC | 43.40–44.70 | 40.45 | 56.47 | 37 | 2.8 | 54.64 | 4 Nov |
+| BHVN | 14.13–14.55 | 13.14 | 18.24 | 116 | 2.6 | 15.42 | 6 Nov |
+| CART | 50.33–51.84 | 47.71 | 62.00 | 42 | 2.5 | 56.47 | 3 Nov (earnings 5 Nov) |
+| HAYW | 13.65–14.06 | 12.69 | 17.41 | 118 | 2.4 | 16.13 | 8 Nov |
+Top 3 for the week: ERIC (1% above its zone; telecom, earnings done),
+RBA (3.3R, 3.5% above the zone; out before the 9 Nov report), BHVN (2.6R,
+6% above; reported 29 Oct). The rest need a deeper flush to fill.
+User's own levels (1 Nov): tech at NQ 27,000–27,200 ≈ QQQ $655–662 —
+1 unit (~4 QQQ sh, or a third of that in TQQQ/calls), stop set at entry.
+CRON on watch (1.14× book, ~850k sh/day — limit orders, regular hours).
 
 Core (outside the 3 slots). Ladder refreshed in data/core_plan.json:
-- **ARKG** (Fri 48.16) — held the 48 stop but under the 20-day avg (50.60).
-  u1 only on a close ≥ $50.65 · u2 ≤ $49.00 after u1 · u3 on a close ≥
-  $59.00 (3-month high 58.83). Stop $48 weekly close.
-- **ZCSH** (Fri 32.59) — u1 ≤ $31.25 · u2 ≤ $29.50 (10-day low 28.70) or a
-  close ≥ $33.85 (20-day avg 33.81). Stop $29 weekly close. One u1 order,
-  then hands off for the day.
+- **ARKG** (Fri 51.40) — above the 20-day avg (50.25) after +14% Mon–Thu.
+  u1 on a close ≥ $50.30 · u2 ≤ $49.00 after u1 · u3 on a close ≥ $59.00
+  (3-month high 58.83). Stop $48 weekly close. u1 fired Thu/Fri, not taken.
+- **ZCSH** (Fri 32.64) — u1 ≤ $31.25 · u2 ≤ $29.75 (10-day low 29.48) or a
+  close ≥ $33.20 (20-day avg 33.18). Stop $29 weekly close.
 
-Last week (19–25 Oct, calendar), manual: realized ≈ +$1,010 over ~91 closes
-(~41% won); Mon–Fri +$1,757, weekend −$747 (ZEC −$768, event contracts
-+$21). Account $28,964 (Mon 9am) → $29,295 (Sun) = +$330. Best ZCSH +$1,206,
-IBIT +$259, SOXL +$233, LIME +$223, PANW +$211. Worst ZEC −$768, NVDL −$178,
-BITI −$113, SOXS −$89. CHURN: PANW ~20 entries on 23 Oct, ZCSH 9 on 20 Oct.
-OFF-HOURS: MUD (22 Oct after hours), ZCSH (23 Oct pre-market), TLT/UCO (23
-Oct after hours), ZEC + events over the weekend. REVENGE: ZEC re-bought after
-the 2:45am stop-out. MARGIN: 1.84–1.87× on the −1 day.
-Alerts: 23 desk-guard, 1 core, 6 zone/setup pushed. Oversize alerts were
-followed by a trim within an hour, then a re-entry; 0 zone buys taken.
-Agentic ••••0924: −$35.92 realized (NRR, NVDL); account reads $0 since 23 Oct
-(no orders — likely a withdrawal, unconfirmed).
+Last week (26 Oct–1 Nov, calendar), manual: realized −$736 over 68 closes
+(34% won, payoff 1.68×). Mon −$925, Tue +$837, Wed −$1,696, Thu +$1,755,
+Fri −$575, weekend −$133 (ZEC −$322, events +$18). Account $28,906 (Mon
+9am) → $27,551 (Sun) = −$1,355. Best BHYP +$1,943, ZCSH +$92, DRAM +$72.
+Worst IBIT calls −$1,261, BITI −$438, PANW −$420, ZEC −$322, INTC −$217.
+CHURN: PANW 15 round trips (−$420). REVENGE: ZCSH/PANW Mon, IBIT Wed (3×
+after the loss limit), BHYP Thu (third entry after flat). Entry cap broken
+Fri: LLY 3, INTC 3. OFF-HOURS: BITI/SQQQ pre-market Thu, HYPE overnight,
+ZEC + events over the weekend. MARGIN: 1.82× Thu pre-market (BHYP), 1.34×
+and 1.39× Fri (INTC, BITI).
+Alerts: 25 desk-guard, 4 core, 2 board, 4 zone/setup pushed. Followed:
+PURR trim (sold 3:45 Thu), BITI cut (sold at Fri close), INTC stop (set
+after the alert). Not followed: LLY +1R trim (added instead), WH zone,
+ERIC zone, ARKG u1. 0 zone buys taken again.
+Agentic ••••0924: no trades; account reads $0 since 23 Oct.
 
-Desk guard flags for this week: --wide SOXL SOXS STRK NEAR NRR ZEC
---core ARKG:48 ZCSH:29
+Desk guard flags for this week: --wide SOXL SOXS STRK NEAR NRR ZEC BHYP PURR
+HYPE --core ARKG:48 ZCSH:29
 
 ## STANDING RULE — DO NOT FADE @firstadopter (user-imposed, 2026-08-03)
 The user's own words: "i faded the trader who is really good. i am no longer
