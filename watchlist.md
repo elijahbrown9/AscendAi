@@ -6,6 +6,7 @@ the day it's actually traded.
 
 ## Week plan — 2–6 Nov 2026 (Sunday review 1 Nov). Manual desk ••••5308 =
 ## guidance only; agent never trades it.
+**ZCSH CHURN BAN (4 Nov, discipline.py): 6 round trips −$631 this week → no ZCSH entries until Wed 11 Nov.** Core ladder paused for ZCSH until then.
 Account $27,551 (cash $26,661; IBIT Jan-27 $40 puts ×5 $835; events $55).
 1 unit = $2,755. Daily loss limit $551. Hard cap 30% per name ($8,265).
 Margin ≤1.25× gross on +1/+2 days only — none at 0/−1/−2. Inverse ETFs
