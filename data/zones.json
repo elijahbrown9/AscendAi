@@ -97,6 +97,18 @@
    "expires": "2026-11-11",
    "added": "2026-11-04",
    "tag": "scan 2026-11-04: 3.0R to the 6-month high, buying vol 6.2x selling"
+  },
+  {
+   "sym": "NXT",
+   "lo": 83.95,
+   "hi": 86.47,
+   "qty": 16,
+   "stop": 78.08,
+   "t1": 115.0,
+   "t2": 163.13,
+   "expires": "2026-11-12",
+   "added": "2026-11-05",
+   "tag": "scan 2026-11-05: 10.9R to the 6-month high, buying vol 1.6x selling"
   }
  ]
 }
