@@ -1,0 +1,26 @@
+{
+ "_doc": "The trader's own money-makers (net realized, all closes Apr 2025-Nov 2026). Used by tools/ma_alerts.py. Edit to add/remove names.",
+ "names": {
+  "MU": "+$4,826 on 38 closes (PF 2.8)",
+  "THYP": "+$4,210 on 8 (PF 11.7)",
+  "CRWV": "+$3,612 on 35, 74% win",
+  "SNDK": "+$3,145 on 34 (PF 2.3)",
+  "HOOD": "+$2,950 on 45",
+  "INTC": "+$2,553 on 36 (PF 3.3)",
+  "EWY": "+$756 on 20",
+  "LIME": "+$604 on 6",
+  "META": "+$519 on 21",
+  "AGRO": "+$389 on 9",
+  "GLD": "+$337 on 12",
+  "HIMS": "+$280 on 6",
+  "BE": "+$209 on 5",
+  "AAOI": "+$106 on 20",
+  "ONDS": "+$339 on 15",
+  "ARKG": "+$136 on 10 (core)",
+  "STRK-USD": "+$6,189 on 7 (crypto)",
+  "BTC-USD": "+$2,201 on 108 (crypto)",
+  "ZEC-USD": "crypto, mixed record",
+  "HYPE-USD": "crypto, mixed record"
+ },
+ "banned": {"ZCSH": "2026-11-11", "RDDT": "2099-12-31"}
+}
