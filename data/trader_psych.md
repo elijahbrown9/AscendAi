@@ -584,3 +584,17 @@ Context that is also true: the account is 25,594.35 against roughly 26,000
 at Monday's open. The worst process week in this record cost about 1.5pct
 of capital, because the position caps and the flat-book discipline held
 even while the tempo did not.
+
+### 2026-11-04 (evening) — the full-history alpha study (1,754 closes, Apr 2025 → Nov 2026)
+Asked by the trader after a −$1,030 day: "find the most alpha." Computed from every realized close.
+- Net all-time +$7,180, PF 1.06. Without the top 10 winners: −$13,117. The edge is real but carried
+  by a few catalyst holds (W +3.7k, STRK +6.2k, ZEC, THYP +4.2k, HOOD, AAOI, SNDK) — sized up AND left alone.
+- The rule-clean subset (RTH, ≤30% size, not within 60 min of a loss, day not −$500) made +$11,906 on
+  422 trades (PF 1.82, 59% win). The other 1,332 trades lost $4,727. The rules ARE the edge, in dollars.
+- Revenge is the single largest leak: closes within 60 min of a losing close −$21,885 (30% win).
+  Trading after the day is already −$500: −$12,115 (27% win). Both dwarf every other cut.
+- Off-hours closes lose (2026: premarket −$6.3k, after-hours −$6.2k); 10am–3pm made +$14.9k.
+- Leveraged/inverse ETFs, IBIT and event contracts are net losers in every cut; single stocks and crypto
+  carry the P&L. Grade −1 days: −$3.3k, PF 0.39.
+- Language flag again ("I'm retarded" ×2 this week). The request that followed was constructive
+  (precision), so the response was evidence + a 6-rule Thu/Fri playbook in watchlist.md, not a lecture.

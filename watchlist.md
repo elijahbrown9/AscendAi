@@ -87,6 +87,27 @@ Agentic ••••0924: no trades; account reads $0 since 23 Oct.
 Desk guard flags for this week: --wide SOXL SOXS STRK NEAR NRR ZEC BHYP PURR
 HYPE --core ARKG:48 ZCSH:29
 
+## PRECISION PLAYBOOK — Thu 5 / Fri 6 Nov 2026 (built 4 Nov from all 1,754 closed trades, Apr 2025 → Nov 2026)
+Account $24,083 (flat, all cash). 1 unit = $2,400. Daily stop −$480 (2%). Max 3 units open.
+THE EVIDENCE (net realized, all-time):
+- Rule-clean trades (regular hours, ≤30% size, not within 60 min of a loss, day not already −$500):
+  422 trades, +$11,906, 59% win, profit factor 1.82. Everything else: 1,332 trades, −$4,727.
+- Closed within 60 min of a LOSS: 487 trades, −$21,885, 30% win. After a WIN: +$37,481.
+- Once the day is already −$500: 141 more trades, −$12,115, 27% win.
+- Size: <10% of account PF 1.78 (+$9.4k); 60–100% PF 0.70 (−$6.9k); >100% margin −$2.7k.
+- Session (2026): premarket −$6.3k, after-hours −$6.2k; 10am–3pm +$14.9k.
+- Category (2026): single stocks +$10.2k, crypto +$5.3k; leveraged ETFs −$4.3k, inverse ETFs −$1.5k,
+  IBIT/options −$1.8k, event contracts −$0.5k. Grade −1 days: −$3.3k (PF 0.39).
+- Top 10 winners = +$20.3k (W, STRK, ZEC, THYP, HOOD, AAOI, DRAM, SNDK): catalyst names, held, not traded around.
+THE RULES FOR THU/FRI:
+1. Entries 10:00–3:30 ET only. Nothing pre-market, after-hours or overnight. Fri: nothing before 10:00 (jobs report 8:30).
+2. 1 unit per trade ($2,400). Max 3 trades per day. No margin.
+3. A loss ends that ticker for the day. Two losses end the day. −$480 ends the day.
+4. Only single stocks or core (ARKG) at a named level: live zones, ARKG u1 (close ≥ 50.30),
+   board-confirmed longs at grade ≥ 0, QQQ 655–662 (user's NQ 27,000 level) for one unit of QQQ.
+5. Off the menu: ZCSH (ban to 11 Nov), MAGS, IBIT/BTCZ/BITI, SOXL/SOXS, event contracts.
+6. Every entry gets its stop typed in the moment it fills.
+
 ## STANDING RULE — DO NOT FADE @firstadopter (user-imposed, 2026-08-03)
 The user's own words: "i faded the trader who is really good. i am no longer
 allowed to go against him in my ideas."
