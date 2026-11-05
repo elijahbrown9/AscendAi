@@ -22,5 +22,10 @@
   "ZEC-USD": "crypto, mixed record",
   "HYPE-USD": "crypto, mixed record"
  },
- "banned": {"ZCSH": "2026-11-11", "RDDT": "2099-12-31"}
+ "banned": {
+  "ZCSH": "2026-11-11",
+  "RDDT": "2099-12-31",
+  "IBIT": "2026-11-12",
+  "MAGS": "2026-11-12"
+ }
 }
