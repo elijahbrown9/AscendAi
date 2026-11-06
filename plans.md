@@ -452,3 +452,4 @@ Every new position gets its section here before the fill is reported.
 - 2026-11-06 11:06 check-in (grade −1): agentic $0. Manual $19,505 (+$796 vs 9am): BRK.B 50 @571.55 (~571.89, ~+$17), cash −$9,089 (1.47×). No push.
 - 2026-11-06 11:41 monitor (grade −1): manual FLAT, all cash $19,381.51, no margin — +$673 vs 9am baseline (first green day this week). BRK.B 50 sold. Board: no new alerts. Agentic $0. No push.
 - 2026-11-06 12:41 monitor (grade −1): manual $19,259 (+$550 vs 9am), no margin (cash $8,079). Re-entered after going flat: SOXS 150 @74.20 (~74.54, +$50) = 58% of equity; inverse ETF at −1 is outside the playbook (−2 only). −5% stop 70.49. Board: no new alerts. Agentic $0. No push.
+- 2026-11-06 13:05 check-in (grade −1): agentic $0. Manual $19,212 (+$503 vs 9am), no margin (cash $4,310). SOXS 200 @74.49 (~74.51, flat) = 78% of equity; −5% stop 70.77. No push.
