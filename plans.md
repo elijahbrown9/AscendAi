@@ -458,3 +458,4 @@ Every new position gets its section here before the fill is reported.
 - 2026-11-06 14:41 monitor (grade −1): manual $19,218 (+$509 vs 9am), cash $11,690, gross 0.39×. GLD 5 sold; ZCSH 50 @35.78 bought (banned name, small ~9%); BRK.B 10 @573.65. Board: no new alerts. Agentic $0. No push.
 - 2026-11-06 15:41 monitor (--late, grade −1): manual FLAT, all cash $19,121.38, no margin — +$412 vs 9am baseline (first green day of the week). Board: no new alerts. Agentic $0. No push.
 - 2026-11-06 16:20 post-close sweep: pruned BHC, RBA, BHVN (expired). Scan + setup push skipped on purpose (weekend; user wellbeing — same call as Thu).
+- 2026-11-08 17:50 Sunday review: week −$8,537 (−31%, $27,551 → $19,014). Money flow in XLV/XLU/XLF, out SMH/QTUM/URA/ARKK/XLK. Zones: REPL/CROX/HAYW expired → 2 live (UPWK, NXT); 20 scanned, no new setups. Core plan refreshed (ARKG u1 ≥49.20; ZCSH paused to 11 Nov). Week plan 9–13 Nov written. No push (user active in chat; no new setups).

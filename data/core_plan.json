@@ -1,16 +1,16 @@
 {
- "_doc": "Core sleeve add ladder (manual desk 485695308, guidance only). Refreshed 2026-11-01 (Sunday review) from Friday 30 Oct closes: 20-day average, 10-day low, 3-month high. units_before = units already held when this level may fire; 'close_at_or_above' levels are judged only at the 3:40pm monitor (--late). Weekly-close stops are only ever raised, never lowered. Neither name is held; ARKG u1 fired Thu and Fri at the 3:40 run and was not taken.",
+ "_doc": "Core sleeve add ladder (manual desk 485695308, guidance only). Refreshed 2026-11-08 (Sunday review) from Friday 6 Nov closes: 20-day average, 10-day low, 3-month high. units_before = units already held when this level may fire; 'close_at_or_above' levels are judged only at the 3:40pm monitor (--late). Weekly-close stops are only ever raised, never lowered. Neither name is held; ARKG u1 fired Thu and Fri at the 3:40 run and was not taken.",
  "unit_pct": 0.1,
  "paused_until": null,
  "names": {
   "ARKG": {
    "max_units": 3,
    "stop_weekly_close": 48.0,
-   "status": "ARKG closed 51.40 Fri, above the 20-day average after a +14% run Mon-Thu; u1 valid on any close >= 50.30",
+   "status": "ARKG closed 45.45 Fri, below its 20-day average (49.17) and below the 48 weekly-close stop after a \u221217.5% slide from the 29 Oct high. Not held. u1 needs a close back above the 20-day average.",
    "ref": {
-    "close": 51.4,
-    "avg20": 50.25,
-    "low10": 46.66,
+    "close": 45.45,
+    "avg20": 49.17,
+    "low10": 43.89,
     "high3m": 58.83
    },
    "levels": [
@@ -18,15 +18,15 @@
      "id": "u1",
      "units_before": 0,
      "type": "close_at_or_above",
-     "price": 50.3,
-     "why": "close at/above the 20-day average (50.25)"
+     "price": 49.2,
+     "why": "close back above the 20-day average (49.17)"
     },
     {
      "id": "u2",
      "units_before": 1,
      "type": "at_or_below",
-     "price": 49.0,
-     "why": "pullback that holds above the 48 stop"
+     "price": 48.5,
+     "why": "pullback after u1 that holds above the 48 stop"
     },
     {
      "id": "u3",
@@ -41,9 +41,9 @@
    "max_units": 2,
    "stop_weekly_close": 29.0,
    "ref": {
-    "close": 32.64,
-    "avg20": 33.18,
-    "low10": 29.48,
+    "close": 35.59,
+    "avg20": 32.96,
+    "low10": 29.91,
     "high3m": 43.91
    },
    "levels": [
@@ -51,24 +51,26 @@
      "id": "u1",
      "units_before": 0,
      "type": "at_or_below",
-     "price": 31.25,
-     "why": "pullback toward the 22 Oct low (31.51), 7.8% above the 29 stop"
+     "price": 33.0,
+     "why": "pullback to the 20-day average (32.96)"
     },
     {
      "id": "u2a",
      "units_before": 1,
      "type": "at_or_below",
-     "price": 29.75,
-     "why": "retest of the 10-day low (29.48) that holds above 29"
+     "price": 30.25,
+     "why": "retest of the 10-day low (29.91) that holds above 29"
     },
     {
      "id": "u2b",
      "units_before": 1,
      "type": "close_at_or_above",
-     "price": 33.2,
-     "why": "close back above the 20-day average (33.18)"
+     "price": 36.9,
+     "why": "close above Friday high (36.88)"
     }
-   ]
+   ],
+   "status": "ZCSH closed 35.59 Fri (user holds 100 @35.76 bought Fri 7:58pm; Zcash \u221210% over the weekend). Ladder PAUSED to 11 Nov (churn ban).",
+   "paused_until": "2026-11-11"
   }
  }
 }

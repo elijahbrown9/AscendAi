@@ -4,8 +4,19 @@ Names here are re-evaluated every pre-open brief. Being on this list is not
 an entry signal — every name still has to clear strategy.md/risk.md filters
 the day it's actually traded.
 
-## Week plan — 2–6 Nov 2026 (Sunday review 1 Nov). Manual desk ••••5308 =
-## guidance only; agent never trades it.
+## Week plan — 9–13 Nov 2026 (Sunday review 8 Nov). Manual desk ••••5308 = guidance only; agent never trades it.
+**Last week: account $27,551 (Sun 1 Nov) → $19,014 (Sun 8 Nov) = −$8,537 (−31%). Fri 6 Nov was the only green day (+$412).**
+Holding into Monday: SPCX 100 @135.64 (~71% of equity, over the cap) and ZCSH 100 @35.76 (banned name). Cash $1,910, no margin.
+1 unit = $1,901 (10% of $19,014). Daily loss limit $380 (2%). Hard cap 30% per name ($5,704).
+No margin at 0/−1/−2. Inverse ETFs only at −2. Entries 10:00–3:30 ET only — no pre-market, after-hours or overnight.
+Max 3 trades/day, max 2 entries per ticker. A loss ends that ticker for the day; two losses end the day.
+**BANS:** ZCSH to Wed 11 Nov (core ladder paused). IBIT and MAGS to Thu 12 Nov. RDDT indefinite.
+**Desk-guard flags:** --wide SOXL SOXS STRK NEAR NRR ZEC BHYP PURR HYPE CORD BTCZ SPCX · --core ARKG:48 ZCSH:29
+**Money flow (1 month to 6 Nov):** IN — XLV +10.4%, XLU +7.9%, XLF +6.1%, TAN +4.4%. OUT — SMH −26.8%, QTUM −21.1%, URA −19.5%, ARKK −18.7%, XLK −18.0%, COPX −17.5%, SLV −15.0%, IBIT −11.7%.
+**Zones (2 live):** UPWK 8.99–9.26 (stop 8.52, exp 11 Nov), NXT 83.95–86.47 (stop 78.08, exp 12 Nov). Both trade well above their zones. Sunday sweep: 20 money-flow names screened, no new setups (everything is extended above its 50-day after Friday's bounce).
+**Core ladder:** ARKG 45.45 — u1 on a close ≥ 49.20 (20-day avg 49.17), weekly-close stop 48. ZCSH — paused to 11 Nov.
+
+## (archived) Week plan — 2–6 Nov 2026 (Sunday review 1 Nov).
 **CHURN BANS (discipline.py): ZCSH 13 round trips −$1,048 → no entries until Wed 11 Nov (core ladder paused). IBIT 7 round trips −$903 and MAGS 6 → no entries until Thu 12 Nov.**
 Account $27,551 (cash $26,661; IBIT Jan-27 $40 puts ×5 $835; events $55).
 1 unit = $2,755. Daily loss limit $551. Hard cap 30% per name ($8,265).
