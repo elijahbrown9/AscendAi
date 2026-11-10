@@ -485,3 +485,4 @@ Every new position gets its section here before the fill is reported.
 - 2026-11-10 14:17 check-in (grade −1): manual FLAT $19,813.03 (+$367 vs 9am; +$153 since 1:43). Agentic $0. No push.
 - 2026-11-10 14:41 monitor (grade −1): manual $19,823 (+$376 vs 9am). TTWO 100 @223.77 (~224.06, +$29), sell stop resting; cash −$2,583 (1.13×), overnight BP +$17,976. No push. Agentic $0.
 - 2026-11-10 15:41 monitor (--late, grade −1): manual FLAT $19,729.73 (+$283 vs 9am). ARKG 46.28 — core u1 (close ≥49.20) not triggered. Agentic $0. No push.
+- 2026-11-10 16:20 post-close sweep: nothing pruned (UPWK 9.74 vs stop 8.52, exp 11 Nov; NXT 99.85 vs stop 78.08, exp 12 Nov). 2 live zones. Scan + setups push skipped (user said 10 Nov: "I need to stop trading").
