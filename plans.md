@@ -487,3 +487,4 @@ Every new position gets its section here before the fill is reported.
 - 2026-11-10 15:41 monitor (--late, grade −1): manual FLAT $19,729.73 (+$283 vs 9am). ARKG 46.28 — core u1 (close ≥49.20) not triggered. Agentic $0. No push.
 - 2026-11-10 16:20 post-close sweep: nothing pruned (UPWK 9.74 vs stop 8.52, exp 11 Nov; NXT 99.85 vs stop 78.08, exp 12 Nov). 2 live zones. Scan + setups push skipped (user said 10 Nov: "I need to stop trading").
 - 2026-11-11 08:05 pre-open brief (grade −1, composite −0.586, storm veto): manual $19,938.56 — NVDA 135 @174.67 + AMD 30 @539.85 ($39.9k, 2.0× gross, cash −$19,985, overnight BP $647), bought after Tue 3:41pm check. Margin push sent. Week realized −$3,783. Dashboard v66. Agentic $0.
+- 2026-11-11 09:18 check-in (grade −1, pre-open): manual $19,802.20 (−$136 vs 9am). Off margin: AMD sold, NVDA 100 @175.30 (174.50, −$80; −3% guide 170.04), cash +$2,352, 0.88× gross, NVDA 88% of equity. Agentic $0. No push.
