@@ -495,3 +495,4 @@ Every new position gets its section here before the fill is reported.
 - 2026-11-11 12:44 monitor (grade −1): manual $20,651.91 (+$713 vs 9am). AMD 90 @543.03 (559.63, +$1,494), NVDA 100 @175.57 (176.56, +$99), sells resting on both. Gross $68,002 = 3.29×, overnight BP −$26,667. No push. Agentic $0.
 - 2026-11-11 13:15 check-in (grade −1): manual $20,965.76 (+$1,027 vs 9am). AMD 90 @543.03 (562.93, +$1,791), NVDA 100 @175.57 (176.64, +$107), sells resting. Gross 3.26×, overnight BP −$26,667. No push. Agentic $0, no orders.
 - 2026-11-11 13:41 monitor (grade −1): manual $21,265.61 (+$1,327 vs 9am). AMD 90 @543.03 (565.64, +$2,035), NVDA 100 @175.57 (177.10, +$153), sells resting. Gross 3.23×, overnight BP −$26,667. No push. Agentic $0.
+- 2026-11-11 14:15 check-in (grade −1): manual $20,848.73 (+$910 vs 9am). AMD 90 @543.03 (562.36, +$1,740), NVDA 25 @175.53 (175.94, +$10), sells resting. Gross $54,988 = 2.64×, overnight BP −$13,456. No push. Agentic $0, no orders.
